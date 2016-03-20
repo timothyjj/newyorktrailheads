@@ -1,0 +1,7 @@
+name: New York Trailheads
+markdown: kramdown
+navigation:
+      - text: Web Strategy
+        url: /web-strategy.html
+      - text: Photography
+        url: /photography.html 
