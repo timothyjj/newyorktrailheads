@@ -8,6 +8,7 @@ a {
     text-decoration: none;
     color: rgb(61, 146, 201);
 }
+
 a:hover,
 a:focus {
     text-decoration: underline;
@@ -42,9 +43,20 @@ h3 {
 .brand-tagline {
     margin: 0;
 }
+
 .brand-title {
     text-transform: uppercase;
+    color: green;
 }
+
+.brand-title a {
+    color: green;
+}
+
+.header a:hover {
+    text-decoration: none;
+}
+
 .brand-tagline {
     font-weight: 300;
     color: rgb(176, 202, 219);
