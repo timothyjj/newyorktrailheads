@@ -40,8 +40,7 @@ h3 {
 }
 
 .sidebar {
-    background-image: url("http://newyorktrailheads/img/sidebar-background.jpg");
-
+    background-image: url("https://raw.githubusercontent.com/timothyjj/newyorktrailheads/gh-pages/img/sidebar-background.jpg");
     color: #fff;
 }
 
