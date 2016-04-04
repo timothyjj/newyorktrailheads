@@ -193,7 +193,7 @@ h3 {
     }
 }
 
-@media screen and (min-width:80em) {
+@media screen and (min-width:800px) {
     .pure-u-md-1,
     .pure-u-md-1-1,
     .pure-u-md-1-2,
