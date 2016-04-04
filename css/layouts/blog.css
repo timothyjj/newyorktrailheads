@@ -37,6 +37,8 @@ h3 {
     text-align: center;
     top: auto;
     margin: 3em auto;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 1em;
 }
 
 .sidebar {
