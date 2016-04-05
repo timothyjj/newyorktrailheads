@@ -16,13 +16,14 @@ a:focus {
 
 h1 {
     color: #00813F;
-
-font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
 
 }
 
 h2 {
     color: #00813F;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
 }
 
 h2 a:hover {
@@ -54,12 +55,12 @@ h3 {
 body {
     background-image: url("/img/light_grey.png");
     background-color: gray;
-    font-style: Helvetica, sans-serif;
+    font-style: 'Helvetica', sans-serif;
 }
 
 p   {
     color: #333333;
-    line-height: 110%;
+    line-height: 125%;
 }
 
 .sidebar {
@@ -89,6 +90,7 @@ p   {
 .brand-tagline {
     font-weight: 300;
     color: rgb(176, 202, 219);
+    font-family: 'Helvetica', sans-serif
 }
 
 .nav-list {
@@ -205,6 +207,9 @@ p   {
 
 .read-more {
     color: #00813F;
+    font-size: 0.8em;
+    border: 1px solid #00813F;
+    padding: 3px;
 }
 
 @media (min-width: 48em) {
@@ -224,6 +229,10 @@ p   {
         bottom: 0;
     }
 
+}
+
+hr {
+    color: #00813F;
 }
 
 @media (min-width: 48em) and (max-width: 60em) {
