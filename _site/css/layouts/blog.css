@@ -41,6 +41,10 @@ h3 {
     padding: 1em;
 }
 
+.body {
+    background-image: url("/img/light_grey.png");
+}
+
 .sidebar {
     background-image: url("https://raw.githubusercontent.com/timothyjj/newyorktrailheads/gh-pages/img/sidebar-background.jpg");
     color: #fff;
@@ -116,6 +120,11 @@ h3 {
     color: #222;
     margin-bottom: 0.2em;
 }
+
+.post-title a {
+    color: rgb(176, 202, 219);
+}
+
 .post-avatar {
     border-radius: 50px;
     float: right;
