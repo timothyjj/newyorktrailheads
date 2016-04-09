@@ -12,3 +12,4 @@ excerpt: A 9 mile multi-use trail extending from Halfmoon to Ballston Spa
 
 <p>Right before the trail runs under the Northway in Malta, there's a cutoff trail that goes to Rte. 9. Be aware that this portion of the trail has steep inclines on both ends.</p>
 
+<iframe src="https://player.vimeo.com/video/162186185?title=0&byline=0&portrait=0" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
