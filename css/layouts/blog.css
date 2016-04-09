@@ -53,8 +53,7 @@ h3 {
 }
 
 body {
-    background-image: url("/img/light_grey.png");
-    background-color: gray;
+    background-color: #FCFCFC   
     font-style: 'Helvetica', sans-serif;
 }
 
