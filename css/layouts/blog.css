@@ -260,3 +260,7 @@ img {
     max-height: 100% !important;
 }
 
+.homecopy {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
