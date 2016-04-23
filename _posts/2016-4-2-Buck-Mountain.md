@@ -10,7 +10,7 @@ excerpt: Buck Mountain offers one of the most beautiful views available of Lake 
 
 <p>The most popular trail starts from Pilot Knob and runs approximately 3.2 miles to the summit. Another shorter trail exists off of Shelving Rock Road.</p>
 
-<img src="/img/buckmountain.jpg">
+<img src="/img/buckmountain.jpg" alt="Buck Mountain">
 
 <p>Map of Pilot Knob Trailhead to Buck Mountain</p>
 
