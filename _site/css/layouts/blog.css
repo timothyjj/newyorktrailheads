@@ -206,10 +206,20 @@ p   {
 }
 
 .read-more {
-    color: #00813F;
+    background-color: #00813F;
+    color:white;
     font-size: 0.8em;
     border: 1px solid #00813F;
     padding: 3px;
+}
+
+.read-more:hover {
+    background-color:white ;
+    color:#00813F;  
+}
+
+.read-more a:hover {
+    text-decoration: none;
 }
 
 @media (min-width: 48em) {
@@ -263,4 +273,13 @@ img {
 .homecopy {
     font-size: 1.2em;
     line-height: 1.6em;
+}
+
+.page_number {
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.pagination {
+    text-align: right;
 }

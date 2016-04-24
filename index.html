@@ -10,7 +10,7 @@ title: New York Trailheads
         <hr>
 
         <div class="posts">
-          {% for post in site.posts %}
+          {% for post in paginator.posts %}
             <section class="post">
 
               <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -22,4 +22,18 @@ title: New York Trailheads
               <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
             </section>
           {% endfor %}
+        </div>
+
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="read-more">Previous</a>
+          {% else %}
+
+          {% endif %}
+          <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="read-more">Next</a>
+          {% else %}
+
+          {% endif %}
         </div>
