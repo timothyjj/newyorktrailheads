@@ -6,9 +6,11 @@ excerpt: A brief but somewhat strenuous hike to the top of a vantage point overl
 
 <h1>Prospect Mountain</h1>
 
-<p>The hike to the top of Prospect Mountain ascends 2,000 feet over frequently rocky terrain. Once you reach the top, you'll find a parking area for the tour road that goes to the top, along with outhouse facilities and picnic tables.</p>
+<p>Prospect Mountain offers both a road to drive to the top (with a $10 entrance fee) and a hiking trail that climbs to the summit (free!). The trail starts at a walking bridge from Smith Street in the village of Lake George, crossing the Adirondack Northway (Interstate I-87) before ascending up the mountain.</p>
 
-<p>The trail starts at a walking bridge from Smith Street in the village of Lake George. This bridge crosses the Adirondack Northway (Interstate I-87) before ascending up the mountain.</p>
+<p>The hike to the top of Prospect Mountain ascends 2,000 feet over frequently rocky terrain, traveling through typical Adirondack forest. Occasionally you'll see remnants of an old cable railway that once took tourists to the top. Upon reaching the summit, you'll find a parking area for the tour road that goes to the top, along with outhouse facilities and picnic tables.</p> 
+
+<p>While you'll find the top of the mountain crowded with tourists on a summer or fall day, you can still appreciate the beauty of the surrounding area, although you won't quite experience the wilderness solitude of other peaks. From the main picnic area on the summit, you can look out over the southern portion of Lake George, seeing the beach in Lake George Village. Looking south, you can see as far as Albany on clear days. Walking around, you can look further up into the mountain ranges of the southeastern Adirondacks, as well as seeing further up the lake.</p>
 
 <p>Map of Prospect Mountain trailhead</p>
 
