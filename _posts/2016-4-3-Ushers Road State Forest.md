@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ushers Road State Forest
+title: Ushers Road State Forest | New York Trailheads
 excerpt: Located just off Northway Exit 10, this old growth forest contains a short loop trail, along with a connection to the Zim Smith Trail.
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Zim Smith Trail
+title: Zim Smith Trail | New York Trailheads
 excerpt: A 9 mile multi-use trail extending from Halfmoon to Ballston Spa
 ---
  

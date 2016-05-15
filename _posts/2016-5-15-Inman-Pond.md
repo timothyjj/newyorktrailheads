@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Inman Pond
+title: Inman Pond | New York Trailheads
 excerpt: Hike out to a secluded pond nestled in the midst of the Lake George Wild Forest.
 ---
 
