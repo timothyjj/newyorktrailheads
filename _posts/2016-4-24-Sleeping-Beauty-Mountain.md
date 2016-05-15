@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sleeping Beauty Mountain | New York Trailheads
+title: Sleeping Beauty Mountain 
 excerpt: A moderately easy hike to a view of the southern portion of Lake George.
 ---
 

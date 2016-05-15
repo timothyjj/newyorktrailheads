@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hadley Mountain | New York Trailheads
+title: Hadley Mountain 
 excerpt: A relatively short hike to a rewarding view and a restored fire tower
 ---
 

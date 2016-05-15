@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Prospect Mountain | New York Trailheads
+title: Prospect Mountain 
 excerpt: A brief but somewhat strenuous hike to the top of a vantage point overlooking southern Lake George.
 ---
 

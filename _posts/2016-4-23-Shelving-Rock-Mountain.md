@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Shelving Rock Mountain | New York Trailheads
+title: Shelving Rock Mountain 
 excerpt: Following an old carriage road, this mountain offers a simple hike for families with a view of Lake George at the top.
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Palmertown Range | New York Trailheads
+title: Palmertown Range 
 excerpt: High up above Moreau Lake, the Palmertown Range includes an extensive trail system stretching seven miles across Adirondack foothills
 ---
 
