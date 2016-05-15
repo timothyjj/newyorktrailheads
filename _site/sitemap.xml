@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>/2016/05/15/Inman-Pond.html</loc>
+      <loc>http://newyorktrailheads.com/2016/05/15/Inman-Pond.html</loc>
       
         <lastmod>2016-05-15T00:00:00-04:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>/2016/05/08/Prospect-Mountain.html</loc>
+      <loc>http://newyorktrailheads.com/2016/05/08/Prospect-Mountain.html</loc>
       
         <lastmod>2016-05-08T00:00:00-04:00</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>/2016/04/24/Sleeping-Beauty-Mountain.html</loc>
+      <loc>http://newyorktrailheads.com/2016/04/24/Sleeping-Beauty-Mountain.html</loc>
       
         <lastmod>2016-04-24T00:00:00-04:00</lastmod>
       
@@ -48,7 +48,7 @@
   
     
     <url>
-      <loc>/2016/04/23/Shelving-Rock-Mountain.html</loc>
+      <loc>http://newyorktrailheads.com/2016/04/23/Shelving-Rock-Mountain.html</loc>
       
         <lastmod>2016-04-23T00:00:00-04:00</lastmod>
       
@@ -63,7 +63,7 @@
   
     
     <url>
-      <loc>/2016/04/23/Hadley-Mountain.html</loc>
+      <loc>http://newyorktrailheads.com/2016/04/23/Hadley-Mountain.html</loc>
       
         <lastmod>2016-04-23T00:00:00-04:00</lastmod>
       
@@ -78,7 +78,7 @@
   
     
     <url>
-      <loc>/2016/04/09/Zim-Smith-Trail.html</loc>
+      <loc>http://newyorktrailheads.com/2016/04/09/Zim-Smith-Trail.html</loc>
       
         <lastmod>2016-04-09T00:00:00-04:00</lastmod>
       
@@ -93,7 +93,7 @@
   
     
     <url>
-      <loc>/2016/04/03/Ushers-Road-State-Forest.html</loc>
+      <loc>http://newyorktrailheads.com/2016/04/03/Ushers-Road-State-Forest.html</loc>
       
         <lastmod>2016-04-03T00:00:00-04:00</lastmod>
       
@@ -108,7 +108,7 @@
   
     
     <url>
-      <loc>/2016/04/02/Buck-Mountain.html</loc>
+      <loc>http://newyorktrailheads.com/2016/04/02/Buck-Mountain.html</loc>
       
         <lastmod>2016-04-02T00:00:00-04:00</lastmod>
       
@@ -124,24 +124,9 @@
   
     
     <url>
-      <loc>/about.html</loc>
+      <loc>http://newyorktrailheads.com/about.html</loc>
       
-        <lastmod>2016-05-15T09:12:29-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/biking-map.html</loc>
-      
-        <lastmod>2016-05-15T09:12:29-04:00</lastmod>
+        <lastmod>2016-05-15T09:19:22-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -154,24 +139,9 @@
   
     
     <url>
-      <loc>/contact.html</loc>
+      <loc>http://newyorktrailheads.com/biking-map.html</loc>
       
-        <lastmod>2016-05-15T09:12:29-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/hiking-map.html</loc>
-      
-        <lastmod>2016-05-15T09:12:29-04:00</lastmod>
+        <lastmod>2016-05-15T09:19:22-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -184,9 +154,9 @@
   
     
     <url>
-      <loc>/</loc>
+      <loc>http://newyorktrailheads.com/contact.html</loc>
       
-        <lastmod>2016-05-15T09:12:29-04:00</lastmod>
+        <lastmod>2016-05-15T09:19:22-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -199,9 +169,39 @@
   
     
     <url>
-      <loc>/privacypolicy.html</loc>
+      <loc>http://newyorktrailheads.com/hiking-map.html</loc>
       
-        <lastmod>2016-05-15T09:12:29-04:00</lastmod>
+        <lastmod>2016-05-15T09:19:22-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://newyorktrailheads.com/</loc>
+      
+        <lastmod>2016-05-15T09:19:22-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://newyorktrailheads.com/privacypolicy.html</loc>
+      
+        <lastmod>2016-05-15T09:19:22-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -216,9 +216,9 @@
   
     
     <url>
-      <loc>/page2/</loc>
+      <loc>http://newyorktrailheads.com/page2/</loc>
       
-        <lastmod>2016-05-15T09:12:29-04:00</lastmod>
+        <lastmod>2016-05-15T09:19:22-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
