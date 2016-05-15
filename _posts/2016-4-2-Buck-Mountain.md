@@ -8,7 +8,7 @@ excerpt: Buck Mountain offers one of the most beautiful views available of Lake 
 
 <p>Buck Mountain offers one of the most beautiful views available of Lake George. You can look north toward the Tongue Mountain Range, west across the lake toward The Sagamore, and south toward Lake George Village. A moderately difficult hike, this mountain offers multiple approaches to the summit, as part of the Lake George Wild Forest trail system.</p>
 
-<p>The most popular trail starts from Pilot Knob and runs approximately 3.2 miles to the summit. Another shorter trail exists off of Shelving Rock Road.</p>
+<p>The most popular trail starts from Pilot Knob and runs approximately 3.2 miles to the summit. Another shorter trail exists off of Shelving Rock Road. Finally, you can also get to Buck Mountain via a connector trail from the <a href="/2016/05/15/Inman-Pond.html">Inman Pond</a> trailhead off Sly Pond Road.</p>
 
 <img src="/img/buckmountain.jpg" alt="Buck Mountain">
 
