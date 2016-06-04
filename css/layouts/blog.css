@@ -9,11 +9,6 @@ a {
     color: rgb(61, 146, 201);
 }
 
-a:hover,
-a:focus {
-    text-decoration: underline;
-}
-
 h1 {
     color: #00813F;
     font-family: 'Dosis', sans-serif;
@@ -211,11 +206,16 @@ p   {
     font-size: 0.8em;
     border: 1px solid #00813F;
     padding: 3px;
+    text-decoration: none;
 }
 
 .read-more:hover {
     background-color:white ;
     color:#00813F;  
+}
+
+.read-more a {
+    text-decoration: none;
 }
 
 .read-more a:hover {
