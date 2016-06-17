@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Palmertown Range 
-excerpt: High up above Moreau Lake, the Palmertown Range includes an extensive trail system stretching seven miles across Adirondack foothills
+title: Capital Region Hikes with Small Children
+excerpt: Several options for finding a place to walk without going beyond your kids' limits
 ---
 
 <h1>Palmertown Range (Moreau Lake State Park)</h1>
