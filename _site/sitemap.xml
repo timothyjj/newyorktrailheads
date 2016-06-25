@@ -3,6 +3,36 @@
   
     
     <url>
+      <loc>http://newyorktrailheads.com/2016/06/25/Deer-Leap.html</loc>
+      
+        <lastmod>2016-06-25T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://newyorktrailheads.com/2016/06/05/Capital-Region-HIkes-with-Small-Children.html</loc>
+      
+        <lastmod>2016-06-05T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://newyorktrailheads.com/2016/06/04/Mohawk-Hudson-Bike-Hike-Trail.html</loc>
       
         <lastmod>2016-06-04T00:00:00-04:00</lastmod>
@@ -156,7 +186,7 @@
     <url>
       <loc>http://newyorktrailheads.com/about.html</loc>
       
-        <lastmod>2016-06-04T16:09:35-04:00</lastmod>
+        <lastmod>2016-06-25T17:09:11-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -171,7 +201,7 @@
     <url>
       <loc>http://newyorktrailheads.com/biking-map.html</loc>
       
-        <lastmod>2016-06-04T16:09:35-04:00</lastmod>
+        <lastmod>2016-06-25T17:09:11-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -186,7 +216,7 @@
     <url>
       <loc>http://newyorktrailheads.com/contact.html</loc>
       
-        <lastmod>2016-06-04T16:09:35-04:00</lastmod>
+        <lastmod>2016-06-25T17:09:11-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -201,7 +231,7 @@
     <url>
       <loc>http://newyorktrailheads.com/hiking-map.html</loc>
       
-        <lastmod>2016-06-04T16:09:35-04:00</lastmod>
+        <lastmod>2016-06-25T17:09:11-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -216,7 +246,7 @@
     <url>
       <loc>http://newyorktrailheads.com/</loc>
       
-        <lastmod>2016-06-04T16:09:35-04:00</lastmod>
+        <lastmod>2016-06-25T17:09:11-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -231,7 +261,7 @@
     <url>
       <loc>http://newyorktrailheads.com/privacypolicy.html</loc>
       
-        <lastmod>2016-06-04T16:09:35-04:00</lastmod>
+        <lastmod>2016-06-25T17:09:11-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -248,7 +278,22 @@
     <url>
       <loc>http://newyorktrailheads.com/page2/</loc>
       
-        <lastmod>2016-06-04T16:09:35-04:00</lastmod>
+        <lastmod>2016-06-25T17:09:11-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://newyorktrailheads.com/page3/</loc>
+      
+        <lastmod>2016-06-25T17:09:11-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

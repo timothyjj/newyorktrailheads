@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Buck Mountain | New York Trailheads
+title: Buck Mountain 
 excerpt: Buck Mountain offers one of the most beautiful views available of Lake George.
 ---
 
