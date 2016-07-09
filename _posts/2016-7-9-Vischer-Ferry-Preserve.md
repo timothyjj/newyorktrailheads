@@ -10,6 +10,8 @@ excerpt: Easy walking trails, Mohawk River views, and local history
 
 <p>This preserve also contains remnants of the local area's history, with multiple interpretive signs throughout the park. For instance, you'll come across the remnants of Clute's Dry Dock, where boats traversing the Erie Canal could stop for repairs. Right beside the main entrance's parking area, you'll find the restored Whipple Truss Bridge, originally built in the 19th century.</p>
 
+<p>When walking here in the late spring or summer, be wary that you're likely to encounter many insects. You're never far from water, including the stagnant area of the old canal, so mosquitoes tend to breed in the area.</p>
+
 <p>You can enter the park from multiple points along Riverview Road in Clifton Park. See the map below for more details.</p>
 
 <img src="/img/vischer_ferry.jpg" alt="Vischer Ferry Preserve">
