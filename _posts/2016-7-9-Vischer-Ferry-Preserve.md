@@ -14,9 +14,10 @@ excerpt: Easy walking trails, Mohawk River views, and local history
 
 <p>You can enter the park from multiple points along Riverview Road in Clifton Park. See the map below for more details.</p>
 
+<h3>Photo of Whipple Bridge parking area</h3>
 <img src="/img/vischer_ferry.jpg" alt="Vischer Ferry Preserve">
 
-<p>Map of Vischer Ferry Entrance</p>
+<h3>Map of key parking areas for Vischer Ferry Preserve</h3>
 
 <div class="google-maps"><iframe src="https://www.google.com/maps/d/embed?mid=1T2fMXsRaQ2paDLZYrJjmpt6FmGo" width="640" height="480"></iframe></div>
 
