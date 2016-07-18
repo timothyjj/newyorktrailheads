@@ -12,6 +12,7 @@ a {
 h1 {
     color: #00813F;
     font-family: 'Dosis', sans-serif;
+    font-size: 2.3em
 
 }
 
@@ -286,4 +287,8 @@ img {
 
 .pagination {
     text-align: right;
+}
+
+.pure-menu-item {
+    font-size: 1em;
 }
