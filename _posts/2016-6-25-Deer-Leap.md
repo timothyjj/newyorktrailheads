@@ -14,6 +14,6 @@ excerpt: Starting from the top of the Tongue Mountain Range, this brief trail tr
 
 <img src="/img/deerleap.jpg" alt="Deer Leap Overlook over Lake George">
 
-<p>Map of Deer Leap Trailhead</p>
+<h3>Map of Deer Leap Trailhead</h3>
 
 <div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7982817934526!2d-73.54849057286708!3d43.661037865212734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDM5JzQwLjciTiA3M8KwMzInNDIuNCJX!5e1!3m2!1sen!2sus!4v1466888933859" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
