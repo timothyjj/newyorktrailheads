@@ -289,6 +289,15 @@ img {
     text-align: right;
 }
 
-.pure-menu-item {
+.pure-menu-link {
     font-size: 1em;
+    color: white;
+}
+
+.pure-menu-link:hover {
+    color: gray;
+}
+
+.top-nav {
+    background-color: #00813F;
 }
