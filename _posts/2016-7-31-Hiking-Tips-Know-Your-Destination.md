@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Trail Hiking Tips: Know Your Destination
-excerpt: A 9 mile multi-use trail extending from Halfmoon to Ballston Spa
+excerpt: First in a series of hiking tips, we discuss knowing where you're going before you hike!
 ---
  
 <h1>Trail Hiking Tips: Know Your Destination</h1>
