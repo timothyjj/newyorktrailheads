@@ -11,7 +11,7 @@ excerpt: A moderately easy hike with some elevation gain, Pilot Knob Preserve of
 	<li><a href="#trailmap">Trailhead Map</a></li>
 </ul>
 
-<p>If you want a view of Lake George with a hike that's not too strenuous, Pilot Knob offers a relatively easy hike to a lookout point. Easily accessible from a parking area east of Lake George Village, the orange trail you start on traverses around a mile to the gazebo at the top. On a clear day, you'll see well across to the west side of Lake, along with some views looking north. Note that you will encounter an elevation gain of just over 600 feet, so while not excessively high, the trail still entails some climbing.</p>
+<p>If you want a view of Lake George with a hike that's not too strenuous, the Schumann Preserve at Pilot Knob offers a relatively easy hike to a lookout point. Easily accessible from a parking area east of Lake George Village, the orange trail you start on traverses around a mile to the gazebo at the top. On a clear day, you'll see well across to the west side of Lake, along with some views looking north. Note that you will encounter an elevation gain of just over 600 feet, so while not excessively high, the trail still entails some climbing.</p>
 
 <p>From the gazebo, you can continue on a loop down to the bottom for a 1.8 mile trip or go on the blue trail, which takes you to a waterfall over an extra 1.4 miles. Note that depending on the time of year and amount of rain, there may be more or less water here (we happened to be there when it was mostly dry). You'll meander through some beautiful mountain meadows and lightly forested areas on the way.</p>
 
