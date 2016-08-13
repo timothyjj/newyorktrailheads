@@ -14,10 +14,10 @@ excerpt: Located just off Northway Exit 10, this old growth forest contains a sh
                      data-max-width="1000"
                      data-min-height="300"
                      data-max-height="100%" >
-<img src="http://3.bp.blogspot.com/-GsHsALZ67R4/VogZh1RALLI/AAAAAAAAB2Y/AqFrh9kBhVk/s1600/IMG_2741.JPG"><br />
-<img src="http://2.bp.blogspot.com/-2QDGFo6y2uE/VogY4RFt2WI/AAAAAAAAB1w/lWrZYbYAEzU/s1600/IMG_2743.JPG"><br />
-<img src="http://4.bp.blogspot.com/-xTsSAv-UX3c/VogY5NK3FhI/AAAAAAAAB14/AUIy7aIJ2yw/s1600/IMG_2744.JPG"><br />
-<img src="http://2.bp.blogspot.com/-dgtpHFUu7GI/VogZHxfzgYI/AAAAAAAAB2A/5PypSyz8tgA/s1600/IMG_2746.JPG"><br />
-<img src="http://1.bp.blogspot.com/-vYC9VxNuz_U/VogZKQlupYI/AAAAAAAAB2M/0mB-R9icyNQ/s1600/IMG_2748.JPG"><br />
-<img src="http://1.bp.blogspot.com/-ukUsJC2-2eg/VogZJu9Q76I/AAAAAAAAB2I/-kjHtEGzaA8/s1600/IMG_2749.JPG"><br />
+<img src="/img/ushers-road-forest/old-car.jpg" alt="Old car along trail"><br />
+<img src="/img/ushers-road-forest/icy-pond.jpg" alt="Icy pond"><br />
+<img src="/img/ushers-road-forest/trail marker.jpg" alt="DEC trail marker"><br />
+<img src="/img/ushers-road-forest/trail-signs.jpg" alt="Trail intersection"><br />
+<img src="/img/ushers-road-forest/zim-smith-intersection.JPG"><br />
+<img src="/img/ushers-road-forest/wood-footbridge.jpg" alt="Wooden footbridge over creek"><br />
 </div>
