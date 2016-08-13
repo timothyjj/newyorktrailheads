@@ -24,7 +24,7 @@ excerpt: A moderately easy hike with some elevation gain, Pilot Knob Preserve of
                      data-min-height="300"
                      data-max-height="100%" >
 <img src="/img/pilot-knob/lake-george-north.jpg" alt="North over Lake George from Pilot Knob"><br />
-<img src="/img/pilot-knob/lake-george-wast.jpg" alt="West side of Lake George"><br />
+<img src="/img/pilot-knob/lake-george-west.jpg" alt="West side of Lake George"><br />
 <img src="/img/pilot-knob/pilot-knob-gazebo.jpg" alt="Gazebo at Pilot Knob lookout"><br />
 <img src="/img/pilot-knob/pilot-knob-lake-george.jpg" alt="Lake George"><br />
 <img src="/img/pilot-knob/pilot-knob-waterfall.jpg" alt="Waterfall on back trail">
