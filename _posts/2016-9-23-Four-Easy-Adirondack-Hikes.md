@@ -10,7 +10,7 @@ excerpt: Looking for a hike in the Adirondacks that doesn't involve intense High
 
 <h2>Shelving Rock Falls</h2>
 
-<img src="/img/shelving-rock-falls.jpg">
+<img src="/img/four-hikes/shelving-rock-falls.jpg">
 
 <p>Located in the Lake George Wild Forest, this brief hike treks approximately 0.4 miles over an old carriage road to reach a waterfall tucked away in the woods. While you'll walk over some rocky sections, the trail stays relatively flat. If you keep following the trail past the falls, you'll eventually reach the shore of Lake George and a picnicking area.</p>
 
@@ -18,13 +18,13 @@ excerpt: Looking for a hike in the Adirondacks that doesn't involve intense High
 
 <h2>Shelving Rock Mountain</h2>
 
-<img src="/img/shelving-rock-mountain.jpg">
+<img src="/img/four-hikes/shelving-rock-mountain.jpg">
 
 <p>Right near Shelving Rock Falls, Shelving Rock Mountain offers a relatively brief climb up a carriage road to a view overlooking Lake George. You'll find the trail a bit further down from the Falls trail, starting to the right of the road and marked with a sign. See <a href="http://newyorktrailheads.com/2016/04/23/Shelving-Rock-Mountain.html">our guide to Shelving Rock Mountain</a> for a map of the trailhead and a photo from the top.</p>
 
 <h2>Moreau Lake Overlook</h2>
 
-<img src="/img/moreau-lake-overlook.jpg">
+<img src="/img/four-hikes/moreau-lake-overlook.jpg">
 
 <p>While not technically quite within the borders of the Adirondack Park, this trail offers a beginner's introduction to an Adirondack-style hike. You'll start off on a trail meandering through the woods and eventually ascend up to a point overlooking Moreau Lake. While the latter portion of this hike does entail some steeper sections and a few rocks, it's relatively accessible to people with minimal hiking experience and to elementary school age and older kids.</p>
 
@@ -32,7 +32,7 @@ excerpt: Looking for a hike in the Adirondacks that doesn't involve intense High
 
 <h2>Hadley Mountain</h2>
 
-<img src="/img/hadley-mountain.jpg">
+<img src="/img/four-hikes/hadley-mountain.jpg">
 
 <p>The most challenging hike on this "easy" list, Hadley Mountain provides an incredible view of the southern Adirondacks after a relatively brief climb to the summit (less than 2 miles one way). While you will encounter some steeper sections along the way, the trail is well-worn and easy to follow. This trail offers a great beginning hiking experience for older elementary school kids and younger teenagers.</p>
 
