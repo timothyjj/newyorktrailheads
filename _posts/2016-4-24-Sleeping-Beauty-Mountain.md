@@ -39,7 +39,6 @@ excerpt: A moderately easy hike to a view of the southern portion of Lake George
 <h3 id="video">Video from Sleeping Beauty Summit</h3>
 
 <iframe src="https://player.vimeo.com/video/187460782" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/187460782">Fall Day on Sleeping Beauty</a> from <a href="https://vimeo.com/newyorktrailheads">New York Trailheads</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 <h3 id="trailmap">Map of Sleeping Beauty Trailhead</h3>
 
