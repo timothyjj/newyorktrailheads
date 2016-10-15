@@ -20,6 +20,6 @@ excerpt: Located just off Northway Exit 10, this old growth forest contains a sh
 <img src="/img/ushers-road-forest/icy-pond.jpg" alt="Icy pond"><br />
 <img src="/img/ushers-road-forest/trail-marker.jpg" alt="DEC trail marker"><br />
 <img src="/img/ushers-road-forest/trail-signs.jpg" alt="Trail intersection"><br />
-<img src="/img/ushers-road-forest/zim-smith-intersection.jpg"><br />
+<img src="/img/ushers-road-forest/zim-smith-intersection.jpg" alt="Zim Smith Trail sign"><br />
 <img src="/img/ushers-road-forest/wood-footbridge.jpg" alt="Wooden footbridge over creek"><br />
 </div>
