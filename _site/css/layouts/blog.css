@@ -16,6 +16,7 @@ h1 {
 
 }
 
+
 h2 {
     color: #00813F;
     font-family: 'Dosis', sans-serif;
@@ -68,10 +69,10 @@ p   {
     margin: 0;
 }
 
-.brand-title {
+.brand-title, h1.brand-title {
     text-transform: uppercase;
     color: #66CD00;
-    font-size:2.2em;
+    font-size:1.5em;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
     font-weight: 800;
@@ -250,9 +251,9 @@ hr {
     color: #00813F;
 }
 
-@media (min-width: 48em) and (max-width: 60em) {
+@media (min-width: 48em) and (max-width: 65em) {
     .brand-title {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 }
 
