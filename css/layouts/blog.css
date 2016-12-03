@@ -302,3 +302,7 @@ img {
 .top-nav {
     background-color: #00813F;
 }
+
+a.headinglink {
+    color: #00813F;
+}
