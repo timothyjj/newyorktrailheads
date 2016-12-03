@@ -13,7 +13,7 @@ excerpt: Several options for finding a place to walk without going beyond your k
 <h3>Stroller-Friendly Walks</h3>
 <ul>
 	<li>Saratoga Spa State Park (some sections)</li>
-	<li>Zim Smith Trail</li>
+	<li><a href="http://newyorktrailheads.com/2016/04/09/Zim-Smith-Trail.html">Zim Smith Trail</a></li>
 	<li>Halfmoon Town Park</li>
 	<li>The Crossings of Colonie</li>
 	<li>Colonie Town Park (some sections)</li>
@@ -23,9 +23,9 @@ excerpt: Several options for finding a place to walk without going beyond your k
 <ul>
 	<li>Moreau Lake State Park</li>
 	<li>Wilton Wildlife Preserve</li>
-	<li>Vischer Ferry Preserve</li>
+	<li><a href="<a href="http://newyorktrailheads.com/2016/07/09/Vischer-Ferry-Preserve.html">">Vischer Ferry Preserve</a></li>
 	<li>Thacher Park</li>
 	<li>Five Rivers Environmental Education Center</li>
-	<li>Shelving Rock Mountain &amp; Falls</li>
+	<li><a href="http://newyorktrailheads.com/2016/04/23/Shelving-Rock-Mountain.html">Shelving Rock Mountain &amp; Falls</a></li>
 </ul>
 
