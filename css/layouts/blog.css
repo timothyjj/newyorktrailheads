@@ -306,3 +306,7 @@ img {
 a.headinglink {
     color: #00813F;
 }
+
+.social-icon {
+    width:25px;
+}
