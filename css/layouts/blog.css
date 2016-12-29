@@ -310,3 +310,8 @@ a.headinglink {
 img.social-icon {
     width: 30px;
 }
+
+ul.footer-nav {
+    margin-left: -30px;
+
+}
