@@ -315,3 +315,26 @@ ul.footer-nav {
     margin-left: -30px;
 
 }
+
+.options {
+    list-style: none;
+    font-size: 1.1em;
+}
+
+li.options {
+    margin-left: -40px;
+    padding: 5px;
+    max-width: 200px;
+    color: #00813F;
+}
+
+li.options:hover {
+    background-color: #00813F;
+    color:white;
+}
+
+img.emoji {  
+  // Override any img styles to ensure Emojis are displayed inline
+  margin: 0px !important;
+  display: inline !important;
+}

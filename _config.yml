@@ -1,9 +1,5 @@
 name: New York Trailheads
 markdown: kramdown
 paginate: 5
-navigation:
-      - text: Web Strategy
-        url: /web-strategy.html
-      - text: Photography
-        url: /photography.html 
+paginate_path: all-trails/page:num
 gems: [jekyll-paginate]

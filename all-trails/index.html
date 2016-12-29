@@ -1,0 +1,46 @@
+---
+layout: default
+title: New York Trail Listings
+---
+        
+        <div>
+          <h2>All Upstate New York Trails</h2>
+          <p class="homecopy">Here, you'll find listings of area trails where you can get outside with a bike or a good pair of hiking shoes. We also share tips for planning excursions and staying safe outside.</p>
+
+          <p>Know a trail you'd like to see here? <a href="http://newyorktrailheads.com/contact.html">Let us know!</a></p>
+          
+                    <gcse:search></gcse:search>
+
+
+        <hr>
+        </div>
+
+        <div class="posts">
+          {% for post in paginator.posts %}
+            <section class="post">
+
+              <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+              <div class="post-description">
+                {{ post.excerpt }}
+              </div>
+              <div class="read-more-section">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+              </div>
+            </section>
+          {% endfor %}
+        </div>
+
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="read-more">Previous</a>
+          {% else %}
+
+          {% endif %}
+          <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="read-more">Next</a>
+          {% else %}
+
+          {% endif %}
+        </div>

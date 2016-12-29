@@ -4,43 +4,19 @@ title: Locate NY Hiking &amp; Biking Trails
 ---
         
         <div>
-          <h2>Welcome to Your Source for NY Trail Information</h2>
-          <p class="homecopy">Looking for a local trail to ride a bike? A mountain to climb? 
-          <br>On this site, you'll find guides to upstate New York trails so you can get outside.</p>
-          <p class="homecopy">Know a trail you'd like to see here? <a href="http://newyorktrailheads.com/contact.html">Let us know!</a></p>
+          <h2>Your Source for NY Trail Information</h2>
+          <p>Looking for a local trail to ride a bike? A mountain to hike?</p> 
+          <p>On this site, you'll find guides to upstate New York trails so you can get outside. While we've started the majority of current listings in the Capital Region and southern Adirondacks, we're planning to expand this resource to other areas of the state. <a href="/contact.html">Let us know</a> about trails you'd like to see featured here!</p>
+          <h3>What do you want to do?</h3>
+          <ul class="options">
+            <a href="/mountains.html"><li class="options">&#127748; Climb a Mountain</li></a>
+            <a href="http://newyorktrailheads.com/2016/10/30/Lake-George-Hiking-Trails.html"><li class="options">&#127966; Find a Scenic View</li></a>
+            <a href="http://newyorktrailheads.com/biking-map.html"><li class="options"><i class="em em-bike"></i>&#128690; Ride a Bike</li></a>
+            <a href="http://newyorktrailheads.com/2016/11/27/Capital-Region-Parks.html"><li class="options">&#128694; Go for a Walk</li></a>
+            <li class="options">&#128203; Read Hiking Tips</li>
+            <a href="/all-trails/"><li class="options">&#128506; See All Trails</li></a>
+          </ul>
           
                     <gcse:search></gcse:search>
 
 
-        <hr>
-        </div>
-
-        <div class="posts">
-          {% for post in paginator.posts %}
-            <section class="post">
-
-              <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-
-              <div class="post-description">
-                {{ post.excerpt }}
-              </div>
-              <div class="read-more-section">
-                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-              </div>
-            </section>
-          {% endfor %}
-        </div>
-
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="read-more">Previous</a>
-          {% else %}
-
-          {% endif %}
-          <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="read-more">Next</a>
-          {% else %}
-
-          {% endif %}
-        </div>
