@@ -40,6 +40,17 @@ excerpt: A 9 mile multi-use trail extending from Halfmoon to Ballston Spa
 	<iframe src="https://player.vimeo.com/video/162186185?title=0&byline=0&portrait=0" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- General -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-9653740880666784"
+                         data-ad-slot="7148522750"
+                         data-ad-format="auto"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+
 <h2 id="trailmap">Trail Map & Key Points</h2>
 
 <div class="google-maps">
