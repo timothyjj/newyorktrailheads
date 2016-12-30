@@ -40,7 +40,14 @@ excerpt: A 9 mile multi-use trail extending from Halfmoon to Ballston Spa
 	<iframe src="https://player.vimeo.com/video/162186185?title=0&byline=0&portrait=0" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<h2 id="trailmap">Trail Map & Key Points</h2>
+
+<div class="google-maps">
+	<iframe src="https://www.google.com/maps/d/embed?mid=19awwdDUCA1VK660KJb5z6cf7ISc" width="640" height="480"></iframe>
+</div>
+
+<div>
+	                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- General -->
                     <ins class="adsbygoogle"
                          style="display:block"
@@ -50,11 +57,6 @@ excerpt: A 9 mile multi-use trail extending from Halfmoon to Ballston Spa
                     <script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
-
-<h2 id="trailmap">Trail Map & Key Points</h2>
-
-<div class="google-maps">
-	<iframe src="https://www.google.com/maps/d/embed?mid=19awwdDUCA1VK660KJb5z6cf7ISc" width="640" height="480"></iframe>
 </div>
 
 <p>For more local trail information for upstate New York, check out our <a href="http://newyorktrailheads.com/hiking-map.html">hiking map</a> and <a href="http://newyorktrailheads.com/biking-map.html">biking map</a>.</p>
