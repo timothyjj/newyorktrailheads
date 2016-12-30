@@ -18,7 +18,7 @@ excerpt: A 9 mile multi-use trail extending from Halfmoon to Ballston Spa
 
 <p>Right before the trail runs under the Northway in Malta, there's a cutoff trail that goes to Rte. 9. Be aware that this portion of the trail has sections with steep inclines on both ends. However, other sections of the trail lack major inclines, for the most part, and so are perfect for young children.</p>
 
-<p>An extension is being planned for this trail to connect with Mechanicville, as well as possibly reaching the Champlain Canal bike path.</p>
+<p>An extension is being planned for this trail to connect with Mechanicville, as well as possibly reaching the Champlain Canal bike path. See a recent update on progress in <a href="http://www.saratogian.com/article/ST/20161215/NEWS/161219877" target="_blank">the Saratogian</a></p>
 
 <div id="photos" class="fotorama" data-nav="thumbs" data-width="100%"
                      data-ratio="800/600"
