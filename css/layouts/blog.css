@@ -125,7 +125,7 @@ p   {
 }
 
 .content {
-    padding: 2em 1em 0;
+    padding: 1em 1em 0;
     max-width: 1000px;
 }
 
@@ -352,3 +352,13 @@ img.emoji {
 }
 
 .desc {display: none;}​
+
+.social-icon-list, .social-icon-item {
+    display: inline;
+    float: right;
+    list-style-type: none;
+}
+
+.social-icon-item {
+    padding-left: 10px;
+}
