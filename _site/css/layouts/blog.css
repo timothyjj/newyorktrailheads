@@ -261,14 +261,13 @@ hr {
     .header {
         margin: 0.2em auto;}
     .brand-title {
-        font-size:0.8em;
-    .brand-tagline {
-        font-size: 0.5em;
+        font-size:0.8em;}
+    h2.brand-tagline {
+        font-size: 1em;
         } 
     }
 
 }
-
 
 img {
     max-width: 100%
