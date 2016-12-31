@@ -257,6 +257,12 @@ hr {
     }
 }
 
+@media (max-width: 47em) {
+    .header {
+        margin: 1em auto;}
+}
+
+
 img {
     max-width: 100%
 }

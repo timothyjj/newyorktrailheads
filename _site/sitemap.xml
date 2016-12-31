@@ -396,7 +396,7 @@
     <url>
       <loc>http://newyorktrailheads.com/about.html</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -411,7 +411,7 @@
     <url>
       <loc>http://newyorktrailheads.com/biking-map.html</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -426,7 +426,7 @@
     <url>
       <loc>http://newyorktrailheads.com/contact.html</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -441,7 +441,7 @@
     <url>
       <loc>http://newyorktrailheads.com/hiking-map.html</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -456,7 +456,7 @@
     <url>
       <loc>http://newyorktrailheads.com/hiking-tips.html</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -471,7 +471,7 @@
     <url>
       <loc>http://newyorktrailheads.com/all-trails/</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -486,7 +486,22 @@
     <url>
       <loc>http://newyorktrailheads.com/</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://newyorktrailheads.com/indextest.html</loc>
+      
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -501,7 +516,7 @@
     <url>
       <loc>http://newyorktrailheads.com/links.html</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -516,7 +531,7 @@
     <url>
       <loc>http://newyorktrailheads.com/mountains.html</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -531,7 +546,7 @@
     <url>
       <loc>http://newyorktrailheads.com/privacypolicy.html</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -546,7 +561,7 @@
     <url>
       <loc>http://newyorktrailheads.com/search.html</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -563,7 +578,7 @@
     <url>
       <loc>http://newyorktrailheads.com/all-trails/page2/</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -578,7 +593,7 @@
     <url>
       <loc>http://newyorktrailheads.com/all-trails/page3/</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -593,7 +608,7 @@
     <url>
       <loc>http://newyorktrailheads.com/all-trails/page4/</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -608,7 +623,7 @@
     <url>
       <loc>http://newyorktrailheads.com/all-trails/page5/</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -623,7 +638,7 @@
     <url>
       <loc>http://newyorktrailheads.com/all-trails/page6/</loc>
       
-        <lastmod>2016-12-30T18:30:22-05:00</lastmod>
+        <lastmod>2016-12-31T13:34:24-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
