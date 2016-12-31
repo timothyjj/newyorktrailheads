@@ -41,7 +41,9 @@
     <link rel="stylesheet" type='text/css' href="http://timothyjensen.net/css/fotorama.css">
     <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>  
+    <script src="/js/scripts.js"
 
 
     <meta name="msvalidate.01" content="5BD8ACA06DD5568C18C391FAE619E9F7" />
@@ -122,29 +124,33 @@
           <select class="selectOption">
               <option>Hike</option>
               <option>Bike</option>
-              <option>See Tips</option>
+              <option>Tips</option>
           </select>
 
           <div id="changingArea">
-              <div id="Analytics" class="desc">Analytics</div>
-              <div id="Translation" class="desc">Translation</div>
-              <div id="Poll" class="desc">Poll</div>
+            <div id="Hike" class="desc google-maps">
+              <iframe height="480" src="https://www.google.com/maps/d/u/0/embed?mid=zU671qDkvGZQ.kbFgAkutJ1mY" width="640"></iframe>
+              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=zU671qDkvGZQ.krcuyyI09Vdw" width="640" height="480"></iframe>
+            </div>
+            <div id="Bike" class="desc">
+              <div class="google-maps">
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=zU671qDkvGZQ.krcuyyI09Vdw" width="640" height="480"></iframe>
+</div>
+            </div>
+            <div id="Tips" class="desc">Poll</div>
           </div>​
 
           <ul class="options">
-            <a href="/mountains.html"><li class="options">&#127748; Climb a Mountain</li></a>
-            <a href="http://newyorktrailheads.com/2016/10/30/Lake-George-Hiking-Trails.html"><li class="options">&#127966; Find a Scenic View</li></a>
-            <a href="http://newyorktrailheads.com/biking-map.html"><li class="options"><i class="em em-bike"></i>&#128690; Ride a Bike</li></a>
-            <a href="http://newyorktrailheads.com/2016/11/27/Capital-Region-Parks.html"><li class="options">&#128694; Go for a Walk</li></a>
-            <a href="/hiking-tips.html"><li class="options">&#128203; Read Hiking Tips</li></a>
-            <a href="/all-trails/"><li class="options">&#128506; See All Trails</li></a>
+            <a href="/mountains.html"><li class="options desc">&#127748; Climb a Mountain</li></a>
+            <a href="http://newyorktrailheads.com/2016/10/30/Lake-George-Hiking-Trails.html"><li class="options desc">&#127966; Find a Scenic View</li></a>
+            <a href="http://newyorktrailheads.com/biking-map.html"><li class="options desc"><i class="em em-bike"></i>&#128690; Ride a Bike</li></a>
+            <a href="http://newyorktrailheads.com/2016/11/27/Capital-Region-Parks.html"><li class="options desc">&#128694; Go for a Walk</li></a>
+            <a href="/hiking-tips.html"><li class="options desc">&#128203; Read Hiking Tips</li></a>
+            <a href="/all-trails/"><li class="options desc">&#128506; See All Trails</li></a>
           </ul>
             <gcse:search></gcse:search>
         </div>
 
-        <div class="google-maps">
-          <iframe height="480" src="https://www.google.com/maps/d/u/0/embed?mid=zU671qDkvGZQ.kbFgAkutJ1mY" width="640"></iframe>
-        </div>
         <div>
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <!-- General -->
@@ -157,6 +163,7 @@
           (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
         </div>
+
 
 
 
