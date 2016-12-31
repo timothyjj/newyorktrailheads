@@ -259,11 +259,11 @@ hr {
 
 @media (max-width: 47em) {
     .header {
-        margin: 0.5em auto;}
+        margin: 0.2em auto;}
     .brand-title {
-        font-size:1em;
+        font-size:0.8em;
     .brand-tagline {
-        font-size: 0.6em;
+        font-size: 0.5em;
         } 
     }
 
