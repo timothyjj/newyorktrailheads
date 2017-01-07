@@ -12,6 +12,7 @@ excerpt: A loop or in-and-out hike from Bolton Landing, allowing you to hike to 
 
 <p>A new trail also connects to <a href="/2016/07/02/The-Pinnacle.html">The Pinnacle</a>, another nearby overlook of Lake George. See more hike details and a trail map at the <a href="http://www.lglc.org/preserves/cat-thomas-mountains/" target="_blank"> Lake George Land Conservancy's site</a></p>
 
+<h2>Photos</h2>
 <div id="photos" class="fotorama" data-nav="thumbs" data-width="100%"
                      data-ratio="800/600"
                      data-min-width="100%"
@@ -22,6 +23,6 @@ excerpt: A loop or in-and-out hike from Bolton Landing, allowing you to hike to 
 <img src="/img/cat-thomas/cat-mountain-view.jpg" alt="Lake George from Cat Mountain Summit"><br />
 <img src="/img/cat-thomas/pond.jpg" alt="Pond along trail">
 </div>
-<h3>Map of Cat &amp; Thomas Mountain Trailhead</h3>
+<h2>Map of Cat &amp; Thomas Mountain Trailhead</h2>
 
 <div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1060.690813803706!2d-73.6932015776823!3d43.603957197633434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDM2JzE0LjIiTiA3M8KwNDEnMzMuMSJX!5e1!3m2!1sen!2sus!4v1471109591725" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>

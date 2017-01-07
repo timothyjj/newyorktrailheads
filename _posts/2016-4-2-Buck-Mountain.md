@@ -14,8 +14,10 @@ excerpt: Buck Mountain offers one of the most beautiful views available of Lake 
 
 <p>Note that Buck Mountain offers a more difficult ascent than nearby peaks like Shelving Rock or Sleeping Beauty. We'd recommend this hike only for those who've spent some time climbing moderate mountain hikes and for older children.</p>
 
+<h2>View from Summit of Buck Mountain</h2>
+
 <img src="/img/buckmountain.jpg" alt="Buck Mountain">
 
-<h3>Map of Pilot Knob Trailhead to Buck Mountain</h3>
+<h2>Map of Pilot Knob Trailhead to Buck Mountain</h2>
 
 <div class="google-maps"><iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1854.7280016166878!2d-73.63217034167778!3d43.509205036416304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1438432292213" style="border: 0;" width="600"></iframe></div>

@@ -17,6 +17,7 @@ excerpt: A moderately easy hike with some elevation gain, Pilot Knob Preserve of
 
 <p>All in all, this trail offers a great venture into the woods for those with families or those who just want a quick jaunt to a nice view. The trailhead is easy to get to via mostly main roads and offers a decent amount of parking. For more information and a downloadable trail map, see the <a href="http://www.lglc.org/preserves/pilot-knob/" target="_blank">Lake George Land Conservancy's page</a> on this trail.
 
+<h2>Photos</h2>
 <div id="photos" class="fotorama" data-nav="thumbs" data-width="100%"
                      data-ratio="800/600"
                      data-min-width="100%"
@@ -30,6 +31,6 @@ excerpt: A moderately easy hike with some elevation gain, Pilot Knob Preserve of
 <img src="/img/pilot-knob/pilot-knob-waterfall.jpg" alt="Waterfall on back trail">
 </div>
 
-<h3 div id="trailmap">Map of Pilot Knob Trailhead</h3>
+<h2 div id="trailmap">Map of Pilot Knob Trailhead</h2>
 
 <div class="google-maps"><iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.468443032559!2d-73.62820658417832!3d43.47169347912787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dfdce4360e70a9%3A0xfe99c6f55eb3bb44!2sSchumann+Preserve+at+Pilot+Knob!5e0!3m2!1sen!2sus!4v1470596217056" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
