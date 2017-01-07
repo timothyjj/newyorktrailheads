@@ -12,12 +12,24 @@ excerpt: Easy walking trails, Mohawk River views, and local history
 
 <p>When walking here in the late spring or summer, be wary that you're likely to encounter many insects. You're never far from water, including the stagnant area of the old canal, so mosquitoes tend to breed in the area.</p>
 
-<p>You can enter the park from multiple points along Riverview Road in Clifton Park. See the map below for more details.</p>
+<p>You can enter the park from multiple points along Riverview Road in Clifton Park. See the <a href="#map">map</a> below for more details.</p>
 
-<h3>Photo of Whipple Bridge parking area</h3>
-<img src="/img/vischer_ferry.jpg" alt="Vischer Ferry Preserve">
+<h3>Photos of various parts of the park, starting with the popular Whipple Bridge parking area</h3>
 
-<h3>Map of key parking areas for Vischer Ferry Preserve</h3>
+<div class="fotorama" data-nav="thumbs" data-width="100%"
+                     data-ratio="800/600"
+                     data-min-width="100%"
+                     data-max-width="1000"
+                     data-min-height="300"
+                     data-max-height="100%" >
+<img src="/img/vischer-ferry/whipple-bridge.jpg" alt="Whipple Bridge">
+<img src="/img/vischer-ferry/vischerferrytrail.jpg" alt="Vischer Ferry Preserve Trail">
+<img src="/img/vischer-ferry/frozenmohawkriver.jpg" alt="Lock 7">
+<img src="/img/vischer-ferry/hydroelectricplant.jpg" alt="Hydroelectric Plant on Mohawk River">
+
+</div>
+
+<h3 id="map">Map of key parking areas for Vischer Ferry Preserve</h3>
 
 <div class="google-maps"><iframe src="https://www.google.com/maps/d/embed?mid=1T2fMXsRaQ2paDLZYrJjmpt6FmGo" width="640" height="480"></iframe></div>
 
