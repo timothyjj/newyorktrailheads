@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Winter Hiking Tips
-excerpt: 
+excerpt: Don't let snow deter you from heading outside for a hike, but stay safe! See our tips for planning your next winter hike
 ---
  
 <h1>Winter Hiking Tips</h1>
