@@ -12,7 +12,7 @@ excerpt: A brief but somewhat strenuous hike to the top of a vantage point overl
 
 <p>While you'll find the top of the mountain crowded with tourists on a summer or fall day, you can still appreciate the beauty of the surrounding area, although you won't quite experience the wilderness solitude of other peaks. From the main picnic area on the summit, you can look out over the southern portion of Lake George, seeing the beach in Lake George Village. Looking south, you can see as far as Albany on clear days. Walking around, you can look further up into the mountain ranges of the southeastern Adirondacks, as well as seeing further up the lake.</p>
 
-<img src="/img/prospectmountain.jpg" alt="Prospect Mountain" />
+<img class="pure-img-responsive" src="/img/prospectmountain.jpg" alt="Prospect Mountain" />
 
 <h2>Map of Prospect Mountain trailhead</h2>
 

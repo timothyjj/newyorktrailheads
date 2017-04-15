@@ -14,7 +14,7 @@ excerpt: Starting from a side road in Bolton Landing, The Pinnacle ends with an 
 
 <p>All in all, The Pinnacle offers a brief but satisfying trek through the woods, accessible by families and those who may not be up for a more strenuous hike. Don't forget your camera (or phone) to record the view over Lake George! You can find a detailed map and other information at <a href="http://www.lglc.org/preserves/pinnacle/" target="_blank">The Lake George Land Conservancy's page for this hike</a>.</p>
 
-<img src="/img/the-pinnacle-lake-george.jpg" alt="The Pinnacle Over Lake George">
+<img class="pure-img-responsive" src="/img/the-pinnacle-lake-george.jpg" alt="The Pinnacle Over Lake George">
 
 <h3>Map of The Pinnacle Trailhead</h3>
 

@@ -12,7 +12,7 @@ excerpt: Starting from the top of the Tongue Mountain Range, this brief trail tr
 
 <p>All in all, this hike rewards you with a beautiful view of Lake George for relatively little effort. Be aware that rattlesnakes are sometimes spotted in this area, so keep your eyes open.</p> 
 
-<img src="/img/deerleap.jpg" alt="Deer Leap Overlook over Lake George">
+<img class="pure-img-responsive" src="/img/deerleap.jpg" alt="Deer Leap Overlook over Lake George">
 
 <h2>Map of Deer Leap Trailhead</h2>
 

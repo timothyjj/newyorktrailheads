@@ -10,7 +10,7 @@ excerpt: Walk an easy hiking trail or travel a tour road in a park steeped in Re
 
 <p>Starting at the interpretive center, you'll find helpful staff ready to inform you of history as well as activities available in the park. If biking the entire trail, including a loop out to a stop overlooking the Hudson River, you'll cover approximately 11.5 miles. Note that some sections will include hilly terrain that will require somewhat of a workout. Also, note park fees if visiting on season (May 1-Oct. 31) of $5 for cars and $3 for bicyclists or hikers ages 16 and up.</p>
 
-<img src="/img/saratoganationalpark.jpg" alt="Biking at Saratoga National Park">
+<img class="pure-img-responsive" src="/img/saratoganationalpark.jpg" alt="Biking at Saratoga National Park">
 
 <h2>Map of Saratoga National Historical Park</h2>
 

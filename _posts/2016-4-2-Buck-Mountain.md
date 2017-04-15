@@ -16,7 +16,7 @@ excerpt: Buck Mountain offers one of the most beautiful views available of Lake 
 
 <h2>View from Summit of Buck Mountain</h2>
 
-<img src="/img/buckmountain.jpg" alt="Buck Mountain">
+<img class="pure-img-responsive" src="/img/buckmountain.jpg" alt="Buck Mountain">
 
 <h2>Map of Pilot Knob Trailhead to Buck Mountain</h2>
 

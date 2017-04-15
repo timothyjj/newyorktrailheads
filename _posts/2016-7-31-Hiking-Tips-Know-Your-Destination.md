@@ -8,7 +8,7 @@ excerpt: First in a series of hiking tips, we discuss knowing where you're going
 
 <p>Today, we're beginning a series of posts offering advice for safe and enjoyable hiking experiences. Whether venturing deep into the Adirondack High Peaks or walking on a local trail through the woods, you should still prepare accordingly for what you'll face. Hiking is an incredibly enjoyable activity, rewarding for the exercise, the experience of being outside, and the scenery. However, you can too easily make mistakes and find yourself in a dangerous or less than ideal situation. Today, we'll talk about the first step of preparation for any hike: knowing your destination.</p>
 
-<img src="/img/mountain-trail.jpg" alt="mountain trail">
+<img class="pure-img-responsive" src="/img/mountain-trail.jpg" alt="mountain trail">
 
 <h2>Review Maps in Advance</h2>
 

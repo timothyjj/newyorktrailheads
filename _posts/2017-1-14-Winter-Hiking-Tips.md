@@ -10,7 +10,7 @@ excerpt: Don't let snow deter you from heading outside for a hike, but stay safe
 
 <p>Yet this season can be the most dangerous of all if you hike into a remote area unprepared. Prepare yourself by dressing properly and knowing the potential dangers of freezing temperatures! In this article, we'll share a few tips to help you stay safe outside during winter.</p>
 
-<img src="/img/winterhiking.jpg" alt="winter hiking">
+<img class="pure-img-responsive" src="/img/winterhiking.jpg" alt="winter hiking">
 
 <h2>Layer Up: Wear Proper Clothes</h2>
 

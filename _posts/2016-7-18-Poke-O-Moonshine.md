@@ -12,7 +12,7 @@ excerpt: Hike to a summit with a fire tower and expansive views of Lake Champlai
 
 <p>Once on top of the mountain, you'll find a restored fire tower, which, if open, you can climb for views into the High Peaks region. While fire towers are no longer in use in the Adirondacks, many have been left on peaks both for historical interest and to add additional height for a view above trees on a summit. Even without climbing, you'll see an expansive view over Lake Champlain into the Green Mountains of Vermont.</p>
 
-<img src="/img/poke-o-moonshine.jpg" alt="Poke-O-Moonshine Summit">
+<img class="pure-img-responsive" src="/img/poke-o-moonshine.jpg" alt="Poke-O-Moonshine Summit">
 
 <h3>Map of Poke-O-Moonshine Trailheads</h3>
 

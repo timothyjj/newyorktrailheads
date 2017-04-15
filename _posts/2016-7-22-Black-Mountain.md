@@ -14,7 +14,7 @@ excerpt: Climb the highest mountain in the Lake George region
 
 <p>On the way down, take the blue trail to go by Lapland Pond. Along the way, you'll see views looking down toward the Tongue Mountain Range. Once you reach the intersection with the red trail again, turn right and head back the way you came.</p>
 
-<img src="/img/black-mountain.jpg" alt="Black Mountain Summit">
+<img class="pure-img-responsive" src="/img/black-mountain.jpg" alt="Black Mountain Summit">
 
 <h3>Map of Black Mountain Trailhead</h3>
 
