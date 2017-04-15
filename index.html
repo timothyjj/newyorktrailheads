@@ -13,12 +13,28 @@ title: Locate NY Hiking &amp; Biking Trails
             <a href="http://newyorktrailheads.com/2016/10/30/Lake-George-Hiking-Trails.html"><li class="options">&#127966; Find a Scenic View</li></a>
             <a href="http://newyorktrailheads.com/biking-map.html"><li class="options"><i class="em em-bike"></i>&#128690; Ride a Bike</li></a>
             <a href="http://newyorktrailheads.com/2016/11/27/Capital-Region-Parks.html"><li class="options">&#128694; Go for a Walk</li></a>
-            <a href="/hiking-tips.html"><li class="options">&#128203; Read Hiking Tips</li></a>
-            <a href="/all-trails/"><li class="options">&#128506; See All Trails &amp; Articles</li></a>
+            <a href="/hiking-tips.html"><li class="options options-final">&#128203; View Hiking Tips</li></a>
           </ul>
-            <gcse:search></gcse:search>
         </div>
+        <h2><a href="http://newyorktrailheads.com/all-trails/">Read Our Latest Articles</a></h2>
+        <div class="posts">
+          {% for post in site.posts limit:5 %}
+            <section class="post">
 
+              <div class="post-title"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+
+              <div class="post-description">
+                {{ post.excerpt }}
+              </div>
+              <div class="read-more-section">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+              </div>
+            </section>
+          {% endfor %}
+        </div>
+        <h2>Find Your Next Outdoor Adventure</h2>
+        <p>Search our site, or explore locations on the map!</p>
+        <gcse:search></gcse:search>
         <div class="google-maps">
           <iframe height="480" src="https://www.google.com/maps/d/embed?mid=1An-APYS0GSAyPKPNNEU-eYIvmY8&z=8" width="640" height="480" width="640"></iframe>
         </div>
