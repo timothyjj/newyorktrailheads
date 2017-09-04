@@ -5,23 +5,12 @@ title: Locate NY Hiking &amp; Biking Trails
         
         <div>
           <h2>Your Source for NY Trail Information</h2>
-          <div class="options-box">
-            <ul class="options">
-              <a href="/mountains.html"><li class="options options-first">&#127748; &nbsp;Climb a Mountain</li></a>
-              <a href="http://newyorktrailheads.com/2016/10/30/Lake-George-Hiking-Trails.html"><li class="options">&#127966; &nbsp;Find a Scenic View</li></a>
-              <a href="http://newyorktrailheads.com/biking-map.html"><li class="options"><i class="em em-bike"></i>&#128690; &nbsp;Ride a Bike</li></a>
-              <a href="http://newyorktrailheads.com/2016/11/27/Capital-Region-Parks.html"><li class="options">&#128694; &nbsp;Go for a Walk</li></a>
-              <a href="/hiking-tips.html"><li class="options">&#128203; &nbsp;View Hiking Tips</li></a>
-              <a href="/contact.html"><li class="options">&#x1F4ED; &nbsp;Suggest a Trail</li></a>              
-            </ul>
-          </div>
           <p>Looking for a local trail to ride a bike? A mountain to hike?</p> 
           <p>We offer guides to upstate New York trails, with a primary focus on the Capital Region and southern Adirondacks. Listings contain trail descriptions, maps to trailheads, and photos. <a href="/contact.html">Let us know</a> about trails you'd like to see featured here!</p>
-        </div>
-        <hr>
-        <h2><a href="http://newyorktrailheads.com/all-trails/">Read Our Latest Articles</a></h2>
-        <div class="posts">
-          {% for post in site.posts limit:5 %}
+          <hr>
+          <h2><a href="http://newyorktrailheads.com/all-trails/">Read Our Latest Articles</a></h2>
+          <div class="posts">
+          {% for post in site.posts limit:6 %}
             <section class="post">
 
               <div class="post-title"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
@@ -34,7 +23,11 @@ title: Locate NY Hiking &amp; Biking Trails
               </div>
             </section>
           {% endfor %}
+          </div>
+          
         </div>
+        
+
         <hr>
         <h2>Find Your Next Outdoor Adventure</h2>
         <p>Search our site, or explore locations on the map!</p>

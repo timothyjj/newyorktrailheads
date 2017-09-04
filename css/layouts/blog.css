@@ -333,10 +333,15 @@ ul.footer-nav {
 }
 
 .options-box {
-        background-image: url("/img/eastern-ridge-view.jpg");
+        /* background-image: url("/img/eastern-ridge-view.jpg");
         background-repeat: no-repeat;
         max-width: 250px;
-}
+        float: left; */
+        margin: auto;
+        display: inline-block;
+        width: 250px;
+        text-align: left;
+} 
 
 .options {
     list-style: none;
@@ -344,13 +349,16 @@ ul.footer-nav {
 
 }
 
+.optionswrapper {
+    text-align: center;
+}
+
 li.options {
     margin-left: -40px;
-    padding: 10px;
+    padding: 5px;
     max-width: 250px;
     border-top: 1px solid #B0CADB;
     font-size: 1em;
-    font-weight: bold;
     background-color:rgba(0, 0, 0, 0.6);
     color: #FF6600;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -368,7 +376,7 @@ li.last-child {
 
 li.options:hover {
     color:white;
-    background-color: #00813F;
+    background-color: #66CD00;
     text-shadow: none;
 
 }
