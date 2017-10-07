@@ -16,7 +16,7 @@ title: New York Trail Listings
         </div>
 
         <div class="posts">
-          {% for post in paginator.posts limit:20 %}
+          {% for post in paginator.posts limit:10 %}
             <section class="post">
 
               <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -43,4 +43,9 @@ title: New York Trail Listings
           {% else %}
 
           {% endif %}
+        </div>
+<hr>
+<h2>Trail Map</h2>
+        <div class="google-maps">
+          <iframe height="480" src="https://www.google.com/maps/d/embed?mid=1An-APYS0GSAyPKPNNEU-eYIvmY8&z=8" width="640" height="480" width="640"></iframe>
         </div>
