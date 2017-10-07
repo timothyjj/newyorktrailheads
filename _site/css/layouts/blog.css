@@ -339,7 +339,7 @@ ul.footer-nav {
         float: left; */
         margin: auto;
         display: inline-block;
-        width: 250px;
+        width: 185px;
         text-align: left;
 } 
 
@@ -351,6 +351,11 @@ ul.footer-nav {
 
 .optionswrapper {
     text-align: center;
+}
+@media (max-width: 640px) {
+    .optionswrapper {
+        display:none;
+    }
 }
 
 li.options {
