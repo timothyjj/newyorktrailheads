@@ -10,7 +10,7 @@ excerpt: In the Corinth area, enjoy this brief hike with moderate elevation gain
 	Located in Porters Corners (outside of Corinth), this newly rerouted trail takes you on a moderately steep climb to a restored firetower. Saratoga Plan has done excellent work both in developing the trail and in keeping up the firetower. While the wooded summit doesn't afford much of a view, climbing the steps to the tower will allow you to see far into the distant peaks of the Adirondacks. 
 </p>
 
-<p>The trail starts at the end of the appropriately named Spruce Mountain Road, not far off Rte. 9N. A DEC sign marks the entrance, and the trail proceeds to gain elevation rather quickly, going up around 1,000 feet over 1.25 miles. The trail does not involve any rock scrambles, although some sections are fairly steep. At the top, the summit elevation measures 2,005 feet.</p>
+<p>The trail starts at the end of the appropriately named Spruce Mountain Road, not far off Rte. 9N. A DEC sign marks the entrance, and the trail proceeds to gain elevation rather quickly, going up around 1,000 feet over 1.3 miles. The trail does not involve any rock scrambles, although some sections are fairly steep. At the top, the summit elevation measures 2,005 feet.</p>
 
 <p>Along the trail, you'll spot extensive remnants of stone walls in the forest. In addition, some mountain streams add to the scenery during wet seasons when water is flowing. In seasons when leaves are off the trees, you'll be able to see out to the surrounding mountains far before reaching the summit.</p>
 
