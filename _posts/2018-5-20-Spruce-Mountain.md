@@ -24,12 +24,12 @@ excerpt: In the Corinth area, enjoy this brief hike with moderate elevation gain
                      data-max-width="1000"
                      data-min-height="300"
                      data-max-height="100%" >
-<img src="/img/spruce-mountain/spruce-mountain-entrance.jpeg" alt="Spruce Mountain entrance"><br />
-<img src="/img/spruce-mountain/stone-wall.jpeg" alt="Old stone wall in woods"><br />
-<img src="/img/spruce-mountain/fire-tower.jpeg" alt="Approaching the fire tower"><br />
-<img src="/img/spruce-mountain/climbing-tower.jpeg" alt="Climbing the tower"><br />
-<img src="/img/spruce-mountain/view-from-tower.jpeg" alt="View from midway up the tower"><br />
-<img src="/img/spruce-mountain/mountain-stream.jpeg" alt="Mountain stream"><br />mountain-stream.jpeg
+<img src="/img/spruce-mountain/spruce-mountain-entrance.jpg" alt="Spruce Mountain entrance"><br />
+<img src="/img/spruce-mountain/stone-wall.jpg" alt="Old stone wall in woods"><br />
+<img src="/img/spruce-mountain/fire-tower.jpg" alt="Approaching the fire tower"><br />
+<img src="/img/spruce-mountain/climbing-tower.jpg" alt="Climbing the tower"><br />
+<img src="/img/spruce-mountain/view-from-tower.jpg" alt="View from midway up the tower"><br />
+<img src="/img/spruce-mountain/mountain-stream.jpg" alt="Mountain stream"><br />
 
 </div>
 
