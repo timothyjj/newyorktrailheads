@@ -37,7 +37,7 @@ excerpt: In the Corinth area, enjoy this brief hike with moderate elevation gain
 
 <p>
 	<a href="https://www.saratogaplan.org/explore/public-preserves-trails/spruce-mountain/" target="_blank">
-		Find a detailed trail map on the Saratoga Plan website.
+		<strong>Find a detailed trail map on the Saratoga Plan website.</strong>
 	</a>
 </p>
 
