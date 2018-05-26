@@ -2,7 +2,7 @@
 layout: default
 title: Trail Hiking Tips - Wear the Proper Clothes
 excerpt: The right clothes are crucial for comfort and safety on a hike. Part of a series on outdoor trail hiking tips
-categories: [Tips]
+categories: [Hiking Tips]
 ---
  
 <h1>Trail Hiking Tips: Wear the Proper Clothes</h1>
