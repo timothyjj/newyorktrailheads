@@ -36,13 +36,13 @@ excerpt: Close to the busy city and suburbs, find tranquility in these expansive
 
 </div>
 
-<h2 id="trailmap">Pine Bush Preserve Map</h2>
+<h2 id="trailmap">Map of Pine Bush Preserve Trailheads</h2>
 
 <p>
-	This map shows the location of the main portion of the preserve, where the visitors' center is based. <a href="https://www.albanypinebush.org/recreation-center/trails-maps-and-conditions" target="_blank">
+	This map shows entrances for each section of the Preserve.<a href="https://www.albanypinebush.org/recreation-center/trails-maps-and-conditions" target="_blank">
 		Find detailed maps of all preserve trails on the official Pine Bush website.
 	</a>
 </p>
 
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80446.61407441147!2d-73.87106962030242!3d42.732661223899655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de74ae0451a73f%3A0x10e3ed25d957150a!2sAlbany+Pine+Bush+Preserve!5e0!3m2!1sen!2sus!4v1527295983578" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+<iframe src="https://www.google.com/maps/d/u/2/embed?mid=1dO92_Q--P_A24ZwMW3v2gutb7g4ltaRf" width="640" height="480"></iframe></div>
