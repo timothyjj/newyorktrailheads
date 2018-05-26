@@ -277,7 +277,11 @@ img {
     max-width: 100%
 }
 
-
+.google-maps {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
 
 .google-maps iframe {
     position: absolute;
