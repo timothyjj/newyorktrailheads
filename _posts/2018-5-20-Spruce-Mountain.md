@@ -14,7 +14,7 @@ excerpt: In the Corinth area, enjoy this brief hike with moderate elevation gain
 
 <p>Along the trail, you'll spot extensive remnants of stone walls in the forest. In addition, some mountain streams add to the scenery during wet seasons when water is flowing. In seasons when leaves are off the trees, you'll be able to see out to the surrounding mountains far before reaching the summit.</p>
 
-<p>In summation, Spruce Mountain is a great hike when you want to experience an Adirondack-style climb through the woods without going the distance of most High Peaks trails (or even other nearby trails). As long as you venture at least partway up the fire tower, you'll see a view that will be well rewarding for the brief climb.. 
+<p>In summation, Spruce Mountain is a great hike when you want to experience an Adirondack-style climb through the woods without going the distance of most High Peaks trails (or even other nearby trails). As long as you venture at least partway up the fire tower, you'll see a view that will be well rewarding for the brief climb.</p> 
 
 <h2>Spruce Mountain Photos</h2>
 
