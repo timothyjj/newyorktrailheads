@@ -2,7 +2,7 @@
 layout: default
 title: Great Parks in NY's Capital Region
 excerpt: The Capital Region is home to many parks large and small that offer incredible outdoor experiences.
-categories: Nature Preserves
+categories: [Nature Preserves & Parks]
 ---
 
 <h1>Great Parks in New York's Capital Region</h1>

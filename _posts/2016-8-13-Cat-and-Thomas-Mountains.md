@@ -2,6 +2,7 @@
 layout: default
 title: Cat & Thomas Mountains 
 excerpt: A loop or in-and-out hike from Bolton Landing, allowing you to hike to one or both peaks overlooking Lake George
+categories: [Lake George, Adirondacks]
 ---
 
 <h1>Cat &amp; Thomas Mountains</h1>

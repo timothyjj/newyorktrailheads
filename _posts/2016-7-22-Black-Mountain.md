@@ -2,6 +2,7 @@
 layout: default
 title: Black Mountain
 excerpt: Climb the highest mountain in the Lake George region
+categories: [Lake George, Adirondacks]
 ---
 
 <h1>Black Mountain</h1>

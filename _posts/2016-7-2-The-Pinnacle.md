@@ -2,6 +2,7 @@
 layout: default
 title: The Pinnacle Overlooking Lake George 
 excerpt: Starting from a side road in Bolton Landing, The Pinnacle ends with an expansive view of Lake George after a short, fairly easy hike
+categories: [Lake George, Adirondacks]
 ---
 
 <h1>The Pinnacle</h1>

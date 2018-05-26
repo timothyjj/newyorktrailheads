@@ -2,6 +2,7 @@
 layout: default
 title: Poke-O-Moonshine
 excerpt: Hike to a summit with a fire tower and expansive views of Lake Champlain
+categories: Adirondacks
 ---
 
 <h1>Poke-O-Moonshine</h1>

@@ -2,6 +2,7 @@
 layout: default
 title: Saratoga National Historical Park
 excerpt: Walk an easy hiking trail or travel a tour road in a park steeped in Revolutionary War history
+categories: [Nature Preserves & Parks]
 ---
 
 <h1>Saratoga National Historical Park</h1>

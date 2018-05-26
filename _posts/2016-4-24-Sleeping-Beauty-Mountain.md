@@ -2,6 +2,7 @@
 layout: default
 title: Sleeping Beauty Mountain 
 excerpt: A moderately easy hike to a view of the southern portion of Lake George.
+categories: [Adirondacks, Lake George]
 ---
 
 <h1>Sleeping Beauty Mountain</h1>

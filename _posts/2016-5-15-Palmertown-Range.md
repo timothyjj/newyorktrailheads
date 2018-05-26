@@ -2,6 +2,7 @@
 layout: default
 title: Palmertown Range 
 excerpt: High up above Moreau Lake, the Palmertown Range includes an extensive trail system stretching seven miles across Adirondack foothills
+categories: [Nature Preserves & Parks]
 ---
 
 <h1>Palmertown Range (Moreau Lake State Park)</h1>

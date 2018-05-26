@@ -2,6 +2,7 @@
 layout: default
 title: Mohawk-Hudson Bike-Hike Trail 
 excerpt: A well-maintained trail following the Mohawk and Hudson Rivers through the Capital Region and further west
+categories: [Bike Trails]
 ---
  
 <h1>Mohawk-Hudson Bike-Hike Trail</h1>

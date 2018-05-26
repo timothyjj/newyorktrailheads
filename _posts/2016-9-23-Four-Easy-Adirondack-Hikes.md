@@ -2,6 +2,7 @@
 layout: default
 title: Four Easy Adirondack Hikes
 excerpt: Looking for a hike in the Adirondacks that doesn't involve intense High Peaks-level elevation gain? See our list
+categories: [Adirondacks]
 ---
 
 <h1>Four Easy Adirondack Hikes</h1>

@@ -2,6 +2,7 @@
 layout: default
 title: Inman Pond 
 excerpt: Hike out to a secluded pond nestled in the midst of the Lake George Wild Forest.
+categories: Adirondacks
 ---
 
 <h1>Inman Pond</h1>
