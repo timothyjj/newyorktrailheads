@@ -13,13 +13,15 @@ title: Locate NY Hiking &amp; Biking Trails
           {% for post in site.posts limit:5 %}
             <section class="post">
 
+              <div class="postcontainer">
+                <div class="post-image"><a href="{{ site.baseurl }}{{ post.url }}">{% assign image = post.images[0] %}
+                {% include image.html image=image %}</a></div>
+
               <div class="post-title"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 
               <div class="post-description">
-                {{ post.excerpt }}
-                <br><a href="{{ site.baseurl }}{{ post.url }}">{% assign image = post.images[0] %}
-                {% include image.html image=image %}</a><br>
-                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+                {{ post.excerpt }}</div>
+                
               </div>
             </section>
           {% endfor %}
