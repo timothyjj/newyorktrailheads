@@ -279,8 +279,6 @@ img {
 
 .google-maps {
     position: relative;
-    height: 0;
-    overflow: hidden;
 }
 
 .google-maps iframe {
