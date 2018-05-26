@@ -1,13 +1,11 @@
 ---
 layout: default
-permalink: /categories/
+permalink: /categories/adirondacks
 title: Trail Listings & Hiking Tips by Category
 ---
 
-<p>Find trails in upstate New York and read tips for making the most of your hike. From Adirondack mountain ascents to easy strolls through a park, we have advice for you here on finding a trail! Browse now and select any trail to see further details, photos, and a map.</p>
-
 <div id="archives">
-{% for category in site.categories %}
+{% for category in site.categories.Adirondacks %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
