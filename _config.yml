@@ -3,3 +3,4 @@ markdown: kramdown
 paginate: 10
 paginate_path: all-trails/page:num
 gems: [jekyll-paginate]
+permalink: /:year/:month/:day/:title:output_ext
