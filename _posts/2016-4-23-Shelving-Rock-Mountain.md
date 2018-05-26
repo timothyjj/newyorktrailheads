@@ -2,6 +2,7 @@
 layout: default
 title: Shelving Rock Mountain 
 excerpt: Following an old carriage road, this mountain offers a simple hike for families with a view of Lake George at the top.
+categories: [Mountains, Adirondacks, Lake George]
 ---
 
 <h1>Shelving Rock Mountain</h1>

@@ -2,6 +2,7 @@
 layout: default
 title: Dwaas Kill Nature Preserve 
 excerpt: Just north of Clifton Park's shopping center area, find a peaceful trail through wooded terrain 
+categories: Nature Preserves
 ---
 
 <h1>Dwaas Kill Nature Preserve</h1>

@@ -2,6 +2,7 @@
 layout: default
 title: Hadley Mountain 
 excerpt: A relatively short hike to a rewarding view and a restored fire tower
+categories: [Mountains, Adirondacks]
 ---
 
 <h1>Hadley Mountain</h1>
