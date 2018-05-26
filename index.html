@@ -17,6 +17,8 @@ title: Locate NY Hiking &amp; Biking Trails
 
               <div class="post-description">
                 {{ post.excerpt }}
+                      {% assign image = post.images[0] %}
+      {% include image.html image=image %}
               </div>
               <div class="read-more-section">
                 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
