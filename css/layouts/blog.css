@@ -410,3 +410,7 @@ img.emoji {
     padding-bottom: 5px;
 } 
 
+.post-description img {
+    max-width: 300px;
+}
+
