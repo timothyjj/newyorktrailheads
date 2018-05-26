@@ -212,11 +212,11 @@ p   {
     border: 1px solid #FF6600;
     padding: 3px;
     text-decoration: none;
+    width: 300px;
 }
 
 .read-more-section {
     padding-bottom: 10px;
-    width: 300px;
 }
 
 .read-more:hover {
