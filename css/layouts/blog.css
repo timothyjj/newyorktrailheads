@@ -215,8 +215,8 @@ p   {
 }
 
 .read-more-section {
-    margin-top: 5px;
     padding-bottom: 10px;
+    width: 300px;
 }
 
 .read-more:hover {
