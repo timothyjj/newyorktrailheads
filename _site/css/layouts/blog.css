@@ -136,6 +136,7 @@ p   {
 }
 .post-title {
     font-size: 1em;
+    font-weight: bold;
     color: #222;
     margin-bottom: 0.1em;
 }
@@ -208,20 +209,20 @@ p   {
 .read-more {
     background-color: #FF6600;
     color:white;
-    font-size: .8em;
+    font-size: 1em;
     border: 1px solid #FF6600;
     padding: 3px;
     text-decoration: none;
+    width: 300px;
+    padding-bottom: 10px;
 }
 
 .read-more-section {
-    margin-top: 5px;
     padding-bottom: 10px;
 }
 
 .read-more:hover {
-    background-color:white ;
-    color:#00813F;  
+    background-color:#00813F ;
 }
 
 .read-more a {
@@ -278,9 +279,10 @@ img {
 }
 
 
+
 .google-maps {
     position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
+    padding-bottom: 56.25%; // This is the aspect ratio
     height: 0;
     overflow: hidden;
 }
@@ -359,9 +361,9 @@ ul.footer-nav {
 }
 
 li.options {
-    margin-left: -40px;
+    margin-left: -50px;
     padding: 5px;
-    max-width: 250px;
+    max-width: 275px;
     border-top: 1px solid #B0CADB;
     font-size: 1em;
     background-color:rgba(0, 0, 0, 0.6);
@@ -408,4 +410,9 @@ img.emoji {
     padding-top: 5px;
     padding-bottom: 5px;
 } 
+
+.post-description img {
+    max-width: 300px;
+    border: 1px solid #FF6600;
+}
 
