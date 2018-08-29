@@ -3,6 +3,15 @@ layout: default
 title: Grafton Lakes State Park 
 excerpt: Park offering a variety of trails through woods and along ponds, an easy drive away from the more populated areas of the Capital Region
 categories: [Nature Preserves & Parks]
+
+images:
+
+  - url: /img/grafton-lakes/graftonlakes-3.jpg
+    alt: Grafton Lakes State Park  
+    title: Grafton Lakes State Park 
+
+featured-image: img/grafton-lakes/graftonlakes-3.jpg
+
 ---
 
 <h1>Grafton Lakes State Park </h1>

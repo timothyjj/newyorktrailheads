@@ -9,6 +9,9 @@ images:
   - url: /img/albany-county-rail-trail/bridge.jpg
     alt: Bridge on Albany County Rail Trail
     title: Bridge on Albany County Rail Trail
+
+featured-image: img/albany-county-rail-trail/bridge.jpg
+
 ---
 
 <h1>Albany County Rail Trail</h1>

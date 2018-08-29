@@ -3,6 +3,13 @@ layout: default
 title: Lake Bonita (Moreau Lake State Park) 
 excerpt: New trail system including a circuit around a woodland lake and connector trails to the existing Palmertown Range network
 categories: [Nature Preserves & Parks]
+
+  - url: /img/lake-bonita/lake-bonita.jpg
+    alt: Lake Bonita 
+    title: Lake Bonita 
+
+featured-image: img/lake-bonita/lake-bonita.jpg
+
 ---
 
 <h1>Lake Bonita (Moreau Lake State Park)</h1>

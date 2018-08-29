@@ -9,6 +9,9 @@ images:
   - url: /img/overlook-mountain/overlook-mountain-view.jpg
     alt: View of the Hudson River from Overlook Mountain
     title: View of the Hudson River from Overlook Mountain
+
+featured-image: img/overlook-mountain/overlook-mountain-view.jpg
+
 ---
 
 <h1>Overlook Mountain</h1>

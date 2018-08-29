@@ -9,6 +9,9 @@ images:
   - url: /img/woodcock-preserve/woodcock-preserve-4.jpg
     alt: Woodcock Preserve 
     title: Woodcock Preserve 
+
+featured-image: img/woodcock-preserve/woodcock-preserve-4.jpg
+    
 ---
 
 <h1>Woodcock Preserve</h1>
