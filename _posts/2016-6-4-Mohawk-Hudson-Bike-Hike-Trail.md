@@ -6,11 +6,11 @@ categories: [Bike Trails]
 
 images:
 
-  - url: /img/mohawk-hudson-trail/Niskayuna-bike-trail.jpeg
+  - url: /img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
     alt: Mohawk-Hudson Bike-Hike Trail 
     title: Mohawk-Hudson Bike-Hike Trail 
 
-featured-image: img/mohawk-hudson-trail/Niskayuna-bike-trail.jpeg
+featured-image: img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
 
 ---
  
@@ -35,7 +35,7 @@ featured-image: img/mohawk-hudson-trail/Niskayuna-bike-trail.jpeg
                      data-max-height="100%" >
 <img src="/img/mohawk-hudson-trail/Mohawk-hudson-trail-sign.jpeg" alt="Trail entrance near the bridge over Balltown 
 Road"><br />
-<img src="/img/mohawk-hudson-trail/Niskayuna-bike-trail.jpeg" alt="Overlooking the Mohawk River from Niskayuna"><br />
+<img src="/img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg" alt="Overlooking the Mohawk River from Niskayuna"><br />
 <img src="/img/mohawk-hudson-trail/Bike-trail-railing.jpeg" alt="Steep hill"><br />
 <img src="/img/mohawk-hudson-trail/trail.jpeg" alt="On the trail"><br />
 </div>
