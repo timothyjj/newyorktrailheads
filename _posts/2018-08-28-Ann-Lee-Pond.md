@@ -9,6 +9,9 @@ images:
   - url: /img/ann-lee-pond/ann-lee-pond.jpeg
     alt: View of Ann Lee Pond
     title: View of Ann Lee Pond
+
+featured-image: /img/ann-lee-pond/ann-lee-pond.jpeg
+
 ---
 
 <h1>Ann Lee Pond & Nature Preserve</h1>
