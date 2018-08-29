@@ -10,7 +10,7 @@ images:
     alt: View of Ann Lee Pond
     title: View of Ann Lee Pond
 
-featured-image: /img/ann-lee-pond/ann-lee-pond.jpeg
+featured-image: img/ann-lee-pond/ann-lee-pond.jpeg
 
 ---
 
