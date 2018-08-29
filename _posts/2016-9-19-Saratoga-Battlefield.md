@@ -3,6 +3,14 @@ layout: default
 title: Saratoga National Historical Park
 excerpt: Walk an easy hiking trail or travel a tour road in a park steeped in Revolutionary War history
 categories: [Nature Preserves & Parks, Bike Trails]
+
+images:
+
+  - url: /img/saratoganationalpark.jpg
+    alt: Saratoga National Historical Park
+    title: Saratoga National Historical Park
+
+featured-image: img/saratoganationalpark.jpg
 ---
 
 <h1>Saratoga National Historical Park</h1>

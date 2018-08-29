@@ -18,7 +18,7 @@ categories: [Lake George, Adirondacks]
 
 <p>All in all, this trail offers a great venture into the woods for those with families or those who just want a quick jaunt to a nice view. The trailhead is easy to get to via mostly main roads and offers a decent amount of parking. For more information and a downloadable trail map, see the <a href="http://www.lglc.org/preserves/pilot-knob/" target="_blank">Lake George Land Conservancy's page</a> on this trail.
 
-<h2>Photos</h2>
+<h2>Pilot Knob Preserve Photos</h2>
 <div id="photos" class="fotorama" data-nav="thumbs" data-width="100%"
                      data-ratio="800/600"
                      data-min-width="100%"

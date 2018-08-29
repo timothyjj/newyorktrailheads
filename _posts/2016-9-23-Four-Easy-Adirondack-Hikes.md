@@ -3,6 +3,15 @@ layout: default
 title: Four Easy Adirondack Hikes
 excerpt: Looking for a hike in the Adirondacks that doesn't involve intense High Peaks-level elevation gain? See our list
 categories: [Adirondacks]
+
+images:
+
+  - url: /img/four-hikes/shelving-rock-falls.jpg
+    alt: Easy Adirondack Hikes
+    title: Easy Adirondack Hikes
+
+featured-image: img/four-hikes/shelving-rock-falls.jpg
+
 ---
 
 <h1>Four Easy Adirondack Hikes</h1>
