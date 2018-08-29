@@ -1,0 +1,44 @@
+---
+layout: default
+title: Ann Lee Pond & Nature Preserve
+excerpt: A trek through woods and around a pond near Albany Airport
+categories: [Nature Preserves & Parks]
+---
+
+<h1>Ann Lee Pond & Nature Preserve</h1>
+
+<p>Located a short distance from the Albany airport, with parking on Heritage Lane, Ann Lee Pond offers wooded seclusion in the heart of the suburbs. This property was once part of the Shaker settlement in the area and currently borders the Shaker Historic Site.</p>
+
+<p>The red trail circles this small pond, crossing a brand new bridge over the water and passing the remnants of the old bridge. You'll find some beautiful views over the pond while out on the bridge. A blue trail allows you to head deeper into the woods to extend your hike. </p>
+
+<p>The trail is relatively easy to follow, although some portions deeper in the woods aren't as well marked. As a popular fishing spot, you'll encounter anything from fish to waterfowl to (unfortunately) mosquitoes, depending on the time of year.</p>
+
+
+
+<h2>Ann Lee Pond Photos</h2>
+
+<div class="fotorama" data-nav="thumbs" data-width="100%"
+                     data-ratio="800/600"
+                     data-min-width="100%"
+                     data-max-width="1000"
+                     data-min-height="300"
+                     data-max-height="100%" >
+<img src="/img/ann-lee-pond/ann-lee-pond.jpeg" alt="View of Ann Lee Pond"><br />
+<img src="/img/ann-lee-pond/grassy-trail.jpeg" alt="Trail through the grass"><br />
+<img src="/img/ann-lee-pond/bridge.jpeg" alt="Entering the trail"><br />
+<img src="/img/ann-lee-pond/new-bridge.jpeg" alt="New bridge over the pond"><br />
+<img src="/img/ann-lee-pond/old-bridge.jpeg" alt="Remnants of the old bridge"><br />
+<img src="/img/ann-lee-pond/swamp.jpeg" alt="Swampy area in the back of the pond"><br />
+
+</div>
+
+<h2 id="trailmap">Ann Lee Pond Trailhead Map</h2>
+
+<p>
+	<a href="http://www.albanycounty.com/Government/Departments/RecreationDept/AnnLeePond.aspx" target="_blank">
+		Find a detailed trail map on the Albany County website.
+	</a>
+</p>
+
+<div class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.33428582685!2d-73.81508948453171!3d42.73897917916332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de0ce8a99e660b%3A0x6a581df2ce9065be!2sAnn+Lee+Pond+Nature+and+Historic+Preserve!5e0!3m2!1sen!2sus!4v1535504550294" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
