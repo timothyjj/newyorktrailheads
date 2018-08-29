@@ -3,6 +3,15 @@ layout: default
 title: Winter Hiking Tips
 excerpt: Don't let snow deter you from heading outside for a hike, but stay safe! See our tips for planning your next winter hike
 categories: [Hiking Tips]
+
+images:
+
+  - url: /img/winterhiking.jpg
+    alt: Winter Hiking Tips
+    title: Winter Hiking Tips
+
+featured-image: img/100-acre-woods/100acrewoods-4.jpg
+
 ---
  
 <h1>Winter Hiking Tips</h1>
@@ -26,6 +35,8 @@ categories: [Hiking Tips]
 <p>As you climb to elevations with more snow accumulation, you may find yourself "postholing" if you're hiking in boots alone. The process of stepping in and out of deep layers of snow will quickly wear you out; in this type of a condition, snowshoes are a good choice of footwear.</p>
 
 <p>If you're in an exposed area where snow has frozen to ice, you'll likely want to wear crampons, in essence metal spikes that attach to your boots. You'll have much better grip to avoid slipping as you climb.</p>
+
+<img class="pure-img-responsive" src="/img/winter-picnic-table.jpg" alt="winter hiking">
 
 <h2>Don't Freeze Your Water Source</h2>
 

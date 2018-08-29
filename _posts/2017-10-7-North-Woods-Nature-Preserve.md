@@ -9,6 +9,9 @@ images:
   - url: /img/north-woods/northwoods-5.jpg
     alt: North Woods Nature Preserve 
     title: North Woods Nature Preserve 
+
+featured-image: img/north-woods/northwoods-5.jpg
+    
 ---
 
 <h1>North Woods Nature Preserve</h1>
