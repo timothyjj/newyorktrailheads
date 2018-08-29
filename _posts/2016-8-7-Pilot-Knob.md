@@ -3,6 +3,7 @@ layout: default
 title: Pilot Knob Preserve
 excerpt: A moderately easy hike with some elevation gain, Pilot Knob Preserve offers a gazebo, panoramic view of Lake George, and waterfall
 categories: [Lake George, Adirondacks]
+
 ---
 
 <h1>Pilot Knob Preserve</h1>
