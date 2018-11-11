@@ -22,7 +22,7 @@ featured-image: img/ashford-glen/ashford-glen-1.jpg
 
 <p>You'll see a sign for the preserve and a fenced entrance. The trail meanders along the top of a steep ravine, venturing deeper into the woods and following a small stream. While you won't encounter any dramatic scenery, the beauty of the trees, leaves covering the trail, and the small waterway provide a satisfying nature experience for anyone wanting to venture out for a brief walk. The trail is easy for hikers of all levels; just be wary of the steep hill slanting downward next to the trail.</p>
 
-<p>Maintained by the <a href="https://mohawkhudson.org/our-preserves/ashford-glen-preserve/">Mohawk Hudson Land Conservancy</a>, the trail is well-kept and easy to follow. Informative signs mark some trees to inform passersby of the species. When you've reached the final portion of the trail, you'll see some clear signs showing the end, so you can then turn around and hike back to your vehicle. Be careful to stay only on marked sections of trail, as you are venturing close to property owned by nearby homeowners.</p>
+<p>Maintained by the <a href="https://mohawkhudson.org/our-preserves/ashford-glen-preserve/" target="_blank">Mohawk Hudson Land Conservancy</a>, the trail is well-kept and easy to follow. Informative signs mark some trees to inform passersby of the species. When you've reached the final portion of the trail, you'll see some clear signs showing the end, so you can then turn around and hike back to your vehicle. Be careful to stay only on marked sections of trail, as you are venturing close to property owned by nearby homeowners.</p>
 
 <h2>Ashford Glen Preserve Photos</h2>
 
