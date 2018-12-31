@@ -3,6 +3,15 @@ layout: default
 title: Black Mountain
 excerpt: Climb the highest mountain in the Lake George region
 categories: [Lake George, Adirondacks]
+
+images:
+
+  - url: /img/black-mountain.jpg
+    alt: Black Mountain
+    title: Black Mountain
+
+featured-image: img/black-mountain.jpg
+
 ---
 
 <h1>Black Mountain</h1>

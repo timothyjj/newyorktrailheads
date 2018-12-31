@@ -3,6 +3,15 @@ layout: default
 title: Ushers Road State Forest 
 excerpt: Located just off Northway Exit 10, this old growth forest contains a short loop trail, along with a connection to the Zim Smith Trail.
 categories: [Nature Preserves & Parks]
+
+images:
+
+  - url: /img/ushers-road-forest/old-car.jpg"
+    alt: Ushers Road State Forest
+    title: Ushers Road State Forest
+
+featured-image: img/ushers-road-forest/old-car.jpg"
+
 ---
 
 <h1>Ushers Road State Forest</h1>

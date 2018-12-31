@@ -3,6 +3,15 @@ layout: default
 title: Buck Mountain 
 excerpt: Buck Mountain offers one of the most beautiful views available of Lake George.
 categories: [Lake George, Adirondacks]
+
+images:
+
+  - url: /img/buckmountain.jpg
+    alt: Buck Mountain 
+    title: Buck Mountain 
+
+featured-image: img/buckmountain.jpg
+
 ---
 
 <h1>Buck Mountain</h1>

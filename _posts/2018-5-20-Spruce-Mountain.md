@@ -9,6 +9,9 @@ images:
   - url: /img/spruce-mountain/climbing-tower.jpg
     alt: View from Spruce Mountain Fire Tower
     title: View from Spruce Mountain Fire Tower
+
+featured-image: img/spruce-mountain/climbing-tower.jpg
+
 ---
 
 <h1>Spruce Mountain</h1>

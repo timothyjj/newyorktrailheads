@@ -3,6 +3,15 @@ layout: default
 title: Hadley Mountain 
 excerpt: A relatively short hike to a rewarding view and a restored fire tower
 categories: [Adirondacks]
+
+images:
+
+  - url: /img/hadleymountain.jpg
+    alt: Hadley Mountain 
+    title: Hadley Mountain 
+
+featured-image: img/hadleymountain.jpg
+
 ---
 
 <h1>Hadley Mountain</h1>

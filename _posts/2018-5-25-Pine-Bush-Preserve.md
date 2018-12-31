@@ -9,6 +9,9 @@ images:
   - url: /img/pine-bush/helderberg-view.jpg
     alt: View of Helderbergs from Pine Bush Preserve
     title: View of Helderbergs from Pine Bush Preserve
+
+featured-image: img/pine-bush/helderberg-view.jpg
+    
 ---
 
 <h1>Albany Pine Bush Preserve</h1>

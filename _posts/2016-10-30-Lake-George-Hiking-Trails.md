@@ -3,6 +3,15 @@ layout: default
 title: Lake George Hiking Trails with the Best Views 
 excerpt: Find places to hike with incredible overlooks of Lake George
 categories: [Lake George, Adirondacks]
+
+images:
+
+  - url: /img/lake-george-hikes/buck-mountain-view.jpg
+    alt: Lake George from Buck Mountain 
+    title: Lake George from Buck Mountain 
+
+featured-image: img/lake-george-hikes/buck-mountain-view.jpg
+
 ---
 
 <h1>Lake George Hiking Trails with the Best Views</h1>
