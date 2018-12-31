@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Upstate New York First Day Hike Ideas 
-excerpt: Want to get outside for the New Yeark, See our list of First Day hikes scheduled for January 1, 2019.
+excerpt: Want to get outside for the New Year? See our list of First Day hikes scheduled for January 1, 2019.
 
 images:
 
