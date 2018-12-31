@@ -3,6 +3,15 @@ layout: default
 title: Trail Hiking Tips - Know Your Destination
 excerpt: First in a series of hiking tips, we discuss knowing where you're going before you hike!
 categories: [Hiking Tips]
+
+images:
+
+  - url: /img/mountain-trail.jpg
+    alt: Mountain Trail
+    title: Mountain Trail 
+
+featured-image: img/mountain-trail.jpg
+
 ---
  
 <h1>Trail Hiking Tips: Know Your Destination</h1>

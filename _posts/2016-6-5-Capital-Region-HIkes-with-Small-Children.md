@@ -3,9 +3,20 @@ layout: default
 title: Capital Region Hikes with Small Children
 excerpt: Several options for finding a place to walk without going beyond your kids' limits
 categories: [Nature Preserves & Parks]
+
+images:
+
+  - url: /img/capital-region-hikes/saratoga-spa-state-park.jpg
+    alt: Saratoga Spa State Park
+    title: Saratoga Spa State Park 
+
+featured-image: img/capital-region-hikes/saratoga-spa-state-park.jpg
+
 ---
 
 <h1>Capital Region Hikes for Small Children</h1>
+
+<img class="pure-img-responsive" src="http://newyorktrailheads.com/img/capital-region-hikes/saratoga-spa-state-park.jpg" alt="Saratoga Spa State Park">
 
 <p>When you're looking for activities to entertain young kids, often a simple walk in the woods can serve as a fun adventure. Children will use up energy walking and running around while enjoying discovery of the wide world of nature, from rocks to leaves, from frogs to rabbits.</p>
 
