@@ -14,7 +14,7 @@ featured-image: img/adirondack-winter.jpg
 
 ---
 
-<img src="img/adirondack-winter.jpg">
+<img src="/img/adirondack-winter.jpg">
 
 <h1>Adirondack Winter Hiking Ideas</h1>
 
