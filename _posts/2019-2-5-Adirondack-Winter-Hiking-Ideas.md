@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adirondack Winter Hiking Ideas
+title: Three Adirondack Winter Hiking Ideas
 excerpt: If you're looking to get outside to enjoy the beauty of winter, explore these options in the Adirondacks
 categories: [Adirondacks]
 
@@ -16,7 +16,7 @@ featured-image: img/adirondack-winter.jpg
 
 <img src="/img/adirondack-winter.jpg">
 
-<h1>Adirondack Winter Hiking Ideas</h1>
+<h1>Three Adirondack Winter Hiking Ideas</h1>
 
 <p>In the North Country, the arrival of snow and freezing temperatures doesn't have to mean that you're stuck inside for 4 months. With <a href="http://newyorktrailheads.com/2017/01/14/Winter-Hiking-Tips.html">the right gear and preparation</a>, you can enjoy a day outside in winter just as much as during the rest of the year. Here are a few options for hiking (or snowshoeing) in the Adirondacks when snow covers the ground.</p>
 
