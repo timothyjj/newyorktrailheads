@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: defaulthome
 permalink: /categories/adirondacks
 title: Find Adirondack Trails
 ---
@@ -10,15 +10,19 @@ title: Find Adirondack Trails
 <p>We've primarily covered trails in the southeastern region, many within an hour's drive of the general Capital Region. Even when hiking an easy Adirondack trail, remember that you are often heading into wilderness regions. Know your route, bring plenty of food and water, and ensure that you're wearing proper clothing before heading into the woods.</p>
 
 {% for post in site.categories.Adirondacks %}
-            <section class="post">
+<section class="post">
 
-              <div class="post-title"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+              <div class="postcontainer">
+                <div class="post-image"><a href="{{ site.baseurl }}{{ post.url }}">{% assign image = post.images[0] %}
+                {% include image.html image=image %}</a></div>
+
+              <div class="post-copy">
+                <div class="post-title"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 
               <div class="post-description">
-                {{ post.excerpt }}
+                {{ post.excerpt }}</div>
               </div>
-              <div class="read-more-section">
-                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+                
               </div>
             </section>
 {% endfor %}
