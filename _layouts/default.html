@@ -104,8 +104,66 @@
 
             {{ content }}
 
-            <div id="amzn-assoc-ad-10306c9d-3f35-42d8-bd67-a12d3f1d8e4a"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=10306c9d-3f35-42d8-bd67-a12d3f1d8e4a"></script>
+            <div class="relatedPosts">
 
+<h2>You May Also Enjoy</h2> 
+  
+{% assign maxRelated = 4 %}
+{% assign minCommonTags =  1 %}
+{% assign maxRelatedCounter = 0 %}
+
+{% for post in site.posts %}
+
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+
+    {% for category in post.categories %}
+      {% if post.url != page.url %}
+        {% if page.categories contains category %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+          {% assign commonTags = commonTags | append: tagmarkup %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+<section class="post">
+
+              <div class="postcontainer">
+                <div class="post-image"><a href="{{ site.baseurl }}{{ post.url }}">{% assign image = post.images[0] %}
+                {% include image.html image=image %}</a></div>
+
+              <div class="post-copy">
+                <div class="post-title"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+
+              <div class="post-description">
+                {{ post.excerpt }}</div>
+              </div>
+                
+              </div>
+            </section>
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+
+  {% endfor %}
+
+</div>
+
+            <p>See more posts in the <span class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</span> category.</p>
             <div class="footer">
                 <div class="pure-menu pure-menu-horizontal">
                     <hr>
@@ -118,6 +176,7 @@
                        
                     </ul>
                 </div>
+                <div id="amzn-assoc-ad-10306c9d-3f35-42d8-bd67-a12d3f1d8e4a"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=10306c9d-3f35-42d8-bd67-a12d3f1d8e4a"></script>
                 <div class="adsense">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- General -->
@@ -134,11 +193,6 @@
         </div>
     </div>
 </div>
-
-
-
-
-
 
 </body>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 93 KB -->
