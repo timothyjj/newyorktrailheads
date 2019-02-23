@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 5 Tips to Get Your Kids Hiking
-excerpt: Advice for training children to love the outdoors & learn to hike
+excerpt: Advice for helping children to love the outdoors & learn to hike
 categories: [Hiking Tips]
 
 images:
@@ -22,7 +22,7 @@ featured-image: img/cairn.jpg
 
 <h2>Find Age-Appropriate Hikes</h2>
 
-<p>Find hikes that are suitable to the level of your children. For infants, they might not be ready to walk, but you can take them to local parks in a stroller, or take them on treks in a baby carrier. Toddlers can work up to handling trails of a mile or two with practice, but start small, as you don't want to be all the way out on a trail and have meltdown to handle! Elementary school aged kids and teens are likely ready to tackle moderate mountain climbs, although, of course, consider experience and skill level in the process.</p>
+<p>Find <a href="http://newyorktrailheads.com/2016/06/05/Capital-Region-HIkes-with-Small-Children.html">hikes that are suitable to the level of your children</a>. For infants, they might not be ready to walk, but you can take them to local parks in a stroller, or take them on treks in a baby carrier. Toddlers can work up to handling trails of a mile or two with practice, but start small, as you don't want to be all the way out on a trail and have meltdown to handle! Elementary school aged kids and teens are likely ready to tackle moderate mountain climbs, although, of course, consider experience and skill level in the process.</p>
 
 <h2>Take Your Time!</h2>
 
