@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lisha Kill Natural Area
-excerpt: Rare old forest in the midst of the Capital Region
+excerpt: Rare example of an old growth forest in the midst of the Capital Region
 categories: [Nature Preserves & Parks]
 
 images:
