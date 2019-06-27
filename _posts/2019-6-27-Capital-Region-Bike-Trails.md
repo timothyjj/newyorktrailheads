@@ -6,11 +6,11 @@ categories: [Bike Trails]
 
 images:
 
-  - url: /img/mohawk-river-bike-trail.jpg
+  - url: /img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
     alt: Capital Region Bike Trails 
     title: Capital Region Bike Trails 
     
-featured-image: img/mohawk-river-bike-trail.jpg
+featured-image: img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
 
 ---
  
