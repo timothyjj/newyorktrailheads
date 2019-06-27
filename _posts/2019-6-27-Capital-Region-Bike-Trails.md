@@ -44,11 +44,11 @@ featured-image: img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
 
 <p>Dedicated parking areas can be found in Voorheesville, Slingerlands, Delmar, and the trail terminus at North Pearl Street. You can also rent a bike via CDPHP's bike share program from the Albany end of the trail.</p>
 
-<h3><a href="https://www.townofhalfmoon-ny.gov/parks-department/pages/champlain-canal-trail">Champlain Canalway Bikeway</a></h3>
+<h3><a href="https://www.townofhalfmoon-ny.gov/parks-department/pages/champlain-canal-trail" target="_blank">Champlain Canalway Bikeway</a></h3>
 
 <p>This trail follows the old Champlain Canal north from the Waterford area north. While a plan is in place to complete a fully connected trail, for now you can bike/walk on individual sections, connecting on roads in between. Currently, you can find parking areas and sections of completed trail within the town of Halfmoon using the link above.</p>
 
-<h3><a href="http://www.warrencountydpw.com/parks_rec07/Bikeway.htm">Warren County Bikeway</a></h3>
+<h3><a href="http://www.warrencountydpw.com/parks_rec07/Bikeway.htm" target="_blank">Warren County Bikeway</a></h3>
 
 <p>This path extends just over 9 miles from downtown Glens Falls, ending at the shores of the lake within the village of Lake George. Built on a former railroad line, the trail contains a paved path with a variety of city, suburban, woods, and water's edge terrain. At the north end of the trail, you'll go through the historic Lake George Battlefield Park.</p>
 
