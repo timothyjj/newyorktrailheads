@@ -16,27 +16,29 @@ featured-image: img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
  
 <h1>Capital Region Bike Trails</h1>
 
-<p>New York's Capital Region is home to many miles of multiuse trails that are perfect for biking, as well as running or walking. A mix of terrain features riverside views, forested paths, straight and level areas for leisurely cycling or strolling, and steep hills for those wanting a challenge. In this article, we'll highlight several favorite area trails.</p>
+<p>New York's Capital Region is home to many miles of multiuse trails that are perfect for biking, as well as running or walking. A mix of terrain features riverside views, forested paths, straight and level areas for leisurely cycling or strolling, and steep hills for those wanting a challenge. </p>
 
-<a href="http://newyorktrailheads.com/2016/04/09/Zim-Smith-Trail.html"><h3>Zim Smith Trail</h3></a>
+<p>In this article, we'll highlight several favorite area trails. Click the name of each trail to see further details.</p>
 
-<img class="pure-img-responsive" src="/img/zim-smith-trail/zim-smith-trail-fall.jpg" alt="Zim Smith Trail">
+<h3><a href="http://newyorktrailheads.com/2016/04/09/Zim-Smith-Trail.html">Zim Smith Trail</a></h3>
+
+<img class="pure-img-responsive img-small" src="/img/zim-smith-trail/zim-smith-trail-fall.jpg" alt="Zim Smith Trail">
 
 <p>With 9 miles of trail, mostly paved apart from the southern gravel portion, this path extends from Halfmoon to Ballston Spa. A cutoff trail leads to the Global Foundries area in Malta In addition, plans are in the works to extend the trail further on the southern end.</p> 
 
 <p>You'll ride through marshland, through the charming small town community of Round Lake, over a bridge with views out to the forest area surrounding the Global Foundries plant, and end by the railroad in Ballston Spa. Multiple parking spots along the way allow for easy access from any of the nearby communities, with Shenantaha Park in Malta and the parking lot next to Leah's Cakery in Round Lake two popular starting points.</p>
 
-<h3>Mohawk-Hudson Bike Trail</h3>
+<h3><a href="http://newyorktrailheads.com/2016/06/04/Mohawk-Hudson-Bike-Hike-Trail.html">Mohawk-Hudson Bike Trail</a></h3>
 
-<a href="http://newyorktrailheads.com/2016/06/04/Mohawk-Hudson-Bike-Hike-Trail.html"><img class="pure-img-responsive" src="/img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg" alt="Mohawk-Hudson Bike Trail"></a>
+<img class="pure-img-responsive img-small" src="/img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg" alt="Mohawk-Hudson Bike Trail">
 
 <p>This trail extends from Albany, following the Hudson River north and connecting to the Mohawk River section from Cohoes, leading west beyond Schenectady. Entirely paved, with some small sections following roads, the trail includes incredible views of the Mohawk River, beautiful wooded sections, and easy stops in Albany or Schenectady for food.</p> 
 
 <p>The trail stays fairly level in sections, although you'll encounter some steeper hills in sections heading west through Niskayuna. Some good starting points with plenty of parking are the Colonie Town Park or Lions Park in Niskayuna.</p>
 
-<a href="http://newyorktrailheads.com/2018/07/22/Albany-County-Rail-Trail.html"><h3>Albany County Rail Trail</h3></a>
+<h3><a href="http://newyorktrailheads.com/2018/07/22/Albany-County-Rail-Trail.html">Albany County Rail Trail</a></h3>
 
-<img class="pure-img-responsive" src="/img/albany-county-rail-trail/bridge.jpg" alt="Albany County Rail Trail">
+<img class="pure-img-responsive img-small" src="/img/albany-county-rail-trail/bridge.jpg" alt="Albany County Rail Trail">
 
 <p>This trail (also known as the Helderberg-Hudson Rail Trail) extends from the North Pearl Street in Albany into the southern Albany suburbs of Delmar, Bethlehem, and Voorheesville. With some newly paved sections, this is a great spot for bike riders and runners of all levels. You'll encounter a mix of suburban surroundings, creek views, and farmland as you traverse the trail.</p>
 

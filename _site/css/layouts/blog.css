@@ -425,3 +425,8 @@ img.emoji {
     width:100%;
     overflow:auto;
 }
+
+.img-small {
+    max-width: 400px;
+    height: auto;
+}
