@@ -33,7 +33,8 @@ featured-image: img/high-point/helderbergs.jpg
                      data-min-width="100%"
                      data-max-width="1000"
                      data-min-height="300"
-                     data-max-height="100%" >
+                     data-max-height="100%" 
+     				 data-arrows="true">
 <img src="/img/high-point/trail.jpg" alt="High Point Trail"><br />
 <img src="/img/high-point/field.jpg" alt="Field Along the Trail"><br />
 <img src="/img/high-point/newt.jpg" alt="Newt"><br />
