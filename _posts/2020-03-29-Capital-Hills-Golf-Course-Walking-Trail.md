@@ -10,7 +10,7 @@ images:
     alt: Capital Hills Golf Course Walking Trail
     title: Capital Hills Golf Course Walking Trail
 
-featured-image: img/capital-hills/capital-hills-trail.jpeg
+featured-image: img/capital-hills/capital-hills-landscape.png
 
 ---
 
