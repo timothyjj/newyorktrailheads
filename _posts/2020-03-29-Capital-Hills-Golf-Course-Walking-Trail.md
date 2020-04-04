@@ -6,7 +6,7 @@ categories: [Nature Preserves & Parks]
 
 images:
 
-  - url: /img/capital-hills/capital-hills-trail.jpeg
+  - url: /img/capital-hills/capital-hills-landscape.png
     alt: Capital Hills Golf Course Walking Trail
     title: Capital Hills Golf Course Walking Trail
 
