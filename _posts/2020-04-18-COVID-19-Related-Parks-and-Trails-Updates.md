@@ -38,9 +38,9 @@ featured-image: img/overlook-mountain/overlook-mountain-view.jpg
 
 <h2>Adirondack Region</h2>
 
-<p>The Adirondack region is currently discouraging people who live outside the area from traveling there to hike during this time, due to limited healthcare resources and many in the population who are at risk. Please be respectful of the residents and, if you're from another area, wait to plan your next Adirondack hike.</p>
+<p>The Adirondack region is currently discouraging people who live outside the area from traveling there to hike during this time, due to limited healthcare resources and many in the population who are at risk. Please be respectful of the residents and, if you're from another area, wait to plan your next Adirondack hike. Note that it's mud season, anyway, so you should generally keep to lower elevations.</p>
 
-<p>The Adirondack Mountain Club has closed all of its properties in this time, although parking remains open for local hikers at the Heart Lake Program Center.</p>
+<p>The Adirondack Mountain Club has closed all of its properties in this time, although parking remains open for <strong>local</strong> hikers at the Heart Lake Program Center.</p>
 
 <p>In addition, all firetowers are closed. While you can still hike to the top of a mountain with a firetower, you won't be able to climb the tower.</p>
 
