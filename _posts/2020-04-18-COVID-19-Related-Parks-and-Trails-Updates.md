@@ -42,7 +42,7 @@ featured-image: img/overlook-mountain/overlook-mountain-view.jpg
 
 <p>The Adirondack Mountain Club has closed all of its properties in this time, although parking remains open for local hikers at the Heart Lake Program Center.</p>
 
-<p>In addition, all firetowers are closed. While you can still hike to the top of a mountain with a firetower, you won't be able to climb the tower. </p>
+<p>In addition, all firetowers are closed. While you can still hike to the top of a mountain with a firetower, you won't be able to climb the tower.</p>
 
 <h2>Catskill Region</h2>
 
