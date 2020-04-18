@@ -22,6 +22,8 @@ featured-image: img/overlook-mountain/overlook-mountain-view.jpg
 
  <p>In the meantime, stay safe when you do go outside and choose to hike at parks near where you live. You should only hike by yourself or with your immediate household. Keep 6 feet away from others, avoid busy trails, and have a mask handy for if you do end up being near other people. Also, this is not the time to be venturing into areas where it may be difficult for a forest ranger to conduct a rescue.</p>
 
+ <p><strong>Help us keep this page updated! <a href="http://newyorktrailheads.com/contact.html">Reach out</a> with any additional closures you're aware of.</strong></p>
+
 <h2>New York State Parks</h2>
 
 <p>In order to give people an option for activities when so many other places are closed, New York has graciously waived admission fees to all state parks. However, buildings such as visitor or nature centers are closed, and don't expect to find bathrooms open. </p>
