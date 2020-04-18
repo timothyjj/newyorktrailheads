@@ -18,7 +18,7 @@ featured-image: img/overlook-mountain/overlook-mountain-view.jpg
 
 <p>As the current unfortunate circumstances in the world have resulted in countless New Yorkers staying at home, naturally people turn to the outdoors for a break. In turn, overcrowding in some popular areas has led to closures in order to take the necessary precautions.</p>
 
-<p>We'll do our best to keep an up-to-date list of current closures and other guidelines to be aware of. Note that with the rapidly changing situation, we can't fully guarantee that everything in this article is current.</p>
+<p>We'll do our best to keep an up-to-date list of closures and other guidelines to be aware of. Note that with the rapidly changing situation, we can't fully guarantee that everything in this article is current, but we'll do our best.</p>
 
  <p>In the meantime, stay safe when you do go outside and choose to hike at parks near where you live. You should only hike by yourself or with your immediate household. Keep 6 feet away from others, avoid busy trails, and have a mask handy for if you do end up being near other people. Also, this is not the time to be venturing into areas where it may be difficult for a forest ranger to conduct a rescue.</p>
 
