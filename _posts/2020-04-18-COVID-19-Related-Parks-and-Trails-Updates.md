@@ -1,0 +1,57 @@
+---
+layout: default
+title: COVID-19 Related Parks & Trails Updates
+excerpt: Closures and other guidelines for NY parks related to COVID-19
+categories: [Hiking Tips]
+
+images:
+
+  - url: /img/overlook-mountain/overlook-mountain-view.jpg
+    alt: COVID-19 Related Parks & Trails Updates
+    title: COVID-19 Related Parks & Trails Updates
+
+featured-image: img/overlook-mountain/overlook-mountain-view.jpg
+
+---
+
+<h1>COVID-19 Related Parks & Trails Updates</h1>
+
+<p>As the current unfortunate circumstances in the world have resulted in countless New Yorkers staying at home, naturally people turn to the outdoors for a break. In turn, overcrowding in some popular areas has led to closures in order to take the necessary precautions.</p>
+
+<p>We'll do our best to keep an up-to-date list of current closures and other guidelines to be aware of. Note that with the rapidly changing situation, we can't fully guarantee that everything in this article is current.</p>
+
+ <p>In the meantime, stay safe when you do go outside and choose to hike at parks near where you live. You should only hike by yourself or with your immediate household. Keep 6 feet away from others, avoid busy trails, and have a mask handy for if you do end up being near other people. Also, this is not the time to be venturing into areas where it may be difficult for a forest ranger to conduct a rescue.</p>
+
+<h2>New York State Parks</h2>
+
+<p>In order to give people an option for activities when so many other places are closed, New York has graciously waived admission fees to all state parks. However, buildings such as visitor or nature centers are closed, and don't expect to find bathrooms open. </p>
+
+<p>Note that the state has closed some parks where overcrowding has taken place. Currently, the NY Parks department website lists Rockland Lake, Hook Mountain, and Nyack Beach State Parks as closed until further notice. In addition, parking levels are monitored in other parks, and popular locations may close to additional visitors once a certain number of people have come for the day.</p>
+
+<h2>National Parks</h2>
+
+<p>Saratoga National Historical Park is currently closed to the public per their website.</p>
+
+<h2>Capital Region Parks</h2>
+
+<p>The Crossings of Colonie is closed to vehicular traffic. Local residents can still walk/bike into the park.</p>
+
+<h2>Adirondack Region</h2>
+
+<p>The Adirondack region is currently discouraging people who live outside the area from traveling there to hike during this time, due to limited healthcare resources and many in the population who are at risk. Please be respectful of the residents and, if you're from another area, wait to plan your next Adirondack hike.</p>
+
+<p>The Adirondack Mountain Club has closed all of its properties in this time, although parking remains open for local hikers at the Heart Lake Program Center.</p>
+
+<p>In addition, all firetowers are closed. While you can still hike to the top of a mountain with a firetower, you won't be able to climb the tower. </p>
+
+<h2>Catskill Region</h2>
+
+<p>Similarly to the Adirondacks, the Catskill region is discouraging outside residents from visiting at this time.</p>
+
+<ul>
+	<li>Kaaterskill Falls: All trails closed until further notice</li>
+	<li>All firetowers are closed, although trails remain open.</li>
+</ul>
+
+
+
