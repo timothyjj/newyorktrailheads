@@ -55,7 +55,10 @@ featured-image: img/overlook-mountain/overlook-mountain-view.jpg
 
 <h2>Capital Region Parks</h2>
 
-<p>The Crossings of Colonie is closed to vehicular traffic. Local residents can still walk/bike into the park.</p>
+<ul>
+<li>The Crossings of Colonie is closed to vehicular traffic. Local residents can still walk/bike into the park.
+</li>
+<li>The Plotter Kill Preserve is closed until further notice.</li></ul>
 
 
 
