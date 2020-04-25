@@ -44,6 +44,8 @@ featured-image: img/overlook-mountain/overlook-mountain-view.jpg
 
 <p>In addition, all firetowers are closed. While you can still hike to the top of a mountain with a firetower, you won't be able to climb the tower.</p>
 
+<p>The trail up Rattlesnake Mountain, in the town of Willsboro, is closed until further notice.</p>
+
 <h2>Catskill Region</h2>
 
 <p>Similarly to the Adirondacks, the Catskill region is discouraging outside residents from visiting at this time.</p>
