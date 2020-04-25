@@ -10,19 +10,19 @@ title: Locate NY Hiking &amp; Biking Trails
           <hr>
           <h2><a href="http://newyorktrailheads.com/all-trails/">Read Our Latest Articles</a></h2>
           <div class="posts">
-          {% for post in site.posts limit:5 %}
+          {% for post in site.posts limit:10 %}
             <section class="post">
 
               <div class="postcontainer">
                 <div class="post-image"><a href="{{ site.baseurl }}{{ post.url }}">{% assign image = post.images[0] %}
                 {% include image.html image=image %}</a></div>
 
-              <div class="post-copy">
-                <div class="post-title"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+                <div class="post-copy">
+                  <div class="post-title"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 
-              <div class="post-description">
+                  <div class="post-description">
                 {{ post.excerpt }}</div>
-              </div>
+                </div>
                 
               </div>
             </section>
@@ -31,15 +31,17 @@ title: Locate NY Hiking &amp; Biking Trails
           
         </div>
         
-
-        <a id="map"><hr></a>
+        <div class="row">
+        <hr>
          <h2>Find Your Next Outdoor Adventure</h2>
         <p>Search our site using the box below, or explore locations on the map! You can also <a href="http://newyorktrailheads.com/all-trails/">view all trail listings and posts</a>.</p>
         <gcse:search></gcse:search>
-        <div class="google-maps">
-          <iframe height="480" src="https://www.google.com/maps/d/embed?mid=1An-APYS0GSAyPKPNNEU-eYIvmY8&z=8" width="640" height="480" width="640"></iframe>
         </div>
-        <hr>
+        <div class="google-maps row">
+          <iframe height="480" src="https://www.google.com/maps/d/embed?mid=1An-APYS0GSAyPKPNNEU-eYIvmY8&z=8" width="640" height="480" width="640"></iframe>
+         <hr>
+        </div>
+       
 
 
 

@@ -1,56 +1,47 @@
 ---
-layout: default
+layout: defaulthome
 title: Locate NY Hiking &amp; Biking Trails
 ---
         
         <div>
           <h2>Your Source for NY Trail Information</h2>
           <p>Looking for a local trail to ride a bike? A mountain to hike?</p> 
-          <p>On this site, you'll find guides to upstate New York trails so you can get outside. While we've started the majority of current listings in the Capital Region and southern Adirondacks, we're planning to expand this resource to other areas of the state. <a href="/contact.html">Let us know</a> about trails you'd like to see featured here!</p>
-          <h3>What do you want to do?</h3>
+          <p>We offer guides to upstate New York trails, with a primary focus on the Capital Region and southern Adirondacks. Listings contain trail descriptions, maps to trailheads, and photos. <a href="#map">View our map</a> to choose a trail, and be sure to <a href="/contact.html">let us know</a> about trails you'd like to see featured here!</p>
+          <hr>
+          <h2><a href="http://newyorktrailheads.com/all-trails/">Read Our Latest Articles</a></h2>
+          <div class="posts">
+          {% for post in site.posts limit:10 %}
+            <section class="post">
 
-          <select class="selectOption">
-              <option>Hike</option>
-              <option>Bike</option>
-              <option>Tips</option>
-          </select>
+              <div class="postcontainer">
+                <div class="post-image"><a href="{{ site.baseurl }}{{ post.url }}">{% assign image = post.images[0] %}
+                {% include image.html image=image %}</a></div>
 
-          <div id="changingArea">
-            <div id="Hike" class="desc google-maps">
-              <iframe height="480" src="https://www.google.com/maps/d/u/0/embed?mid=zU671qDkvGZQ.kbFgAkutJ1mY" width="640"></iframe>
-              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=zU671qDkvGZQ.krcuyyI09Vdw" width="640" height="480"></iframe>
-            </div>
-            <div id="Bike" class="desc">
-              <div class="google-maps">
-  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=zU671qDkvGZQ.krcuyyI09Vdw" width="640" height="480"></iframe>
-</div>
-            </div>
-            <div id="Tips" class="desc">Poll</div>
-          </div>​
+                <div class="post-copy">
+                  <div class="post-title"><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 
-          <ul class="options">
-            <a href="/mountains.html"><li class="options desc">&#127748; Climb a Mountain</li></a>
-            <a href="http://newyorktrailheads.com/2016/10/30/Lake-George-Hiking-Trails.html"><li class="options desc">&#127966; Find a Scenic View</li></a>
-            <a href="http://newyorktrailheads.com/biking-map.html"><li class="options desc"><i class="em em-bike"></i>&#128690; Ride a Bike</li></a>
-            <a href="http://newyorktrailheads.com/2016/11/27/Capital-Region-Parks.html"><li class="options desc">&#128694; Go for a Walk</li></a>
-            <a href="/hiking-tips.html"><li class="options desc">&#128203; Read Hiking Tips</li></a>
-            <a href="/all-trails/"><li class="options desc">&#128506; See All Trails</li></a>
-          </ul>
-            <gcse:search></gcse:search>
+                  <div class="post-description">
+                {{ post.excerpt }}</div>
+                </div>
+                
+              </div>
+            </section>
+          {% endfor %}
+          </div>
+          
         </div>
-
-        <div>
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <!-- General -->
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-9653740880666784"
-               data-ad-slot="7148522750"
-               data-ad-format="auto"></ins>
-          <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
+        
+        <div class="row">
+        <hr>
+         <h2>Find Your Next Outdoor Adventure</h2>
+        <p>Search our site using the box below, or explore locations on the map! You can also <a href="http://newyorktrailheads.com/all-trails/">view all trail listings and posts</a>.</p>
+        <gcse:search></gcse:search>
         </div>
+        <div class="google-maps row">
+          <iframe height="480" src="https://www.google.com/maps/d/embed?mid=1An-APYS0GSAyPKPNNEU-eYIvmY8&z=8" width="640" height="480" width="640"></iframe>
+         <hr>
+        </div>
+       
 
 
 
