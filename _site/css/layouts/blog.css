@@ -134,6 +134,8 @@ p   {
 
 .post {
     padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
     float: left;
     width: 50%;
     height: 50%;
@@ -143,6 +145,9 @@ p   {
     .post {
         width: 100%;
         height: 100%
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
 }
