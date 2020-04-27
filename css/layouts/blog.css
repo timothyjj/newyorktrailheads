@@ -235,7 +235,7 @@ p   {
 }
 .footer a {
     color: #ccc;
-    font-size: 80%;
+    font-size: 100%;
 }
 .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
@@ -340,6 +340,11 @@ img {
 
 .pagination {
     text-align: right;
+}
+
+.pure-menu-link {
+    font-size: 1em;
+    color: white;
 }
 
 .pure-menu-link {
