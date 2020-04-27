@@ -230,6 +230,8 @@ p   {
 .footer {
     text-align: left;
     padding: 1em 0;
+    color: #ccc;
+    font-size: 80%;
 }
 .footer a {
     color: #ccc;
