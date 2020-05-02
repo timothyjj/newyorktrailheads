@@ -24,6 +24,8 @@ featured-image: img/tawasentha/tawasentha6.jpeg
 
 <p>Watch for mud in the spring and other wet seasons! You may want to wear good hiking boots.</p>
 
+<p>For an interesting bit of local history, look for the sign marking the Battle of Normanskill on the Community Gardens side of Rte. 146. This was the only Revolutionary War battle to be fought in Albany County.</p>
+
 <h2>Tawasentha Park Photos</h2>
 
 <div class="fotorama" data-nav="thumbs" data-width="100%"
