@@ -1,0 +1,29 @@
+I"><h1>Pine Hollow Arboretum</h1>
+
+<p></p>
+
+<h2>Pine Hollow Arboretum Photos</h2>
+
+<div class="fotorama" data-nav="thumbs" data-width="100%" data-ratio="800/600" data-min-width="100%" data-max-width="1000" data-min-height="300" data-max-height="100%" data-arrows="true">
+<img src="/img/pine-hollow-arboretum/pinehollow-2.jpeg" alt="Entrance to trail system" /><br />
+<img src="/img/pine-hollow-arboretum/pinehollow-1.jpeg" alt="House with preserve info" /><br />
+<img src="/img/pine-hollow-arboretum/pinehollow-3.jpeg" alt="White Fir" /><br />
+<img src="/img/pine-hollow-arboretum/pinehollow-4.jpeg" alt="Wooden chair" /><br />
+<img src="/img/pine-hollow-arboretum/pinehollow-5.jpeg" alt="Boardwalk" /><br />
+<img src="/img/pine-hollow-arboretum/pinehollow-6.jpeg" alt="Japanese White Pine" /><br />
+<img src="/img/pine-hollow-arboretum/pinehollow-7.jpeg" alt="Redwood" /><br />
+<img src="/img/pine-hollow-arboretum/pinehollow-8.jpeg" alt="Meadow and bench" /><br />
+<img src="/img/pine-hollow-arboretum/pinehollow-9.jpeg" alt="Japanese Hill" /><br />
+<img src="/img/pine-hollow-arboretum/pinehollow-10.jpeg" alt="Japanese Grey Birch" /><br />
+<img src="/img/pine-hollow-arboretum/pinehollow-11.jpeg" alt="Meadow and bench" /><br />
+</div>
+
+<h2 id="trailmap">Trailhead Map</h2>
+
+<p><a href="https://www.pinehollowarboretum.org/visit-us/cdphp-health-and-wellness-trails/" target="_blank">View a map of the trail system on this page.</a></p>
+<p>.</p>
+
+<div class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11741.24800709853!2d-73.8544626!3d42.6335452!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x933448a4864550f0!2sThe%20Pine%20Hollow%20Arboretum!5e0!3m2!1sen!2sus!4v1588526174786!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+
+:ET
