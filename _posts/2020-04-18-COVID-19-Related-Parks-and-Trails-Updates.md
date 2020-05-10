@@ -34,7 +34,7 @@ featured-image: img/overlook-mountain/overlook-mountain-view.jpg
 
 <h2>National Parks</h2>
 
-<p>Saratoga National Historical Park is currently closed to the public. <a href="https://www.nps.gov/sara/index.htm" target="_blank">Check their website</a> for current details.</p>
+<p>Saratoga National Historical Park has closed buildings, and the tour road is closed to vehicles. The park is open for walking and bicycling. <a href="https://www.nps.gov/sara/index.htm" target="_blank">Check their website</a> for current details.</p>
 
 <h2>Adirondack Region</h2>
 
@@ -45,6 +45,8 @@ featured-image: img/overlook-mountain/overlook-mountain-view.jpg
 <p>In addition, all firetowers are closed. While you can still hike to the top of a mountain with a firetower, you won't be able to climb the tower.</p>
 
 <p>The trail up Rattlesnake Mountain, in the town of Willsboro, is closed until further notice.</p>
+
+<p>In the Lake George region, The Schumann Preserve at Pilot Knob and The Pinnacle remain closed until further notice. Check the <a href="http://www.lglc.org/" target="_blank">Lake George Land Conservancy site</a> for the latest details.</p>
 
 <h2>Catskill Region</h2>
 
