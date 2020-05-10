@@ -32,6 +32,10 @@ featured-image: img/lake-george-hikes/buck-mountain-view.jpg
 
 <p>The Adirondack Mountain Club is the primary nongovernmental organization responsible for preserving wild spaces around the Adirondacks and keeping up trails. Their ADK Lodge in Lake Placid, New York, serves as a launch point for countless trails leading into the High Peaks. The organization hosts countless outdoor activities throughout the year for both members and non-members, as well as opportunities to help volunteer.
 
+<h2><a href="http://www.lglc.org/" target="_blank">Lake George Land Conservancy</a></h2>
+
+<p>The Lake George Land Conservancy maintains several preserves around the lake, including both mountain hikes and family accessible trails. They also advocate for preservation of land in an area where much has been grabbed up by private owners.</p>
+
 <h2><a href="http://catskillmountainclub.org/events/" target="_blank">Catskill Mountain Club</a></h2>
 
 <p>The Catskill Mountain Club helps to promote the Catskill region, both driving awareness and keeping up trails. Members have access to many events for exploring the Catskills, as well as opportunities to volunteer.
