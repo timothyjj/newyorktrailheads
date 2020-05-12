@@ -1,20 +1,4 @@
----
-layout: default
-title: Lake Bonita (Moreau Lake State Park) 
-excerpt: New trail system including a circuit around a woodland lake and connector trails to the existing Palmertown Range network
-categories: [Nature Preserves & Parks]
-
-images:
-
-  - url: /img/lake-bonita/lake-bonita.jpg
-    alt: Lake Bonita 
-    title: Lake Bonita 
-
-featured-image: img/lake-bonita/lake-bonita.jpg
-
----
-
-<h1>Lake Bonita (Moreau Lake State Park)</h1>
+I"<h1>Lake Bonita (Moreau Lake State Park)</h1>
 
 <p>This beautiful lake, recently acquired by the park after the closure of Mt. McGregor Correctional Facility, offers pristine Adirondack beauty surprisingly close to Saratoga Springs. From the parking area off Wilton Mountain Road, a short connector trail takes you to another trail that goes 1.7 miles around the lake. One side contains a picnic table and bench, while the dam on the opposite side offers another welcome place to stop with photo opportunities.</p>
 
@@ -24,25 +8,22 @@ featured-image: img/lake-bonita/lake-bonita.jpg
 
 <h2>Lake Bonita Photos</h2>
 
-<div class="fotorama" data-nav="thumbs" data-width="100%"
-                     data-ratio="800/600"
-                     data-min-width="100%"
-                     data-max-width="1000"
-                     data-min-height="300"
-                     data-max-height="100%" >
-<img src="/img/lake-bonita/lake-bonita.jpg" alt="Lake Bonita"><br />
-<img src="/img/lake-bonita/lakebonitasign.jpg" alt="Sign at hiking area entrance"><br />
-<img src="/img/lake-bonita/lake-house.jpg" alt="Old building by lake"><br />
-<img src="/img/lake-bonita/picnic-tables-by-lake.jpg" alt="Picnic table & bench"><br />
-<img src="/img/lake-bonita/lake-bonita-view.jpg" alt="View from Lake Bonita dam"><br />
-<img src="/img/lake-bonita/lake-bonita-dam.jpg" alt="Dam"><br />
-<img src="/img/lake-bonita/waterfall.jpg" alt="Waterfall"><br />
-<img src="/img/lake-bonita/trail-marker.jpg" alt="Trail marker"><br />
+<div class="fotorama" data-nav="thumbs" data-width="100%" data-ratio="800/600" data-min-width="100%" data-max-width="1000" data-min-height="300" data-max-height="100%">
+<img src="/img/lake-bonita/lake-bonita.jpg" alt="Lake Bonita" /><br />
+<img src="/img/lake-bonita/lakebonitasign.jpg" alt="Sign at hiking area entrance" /><br />
+<img src="/img/lake-bonita/lake-house.jpg" alt="Old building by lake" /><br />
+<img src="/img/lake-bonita/picnic-tables-by-lake.jpg" alt="Picnic table &amp; bench" /><br />
+<img src="/img/lake-bonita/lake-bonita-view.jpg" alt="View from Lake Bonita dam" /><br />
+<img src="/img/lake-bonita/lake-bonita-dam.jpg" alt="Dam" /><br />
+<img src="/img/lake-bonita/waterfall.jpg" alt="Waterfall" /><br />
+<img src="/img/lake-bonita/trail-marker.jpg" alt="Trail marker" /><br />
 
 </div>
 
 <h2 id="trailmap">Lake Bonita Trailhead Map</h2>
 <p>Note that in this particular tracked route, I took the loop trail around Lake Bonita and used the Waterfall Connector trail to visit a lookout point on the Western Ridge trail. However, the trail system continues more extensively across the area. For more details, see the official <a href="https://parks.ny.gov/parks/attachments/MoreauLakeMoreauLakeStateParkLakeBonitaTrailMap.pdf" target="_blank">Lake Bonita Trail Map</a> and <a href="https://parks.ny.gov/parks/attachments/MoreauLakeTrailMap.pdf" target="_blank">Moreau Lake Trail Map</a> (note that the main trail map does not yet include new Bonita trails).
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/d/embed?mid=1SnR4l7AIRQNKQjqx8fJ_eOhCUwg" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1SnR4l7AIRQNKQjqx8fJ_eOhCUwg" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 </div>
+</p>
+:ET

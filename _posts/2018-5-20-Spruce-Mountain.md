@@ -52,4 +52,4 @@ featured-image: img/spruce-mountain/climbing-tower.jpg
 </p>
 
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14007.328541578045!2d-73.89789069076498!3d43.202202834149816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de4bb14e631d1b%3A0xecf34534e28e6d9d!2sSpruce+Mountain+Fire+Tower+Trailhead!5e0!3m2!1sen!2sus!4v1526865423095" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14007.328541578045!2d-73.89789069076498!3d43.202202834149816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de4bb14e631d1b%3A0xecf34534e28e6d9d!2sSpruce+Mountain+Fire+Tower+Trailhead!5e0!3m2!1sen!2sus!4v1526865423095" frameborder="0" style="border:0" allowfullscreen></iframe></div>

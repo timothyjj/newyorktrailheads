@@ -41,4 +41,4 @@ featured-image: img/ashford-glen/ashford-glen-1.jpg
 <h2 id="trailmap">Map of Ashford Glen Preserve Trailhead</h2>
 
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11715.583054485143!2d-73.8323548!3d42.7694097!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf48839d0c1c49cf9!2sAshford+Glen+Preserve!5e0!3m2!1sen!2sus!4v1541962094360" width="640" height="480"></iframe></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11715.583054485143!2d-73.8323548!3d42.7694097!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf48839d0c1c49cf9!2sAshford+Glen+Preserve!5e0!3m2!1sen!2sus!4v1541962094360" ></iframe></div>
