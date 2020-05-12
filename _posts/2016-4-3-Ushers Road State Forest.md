@@ -36,4 +36,4 @@ featured-image: img/ushers-road-forest/old-car.jpg"
 
 <h2>Map of Ushers Road State Forest Trailhead</h2>
 
-<div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.974263851627!2d-73.77434098899231!3d42.91122315944091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd35fcbd69868465!2sUshers+Road+State+Forest+Parking+Lot!5e0!3m2!1sen!2sus!4v1483815464839" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></iframe></div>
+<div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.974263851627!2d-73.77434098899231!3d42.91122315944091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd35fcbd69868465!2sUshers+Road+State+Forest+Parking+Lot!5e0!3m2!1sen!2sus!4v1483815464839" frameborder="0" style="border:0" allowfullscreen></iframe></iframe></div>

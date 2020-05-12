@@ -43,4 +43,4 @@ featured-image: img/pilot-knob/lake-george-north.jpg
 
 <h2 div id="trailmap">Map of Pilot Knob Trailhead</h2>
 
-<div class="google-maps"><iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.468443032559!2d-73.62820658417832!3d43.47169347912787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dfdce4360e70a9%3A0xfe99c6f55eb3bb44!2sSchumann+Preserve+at+Pilot+Knob!5e0!3m2!1sen!2sus!4v1470596217056" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+<div class="google-maps"><iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.468443032559!2d-73.62820658417832!3d43.47169347912787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dfdce4360e70a9%3A0xfe99c6f55eb3bb44!2sSchumann+Preserve+at+Pilot+Knob!5e0!3m2!1sen!2sus!4v1470596217056"  frameborder="0" style="border:0" allowfullscreen></iframe></div>

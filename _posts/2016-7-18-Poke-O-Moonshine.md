@@ -26,4 +26,4 @@ featured-image: img/poke-o-moonshine.jpg
 
 <h3>Map of Poke-O-Moonshine Trailheads</h3>
 
-<div class="google-maps"><iframe src="https://www.google.com/maps/d/embed?mid=1_jMZfeefNafC4-91P78Rj0fN3o8" width="640" height="480"></iframe></div>
+<div class="google-maps"><iframe src="https://www.google.com/maps/d/embed?mid=1_jMZfeefNafC4-91P78Rj0fN3o8" ></iframe></div>

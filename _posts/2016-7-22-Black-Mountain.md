@@ -28,4 +28,4 @@ featured-image: img/black-mountain.jpg
 
 <h3>Map of Black Mountain Trailhead</h3>
 
-<div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20390.104270181546!2d-73.5038654680843!3d43.61534401688781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dfe28f2cf7afff%3A0x68784ae43f24d5ee!2s1124+Pike+Brook+Rd%2C+Clemons%2C+NY+12819!5e1!3m2!1sen!2sus!4v1469229507174" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+<div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20390.104270181546!2d-73.5038654680843!3d43.61534401688781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dfe28f2cf7afff%3A0x68784ae43f24d5ee!2s1124+Pike+Brook+Rd%2C+Clemons%2C+NY+12819!5e1!3m2!1sen!2sus!4v1469229507174" frameborder="0" style="border:0" allowfullscreen></iframe></div>

@@ -52,6 +52,6 @@ featured-image: img/sleeping-beauty/lake-george-from-sleeping-beauty.jpg
 
 <h2 id="trailmap">Map of Sleeping Beauty Trailhead</h2>
 
-<div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1445.715898629502!2d-73.59875298180617!3d43.55588490666151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dfe6fa5416b38f%3A0xf3965b1620b8e4d4!2sShelving+Rock+Mountain+Connector+Trail%2C+Fort+Ann%2C+NY+12827!5e0!3m2!1sen!2sus!4v1461523907144" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+<div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1445.715898629502!2d-73.59875298180617!3d43.55588490666151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dfe6fa5416b38f%3A0xf3965b1620b8e4d4!2sShelving+Rock+Mountain+Connector+Trail%2C+Fort+Ann%2C+NY+12827!5e0!3m2!1sen!2sus!4v1461523907144" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 
 

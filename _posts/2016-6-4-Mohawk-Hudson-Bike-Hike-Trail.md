@@ -43,5 +43,5 @@ Road"><br />
 Cohoes-Rotterdam Section
 
 <div class="google-maps">
-	<iframe src="https://www.google.com/maps/d/embed?mid=19OR-1L0Y3vnDBy0FiP8hbPnh2cA" width="640" height="480"></iframe>
+	<iframe src="https://www.google.com/maps/d/embed?mid=19OR-1L0Y3vnDBy0FiP8hbPnh2cA" ></iframe>
 </div>
