@@ -46,4 +46,4 @@ featured-image: img/albany-county-rail-trail/bridge.jpg
 </p>
 
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/d/u/2/embed?mid=15xvWEz7bMaQBa8bPmqlM5VFn9_sxUNvx" width="640" height="480"></iframe></div>
+<iframe src="https://www.google.com/maps/d/u/2/embed?mid=15xvWEz7bMaQBa8bPmqlM5VFn9_sxUNvx" ></iframe></div>

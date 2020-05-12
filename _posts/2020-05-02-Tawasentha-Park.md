@@ -51,6 +51,6 @@ featured-image: img/tawasentha/tawasentha6.jpeg
 
 
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.0597974147804!2d-73.93455958795826!3d42.702454590839096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de769abe291e97%3A0xe9ca18b6ffdecf96!2sTawasentha%20Park!5e0!3m2!1sen!2sus!4v1588432400174!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.0597974147804!2d-73.93455958795826!3d42.702454590839096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de769abe291e97%3A0xe9ca18b6ffdecf96!2sTawasentha%20Park!5e0!3m2!1sen!2sus!4v1588432400174!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
 
 

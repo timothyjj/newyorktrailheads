@@ -1,20 +1,4 @@
----
-layout: default
-title: Lisha Kill Natural Area
-excerpt: Rare example of an old growth forest in the midst of the Capital Region
-categories: [Nature Preserves & Parks]
-
-images:
-
-  - url: /img/lisha-kill/lisha-kill-bridge.jpg
-    alt: Lisha Kill Natural Area
-    title: Lisha Kill Natural Area
-
-featured-image: img/lisha-kill/lisha-kill-bridge.jpg
-
----
-
-<h1>Lisha Kill Natural Area</h1>
+I"I<h1>Lisha Kill Natural Area</h1>
 
 <p>This beautiful preserve, located in Niskayuna and managed by the Nature Conservance, contains a rare example of an old-growth forest in the midst of the Capital Region. Just over 2 miles of trails amble through the woods and along the Lisha Kill.</p>
 
@@ -28,16 +12,11 @@ featured-image: img/lisha-kill/lisha-kill-bridge.jpg
 
 <h2>Lisha Kill Natural Area Photos</h2>
 
-<div class="fotorama" data-nav="thumbs" data-width="100%"
-                     data-ratio="800/600"
-                     data-min-width="100%"
-                     data-max-width="1000"
-                     data-min-height="300"
-                     data-max-height="100%" >
-<img src="/img/lisha-kill/lisha-kill-entrance.jpg" alt="Sign at Entrance to Lisha Kill Natural Area"><br />
-<img src="/img/lisha-kill/lisha-kill.jpg" alt="View of the Lisha Kill"><br />
-<img src="/img/lisha-kill/trail.jpg" alt="Along the trail"><br />
-<img src="/img/lisha-kill/lisha-kill-bridge.jpg" alt="Bridge crossing the stream"><br />
+<div class="fotorama" data-nav="thumbs" data-width="100%" data-ratio="800/600" data-min-width="100%" data-max-width="1000" data-min-height="300" data-max-height="100%">
+<img src="/img/lisha-kill/lisha-kill-entrance.jpg" alt="Sign at Entrance to Lisha Kill Natural Area" /><br />
+<img src="/img/lisha-kill/lisha-kill.jpg" alt="View of the Lisha Kill" /><br />
+<img src="/img/lisha-kill/trail.jpg" alt="Along the trail" /><br />
+<img src="/img/lisha-kill/lisha-kill-bridge.jpg" alt="Bridge crossing the stream" /><br />
 
 </div>
 
@@ -46,5 +25,6 @@ featured-image: img/lisha-kill/lisha-kill-bridge.jpg
 <p><a href="https://www.nature.org/content/dam/tnc/nature/en/documents/lisha-kill-map-2015.pdf" target="_blank">View a detailed trail map</a> courtesy of the Nature Conservancy</p>
 
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11710.469064144996!2d-73.8616549!3d42.7964404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x17b8417bc14b46f9!2sLisha+Kill+Preserve!5e0!3m2!1sen!2sus!4v1558804611001!5m2!1sen!2sus" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11710.469064144996!2d-73.8616549!3d42.7964404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x17b8417bc14b46f9!2sLisha+Kill+Preserve!5e0!3m2!1sen!2sus!4v1558804611001!5m2!1sen!2sus" frameborder="0" style="border:0" allowfullscreen=""></iframe></div>
 
+:ET

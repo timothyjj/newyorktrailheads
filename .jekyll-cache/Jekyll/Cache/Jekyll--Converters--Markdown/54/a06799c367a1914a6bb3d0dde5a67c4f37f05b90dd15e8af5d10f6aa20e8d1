@@ -1,20 +1,4 @@
----
-layout: default
-title: Moreau Lake Overlook from Baker Trail
-excerpt: Climb to a beautiful overlook in Moreau Lake State Park 
-categories: [Nature Preserves & Parks]
-
-images:
-
-  - url: /img/moreau-overlook/moreau-lake-overlook.jpeg
-    alt: Moreau Lake Overlook
-    title: Moreau Lake Overlook
-
-featured-image: img/moreau-overlook/moreau-lake-overlook.jpeg
-
----
-
-<h1>Moreau Lake Overlook from Baker Trail</h1>
+I"�<h1>Moreau Lake Overlook from Baker Trail</h1>
 
 <p>High above the popular swimming and boating areas on Moreau Lake, the <a href="http://newyorktrailheads.com/2016/05/15/Palmertown-Range.html">Palmertown Range</a> offers miles of trails to various viewpoints. The most popular viewpoint in the park looks out over Moreau Lake itself, with views of distant mountains on a clear day.</p>
 
@@ -30,24 +14,20 @@ featured-image: img/moreau-overlook/moreau-lake-overlook.jpeg
 
 <h2>Moreau Lake Overlook Hike Photos</h2>
 
-<div class="fotorama" data-nav="thumbs" data-width="100%"
-                     data-ratio="800/600"
-                     data-min-width="100%"
-                     data-max-width="1000"
-                     data-min-height="300"
-                     data-max-height="100%" 
-     				 data-arrows="true">
-<img src="/img/moreau-overlook/moreau-lake-overlook.jpeg" alt="Moreau Lake Overlook"><br />
-<img src="/img/moreau-overlook/baker-trail.jpeg" alt="Baker Trail"><br />
-<img src="/img/moreau-overlook/hiding-toad.jpeg" alt="Toad hiding in the leaves"><br />
-<img src="/img/moreau-overlook/rock-bridge.jpeg" alt="Rock bridge to get through muddy area"><br />
+<div class="fotorama" data-nav="thumbs" data-width="100%" data-ratio="800/600" data-min-width="100%" data-max-width="1000" data-min-height="300" data-max-height="100%" data-arrows="true">
+<img src="/img/moreau-overlook/moreau-lake-overlook.jpeg" alt="Moreau Lake Overlook" /><br />
+<img src="/img/moreau-overlook/baker-trail.jpeg" alt="Baker Trail" /><br />
+<img src="/img/moreau-overlook/hiding-toad.jpeg" alt="Toad hiding in the leaves" /><br />
+<img src="/img/moreau-overlook/rock-bridge.jpeg" alt="Rock bridge to get through muddy area" /><br />
 
 </div>
 
 <h2 id="trailmap">Trailhead Map</h2>
 
-<p><a href="https://parks.ny.gov/parks/attachments/MoreauLakeTrailMap.pdf" target="_blank">See a detailed map of Moreau Lake State Park trails</a>. The Baker Trail is labeled "BK" and colored green on this map.</p> Look for the <em>Spier Falls/ Moreau "Saddle" Trailhead</em> on Google Maps to find the precise parking location.
+<p><a href="https://parks.ny.gov/parks/attachments/MoreauLakeTrailMap.pdf" target="_blank">See a detailed map of Moreau Lake State Park trails</a>. The Baker Trail is labeled "BK" and colored green on this map.</p>
+<p>Look for the <em>Spier Falls/ Moreau “Saddle” Trailhead</em> on Google Maps to find the precise parking location.</p>
 
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11625.239217384!2d-73.72566160648195!3d43.24492851214653!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dfccc280432bc1%3A0xa67c47789bdbf75c!2sSpier%20Falls%2F%20Moreau%20%22Saddle%22%20Trailhead!5e0!3m2!1sen!2sus!4v1566670393711!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
 
+:ET
