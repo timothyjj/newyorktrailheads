@@ -6,11 +6,11 @@ categories: [Lake George, Adirondacks]
 
 images:
 
-  - url: /img/black-mountain.jpg
+  - url: /img/black-mountain/black-mountain.jpg
     alt: Black Mountain
     title: Black Mountain
 
-featured-image: img/black-mountain.jpg
+featured-image: img/black-mountain/black-mountain.jpg
 
 ---
 
@@ -23,6 +23,8 @@ featured-image: img/black-mountain.jpg
 <p>On the summit, you'll see an expansive view down Lake George from the top, looking toward the Tongue Mountain Range and the Narrows further south. On top of the rocky surface of the mountain, you'll see an old firetower that has been repurposed as a radio tower, with a windmill to generate power.</p>
 
 <p>On the way down, take the blue trail to go by Lapland Pond. Along the way, you'll see views looking down toward the Tongue Mountain Range. Once you reach the intersection with the red trail again, turn right and head back the way you came.</p>
+
+<h2>Photos from the Black Mountain Trail</h2>
 
 <div class="fotorama" data-nav="thumbs" data-width="100%"
                      data-ratio="800/600"
