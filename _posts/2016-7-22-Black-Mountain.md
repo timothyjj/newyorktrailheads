@@ -24,7 +24,25 @@ featured-image: img/black-mountain.jpg
 
 <p>On the way down, take the blue trail to go by Lapland Pond. Along the way, you'll see views looking down toward the Tongue Mountain Range. Once you reach the intersection with the red trail again, turn right and head back the way you came.</p>
 
-<img class="pure-img-responsive" src="/img/black-mountain.jpg" alt="Black Mountain Summit">
+<div class="fotorama" data-nav="thumbs" data-width="100%"
+                     data-ratio="800/600"
+                     data-min-width="100%"
+                     data-max-width="1000"
+                     data-min-height="300"
+                     data-max-height="100%" >
+<img src="/img/black-mountain/black-mountain.jpg" alt="Lake George from Black Mountain">
+<img src="/img/black-mountain/black-mountain-1.jpg" alt="Adirondack view">
+
+<img src="/img/black-mountain/black-mountain-2.jpg" alt="Tongue Mountain Range">
+
+<img src="/img/black-mountain/black-mountain-3.jpg" alt="Rock Structure">
+
+<img src="/img/black-mountain/black-mountain-4.jpg" alt="Lake George from Black Mountain">
+
+<img src="/img/black-mountain/black-mountain-5.jpg" alt="Radio tower and windmill">
+
+
+</div>
 
 <h3>Map of Black Mountain Trailhead</h3>
 
