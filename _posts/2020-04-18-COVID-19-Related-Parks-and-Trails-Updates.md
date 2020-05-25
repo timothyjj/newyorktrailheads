@@ -26,9 +26,7 @@ featured-image: img/overlook-mountain/overlook-mountain-view.jpg
 
 <h2>New York State Parks</h2>
 
-<p>In order to give people an option for activities when so many other places are closed, New York has graciously waived admission fees to all state parks. However, buildings such as visitor or nature centers are closed, and don't expect to find bathrooms open. </p>
-
-<p>Note that the state has closed some parks where overcrowding has taken place. Currently, the NY Parks department website lists Rockland Lake, Hook Mountain, and Nyack Beach State Parks as closed until further notice. In addition, parking levels are monitored in other parks, and popular locations may close to additional visitors once a certain number of people have come for the day.</p>
+<p>In order to give people an option for activities when so many other places are closed, New York has graciously waived admission fees to all state parks. However, many buildings remain closed, although some facilities are reopening in line with limited beach openings. Parking levels are monitored in other parks, and popular locations may close to additional visitors once a certain number of people have come for the day.</p>
 
 <p><a href="https://parks.ny.gov/" target="_blank">Check the NY Parks website</a> for the most current updates.</p>
 
@@ -40,7 +38,7 @@ featured-image: img/overlook-mountain/overlook-mountain-view.jpg
 
 <p>The Adirondack region is currently discouraging people who live outside the area from traveling there to hike during this time, due to limited healthcare resources and many in the population who are at risk. Please be respectful of the residents and, if you're from another area, wait to plan your next Adirondack hike. Note that it's mud season, anyway, so you should generally keep to lower elevations.</p>
 
-<p>The Adirondack Mountain Club has closed all of its properties in this time, although parking remains open for <strong>local</strong> hikers at the Heart Lake Program Center. Lodging facilities, the High Peaks Information Center, and the Member Service Center are all shut down for now. <a href="https://www.adk.org/">See their website</a> for current details.</p>
+<p>The Adirondack Mountain Club closed several facilities but is slowly reopening in line with the New York phases. <a href="https://www.adk.org/adk-property-closures-extend-new-york-forward/">Get more details on their site.</a></p>
 
 <p>In addition, all firetowers are closed. While you can still hike to the top of a mountain with a firetower, you won't be able to climb the tower.</p>
 
@@ -60,7 +58,7 @@ featured-image: img/overlook-mountain/overlook-mountain-view.jpg
 <h2>Capital Region Parks</h2>
 
 <ul>
-<li>The Crossings of Colonie is closed to vehicular traffic. Local residents can still walk/bike into the park.
+<li>The Crossings of Colonie is now open after being closed to vehicular traffic. Note that parking is being restricted to lots (no parking along the side of the road).
 </li>
 <li>The Plotter Kill Preserve is closed until further notice.</li></ul>
 
