@@ -1,0 +1,49 @@
+---
+layout: default
+title: Normanskill Preserves & Normanskill Farm
+excerpt: Water, woods, and a historic bridge
+categories: [Nature Preserves & Parks]
+
+images:
+
+  - url: /img/normanskill/normanskill-5.jpeg
+    alt: Normanskill Preserve
+    title: Normanskill Preserve
+
+featured-image: img/normanskill/normanskill-5.jpeg
+
+---
+
+<h1>Normanskill Preserves & Normanskill Farm</h1>
+
+<p>The Normanskill creek becomes particularly scenic as it flows through steep ravines just south of Albany. The Normanskill Preserve consists of two parcels on the southern bank of the river, maintained by the Mohawk Hudson Land Conservancy. The City of Albany also maintains the Normanskill Farm Preserve on the north side of the river, where you can also find a historic trussle bridge.</p>
+
+<p>Trails cover a mix of paved road and dirt on the north side depending on the portion you're walking in, while the preserves to the south meander through fields, woods, and along steep ravines with great views of the water. There are a few spots where you can go down next to the water as well.</p>
+
+<p>You'll find incredible outdoor scenery not far from the city in this preserve. The terrain does have some mild inclines in spots, and you may want to keep an eye on children along the edge of some ravines, but overall this location offers great hiking for the whole family!</p>
+
+<h2>Normanskill Preserve & Farm Photos</h2>
+
+<div class="fotorama" data-nav="thumbs" data-width="100%"
+                     data-ratio="800/600"
+                     data-min-width="100%"
+                     data-max-width="1000"
+                     data-min-height="300"
+                     data-max-height="100%" 
+     				 data-arrows="true">
+<img src="/img/normanskill/normanskill-1.jpeg" alt="Normanskill Farm sign"><br />
+<img src="/img/normanskill/normanskill-2.jpeg" alt="View of trussle bridge"><br />
+<img src="/img/normanskill/normanskill-3.jpeg" alt="Normanskill Farm bridge"><br />
+<img src="/img/normanskill/normanskill-4.jpeg" alt="Looking down ravine"><br />
+<img src="/img/normanskill/normanskill-5.jpeg" alt="Closeup of Normanskill"><br />
+</div>
+
+<h2 id="trailmap">Trailhead Maps</h2>
+
+<p><a href="https://mohawkhudson.org/our-preserves/normans-kill-preserves/" target="_blank">Access a more detailed trail map courtesy of the Mohawk Hudson Land Conservancy</a></p>.
+
+
+<div class="google-maps">
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1u-iwMMQWmq_KZamqA6B-r__mv9PZMRM6" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+
+
