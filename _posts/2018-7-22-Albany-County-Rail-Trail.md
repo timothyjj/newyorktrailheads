@@ -20,7 +20,7 @@ featured-image: img/albany-county-rail-trail/bridge.jpg
 
 <p>The three main parking lots for the trail are found in Voorheesville, Delmar, and N. Pearl St. in Albany. The Albany parking lot even has <a href="https://www.cdphpcycle.com/" target="_blank">CDPHP Cycle</a> bikes available for rental via CDTA's bike share system, for those who may not own a bike but want to try a ride.</p>
 
-<p>The trail covers a breadth of scenery, from steep ravines and rapids in the Normanskill, to suburban communities, to woods and farmland. While no sections are steep, not that there's a steady incline from the N. Pearl St. parking lot to the Delmar area of the trail.</p>
+<p>The trail covers a breadth of scenery, from steep ravines and rapids in the Normanskill, to suburban communities, to woods and farmland. While no sections are steep, note that there's a steady incline from the N. Pearl St. parking lot to the Delmar area of the trail.</p>
 
 <p>We're excited to see Albany County's involvement in this trail and hope to see further expansion soon, such as a promised connection with the <a href="http://newyorktrailheads.com/2016/06/04/Mohawk-Hudson-Bike-Hike-Trail.html">Mohawk-Hudson Bikeway</a>! In the meantime, enjoy this trail and others in the area as a means to get outside, get some exercise, and enjoy some scenery.</p>
 
