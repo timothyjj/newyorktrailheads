@@ -13,7 +13,7 @@ featured-image: img/shelvingrockfalls.jpg
 
 ---
 
-<h1>Shelving Rock Falls/h1>
+<h1>Shelving Rock Falls</h1>
 
 <p>Located amidst a massive network of trails in the Lake George Wild Forest, this brief hike leads to a beautiful waterfall nestled in the forest. To get to the Falls hike from Lake George, go east on Rte. 149 until reaching Buttermilk Falls Road. Turn left on that road and keep going; it will eventually merge into Sly Pond Road.</p> 
 
