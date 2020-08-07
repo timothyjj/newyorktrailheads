@@ -26,7 +26,7 @@ featured-image: img/shelvingrockfalls.jpg
 <h2>Photo of Shelving Rock Falls</h2>
 
 <p>
-<img src="/img/shelvingrockfalls.jpg" alt="Shelving Rock Falls">
+<img class="pure-img-responsive" src="/img/shelvingrockfalls.jpg" alt="Shelving Rock Falls">
 </p>
 
 <h2 id="trailmap">Shelving Rock Falls Map</h2>
