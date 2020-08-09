@@ -6,10 +6,10 @@ categories: [Nature Preserves & Parks]
 
 images:
 
-  - url: /img/peebles-island/peebles-island-shoreline.jpg
+  - url: /img/peebles-island/peebles800x600.png
     alt: Peebles Island State Park
     title: Peebles Island State Park
-featured-image: img/peebles-island/peebles-island-shoreline.jpg
+featured-image: img/peebles-island/peebles800x600.png
 
 ---
 
