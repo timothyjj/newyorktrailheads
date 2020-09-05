@@ -1,0 +1,45 @@
+---
+layout: default
+title: Phillipin Kill Preserve
+excerpt: Forest, streams, and marsh in a suburban Bethlehem preserve
+categories: [Nature Preserves & Parks]
+
+images:
+
+  - url: /img/phillipin-kill/PhillipinKill-3.jpeg
+    alt: Phillipin Kill Preserve
+    title: Phillipin Kill Preserve
+featured-image: img/phillipin-kill/PhillipinKill-3.jpeg
+
+---
+
+<h1>Phillipin Kill Preserve</h1>
+
+<p>This preserve is located in Bethlehem and maintained by the Mohawk Hudson Land Conservancy. While positioned between housing developments and apartment complexes, you can find surprising solitude in this trail, with a short half-mile loop near the Phillipin Kill. You'll see marshland, walk over a small bridge, and climb man-made stairs along this trail. While not difficult, you will need to watch for roots and some minor elevation changes.</p>
+
+<p>Note that the entrance to the preserve is just south of the Mansions at Delmar condo complex. You'll find a small parking area with signs for the preserve near the south entrance to the development (if coming up Fisher Blvd. from Delaware Ave., turn left on Mansion Blvd and immediately turn left again to go past the row of apartments).</p>
+
+<p>While this is a brief hike, it's a great spot to get out into nature for a quick walk, or to give kids a taste of hiking. Combine a trip here with a visit to the nearby <a href="http://newyorktrailheads.com/2019/02/09/Five-Rivers-Environmental-Education-Center.html">Five Rivers Environmental Education Center</a> for a longer excursion.
+
+<h2>Phillipin Kill Preserve</h2>
+
+<div class="fotorama" data-nav="thumbs" data-width="100%"
+                     data-ratio="800/600"
+                     data-min-width="100%"
+                     data-max-width="1000"
+                     data-min-height="300"
+                     data-max-height="100%" 
+     				 data-arrows="true">
+<img src="/img/phillipin-kill/phillipin-kill-bridge.jpg" alt="Bridge at the park entrance"><br />
+<img src="/img/phillipin-kill/phillipin-kill-river.jpg" alt="View of the Hudson River"><br />
+<img src="/img/phillipin-kill/phillipin-kill-shoreline.jpg" alt="Looking along the shoreline"><br />
+</div>
+
+<h2 id="trailmap">Phillipin Kill Preserve Trailhead Map</h2>
+
+<p><a href="https://mohawkhudson.org/our-preserves/phillipin-kill-preserve/">See a detailed trail map on the Mohawk Hudson Land Conservancy site.</a></p>
+
+<div class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.598260692368!2d-73.87152564562487!3d42.611587154424946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dddfb6fb16aa33%3A0xabb56180889a825c!2sPhillipinkill%20Preserve!5e0!3m2!1sen!2sus!4v1599331199350!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+
+
