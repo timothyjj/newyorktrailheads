@@ -30,9 +30,12 @@ featured-image: img/phillipin-kill/PhillipinKill-3.jpeg
                      data-min-height="300"
                      data-max-height="100%" 
      				 data-arrows="true">
-<img src="/img/phillipin-kill/phillipin-kill-bridge.jpg" alt="Bridge at the park entrance"><br />
-<img src="/img/phillipin-kill/phillipin-kill-river.jpg" alt="View of the Hudson River"><br />
-<img src="/img/phillipin-kill/phillipin-kill-shoreline.jpg" alt="Looking along the shoreline"><br />
+<img src="/img/phillipin-kill/PhillipinKill-1.jpeg" alt="Preserve entrance from Mansions at Delmar">
+<img src="/img/phillipin-kill/PhillipinKill-2.jpeg" alt="Sign at preserve entrance">
+<img src="/img/phillipin-kill/PhillipinKill-3.jpeg" alt="Stairs on trail">
+<img src="/img/phillipin-kill/PhillipinKill-4.jpeg" alt="Bridge over Phillipin Kill">
+<img src="/img/phillipin-kill/PhillipinKill-5.jpeg" alt="View of the marsh">
+<img src="/img/phillipin-kill/PhillipinKill-6.jpeg" alt="Trail">
 </div>
 
 <h2 id="trailmap">Phillipin Kill Preserve Trailhead Map</h2>
