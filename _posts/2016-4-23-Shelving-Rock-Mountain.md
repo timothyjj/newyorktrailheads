@@ -20,7 +20,7 @@ featured-image: img/shelvingrock.jpg
 
 <p>Note that you'll drive over several miles of dirt and gravel roads to get to this trail. There is a small parking lot directly where the mountain hike starts, but there are also several parking areas along the road from which you can start your hike.</p>
 
-<p>You'll walk for approximately 1.7 miles until you reach the summit. At the top, you'll get a view of the lake that's partially blocked by trees. Continue along the worn down path until you get to a semi-open field area, and follow an unmarked but well-worn herd path to the right to get to a more open overlook area providing a view of Lake George. Note that you'll want to be careful going off the marked path to find the view, but it's a popular enough route the trail is quite frequently walked.</p>
+<p>You'll walk for approximately 1.7 miles one way until you reach the summit. At the top, you'll get a view of the lake that's partially blocked by trees. Continue along the worn down path until you get to a semi-open field area, and follow an unmarked but well-worn herd path to the right to get to a more open overlook area providing a view of Lake George. Note that you'll want to be careful going off the marked path to find the view, but it's a popular enough route the trail is fairly easy to find.</p>
 
 <h2>Map of Shelving Rock Trailhead</h2>
 
