@@ -21,7 +21,7 @@ featured-image: img/phillipin-kill/PhillipinKill-3.jpeg
 
 <p>While this is a brief hike, it's a great spot to get out into nature for a quick walk, or to give kids a taste of hiking. Combine a trip here with a visit to the nearby <a href="http://newyorktrailheads.com/2019/02/09/Five-Rivers-Environmental-Education-Center.html">Five Rivers Environmental Education Center</a> for a longer excursion.
 
-<h2>Phillipin Kill Preserve</h2>
+<h2>Phillipin Kill Preserve Photos</h2>
 
 <div class="fotorama" data-nav="thumbs" data-width="100%"
                      data-ratio="800/600"
