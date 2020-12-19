@@ -40,16 +40,16 @@ Once you go into the preserve, it's helpful to reference the <a href="https://hm
                      data-min-height="300"
                      data-max-height="100%" 
      				 data-arrows="true">
-<img src="/img/touhey-preserve/hgreist/hgreist-5.jpeg" alt="Preserve Signage">
-<img src="/img/touhey-preserve/hgreist/hgreist-1.jpeg" alt="Trail">
-<img src="/img/touhey-preserve/hgreist/hgreist-2.jpeg" alt="Towering Pines">
-<img src="/img/touhey-preserve/hgreist/hgreist-3.jpeg" alt="Bridge">
-<img src="/img/touhey-preserve/hgreist/hgreist-4.jpeg" alt="Hawk in Tree">
-<img src="/img/touhey-preserve/hgreist/hgreist-6.jpeg" alt="Signpost">
-<img src="/img/touhey-preserve/hgreist/hgreist-7.jpeg" alt="Stream">
-<img src="/img/touhey-preserve/hgreist/hgreist-8.jpeg" alt="Trail Markers">
-<img src="/img/touhey-preserve/hgreist/hgreist-9.jpeg" alt="Boardwalk">
-<img src="/img/touhey-preserve/hgreist/hgreist-10.jpeg" alt="Dr. Delisa's Bridge Sign">
+<img src="/img/hgreist/hgreist-5.jpeg" alt="Preserve Signage">
+<img src="/img/hgreist/hgreist-1.jpeg" alt="Trail">
+<img src="/img/hgreist/hgreist-2.jpeg" alt="Towering Pines">
+<img src="/img/hgreist/hgreist-3.jpeg" alt="Bridge">
+<img src="/img/hgreist/hgreist-4.jpeg" alt="Hawk in Tree">
+<img src="/img/hgreist/hgreist-6.jpeg" alt="Signpost">
+<img src="/img/hgreist/hgreist-7.jpeg" alt="Stream">
+<img src="/img/hgreist/hgreist-8.jpeg" alt="Trail Markers">
+<img src="/img/hgreist/hgreist-9.jpeg" alt="Boardwalk">
+<img src="/img/hgreist/hgreist-10.jpeg" alt="Dr. Delisa's Bridge Sign">
 </div>
 
 <h2 id="trailmap">H. G. Reist Bird Sanctuary Trailhead Map</h2>
