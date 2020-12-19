@@ -1,24 +1,9 @@
----
-layout: default
-title: H. G. Reist Bird Sanctuary
-excerpt: Wooded trails and wildlife in Niskayuna
-categories: [Nature Preserves & Parks]
-
-images:
-
-  - url: /img/hgreist/hgreist-9.jpeg
-    alt: H. G. Reist Bird Sanctuary
-    title: H. G. Reist Bird Sanctuary
-featured-image: img/hgreist/hgreist-9.jpeg
-
----
-
-<h1>H. G. Reist Bird Sanctuary</h1>
+I"Ô<h1>H. G. Reist Bird Sanctuary</h1>
 
 <p>You might never know this preserve existed in Niskayuna apart from finding a trailhead and venturing into the woods! 111 acres of land, owned by the Hudson-Mohawk Bird Club, include approximately 2 miles' worth of trails, streams, forest, and opportunity to see birds and other wildlife in the middle of suburbia.</p>
 
 <p>You can access this sanctuary from several different small parking areas off of side roads that are adjacent to the preserve. The best spot to park, and the easiest to find, if you're not directly local, is the Kelly Adirondack Center on St. David's Lane (not far off Rte. 7 heading toward Schenectady from Niskayuna). There's a large parking area and a marked trail that heads into the preserve.</p>
-	
+
 <p>
 Once you go into the preserve, it's helpful to reference the <a href="https://hmbc.net/resources/Documents/MiscPDF/reist_trail_map.pdf" target="_blank">trail map</a>, as there are	multiple color-coded trails that intersect throughout. While houses are visible on the outskirts of some sections, you can feel like you're deep in the woods in other portions. Several boardwalks cross over marshy areas. 
 </p>
@@ -26,30 +11,24 @@ Once you go into the preserve, it's helpful to reference the <a href="https://hm
 <p>Many creatures make their home in this area. I was privileged to encounter several deer and a hawk (along with common woodland creatures like squirrels) on the cold fall day I ventured into the woods. See a video of some whitetail deer below:</p>
 
 <p>
-    <iframe src="https://player.vimeo.com/video/492868020" width="300" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/492868020" width="300" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
 </p>
 
 <p>If you're looking for an escape from suburbia without leaving the suburbs, take an hour to meander through the trails of this preserve! And have a camera ready, since you never know what you'll run into.</p>
 
 <h2>H. G. Reist Bird Sanctuary Photos</h2>
 
-<div class="fotorama" data-nav="thumbs" data-width="100%"
-                     data-ratio="800/600"
-                     data-min-width="100%"
-                     data-max-width="1000"
-                     data-min-height="300"
-                     data-max-height="100%" 
-     				 data-arrows="true">
-<img src="/img/hgreist/hgreist-5.jpeg" alt="Preserve Signage">
-<img src="/img/hgreist/hgreist-1.jpeg" alt="Trail">
-<img src="/img/hgreist/hgreist-2.jpeg" alt="Towering Pines">
-<img src="/img/hgreist/hgreist-3.jpeg" alt="Bridge">
-<img src="/img/hgreist/hgreist-4.jpeg" alt="Hawk in Tree">
-<img src="/img/hgreist/hgreist-6.jpeg" alt="Signpost">
-<img src="/img/hgreist/hgreist-7.jpeg" alt="Stream">
-<img src="/img/hgreist/hgreist-8.jpeg" alt="Trail Markers">
-<img src="/img/hgreist/hgreist-9.jpeg" alt="Boardwalk">
-<img src="/img/hgreist/hgreist-10.jpeg" alt="Dr. Delisa's Bridge Sign">
+<div class="fotorama" data-nav="thumbs" data-width="100%" data-ratio="800/600" data-min-width="100%" data-max-width="1000" data-min-height="300" data-max-height="100%" data-arrows="true">
+<img src="/img/hgreist/hgreist-5.jpeg" alt="Preserve Signage" />
+<img src="/img/hgreist/hgreist-1.jpeg" alt="Trail" />
+<img src="/img/hgreist/hgreist-2.jpeg" alt="Towering Pines" />
+<img src="/img/hgreist/hgreist-3.jpeg" alt="Bridge" />
+<img src="/img/hgreist/hgreist-4.jpeg" alt="Hawk in Tree" />
+<img src="/img/hgreist/hgreist-6.jpeg" alt="Signpost" />
+<img src="/img/hgreist/hgreist-7.jpeg" alt="Stream" />
+<img src="/img/hgreist/hgreist-8.jpeg" alt="Trail Markers" />
+<img src="/img/hgreist/hgreist-9.jpeg" alt="Boardwalk" />
+<img src="/img/hgreist/hgreist-10.jpeg" alt="Dr. Delisa's Bridge Sign" />
 </div>
 
 <h2 id="trailmap">H. G. Reist Bird Sanctuary Trailhead Map</h2>
@@ -59,4 +38,4 @@ Once you go into the preserve, it's helpful to reference the <a href="https://hm
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2927.9632812415593!2d-73.88423054875682!3d42.78912611578658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de7327579d10a1%3A0xfeffd16dc298ba9!2sKelly%20Adirondack%20Center!5e0!3m2!1sen!2sus!4v1608401541903!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
 
-
+:ET
