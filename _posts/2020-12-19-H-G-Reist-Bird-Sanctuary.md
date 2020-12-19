@@ -23,7 +23,11 @@ featured-image: img/hgreist/hgreist-9.jpeg
 Once you go into the preserve, it's helpful to reference the <a href="https://hmbc.net/resources/Documents/MiscPDF/reist_trail_map.pdf" target="_blank">trail map</a>, as there are	multiple color-coded trails that intersect throughout. While houses are visible on the outskirts of some sections, you can feel like you're deep in the woods in other portions. Several boardwalks cross over marshy areas. 
 </p>
 
-<p>Many creatures make their home in this area. I was privileged to encounter several deer and a hawk (along with common woodland creatures like squirrels) on the cold fall day I ventured into the woods.</p>
+<p>Many creatures make their home in this area. I was privileged to encounter several deer and a hawk (along with common woodland creatures like squirrels) on the cold fall day I ventured into the woods. See a video of some whitetail deer below:</p>
+
+<p>
+    <iframe src="https://player.vimeo.com/video/492868020" width="640" height="1135" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</p>
 
 <p>If you're looking for an escape from suburbia without leaving the suburbs, take an hour to meander through the trails of this preserve! And have a camera ready, since you never know what you'll run into.</p>
 
