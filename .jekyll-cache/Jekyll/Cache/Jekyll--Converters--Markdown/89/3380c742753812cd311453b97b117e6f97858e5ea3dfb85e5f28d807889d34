@@ -1,19 +1,4 @@
----
-layout: default
-title: Van Dyke Preserve
-excerpt: 1-mile loop beside a wooded stream
-categories: [Nature Preserves & Parks]
-
-images:
-
-  - url: /img/van-dyke/van-dyke-1.jpeg
-    alt: Van Dyke Preserve
-    title: Van Dyke Preserve
-featured-image: img/van-dyke/van-dyke-1.jpeg
-
----
-
-<h1>Van Dyke Preserve</h1>
+I"ô<h1>Van Dyke Preserve</h1>
 
 <p>One of many Mohawk Hudson Land Conservancy "pocket preserves" in Albany's suburbs, the Van Dyke Preserve offers a 1-mile loop through the woods, with much of the trail going alongside the Philippin Kill. The trailhead is found just south of the Bethlehem Central High School off Van Dyke Road. A large gravel lot provides ample parking for several cars.</p>
 
@@ -25,20 +10,14 @@ featured-image: img/van-dyke/van-dyke-1.jpeg
 
 <h2>Van Dyke Preserve Photos</h2>
 
-<div class="fotorama" data-nav="thumbs" data-width="100%"
-                     data-ratio="800/600"
-                     data-min-width="100%"
-                     data-max-width="1000"
-                     data-min-height="300"
-                     data-max-height="100%" 
-     				 data-arrows="true">
-<img src="/img/van-dyke/van-dyke-1.jpeg" alt="Van Dyke Preserve Sign">
-<img src="/img/van-dyke/van-dyke-2.jpeg" alt="Trail Entrance">
-<img src="/img/van-dyke/van-dyke-3.jpeg" alt="Bridge">
-<img src="/img/van-dyke/van-dyke-4.jpeg" alt="Bench beside trail">
-<img src="/img/van-dyke/van-dyke-5.jpeg" alt="Start of loop">
-<img src="/img/van-dyke/van-dyke-6.jpeg" alt="Muddy trail">
-<img src="/img/van-dyke/van-dyke-7.jpeg" alt="Rainbow rock">
+<div class="fotorama" data-nav="thumbs" data-width="100%" data-ratio="800/600" data-min-width="100%" data-max-width="1000" data-min-height="300" data-max-height="100%" data-arrows="true">
+<img src="/img/van-dyke/van-dyke-1.jpeg" alt="Van Dyke Preserve Sign" />
+<img src="/img/van-dyke/van-dyke-2.jpeg" alt="Trail Entrance" />
+<img src="/img/van-dyke/van-dyke-3.jpeg" alt="Bridge" />
+<img src="/img/van-dyke/van-dyke-4.jpeg" alt="Bench beside trail" />
+<img src="/img/van-dyke/van-dyke-5.jpeg" alt="Start of loop" />
+<img src="/img/van-dyke/van-dyke-6.jpeg" alt="Muddy trail" />
+<img src="/img/van-dyke/van-dyke-7.jpeg" alt="Rainbow rock" />
 </div>
 
 <h2 id="trailmap">Van Dyke Preserve Trailhead Map</h2>
@@ -48,4 +27,4 @@ featured-image: img/van-dyke/van-dyke-1.jpeg
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11748.39138354294!2d-73.8558737!3d42.5956675!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f7e82e2dc6505a9!2sVan%20Dyke%20Spinney%20Preserve!5e0!3m2!1sen!2sus!4v1615055341461!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
 
-
+:ET
