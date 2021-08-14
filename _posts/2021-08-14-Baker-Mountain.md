@@ -15,7 +15,7 @@ featured-image: img/baker-mountain/baker-mountain-8.jpeg
 
 <h1>Baker Mountain</h1>
 
-<p>Located just outside the village of Saranac Lake, this straigh-up-and-down hike offers a rewarding view of the High Peaks after a short (but steep) climb. Parking is on Forest Hill Avenue (Rte. 3) right along Moody Pond. Please be very careful to observe all parking signs, as the town is quite strict about enforcing guidelines. You should only park in the designated areas by the side of the road, while making sure your tires are completely off of the pavement.</p>
+<p>Located just outside the village of Saranac Lake, this straight-up-and-down hike offers a rewarding view of the High Peaks after a short (but steep) climb. Parking is on Forest Hill Avenue (Rte. 3) right along Moody Pond. Please be very careful to observe all parking signs, as the town is quite strict about enforcing guidelines. You should only park in the designated areas by the side of the road, while making sure your tires are completely off of the pavement.</p>
 
 <p>The trail starts across the road from the pond and almost immediately starts ascending up. You'll climb steadily over the 0.9 ascent to the top, with around 900 feet in elevation gain.</p> 
 
