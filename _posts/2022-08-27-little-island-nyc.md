@@ -17,7 +17,7 @@ featured-image: img/little-island/little-island-4.jpeg
 
 <p>Little Island is a beautifully constructed slice of green in the midst of the concrete and metal of downtown Manhattan. If you're visiting New York City and have some time to spare, take a moment to stroll around this free-to-visit park, located near Chelsea Market and across from the High Line. Opened in 2021, this park was built over the remains of the former Pier 54. You can still see wood posts sticking out of the water from the old pier.<p>
 
-<p>The construction of this park is a wonder to behold, with terraced paths rising up over hills and extensive views across the Hudson River. An amphitheater holds public events periodically, and a large seating area sits near food and drink available for purchase.</p>
+<p>The construction of this park is a wonder to behold, with terraced paths rising up over hills and extensive views across the Hudson River. An amphitheater holds public events periodically, and a large seating area sits near food and drink available for purchase. Canvas shades help to provide some respite from the sun on hot days.</p>
 
 <p>Kids will enjoy some surprises scattered throughout the park, such as wheels that can be spun to create optical illusions, as well as musical chimes that sound various tones depending on where you step.</p>
 
