@@ -31,13 +31,14 @@ featured-image: img/sleeping-beauty/lake-george-from-sleeping-beauty.jpg
 <p>Note that Dacy Clearing Road is only open seasonally, so you may end up walking the 1.6 miles this road covers to get to the main mountain trail. However, the road is flat and level, making for an easy walk in and out.</p>
 <br />
 
-<h2 id="photos">Photos from a Fall Hike</h2>
+<h2 id="photos">Photos from the Sleeping Beauty Trail</h2>
 <div class="fotorama" data-nav="thumbs" data-width="100%"
                      data-ratio="800/600"
                      data-min-width="100%"
                      data-max-width="1000"
                      data-min-height="300"
                      data-max-height="100%" >
+<img src="/img/sleeping-beauty-summit-summer.jpg" alt="Summer view from summit">
 <img src="/img/sleeping-beauty/lake-george-fog.jpg" alt="Fog over Lake George"><br />
 <img src="/img/sleeping-beauty/dacy-clearing-road.jpg" alt="Dacy Clearing Road"><br />
 <img src="/img/sleeping-beauty/fall-tree.jpg" alt="Fall foliage"><br />
