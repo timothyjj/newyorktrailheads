@@ -32,7 +32,7 @@ featured-image: img/skidmore-woods/skidmore1.jpg
                      data-min-height="300"
                      data-max-height="100%" 
              data-arrows="true">
-<img src="/img/skidmore-woods/skidmore1.jpg" alt="View through Treeds">
+<img src="/img/skidmore-woods/skidmore1.jpg" alt="View through Trees">
 <img src="/img/skidmore-woods/skidmore2.jpg" alt="Trail entrance">
 </div>
 
