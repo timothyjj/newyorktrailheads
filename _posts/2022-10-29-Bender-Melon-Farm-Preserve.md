@@ -35,5 +35,9 @@ featured-image: img/bender-melon.jpg
 <img src="/img/bender-melon.jpg" alt="View from Bender Melon Preserve">
 </div>
 
+<h2 id="trailmap">Bender Melon Preserve Trailhead Map</h2>
+
+<p>View a trail map and additional details on the <a href="https://www.mohawkhudson.org/preserves/bender-melon-farm" target="_blank">MHLC site</a></p>
+
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6045.80199009193!2d-74.01106135158895!3d40.74220398878096!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc9fdbef8d2af7b0!2sLittle%20Island!5e0!3m2!1sen!2sus!4v1661619395961!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11740.561550182792!2d-73.9017758!3d42.6371837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa1de471bd76206b!2sBender%20Melon%20Farm!5e0!3m2!1sen!2sus!4v1667052045783!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
