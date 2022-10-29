@@ -39,7 +39,7 @@ featured-image: img/pilot-knob/lake-george-north.jpg
 <img src="/img/pilot-knob/lake-george-west.jpg" alt="West side of Lake George"><br />
 <img src="/img/pilot-knob/pilot-knob-gazebo.jpg" alt="Gazebo at Pilot Knob lookout"><br />
 <img src="/img/pilot-knob/pilot-knob-lake-george.jpg" alt="Lake George"><br />
-<img src="/img/pilot-knob/pilot-knob-waterfall.jpg" alt="Waterfall on back trail">
+<img src="/img/pilot-knob/pilot-knob-waterfall-1.jpg" alt="Waterfall on back trail">
 <img src="/img/pilot-knob/waterfall-2.jpg" alt="Waterfall from bottom">
 </div>
 
