@@ -19,6 +19,8 @@ featured-image: img/fisher-trail-7.jpeg
 
 <p>After reaching a beautifully constructed observation deck, the trail descends steeply into a ravine, crosses the Phillipin Kill via a bridge, and climbs back up a hill to connect with the Wild Turkey Trail. From here, you can hike into Five Rivers and cover more trails in their trail system if desired.</p>
 
+<div>
+
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_tracking_id = "newyorktrai05-20";
@@ -32,6 +34,8 @@ amzn_assoc_design = "in_content";
 amzn_assoc_title = "Outdoor Resource Picks";
 </script>
 <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+</div>
 
 <p>A large parking area is marked with a clear sign for the trail along Fisher Boulevard, not far off New Scotland Road (Rte. 85). An additional parking area sits by an old garage at the end of Mason Lane.</p>
 
