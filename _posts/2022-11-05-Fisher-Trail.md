@@ -6,7 +6,7 @@ categories: [Nature Preserves & Parks]
 
 images:
 
-  - url: /img/fisher-trail-7.jpeg
+  - url: /img/fisher-trail/fisher-trail-7.jpeg
     alt: Fisher Trail
     title: Fisher Trail
 featured-image: img/fisher-trail-7.jpeg
@@ -32,15 +32,15 @@ featured-image: img/fisher-trail-7.jpeg
                      data-min-height="300"
                      data-max-height="100%" 
              data-arrows="true">
-<img src="/img/fisher-trail-1.jpeg" alt="Fisher Trail Sign">
-<img src="/img/fisher-trail-2.jpeg" alt="Boardwalk">
-<img src="/img/fisher-trail-3.jpeg" alt="Fisher Trail">
-<img src="/img/fisher-trail-4.jpeg" alt="Bench and shelter">
-<img src="/img/fisher-trail-5.jpeg" alt="Observation Deck">
-<img src="/img/fisher-trail-6.jpeg" alt="Trees & field">
-<img src="/img/fisher-trail-7.jpeg" alt="Trail & woods">
-<img src="/img/fisher-trail-8.jpeg" alt="Trail to bridge">
-<img src="/img/fisher-trail-9.jpeg" alt="Sign at Five Rivers intersection">
+<img src="/img/fisher-trail/fisher-trail-1.jpeg" alt="Fisher Trail Sign">
+<img src="/img/fisher-trail/fisher-trail-2.jpeg" alt="Boardwalk">
+<img src="/img/fisher-trail/fisher-trail-3.jpeg" alt="Fisher Trail">
+<img src="/img/fisher-trail/fisher-trail-4.jpeg" alt="Bench and shelter">
+<img src="/img/fisher-trail/fisher-trail-5.jpeg" alt="Observation Deck">
+<img src="/img/fisher-trail/fisher-trail-6.jpeg" alt="Trees & field">
+<img src="/img/fisher-trail/fisher-trail-7.jpeg" alt="Trail & woods">
+<img src="/img/fisher-trail/fisher-trail-8.jpeg" alt="Trail to bridge">
+<img src="/img/fisher-trail/fisher-trail-9.jpeg" alt="Sign at Five Rivers intersection">
 </div>
 
 <h2 id="trailmap">Fisher Trail Trailhead Map</h2>
