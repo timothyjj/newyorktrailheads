@@ -19,13 +19,13 @@ featured-image: img/capital-hills.jpg
 
 <p>For kids of all ages, few activities are more fun after a fresh snowfall than jumping on a sled and riding down a hill at top speed. Thankfully, the Capital Region has no shortage of hills for those looking for some classic winter fun. In this article, we're listing a few of our favorites. Whether a regular plastic sled, a tube, or a toboggan is your vehicle of choice, you're sure to find a place you can enjoy. Feel free to reach out if there are any other spots you think should be included here!</p>
 
-<h2><a href="https://newyorktrailheads.com/2020/03/29/Capital-Hills-Golf-Course-Walking-Trail.html">Capital Hills Golf Course</a></h2>
+<h2>Capital Hills Golf Course</h2>
 
-<p>This sprawling golf course, located in the southern portion of Albany, turns into a sledding, skiing, and dog walking paradise off season. A large parking lot offers plenty of room for cars even with as popular as this place gets. While a number of people often congregate around the big hill right near the parking area, there are plenty of hills of various sizes throughout the course with room to find a more private spot for sledding.</p>
+<p><a href="https://newyorktrailheads.com/2020/03/29/Capital-Hills-Golf-Course-Walking-Trail.html">This sprawling golf course</a>, located in the southern portion of Albany, turns into a sledding, skiing, and dog walking paradise off season. A large parking lot offers plenty of room for cars even with as popular as this place gets. While a number of people often congregate around the big hill right near the parking area, there are plenty of hills of various sizes throughout the course with room to find a more private spot for sledding.</p>
 
-<h2><a href="https://newyorktrailheads.com/2020/05/02/Tawasentha-Park.html">Tawasentha Park</a></h2>
+<h2>Tawasentha Park</h2>
 
-<p>Guilderland's flagship town park off Rte. 146 has a large hill that turns into a well-used sledding run when covered in snow. While the main entrance to the park closes off-season, you can park at the winter entrance (not far past the main entrance) to put yourself right near the hill.</p>
+<p><a href="https://newyorktrailheads.com/2020/05/02/Tawasentha-Park.html">Guilderland's flagship town park</a> off Rte. 146 has a large hill that turns into a well-used sledding run when covered in snow. While the main entrance to the park closes off-season, you can park at the winter entrance (not far past the main entrance) to put yourself right near the hill.</p>
 
 <h2>Sand Creek Middle School</h2>
 
