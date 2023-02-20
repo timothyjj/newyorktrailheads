@@ -34,9 +34,9 @@ featured-image: img/swift-preserve/swift-preserve-1.jpeg
              data-arrows="true">
 <img src="/img/swift-preserve/swift-preserve-1.jpeg" alt="Entrance">
 <img src="/img/swift-preserve/swift-preserve-2.jpeg" alt="Swift Preserve Sign">
-<img src="/img/swift-preserve/swift-preserve-1.jpeg" alt="Boardwalk">
-<img src="/img/swift-preserve/swift-preserve-1.jpeg" alt="Trail Marker">
-<img src="/img/swift-preserve/swift-preserve-1.jpeg" alt="Trail">
+<img src="/img/swift-preserve/swift-preserve-3.jpeg" alt="Boardwalk">
+<img src="/img/swift-preserve/swift-preserve-4.jpeg" alt="Trail Marker">
+<img src="/img/swift-preserve/swift-preserve-5.jpeg" alt="Trail">
 </div>
 
 <h2 id="trailmap">Swift Wetland Preserve Trailhead Map</h2>
