@@ -46,7 +46,7 @@ featured-image: img/compass.jpg
 <p>To adjust your compass for declination, you need two things: first, know what declination value applies to your area; second,
 have a way to set this value on your compass.
 
-<p>You can find out declination value by looking at your map legend (if it's up-to-date), checking online sources like NOAA website¹, or using an app like Compass Pro².
+<p>You can find out declination value by looking at your map legend (if it's up-to-date) or checking online sources like the <a href="https://ngdc.noaa.gov/geomag/declination.shtml" target="blank">NOAA website</a>.
 
 <p>To set declination value on your compass depends on what type of model you have: some have an adjustable screw that lets you rotate the bezel until it matches declination value; others have fixed markings that show common declination values; others have no adjustment mechanism and require manual calculations.
 
