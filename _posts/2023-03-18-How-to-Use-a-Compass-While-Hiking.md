@@ -69,6 +69,7 @@ and subtract 10° from every bearing you take by sight. If declination is 10° w
 <li>Place your compass on the map so that the edge of the baseplate aligns with the line you drew, and the direction-of-travel arrow points towards point B.</li>
 <li>Rotate the bezel until the orienting arrow and north on the bezel align with north on the map. Make sure you use true north or adjust for declination if necessary.</li>
 <li>Read the bearing at the index line or the direction-of-travel arrow. This is the angle between north and point B measured clockwise.</li>
+</ol>
 
 <p>To take a bearing by sight, follow these steps:
 
