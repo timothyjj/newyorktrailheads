@@ -16,6 +16,8 @@ featured-image: img/fireworks.jpg
 
 <p>Going to a fireworks show is a classic Independence Day activity, and upstate New York has plenty of options to offer. Here's a rundown of places you can go in the greater Capital Region and Adirondacks to see fireworks around July 4, 2023.</p>
 
+<img class="pure-img-responsive" src="img/fireworks.jpg">
+
 <h2>Tri-City ValleyCats Game: June 29</h2>
 
 <p>The ValleyCats continue an annual tradition of fireworks following a game. Watch them play the Schaumburg Boomers starting at 6:30 PM first. The game will occur at the Joseph L. Bruno Stadium in Troy.</p>
