@@ -5,10 +5,10 @@ excerpt: Where to go to see fireworks for Independence Day 2023
 
 images:
 
-  - url: /img/fireworks.jpg
+  - url: /img/fireworks.JPG
     alt: Fireworks
     title: Fireworks
-featured-image: img/fireworks.jpg
+featured-image: img/fireworks.JPG
 
 ---
 
@@ -16,7 +16,7 @@ featured-image: img/fireworks.jpg
 
 <p>Going to a fireworks show is a classic Independence Day activity, and upstate New York has plenty of options to offer. Here's a rundown of places you can go in the greater Capital Region and Adirondacks to see fireworks around July 4, 2023.</p>
 
-<img class="pure-img-responsive" src="img/fireworks.jpg">
+<img class="pure-img-responsive" src="img/fireworks.JPG"> 
 
 <h2>Tri-City ValleyCats Game: June 29</h2>
 
@@ -24,7 +24,7 @@ featured-image: img/fireworks.jpg
 
 <h2>Albany: Empire State Plaza</h2>
 
-<p>See the largest fireworks display in the region at the Empire State Plaza in downtown Albany the evening of July 4th. Enjoy music, food, and other activities before the fireworks kick off at dusk.</p>
+<p>See the largest fireworks display in the region at the Empire State Plaza in downtown Albany the evening of July 4th. Enjoy music, food, and other activities before the fireworks kick off at dusk. </p>
 
 <h2>Clifton Park: Clifton Commons Park</h2>
 
