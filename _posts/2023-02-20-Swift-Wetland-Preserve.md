@@ -23,7 +23,7 @@ featured-image: img/swift-preserve/swift-preserve-1.jpeg
 
 <p>In short, this trail provides a great route for a quick jaunt through the woods. For a longer walk, you can also combine a trip here with a venture to other nearby hiking spots such as <a href="https://newyorktrailheads.com/2019/02/09/Five-Rivers-Environmental-Education-Center">Five Rivers</a>.</p>
 
-<h2>Swift Wetland Preserve</h2>
+<h2>Swift Preserve Photos</h2>
 
 <div class="fotorama" data-nav="thumbs" data-width="100%"
                      data-ratio="800/600"
