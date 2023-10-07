@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pilot Knob Preserve
+title: Schumann Preserve at Pilot Knob
 excerpt: A moderately easy hike with some elevation gain, Pilot Knob Preserve offers a gazebo, panoramic view of Lake George, and waterfall
 categories: [Lake George, Adirondacks]
 
@@ -14,7 +14,7 @@ featured-image: img/pilot-knob/lake-george-north.jpg
 
 ---
 
-<h1>Pilot Knob Preserve</h1>
+<h1>Schumann Preserve at Pilot Knob</h1>
 
 <ul>
 	<li><a href="#photos">Photos</a></li>
