@@ -24,7 +24,7 @@ featured-image: img/the-pinnacle/the-pinnacle5.jpg
 
 <p>All in all, The Pinnacle offers a brief but satisfying trek through the woods, accessible by families and those who may not be up for a more strenuous hike. Don't forget your camera (or phone) to record the view over Lake George! You can find a detailed map and other information at <a href="http://www.lglc.org/preserves/pinnacle/" target="_blank">The Lake George Land Conservancy's page for this hike</a>.</p>
 
-<p>In 2020, an additional trail was added to the system at The Pinnacle, branching off from the initial trail that leads from the same parking area. Add on an easy (0.8 mile each way) trek to <a href="https://newyorktrailheads.com/2023/10/23/bradleys-lookout.html">Bradley's Lookout</a> for another viewpoint of Lake George that's an easy family hike.</p>
+<p>In 2020, an additional trail was added to the system at The Pinnacle, branching off from the initial trail that leads from the same parking area. Add on an easy (0.8 mile each way) trek to <a href="https://newyorktrailheads.com/2023/10/21/bradleys-lookout.html">Bradley's Lookout</a> for another viewpoint of Lake George that's an easy family hike.</p>
 
 <h2>The Pinnacle Photos</h2>
 
