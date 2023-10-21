@@ -7,8 +7,8 @@ categories: [Adirondacks]
 images:
 
   - url: /img/severance-hill/severance-hill3.jpg
-    alt: Swift Wetland Preserve
-    title: Swift Wetland Preserve
+    alt: Severance Hill
+    title: Severance Hill
 featured-image: img/severance-hill/severance-hill3.jpg
 
 ---
