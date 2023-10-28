@@ -43,5 +43,8 @@ featured-image: img/crossings/crossings2.jpg
 
 <h2 id="trailmap">The Crossings of Colonie Map</h2>
 
+<p>
+<a href="https://www.colonie.org/departments/parksandrec/thecrossings/">See a full map of the park on the official Town of Colonie website<a></p>
+
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11725.76916239541!2d-73.7933741!3d42.7155285!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de0c7d0d5319eb%3A0x3d20da5deea748fe!2sThe%20Crossings%20Park%20of%20Colonie!5e0!3m2!1sen!2sus!4v1698516163803!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
