@@ -34,7 +34,7 @@ featured-image: img/winterhiking.jpg
 
 <h3>Saratoga Spa State Park</h3>
 
-<p>Starting from the Creekside Classroom on the Geyser Loop at 10 AM, join a guided hike through the park (or snowshoe if we miraculously get snow by then, but the forecast doesn't look promising!). Registration is required; <a href="https://friendsofmoreaulake.org/2023/12/18/first-day-hike-2024/" target="_blank">visit the park website for more info or email Allison.Schweizer@parks.ny.gov.
+<p>Starting from the Creekside Classroom on the Geyser Loop at 10 AM, join a guided hike through the park (or snowshoe if we miraculously get snow by then, but the forecast doesn't look promising!). Registration is required; <a href="https://friendsofmoreaulake.org/2023/12/18/first-day-hike-2024/" target="_blank">visit the park website for more info</a> or email Allison.Schweizer@parks.ny.gov.
 
 <h2>Albany County</h2>
 
