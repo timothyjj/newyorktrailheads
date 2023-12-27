@@ -24,7 +24,7 @@ featured-image: img/zim-smith-trail/zim-smith-trail-halfmoon.jpg
 
 <p>This multi-use trail extends 11.5 miles from Mechanicville to Ballston Spa. Paved trail follows a variety of terrain including swampland, fields, woods, and communities. The entire length of the trail is well kept and is perfect for casual walking, biking, or running. You'll run into periodic road crossings, but most are quiet, with the exception of Eastline Road in Ballston Spa.</p>
 
-<p>There are several points along the way where you can park to walk or ride the trail. In Mechanicville, you can find a parking area off of Elizabeth Street. Coons Crossing Road in Halfmoon offers spots for several cars. Popular points midway include large parking areas in Round Lake and within <a href="http://malta-town.org/facilities/facility/details/Shenantaha-Creek-Park-3" target="_blank">Shenantaha Park</a> in Malta.</p>
+<p>There are several points along the way where you can park to walk or ride the trail. In Mechanicville, you can find a parking area off of Elizabeth Street. Coons Crossing Road in Halfmoon offers spots for several cars on both sides of the road. Popular points midway include large parking areas in Round Lake and within <a href="http://malta-town.org/facilities/facility/details/Shenantaha-Creek-Park-3" target="_blank">Shenantaha Park</a> in Malta.</p>
 
 <p>Right before the trail runs under the Northway in Malta, there's a cutoff trail that goes to Rte. 9, with an option to continue into the Global Foundries area and Luther Forest trails. Be aware that the connector trail has sections with steep inclines on both ends. However, other sections of the trail lack major inclines, for the most part, and so are perfect for young children.</p>
 
@@ -36,7 +36,10 @@ featured-image: img/zim-smith-trail/zim-smith-trail-halfmoon.jpg
                      data-max-width="1000"
                      data-min-height="300"
                      data-max-height="100%" >
-<img src="/img/zim-smith-trail/zim-smith-trail-halfmoon.jpg" alt="Zim Smith Trail Halfmoon trailhead"><br />
+<img src="/img/zim-smith-trail/zim-smith-1.jpg" alt="Zim Smith Trail Halfmoon trailhead"><br />
+<img src="/img/zim-smith-trail/zim-smith-2.jpg" alt="Zim Smith Trail map"><br />
+<img src="/img/zim-smith-trail/zim-smith-3.jpg" alt="Zim Smith Trail parking area"><br />
+<img src="/img/zim-smith-trail/zim-smith-4.jpg" alt="Trail in Halfmoon"><br />
 <img src="/img/zim-smith-trail/zim-smith-trail-fall.jpg" alt="Malta cutoff trail in fall"><br />
 <img src="/img/zim-smith-trail/malta-bike-trail.jpg" alt="Malta bike trail"><br />
 <img src="/img/zim-smith-trail/totem-pole.jpg" alt="Totem pole tree"><br />
