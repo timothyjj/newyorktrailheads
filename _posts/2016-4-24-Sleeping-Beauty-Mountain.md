@@ -49,7 +49,7 @@ featured-image: img/sleeping-beauty/lake-george-from-sleeping-beauty.jpg
 
 <h2 id="video">Video from Sleeping Beauty Summit</h2>
 
-<iframe src="https://player.vimeo.com/video/187460782" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/187460782" width="90%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <h2 id="trailmap">Map of Sleeping Beauty Trailhead</h2>
 
