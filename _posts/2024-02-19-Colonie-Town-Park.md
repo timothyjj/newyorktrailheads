@@ -5,10 +5,10 @@ excerpt: Walk through the woods & along the Mohawk River
 
 images:
 
-  - url: /img/colonie-town-park-5.jpg
+  - url: /img/colonie-town-park/colonie-town-park-5.jpg
     alt: Colonie Town Park
     title: Colonie Town Park
-featured-image: img/colonie-town-park-5.jpg
+featured-image: img/colonie-town-park/colonie-town-park-5.jpg
 
 ---
 
@@ -29,11 +29,11 @@ featured-image: img/colonie-town-park-5.jpg
                      data-min-height="300"
                      data-max-height="100%" 
              data-arrows="true">
-<img src="/img/colonie-town-park-1.jpg" alt="Colonie Town Park Trail">
-<img src="/img/colonie-town-park-2.jpg" alt="Covered Bridge">
-<img src="/img/colonie-town-park-3.jpg" alt="Pond">
-<img src="/img/colonie-town-park-4.jpg" alt="Mohawk River in Fall">
-<img src="/img/colonie-town-park-5.jpg" alt="Benches by Mohawk River">
+<img src="/img/colonie-town-park/colonie-town-park-1.jpg" alt="Colonie Town Park Trail">
+<img src="/img/colonie-town-park/colonie-town-park-2.jpg" alt="Covered Bridge">
+<img src="/img/colonie-town-park/colonie-town-park-3.jpg" alt="Pond">
+<img src="/img/colonie-town-park/colonie-town-park-4.jpg" alt="Mohawk River in Fall">
+<img src="/img/colonie-town-park/colonie-town-park-5.jpg" alt="Benches by Mohawk River">
 </div>
 
 <h2 id="trailmap">The Crossings of Colonie Map</h2>
