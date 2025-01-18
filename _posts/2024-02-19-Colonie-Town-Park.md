@@ -37,7 +37,7 @@ featured-image: img/colonie-town-park/colonie-town-park-5.jpg
 <img src="/img/colonie-town-park/colonie-town-park-5.jpg" alt="Benches by Mohawk River">
 </div>
 
-<h2 id="trailmap">The Crossings of Colonie Map</h2>
+<h2 id="trailmap">Colonie Town Park Map</h2>
 
 <p>
 <a href="https://www.colonie.org/departments/parksandrec/thecrossings/">See a full map of the park on the official Town of Colonie website</a></p>
