@@ -2,6 +2,7 @@
 layout: default
 title: Capital Region First Day Hikes 2024
 excerpt: Welcome the New Year with an outdoor trek!
+hidden: true
 
 images:
 
