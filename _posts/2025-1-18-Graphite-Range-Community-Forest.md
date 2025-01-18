@@ -2,6 +2,7 @@
 layout: default
 title: Graphite Range Community Forest
 excerpt: Biking & hiking trails near former graphite mines
+categories: [Nature Preserves & Parks]
 
 images:
 
