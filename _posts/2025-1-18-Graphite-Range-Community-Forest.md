@@ -44,7 +44,7 @@ featured-image: img/graphite-range/graphite-range-7.jpg
 <img src="/img/graphite-range/graphite-range-8.jpg" alt="Graphite Mine">
 </div>
 
-<h2 id="trailmap">The Crossings of Colonie Map</h2>
+<h2 id="trailmap">Graphite Range Community Forest Map</h2>
 
 <p>
 <a href="https://saratogaplan.org/wp-content/uploads/2023/12/GRCFTrailMap12.6.23.pdf">See a detailed trail map courtesy of Saratoga Plan</a></p>
