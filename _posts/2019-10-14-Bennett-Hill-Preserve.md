@@ -50,7 +50,7 @@ featured-image: img/bennett-hill/bennett-hill-overlook.jpg
 
 <h2 id="trailmap">Trailhead Map</h2>
 
-<p><a href="https://mohawkhudson.org/wp-content/uploads/2014/09/Bennett-Hill-Preserve-2017-new-logo.pdf" target="_blank">See a detailed trail map courtesy of the Mohawk Hudson Land Conservancy.
+<p><a href="https://cdn.prod.website-files.com/609d3bb0fafad216fbe96563/6230eab4d9792faabdc5dfbf_Bennett%20Hill%202020%20Map.pdf" target="_blank">See a detailed trail map courtesy of the Mohawk Hudson Land Conservancy.
 
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11752.927769929225!2d-73.9657143!3d42.5715992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe2a84850b9a37a65!2sBennett%20Hill%20Preserve!5e0!3m2!1sen!2sus!4v1571072989991!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
