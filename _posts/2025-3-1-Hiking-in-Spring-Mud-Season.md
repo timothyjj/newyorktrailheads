@@ -13,7 +13,7 @@ featured-image: img/muddypond.jpg
 
 ---
 
-<img src="img/muddypond.jpg">
+<img src="/img/muddypond.jpg" alt="muddy pond">
 
 <h1>Hiking in Spring Mud Season: Tips for Enjoying the Trails While Protecting the Environment</h1>
 <p>Springtime is one of the most beautiful times to hit the trails, but it also presents a unique set of challenges for hikers. As the snow melts and the ground thaws, many trails become boggy, slippery, and muddy—making it more difficult to enjoy the hike and, more importantly, more damaging to the delicate ecosystem. If you're planning a spring hike, it's crucial to be aware of how the mud season can impact both your experience and the environment.</p>
@@ -32,7 +32,7 @@ featured-image: img/muddypond.jpg
 <p>If you're encountering a particularly muddy stretch, consider walking straight through it rather than attempting to skirt around it. This approach will help minimize the impact and keep the trails in good shape.</p>
 
 <h2>Be Mindful of Trail Conditions</h2>
-<p>Spring trails are especially susceptible to erosion and trail damage. If you notice soft or muddy trails that are getting particularly churned up by hiker traffic, it's best to <strong>postpone</strong> your hike or take a different route. Hikers can unintentionally exacerbate trail degradation by walking on trails when conditions are too wet. In some cases, trail closures may be in effect during mud season to protect the landscape, so always check trail conditions before heading out. If heading into the Adirondacks, you can check the <a href="https://dec.ny.gov/things-to-do/hiking/adirondack-backcountry" target="_blank">DEC site</a> for current information on closures.</p>
+<p>Spring trails are especially susceptible to erosion and trail damage. If you notice soft or muddy trails that are getting particularly churned up by hiker traffic, it's best to postpone your hike or take a different route. Hikers can unintentionally exacerbate trail degradation by walking on trails when conditions are too wet. In some cases, trail closures may be in effect during mud season to protect the landscape, so always check trail conditions before heading out. If heading into the Adirondacks, you can check the <a href="https://dec.ny.gov/things-to-do/hiking/adirondack-backcountry" target="_blank">DEC site</a> for current information on closures.</p>
 
 <h2>Pack Light</h2>
 <p>During mud season, carrying a heavy backpack can make the hike more challenging, especially if you're slipping and sliding on the muddy trails. Lightening your load by packing only essential gear will make it easier to move through wet areas and maintain your balance. Stick to the basics, like extra socks, water, and snacks, and leave unnecessary items behind.</p>
@@ -44,7 +44,7 @@ featured-image: img/muddypond.jpg
 <p>Springtime brings an abundance of wildlife, including nesting birds and emerging animals. Many species use the trails and surrounding areas for shelter and breeding grounds. Be sure to follow Leave No Trace principles and avoid disturbing wildlife. If you encounter animals, give them plenty of space to ensure their safety and yours.</p>
 
 <h2>Pack for Muddy Conditions</h2>
-<p>Because spring mud season is messy, it’s a good idea to <strong>bring extra layers</strong> and clothing. A change of socks is particularly important, as wet socks can lead to blisters or discomfort. Additionally, if you’re hiking in areas with streams or wetland areas, consider packing a small towel to wipe off your feet or legs when you encounter muddy stretches.</p>
+<p>Because spring mud season is messy, it’s a good idea to bring extra layers and clothing. A change of socks is particularly important, as wet socks can lead to blisters or discomfort. Additionally, if you’re hiking in areas with streams or wetland areas, consider packing a small towel to wipe off your feet or legs when you encounter muddy stretches.</p>
 
 <h2>Consider Alternative Activities</h2>
 <p>If the trail conditions seem particularly bad or the forecast predicts more rain, consider alternative outdoor activities. Canoeing, kayaking, or biking on less muddy paths can be just as rewarding and less damaging to the trails. This is also a good time to explore local parks or take a more leisurely approach to hiking on flatter, drier routes.</p>
