@@ -24,7 +24,7 @@ featured-image: img/muddypond.png
 <p>High-elevation and steep trails can become particularly challenging during mud season. These trails may remain wet and slippery longer, and the conditions can make hiking more hazardous. Opting for lower-elevation hikes can provide better footing and a more enjoyable experience. Additionally, the NYS DEC discourages hikers from going above 3,000 feet until trails have had a chance to dry from snow melt (generally sometime between mid-May and June).</p>
 
 <h2>Wear Appropriate Footwear</h2>
-<p>When you hike during mud season, your footwear needs to be up to the task. Hiking boots or shoes with waterproofing and good traction are key. You’ll be crossing wet, slippery surfaces, so make sure your shoes are sturdy enough to handle the conditions.</p>
+<p>When you hike during mud season, your footwear needs to be up to the task. <a href="https://amzn.to/3FboQtT" target="_blank">Hiking boots</a> or shoes with waterproofing and good traction are key. You’ll be crossing wet, slippery surfaces, so make sure your shoes are sturdy enough to handle the conditions.</p>
 <p>In addition to waterproof shoes, gaiters are a smart addition. These simple accessories help keep mud, water, and debris from entering your boots, allowing for a more comfortable experience.</p>
 
 <h2>Stay on the Trails</h2>
