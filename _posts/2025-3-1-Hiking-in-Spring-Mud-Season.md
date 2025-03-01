@@ -47,7 +47,7 @@ featured-image: img/muddypond.png
 <p>Because spring mud season is messy, it’s a good idea to bring extra layers and clothing. A change of socks is particularly important, as wet socks can lead to blisters or discomfort. Additionally, if you’re hiking in areas with streams or wetland areas, consider packing a small towel to wipe off your feet or legs when you encounter muddy stretches.</p>
 
 <h2>Consider Alternative Activities</h2>
-<p>If the trail conditions seem particularly bad or the forecast predicts more rain, consider alternative outdoor activities. Canoeing, kayaking, or biking on less muddy paths can be just as rewarding and less damaging to the trails. This is also a good time to explore local parks or take a more leisurely approach to hiking on flatter, drier routes.</p>
+<p>If the trail conditions seem particularly bad or the forecast predicts more rain, consider alternative outdoor activities. Canoeing, kayaking, or biking on less muddy paths can be just as rewarding and less damaging to the trails. This is also a good time to <a href="https://newyorktrailheads.com/2016/11/27/Capital-Region-Parks.html" target="_blank">explore local parks</a> or take a more leisurely approach to hiking on flatter, drier routes.</p>
 
 <h2>Final Thoughts</h2>
 <p>Spring hiking offers a beautiful opportunity to reconnect with nature, but it comes with challenges that require awareness and respect for the environment. By carefully choosing trails, wearing the right gear, and sticking to responsible hiking practices, you can enjoy the fresh air and natural beauty without causing unnecessary damage to the delicate spring ecosystems.</p>
