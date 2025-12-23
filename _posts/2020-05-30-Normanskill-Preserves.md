@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Normanskill Preserves & Normanskill Farm
 excerpt: Water, woods, and a historic bridge
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Normanskill Preserve
     title: Normanskill Preserve
 
-featured-image: img/normanskill/normanskill-5.jpeg
+cover-img: img/normanskill/normanskill-5.jpeg
 
 ---
 

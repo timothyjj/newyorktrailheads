@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Spruce Mountain 
 excerpt: In the Corinth area, enjoy this brief hike with moderate elevation gain to a wooded summit with a restored firetower.
 categories: [Adirondacks]
@@ -10,7 +10,7 @@ images:
     alt: View from Spruce Mountain Fire Tower
     title: View from Spruce Mountain Fire Tower
 
-featured-image: img/spruce-mountain/climbing-tower.jpg
+cover-img: img/spruce-mountain/climbing-tower.jpg
 
 ---
 

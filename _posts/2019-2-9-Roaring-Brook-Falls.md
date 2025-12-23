@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Roaring Brook Falls
 excerpt: Hike to a beautiful waterfall in the midst of the Adirondack High Peaks Region
 categories: [Adirondacks]
@@ -10,7 +10,7 @@ images:
     alt: Top of Roaring Brook Falls
     title: Top of Roaring Brook Falls
 
-featured-image: img/roaring-brook-falls/roaringbrookfalls-view.jpg
+cover-img: img/roaring-brook-falls/roaringbrookfalls-view.jpg
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Albany Pine Bush Preserve
 excerpt: Close to the busy city and suburbs, find tranquility in these expansive pine barrens
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: View of Helderbergs from Pine Bush Preserve
     title: View of Helderbergs from Pine Bush Preserve
 
-featured-image: img/pine-bush/helderberg-view.jpg
+cover-img: img/pine-bush/helderberg-view.jpg
     
 ---
 

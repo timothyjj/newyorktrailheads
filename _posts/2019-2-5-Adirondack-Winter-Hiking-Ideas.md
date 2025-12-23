@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Three Adirondack Winter Hiking Ideas
 excerpt: If you're looking to get outside to enjoy the beauty of winter, explore these options in the Adirondacks
 categories: [Adirondacks]
@@ -10,7 +10,7 @@ images:
     alt: Adirondack Winter Scene
     title: Adirondack Winter Scene
 
-featured-image: img/adirondack-winter.jpg
+cover-img: img/adirondack-winter.jpg
 
 ---
 

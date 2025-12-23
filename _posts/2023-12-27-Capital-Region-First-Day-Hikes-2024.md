@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Capital Region First Day Hikes 2024
 excerpt: Welcome the New Year with an outdoor trek!
 hidden: true
@@ -9,7 +9,7 @@ images:
   - url: /img/winterhiking.jpg
     alt: Mountain covered in snow
     title: Mountain covered in snow
-featured-image: img/winterhiking.jpg
+cover-img: img/winterhiking.jpg
 
 ---
 

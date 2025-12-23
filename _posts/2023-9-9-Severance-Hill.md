@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Severance Hill
 excerpt: Short climb to an overlook near Schroon Lake
 categories: [Adirondacks]
@@ -9,7 +9,7 @@ images:
   - url: /img/severance-hill/severance-hill3.jpg
     alt: Severance Hill
     title: Severance Hill
-featured-image: img/severance-hill/severance-hill3.jpg
+cover-img: img/severance-hill/severance-hill3.jpg
 
 ---
 

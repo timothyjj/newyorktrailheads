@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hadley Mountain 
 excerpt: A relatively short hike to a rewarding view and a restored fire tower
 categories: [Adirondacks]
@@ -10,7 +10,7 @@ images:
     alt: Hadley Mountain 
     title: Hadley Mountain 
 
-featured-image: img/hadleymountain.jpg
+cover-img: img/hadleymountain.jpg
 
 ---
 

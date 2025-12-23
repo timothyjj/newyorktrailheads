@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Capital Region Sledding Hills
 excerpt: Favorite spots for sledding in the Capital Region 
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/capital-hills.jpg
     alt: Capital Hills Golf Course
     title: Capital Hills Golf Course
-featured-image: img/capital-hills.jpg
+cover-img: img/capital-hills.jpg
 
 ---
 

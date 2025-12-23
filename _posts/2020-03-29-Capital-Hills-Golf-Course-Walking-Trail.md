@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Capital Hills Golf Course Walking Trail
 excerpt: Meandering trails perfect for outdoor activity near Albany
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Capital Hills Golf Course Walking Trail
     title: Capital Hills Golf Course Walking Trail
 
-featured-image: img/capital-hills/capital-hills-landscape.png
+cover-img: img/capital-hills/capital-hills-landscape.png
 
 ---
 

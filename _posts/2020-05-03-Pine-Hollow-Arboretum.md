@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Pine Hollow Arboretum
 excerpt: 22-acre public space with trees from all over the world 
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Pine Hollow Arboretum
     title: Pine Hollow Arboretum
 
-featured-image: img/pine-hollow-arboretum/pinehollow-5.jpeg
+cover-img: img/pine-hollow-arboretum/pinehollow-5.jpeg
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Overlook Mountain
 excerpt: Catskill hike with old hotel ruins, a restored firetower, and an incredible view of the Hudson River Valley
 categories: [Catskills]
@@ -10,7 +10,7 @@ images:
     alt: View of the Hudson River from Overlook Mountain
     title: View of the Hudson River from Overlook Mountain
 
-featured-image: img/overlook-mountain/overlook-mountain-view.jpg
+cover-img: img/overlook-mountain/overlook-mountain-view.jpg
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Albany County Rail Trail
 excerpt: Paved trail meandering through the suburbs south of Albany
 categories: [Bike Trails]
@@ -10,7 +10,7 @@ images:
     alt: Bridge on Albany County Rail Trail
     title: Bridge on Albany County Rail Trail
 
-featured-image: img/albany-county-rail-trail/bridge.jpg
+cover-img: img/albany-county-rail-trail/bridge.jpg
 
 ---
 

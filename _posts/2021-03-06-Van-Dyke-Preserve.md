@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Van Dyke Preserve
 excerpt: 1-mile loop beside a wooded stream
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/van-dyke/van-dyke-1.jpeg
     alt: Van Dyke Preserve
     title: Van Dyke Preserve
-featured-image: img/van-dyke/van-dyke-1.jpeg
+cover-img: img/van-dyke/van-dyke-1.jpeg
 
 ---
 

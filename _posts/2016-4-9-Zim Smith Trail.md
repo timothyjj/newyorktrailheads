@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Zim Smith Trail 
 excerpt: A 9 mile multi-use trail extending from Halfmoon to Ballston Spa
 categories: [Bike Trails]
@@ -10,7 +10,7 @@ images:
     alt: Zim Smith Trail Entrance
     title: Zim Smith Trail Entrance
     
-featured-image: img/zim-smith-trail/zim-smith-trail-halfmoon.jpg
+cover-img: img/zim-smith-trail/zim-smith-trail-halfmoon.jpg
 
 ---
  

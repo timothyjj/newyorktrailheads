@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 5 Tips to Get Your Kids Hiking
 excerpt: Advice for helping children to love the outdoors & learn to hike
 categories: [Hiking Tips]
@@ -10,7 +10,7 @@ images:
     alt: Cairn on Mountain Trail
     title: Cairn on Mountain Trail
 
-featured-image: img/cairn.jpg
+cover-img: img/cairn.jpg
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Five Rivers Environmental Education Center
 excerpt: Peaceful nature preserve with miles of trails
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Five Rivers Environmental Education Center
     title: Five Rivers Environmental Education Center
 
-featured-image: img/five-rivers/five-rivers-pond.png
+cover-img: img/five-rivers/five-rivers-pond.png
 
 ---
 

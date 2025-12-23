@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Fox Preserve
 excerpt: Walk to the top of a hill overlooking the Mohawk River in Latham
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Fox Preserve
     title: Fox Preserve
 
-featured-image: img/fox-preserve/fox-preserve-8.jpg
+cover-img: img/fox-preserve/fox-preserve-8.jpg
 
 ---
 

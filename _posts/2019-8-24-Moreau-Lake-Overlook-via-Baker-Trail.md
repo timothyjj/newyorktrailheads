@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Moreau Lake Overlook from Baker Trail
 excerpt: Climb to a beautiful overlook in Moreau Lake State Park 
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Moreau Lake Overlook
     title: Moreau Lake Overlook
 
-featured-image: img/moreau-overlook/moreau-lake-overlook.jpeg
+cover-img: img/moreau-overlook/moreau-lake-overlook.jpeg
 
 ---
 

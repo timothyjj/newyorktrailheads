@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: How to Navigate with a Compass While Hiking
 excerpt: Know how to use a compass to avoid getting lost
 
@@ -10,7 +10,7 @@ images:
   - url: /img/compass.jpg
     alt: Compass & Map
     title: Compass & Map
-featured-image: img/compass.jpg
+cover-img: img/compass.jpg
 
 ---
 

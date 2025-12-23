@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Peebles Island State Park
 excerpt: See the confluence of the Hudson & Mohawk Rivers
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/peebles-island/peebles800x600.png
     alt: Peebles Island State Park
     title: Peebles Island State Park
-featured-image: img/peebles-island/peebles800x600.png
+cover-img: img/peebles-island/peebles800x600.png
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Mohawk-Hudson Bike-Hike Trail 
 excerpt: A well-maintained trail following the Mohawk and Hudson Rivers through the Capital Region and further west
 categories: [Bike Trails]
@@ -10,7 +10,7 @@ images:
     alt: Mohawk-Hudson Bike-Hike Trail 
     title: Mohawk-Hudson Bike-Hike Trail 
 
-featured-image: img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
+cover-img: img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
 
 ---
  

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Capital Region Bike Trails 
 excerpt: Our favorite spots for biking in New York's Capital Region
 categories: [Bike Trails]
@@ -10,7 +10,7 @@ images:
     alt: Capital Region Bike Trails 
     title: Capital Region Bike Trails 
     
-featured-image: img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
+cover-img: img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
 
 ---
  

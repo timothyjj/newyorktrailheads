@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: North Woods Nature Preserve 
 excerpt: Trail in a residential neighborhood leading to the old Round Lake Reservoir and meandering through the woods
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: North Woods Nature Preserve 
     title: North Woods Nature Preserve 
 
-featured-image: img/north-woods/northwoods-5.jpg
+cover-img: img/north-woods/northwoods-5.jpg
     
 ---
 

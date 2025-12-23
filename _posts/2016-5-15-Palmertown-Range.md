@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Palmertown Range 
 excerpt: High up above Moreau Lake, the Palmertown Range includes an extensive trail system stretching seven miles across Adirondack foothills
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: View from Eastern Ridge Trail in Palmertown Range 
     title: View from Eastern Ridge Trail in Palmertown Range 
 
-featured-image: img/eastern-ridge-view.jpg
+cover-img: img/eastern-ridge-view.jpg
 
 ---
 

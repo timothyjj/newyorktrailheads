@@ -1,3 +1,0 @@
-User-Agent: *
-Disallow: /privacypolicy.html
-Disallow: /indextest.html

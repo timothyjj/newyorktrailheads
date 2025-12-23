@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Phillipin Kill Preserve
 excerpt: Forest, streams, and marsh in a suburban Bethlehem preserve
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/phillipin-kill/PhillipinKill-3.jpeg
     alt: Phillipin Kill Preserve
     title: Phillipin Kill Preserve
-featured-image: img/phillipin-kill/PhillipinKill-3.jpeg
+cover-img: img/phillipin-kill/PhillipinKill-3.jpeg
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Schiffendecker Farm Preserve
 excerpt: Suburban jaunt through the woods in Glenmont
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/schiffendecker/schiffendecker3.jpg
     alt: Schiffendecker Farm Preserve
     title: Schiffendecker Farm Preserve
-featured-image: img/schiffendecker/schiffendecker3.jpg
+cover-img: img/schiffendecker/schiffendecker3.jpg
 
 ---
 

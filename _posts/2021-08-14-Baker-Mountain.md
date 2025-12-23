@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Baker Mountain
 excerpt: Brief but steep hike to a view of the High Peaks Region
 categories: [Adirondacks]
@@ -9,7 +9,7 @@ images:
   - url: /img/baker-mountain/baker-mountain-8.jpeg
     alt: Baker Mountain
     title: Baker Mountain
-featured-image: img/baker-mountain/baker-mountain-8.jpeg
+cover-img: img/baker-mountain/baker-mountain-8.jpeg
 
 ---
 

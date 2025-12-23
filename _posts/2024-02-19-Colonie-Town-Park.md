@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Colonie Town Park
 excerpt: Walk through the woods & along the Mohawk River
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/colonie-town-park/colonie-town-park-5.jpg
     alt: Colonie Town Park
     title: Colonie Town Park
-featured-image: img/colonie-town-park/colonie-town-park-5.jpg
+cover-img: img/colonie-town-park/colonie-town-park-5.jpg
 
 ---
 

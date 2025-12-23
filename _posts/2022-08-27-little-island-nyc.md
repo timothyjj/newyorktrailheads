@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Little Island (New York City)
 excerpt: A Slice of Nature in Downtown Manhattan
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/little-island/little-island-4.jpeg
     alt: Little Island
     title: Little Island
-featured-image: img/little-island/little-island-4.jpeg
+cover-img: img/little-island/little-island-4.jpeg
 
 ---
 

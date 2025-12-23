@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Fisher Trail
 excerpt: Accessible trail connecting to Five Rivers
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/fisher-trail/fisher-trail-7.jpeg
     alt: Fisher Trail
     title: Fisher Trail
-featured-image: img/fisher-trail-7.jpeg
+cover-img: img/fisher-trail-7.jpeg
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bradley's Lookout
 excerpt: Easy hike to a view of Lake George
 categories: [Adirondacks]
@@ -9,7 +9,7 @@ images:
   - url: /img/bradleys-lookout/bradleys-lookout2.jpg
     alt: Bradley's Lookout
     title: Bradley's Lookout
-featured-image: img/bradleys-lookout/bradleys-lookout2.jpg
+cover-img: img/bradleys-lookout/bradleys-lookout2.jpg
 
 ---
 

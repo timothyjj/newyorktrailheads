@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Great Parks in NY's Capital Region
 excerpt: The Capital Region is home to many parks large and small that offer incredible outdoor experiences.
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Thacher Park
     title: Thacher Park
 
-featured-image: img/capital-region-hikes/thacher-park.jpg
+cover-img: img/capital-region-hikes/thacher-park.jpg
 
 ---
 
