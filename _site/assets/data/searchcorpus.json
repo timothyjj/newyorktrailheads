@@ -738,6 +738,14 @@
 }, 
  
 { 
+"title"    : "Privacy Policy | New York Trailheads", 
+"desc"     : "Privacy Policy | New York Trailheads", 
+"category" : "page", 
+"url"      : "/privacypolicy/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
 "title"    : "Tag Index", 
 "desc"     : "Tag Index", 
 "category" : "page", 
