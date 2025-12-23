@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Vischer Ferry Nature Preserve
 excerpt: Easy walking trails, Mohawk River views, and local history
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Whipple Bridge at Vischer Ferry Preserve
     title: Whipple Bridge at Vischer Ferry Preserve
 
-featured-image: img/vischer-ferry/whipple-bridge.jpg
+cover-img: img/vischer-ferry/whipple-bridge.jpg
 
 ---
 

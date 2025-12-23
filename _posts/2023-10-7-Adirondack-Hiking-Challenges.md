@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Adirondack Hiking Challenges
 excerpt: Ways to hike toward a goal in the ADK
 categories: [Adirondacks]
@@ -9,7 +9,7 @@ images:
   - url: /img/baker-mountain/baker-mountain-8.jpeg
     alt: Adirondack Hiking Challenges
     title: Adirondack Hiking Challenges
-featured-image: img/baker-mountain/baker-mountain-8.jpeg
+cover-img: img/baker-mountain/baker-mountain-8.jpeg
 
 ---
 

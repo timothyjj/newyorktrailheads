@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Worst Reviews of Upstate NY Hikes
 excerpt: Some people just can't be satisfied
 categories: [Humor]
@@ -9,7 +9,7 @@ images:
   - url: /img/bad-reviews/bad-review.png
     alt: Bad Hike Reviews
     title: Bad Hike Reviews
-featured-image: img/bad-reviews/bad-review.png
+cover-img: img/bad-reviews/bad-review.png
 
 ---
 

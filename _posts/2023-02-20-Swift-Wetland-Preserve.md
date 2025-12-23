@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Swift Wetland Preserve
 excerpt: Marshy nature preserve across from Bethlehem High School
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/swift-preserve/swift-preserve-1.jpeg
     alt: Swift Wetland Preserve
     title: Swift Wetland Preserve
-featured-image: img/swift-preserve/swift-preserve-1.jpeg
+cover-img: img/swift-preserve/swift-preserve-1.jpeg
 
 ---
 

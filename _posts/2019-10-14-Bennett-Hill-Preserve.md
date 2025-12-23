@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bennett Hill Preserve
 excerpt: A short hike to a nice view in Albany County
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Bennett Hill Preserve
     title: Bennett Hill Preserve
 
-featured-image: img/bennett-hill/bennett-hill-overlook.jpg
+cover-img: img/bennett-hill/bennett-hill-overlook.jpg
 
 ---
 

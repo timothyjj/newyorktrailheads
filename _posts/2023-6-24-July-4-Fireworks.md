@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: July 4 Fireworks in the Capital Region & Adirondacks
 excerpt: Where to go to see fireworks for Independence Day 2023
 hidden: true
@@ -9,7 +9,7 @@ images:
   - url: /img/fireworks.JPG
     alt: Fireworks
     title: Fireworks
-featured-image: img/fireworks.JPG
+cover-img: img/fireworks.JPG
 
 ---
 

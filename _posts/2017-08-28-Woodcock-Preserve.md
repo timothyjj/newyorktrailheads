@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Woodcock Preserve 
 excerpt: Clifton Park preserve with trails through woodland, swamps, and fields offering wooded seclusion not far from the main town center.
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Woodcock Preserve 
     title: Woodcock Preserve 
 
-featured-image: img/woodcock-preserve/woodcock-preserve-4.jpg
+cover-img: img/woodcock-preserve/woodcock-preserve-4.jpg
     
 ---
 

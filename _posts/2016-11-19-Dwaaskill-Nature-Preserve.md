@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Dwaas Kill Nature Preserve 
 excerpt: Just north of Clifton Park's shopping center area, find a peaceful trail through wooded terrain 
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Dwaas Kill Nature Preserve
     title: Dwaas Kill Nature Preserve
 
-featured-image: img/dwasskill/dwasskill-sign.jpg
+cover-img: img/dwasskill/dwasskill-sign.jpg
 
 ---
 

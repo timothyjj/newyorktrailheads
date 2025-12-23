@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Crossings of Colonie
 excerpt: Town park with trails, pond, playgrounds, & more
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/crossings/crossings2.jpg
     alt: The Crossings of Colonie
     title: The Crossings of Colonie
-featured-image: img/crossings/crossings2.jpg
+cover-img: img/crossings/crossings2.jpg
 
 ---
 

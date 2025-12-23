@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Sleeping Beauty Mountain 
 excerpt: A moderately easy hike to a view of the southern portion of Lake George.
 categories: [Adirondacks, Lake George]
@@ -10,7 +10,7 @@ images:
     alt: Lake George from Sleeping Beauty Mountain
     title: Lake George from Sleeping Beauty Mountain
 
-featured-image: img/sleeping-beauty/lake-george-from-sleeping-beauty.jpg
+cover-img: img/sleeping-beauty/lake-george-from-sleeping-beauty.jpg
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: COVID-19 Related Parks & Trails Updates
 excerpt: Closures and other guidelines for NY parks related to COVID-19
 categories: [Hiking Tips]
@@ -10,7 +10,7 @@ images:
     alt: COVID-19 Related Parks & Trails Updates
     title: COVID-19 Related Parks & Trails Updates
 
-featured-image: img/overlook-mountain/overlook-mountain-view.jpg
+cover-img: img/overlook-mountain/overlook-mountain-view.jpg
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A Few Favorite Local Organizations
 excerpt: Highlighting a few of our favorite area outdoor organizations
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Lake George from Buck Mountain 
     title: Lake George from Buck Mountain 
 
-featured-image: img/lake-george-hikes/buck-mountain-view.jpg
+cover-img: img/lake-george-hikes/buck-mountain-view.jpg
 
 ---
 

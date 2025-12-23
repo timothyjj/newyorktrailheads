@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bauer Environmental Park
 excerpt: Nature preserve in the Village of Colonie with a boardwalk meandering through woods and over streams
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Entrance to Bauer Environmental Park
     title: Entrance to Bauer Environmental Park
 
-featured-image: img/bauer-park/Bauer-Environmental-Park.jpg
+cover-img: img/bauer-park/Bauer-Environmental-Park.jpg
 
 ---
 

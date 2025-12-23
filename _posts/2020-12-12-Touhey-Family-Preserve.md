@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Touhey Family Preserve
 excerpt: New suburban nature preserve in Delmar
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/touhey-preserve/touhey3.jpeg
     alt: Touhey Family Preserve
     title: Touhey Family Preserve
-featured-image: img/touhey-preserve/touhey3.jpeg
+cover-img: img/touhey-preserve/touhey3.jpeg
 
 ---
 

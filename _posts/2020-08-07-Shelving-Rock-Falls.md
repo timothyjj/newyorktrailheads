@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Shelving Rock Falls
 excerpt: A short hike to a beautiful waterfall not far from Lake George
 categories: [Adirondacks]
@@ -9,7 +9,7 @@ images:
   - url: /img/shelvingrockfalls.jpg
     alt: Shelving Rock Falls
     title: Shelving Rock Falls
-featured-image: img/shelvingrockfalls.jpg
+cover-img: img/shelvingrockfalls.jpg
 
 ---
 

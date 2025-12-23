@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Paint Mine Trail (Thacher State Park)
 excerpt: Wooded trail with several waterfall views
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Thacher Park Paint Mine Trail
     title: Thacher Park Paint Mine Trail
 
-featured-image: img/thacher-park-paint-mine/thacher-1.jpeg
+cover-img: img/thacher-park-paint-mine/thacher-1.jpeg
 
 ---
 

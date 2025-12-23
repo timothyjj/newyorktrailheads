@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Capital Region Hikes with Small Children
 excerpt: Several options for finding a place to walk without going beyond your kids' limits
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Saratoga Spa State Park
     title: Saratoga Spa State Park 
 
-featured-image: img/capital-region-hikes/saratoga-spa-state-park.jpg
+cover-img: img/capital-region-hikes/saratoga-spa-state-park.jpg
 
 ---
 

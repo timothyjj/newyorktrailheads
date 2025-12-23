@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Ann Lee Pond & Nature Preserve
 excerpt: A trek through woods and around a pond near Albany Airport
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: View of Ann Lee Pond
     title: View of Ann Lee Pond
 
-featured-image: img/ann-lee-pond/ann-lee-pond.jpeg
+cover-img: img/ann-lee-pond/ann-lee-pond.jpeg
 
 ---
 

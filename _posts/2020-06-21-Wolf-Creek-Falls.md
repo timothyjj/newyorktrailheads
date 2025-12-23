@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Wolf Creek Falls Preserve
 excerpt: Multiple waterfalls & easy trails for families
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/wolf-creek-falls/wolf-creek-falls-5.jpeg
     alt: Wolf Creek Falls Preserve
     title: Wolf Creek Falls Preserve
-featured-image: img/wolf-creek-falls/wolf-creek-falls-5.jpeg
+cover-img: img/wolf-creek-falls/wolf-creek-falls-5.jpeg
 
 ---
 

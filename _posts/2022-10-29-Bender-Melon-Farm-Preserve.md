@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bender Melon Farm Preserve
 excerpt: New Scotland Nature Preserve
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/bender-melon.jpg
     alt: Bender Melon Preserve
     title: Bender Melon Preserve
-featured-image: img/bender-melon.jpg
+cover-img: img/bender-melon.jpg
 
 ---
 

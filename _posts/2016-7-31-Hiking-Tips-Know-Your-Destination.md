@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Trail Hiking Tips - Know Your Destination
 excerpt: First in a series of hiking tips, we discuss knowing where you're going before you hike!
 categories: [Hiking Tips]
@@ -10,7 +10,7 @@ images:
     alt: Mountain Trail
     title: Mountain Trail 
 
-featured-image: img/mountain-trail.jpg
+cover-img: img/mountain-trail.jpg
 
 ---
  

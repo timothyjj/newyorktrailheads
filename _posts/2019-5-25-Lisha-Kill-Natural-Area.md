@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Lisha Kill Natural Area
 excerpt: Rare example of an old growth forest in the midst of the Capital Region
 categories: [Nature Preserves & Parks]
@@ -10,7 +10,7 @@ images:
     alt: Lisha Kill Natural Area
     title: Lisha Kill Natural Area
 
-featured-image: img/lisha-kill/lisha-kill-bridge.jpg
+cover-img: img/lisha-kill/lisha-kill-bridge.jpg
 
 ---
 

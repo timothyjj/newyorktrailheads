@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hiking in Spring Mud Season
 excerpt: Tips for Enjoying the Trails While Protecting the Environment
 categories: [Hiking Tips]
@@ -9,7 +9,7 @@ images:
   - url: /img/muddypond.png
     alt: Mud season
     title: Mud season
-featured-image: img/muddypond.png
+cover-img: img/muddypond.png
 
 cover-img: /img/muddypond.png
 

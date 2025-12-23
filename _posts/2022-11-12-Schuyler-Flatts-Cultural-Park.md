@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Schuyler Flatts Cultural Park
 excerpt: Historically significant community park 
 categories: [Nature Preserves & Parks]
@@ -9,7 +9,7 @@ images:
   - url: /img/schuyler-flatts/schuyler-flatts-5.jpeg
     alt: Schuyler Flatts Cultural Park
     title: Schuyler Flatts Cultural Park
-featured-image: img/schuyler-flatts/schuyler-flatts-5.jpeg
+cover-img: img/schuyler-flatts/schuyler-flatts-5.jpeg
 
 ---
 

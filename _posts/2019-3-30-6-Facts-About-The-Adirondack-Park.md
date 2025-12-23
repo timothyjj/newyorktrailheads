@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 6 Facts About the Adirondack Park
 excerpt: Do you know these facts about New York's largest park?
 categories: [Adirondacks]
@@ -10,7 +10,7 @@ images:
     alt: Adirondack Mountains
     title: Adirondack Mountains
 
-featured-image: img/adirondacks.jpg
+cover-img: img/adirondacks.jpg
 
 ---
 
