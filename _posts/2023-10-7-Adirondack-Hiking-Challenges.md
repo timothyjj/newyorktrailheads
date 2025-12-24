@@ -13,8 +13,6 @@ cover-img: img/baker-mountain/baker-mountain-8.jpeg
 
 ---
 
-<h1>Adirondack Hiking Challenges</h1>
-
 <p>While any excursion into the woods can be fun, and you don't need to have a specific goal to enjoy a day outdoors, working through a hiking challenge can be a great way to inspire a family to get outside or fulfill that "completionist" desire deep down. There are options available at multiple levels throughout the Adirondack region. Here are a few we're aware of; feel free to contact us if there are others you think should be listed!</p>
 
 <h2><a href="https://adk46er.org/" target="_blank">46ers</a></h2>

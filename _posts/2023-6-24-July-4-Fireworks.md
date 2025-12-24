@@ -13,8 +13,6 @@ cover-img: img/fireworks.JPG
 
 ---
 
-<h1>July 4 Fireworks in the Capital Region & Adirondacks</h1>
-
 <p>Going to a fireworks show is a classic Independence Day activity, and upstate New York has plenty of options to offer. Here's a rundown of places you can go in the greater Capital Region and Adirondacks to see fireworks around July 4, 2023.</p>
 
 <img class="pure-img-responsive" src="/img/fireworks.JPG"> 

@@ -13,8 +13,6 @@ cover-img: img/graphite-range/graphite-range-7.jpg
 
 ---
 
-<h1>Graphite Range Community Forest</h1>
-
 <p>Located in Wilton, NY, just north of Saratoga Springs, this trail system offers over 200 acres and 5 miles to explore. As the name implies, this land is the site of former graphite mines, the remnants of which you can see at various points. Currently, the land is owned by Saratoga County and maintained by Saratoga Plan.</p>
 
 <p>The trails are open for hiking and mountain biking, as well as snowshoeing and cross-country skiing in the wintertime. Dogs are allowed while leashed.</p>
@@ -25,7 +23,7 @@ cover-img: img/graphite-range/graphite-range-7.jpg
 
 <p>Overall, this forest offers a beautiful recreational opportunity not far from the bustle of Saratoga Springs. Take a look at the map linked below for more details.</p>
 
-<h2>Graphite Range Community Forest</h2>
+<h2>Graphite Range Community Forest Photos</h2>
 
 <div class="fotorama" data-nav="thumbs" data-width="100%"
                      data-ratio="800/600"

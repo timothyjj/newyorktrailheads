@@ -13,8 +13,6 @@ cover-img: img/severance-hill/severance-hill3.jpg
 
 ---
 
-<h1>Severance Hill</h1>
-
 <p>While trail guides seem to vary in opinion as to whether this is a "hill" or a "mountain," there's no denying that this is hike provides an enjoyable short jaunt through classic Adirondack woods to a beautiful view over Schroon Lake. While it was a foggy morning on the day I hiked it, the fog lifting over the lake was an enjoyable scene in its own right.</p>
 
 <p>Starting from a parking area just outside the "downtown" area of Schroon Lake, you'll begin the trek by walking through a set of tunnels that go under both lanes of the Northway. Kids (and kids-at-heart) may enjoy experimenting with "echoes" during the journey through these tunnels. Once past the Northway, watch the trail markers and signs to make sure you avoid a potentially confusing intersection. You'll come to the trail register soon, where you can sign in.</p>
