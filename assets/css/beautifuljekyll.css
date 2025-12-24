@@ -207,6 +207,7 @@ img {
   text-transform: uppercase;
   font-size: 0.8125rem;
   letter-spacing: 0.0625rem;
+  font-family: "Montserrat", "Trebuchet MS", Arial, sans-serif;
 }
 
 .navbar-custom .navbar-nav .nav-link {

@@ -5,7 +5,7 @@
   --page-col: #FFFFFF;
   --text-col: #404040;
   --link-col: #008AFF;
-  --hover-col: #0085A1;
+  --hover-col: #deae6a;
   --navbar-col: #4c624a;
   --navbar-text-col: #d5cdaa;
   --navbar-border-col: #DDDDDD;
@@ -164,7 +164,7 @@ img {
 .navbar-custom .navbar-brand {
   line-height: 1.5;
   padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
+  padding-bottom: 1.7rem;
   font-size: 1.125rem;
 }
 
@@ -197,6 +197,7 @@ img {
   text-transform: uppercase;
   font-size: 0.8125rem;
   letter-spacing: 0.0625rem;
+  font-family: "Montserrat", "Trebuchet MS", Arial, sans-serif;
 }
 
 .navbar-custom .navbar-nav .nav-link {
