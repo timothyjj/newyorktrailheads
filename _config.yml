@@ -13,7 +13,7 @@
 title: New York Trailheads
 
 # Your name to show in the footer
-author: &copy; {{ 'now' | date: '%Y' }} New York Trailheads
+author: New York Trailheads
 
 ###############################################
 # --- List of links in the navigation bar --- #
