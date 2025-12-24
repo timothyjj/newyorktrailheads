@@ -2,7 +2,7 @@
 layout: post
 title: Three Adirondack Winter Hiking Ideas
 excerpt: If you're looking to get outside to enjoy the beauty of winter, explore these options in the Adirondacks
-categories: [Adirondacks]
+tags: [Adirondacks]
 
 images:
 

@@ -2,7 +2,7 @@
 layout: post
 title: Inman Pond 
 excerpt: Hike out to a secluded pond nestled in the midst of the Lake George Wild Forest.
-categories: [Adirondacks]
+tags: [Adirondacks]
 
 images:
 

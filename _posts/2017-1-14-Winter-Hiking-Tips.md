@@ -2,7 +2,7 @@
 layout: post
 title: Winter Hiking Tips
 excerpt: Don't let snow deter you from heading outside for a hike, but stay safe! See our tips for planning your next winter hike
-categories: [Hiking Tips]
+tags: [Hiking Tips]
 
 images:
 

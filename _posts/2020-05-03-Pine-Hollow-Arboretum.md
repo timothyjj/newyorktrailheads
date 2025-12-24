@@ -2,7 +2,7 @@
 layout: post
 title: Pine Hollow Arboretum
 excerpt: 22-acre public space with trees from all over the world 
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

@@ -2,7 +2,7 @@
 layout: post
 title: Colonie Town Park
 excerpt: Walk through the woods & along the Mohawk River
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

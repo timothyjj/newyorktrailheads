@@ -2,7 +2,7 @@
 layout: post
 title: Severance Hill
 excerpt: Short climb to an overlook near Schroon Lake
-categories: [Adirondacks]
+tags: [Adirondacks]
 
 images:
 

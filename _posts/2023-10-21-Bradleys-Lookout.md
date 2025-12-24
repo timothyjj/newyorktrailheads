@@ -2,7 +2,7 @@
 layout: post
 title: Bradley's Lookout
 excerpt: Easy hike to a view of Lake George
-categories: [Adirondacks]
+tags: [Adirondacks]
 
 images:
 

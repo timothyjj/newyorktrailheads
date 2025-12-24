@@ -2,7 +2,7 @@
 layout: post
 title: Bozen Kill Preserve
 excerpt: Easy nature trail hike in Altamont with waterfalls  
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

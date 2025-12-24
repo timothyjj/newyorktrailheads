@@ -2,7 +2,7 @@
 layout: post
 title: Five Rivers Environmental Education Center
 excerpt: Peaceful nature preserve with miles of trails
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

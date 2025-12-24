@@ -3,7 +3,7 @@
 { 
 "title"    : "Hiking in Spring Mud Season", 
 "desc"     : "Hiking in Spring Mud Season", 
-"category" : "", 
+"category" : "Hiking Tips", 
 "url"      : "/2025/03/01/Hiking-in-Spring-Mud-Season", 
 "date"     : "March  1, 2025" 
 }, 
@@ -11,7 +11,7 @@
 { 
 "title"    : "Graphite Range Community Forest", 
 "desc"     : "Graphite Range Community Forest", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2025/01/18/Graphite-Range-Community-Forest", 
 "date"     : "January 18, 2025" 
 }, 
@@ -19,7 +19,7 @@
 { 
 "title"    : "Colonie Town Park", 
 "desc"     : "Colonie Town Park", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2024/02/19/Colonie-Town-Park", 
 "date"     : "February 19, 2024" 
 }, 
@@ -35,7 +35,7 @@
 { 
 "title"    : "The Crossings of Colonie", 
 "desc"     : "The Crossings of Colonie", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2023/10/28/The-Crossings-of-Colonie", 
 "date"     : "October 28, 2023" 
 }, 
@@ -43,7 +43,7 @@
 { 
 "title"    : "Bradley&#39;s Lookout", 
 "desc"     : "Bradley&#39;s Lookout", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2023/10/21/Bradleys-Lookout", 
 "date"     : "October 21, 2023" 
 }, 
@@ -51,7 +51,7 @@
 { 
 "title"    : "Adirondack Hiking Challenges", 
 "desc"     : "Adirondack Hiking Challenges", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2023/10/07/Adirondack-Hiking-Challenges", 
 "date"     : "October  7, 2023" 
 }, 
@@ -59,7 +59,7 @@
 { 
 "title"    : "Severance Hill", 
 "desc"     : "Severance Hill", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2023/09/09/Severance-Hill", 
 "date"     : "September  9, 2023" 
 }, 
@@ -75,7 +75,7 @@
 { 
 "title"    : "How to Navigate with a Compass While Hiking", 
 "desc"     : "How to Navigate with a Compass While Hiking", 
-"category" : "", 
+"category" : "Hiking Tips", 
 "url"      : "/2023/03/18/How-to-Use-a-Compass-While-Hiking", 
 "date"     : "March 18, 2023" 
 }, 
@@ -83,7 +83,7 @@
 { 
 "title"    : "Swift Wetland Preserve", 
 "desc"     : "Swift Wetland Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2023/02/20/Swift-Wetland-Preserve", 
 "date"     : "February 20, 2023" 
 }, 
@@ -91,7 +91,7 @@
 { 
 "title"    : "Capital Region Sledding Hills", 
 "desc"     : "Capital Region Sledding Hills", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2023/02/09/Capital-Region-Sledding-Hills", 
 "date"     : "February  9, 2023" 
 }, 
@@ -99,7 +99,7 @@
 { 
 "title"    : "Schuyler Flatts Cultural Park", 
 "desc"     : "Schuyler Flatts Cultural Park", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2022/11/12/Schuyler-Flatts-Cultural-Park", 
 "date"     : "November 12, 2022" 
 }, 
@@ -107,7 +107,7 @@
 { 
 "title"    : "Fisher Trail", 
 "desc"     : "Fisher Trail", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2022/11/05/Fisher-Trail", 
 "date"     : "November  5, 2022" 
 }, 
@@ -115,7 +115,7 @@
 { 
 "title"    : "Bender Melon Farm Preserve", 
 "desc"     : "Bender Melon Farm Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2022/10/29/Bender-Melon-Farm-Preserve", 
 "date"     : "October 29, 2022" 
 }, 
@@ -123,7 +123,7 @@
 { 
 "title"    : "Little Island (New York City)", 
 "desc"     : "Little Island (New York City)", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2022/08/27/little-island-nyc", 
 "date"     : "August 27, 2022" 
 }, 
@@ -131,7 +131,7 @@
 { 
 "title"    : "Skidmore North Woods", 
 "desc"     : "Skidmore North Woods", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2022/08/06/Skidmore-North-Woods", 
 "date"     : "August  6, 2022" 
 }, 
@@ -139,7 +139,7 @@
 { 
 "title"    : "Baker Mountain", 
 "desc"     : "Baker Mountain", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2021/08/14/Baker-Mountain", 
 "date"     : "August 14, 2021" 
 }, 
@@ -147,7 +147,7 @@
 { 
 "title"    : "Van Dyke Preserve", 
 "desc"     : "Van Dyke Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2021/03/06/Van-Dyke-Preserve", 
 "date"     : "March  6, 2021" 
 }, 
@@ -155,7 +155,7 @@
 { 
 "title"    : "Schiffendecker Farm Preserve", 
 "desc"     : "Schiffendecker Farm Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2021/01/18/Schiffendecker-Farm-Preserve", 
 "date"     : "January 18, 2021" 
 }, 
@@ -163,7 +163,7 @@
 { 
 "title"    : "H. G. Reist Bird Sanctuary", 
 "desc"     : "H. G. Reist Bird Sanctuary", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2020/12/19/H-G-Reist-Bird-Sanctuary", 
 "date"     : "December 19, 2020" 
 }, 
@@ -171,7 +171,7 @@
 { 
 "title"    : "Touhey Family Preserve", 
 "desc"     : "Touhey Family Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2020/12/12/Touhey-Family-Preserve", 
 "date"     : "December 12, 2020" 
 }, 
@@ -179,7 +179,7 @@
 { 
 "title"    : "Phillipin Kill Preserve", 
 "desc"     : "Phillipin Kill Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2020/09/05/Phillipin-Kill-Preserve", 
 "date"     : "September  5, 2020" 
 }, 
@@ -187,7 +187,7 @@
 { 
 "title"    : "Worst Reviews of Upstate NY Hikes", 
 "desc"     : "Worst Reviews of Upstate NY Hikes", 
-"category" : "", 
+"category" : "Humor", 
 "url"      : "/2020/08/09/Worst-Reviews-of-Upstate-NY-Hikes", 
 "date"     : "August  9, 2020" 
 }, 
@@ -195,7 +195,7 @@
 { 
 "title"    : "Shelving Rock Falls", 
 "desc"     : "Shelving Rock Falls", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2020/08/07/Shelving-Rock-Falls", 
 "date"     : "August  7, 2020" 
 }, 
@@ -203,7 +203,7 @@
 { 
 "title"    : "Peebles Island State Park", 
 "desc"     : "Peebles Island State Park", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2020/06/27/Peebles-Island-State-Park", 
 "date"     : "June 27, 2020" 
 }, 
@@ -211,7 +211,7 @@
 { 
 "title"    : "Wolf Creek Falls Preserve", 
 "desc"     : "Wolf Creek Falls Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2020/06/21/Wolf-Creek-Falls", 
 "date"     : "June 21, 2020" 
 }, 
@@ -219,7 +219,7 @@
 { 
 "title"    : "Normanskill Preserves &amp; Normanskill Farm", 
 "desc"     : "Normanskill Preserves &amp; Normanskill Farm", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2020/05/30/Normanskill-Preserves", 
 "date"     : "May 30, 2020" 
 }, 
@@ -227,7 +227,7 @@
 { 
 "title"    : "Paint Mine Trail (Thacher State Park)", 
 "desc"     : "Paint Mine Trail (Thacher State Park)", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2020/05/10/Thacher-Park-Paint-Mine-Trail", 
 "date"     : "May 10, 2020" 
 }, 
@@ -235,7 +235,7 @@
 { 
 "title"    : "Pine Hollow Arboretum", 
 "desc"     : "Pine Hollow Arboretum", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2020/05/03/Pine-Hollow-Arboretum", 
 "date"     : "May  3, 2020" 
 }, 
@@ -243,7 +243,7 @@
 { 
 "title"    : "Tawasentha Park Hiking Trails", 
 "desc"     : "Tawasentha Park Hiking Trails", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2020/05/02/Tawasentha-Park", 
 "date"     : "May  2, 2020" 
 }, 
@@ -251,7 +251,7 @@
 { 
 "title"    : "Bozen Kill Preserve", 
 "desc"     : "Bozen Kill Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2020/04/25/Bozen-Kill-Preserve", 
 "date"     : "April 25, 2020" 
 }, 
@@ -259,7 +259,7 @@
 { 
 "title"    : "COVID-19 Related Parks &amp; Trails Updates", 
 "desc"     : "COVID-19 Related Parks &amp; Trails Updates", 
-"category" : "", 
+"category" : "Hiking Tips", 
 "url"      : "/2020/04/18/COVID-19-Related-Parks-and-Trails-Updates", 
 "date"     : "April 18, 2020" 
 }, 
@@ -267,31 +267,15 @@
 { 
 "title"    : "Capital Hills Golf Course Walking Trail", 
 "desc"     : "Capital Hills Golf Course Walking Trail", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2020/03/29/Capital-Hills-Golf-Course-Walking-Trail", 
 "date"     : "March 29, 2020" 
 }, 
  
 { 
-"title"    : "Sample blog post to learn markdown tips", 
-"desc"     : "Sample blog post to learn markdown tips", 
-"category" : "test", 
-"url"      : "/2020/02/28/sample-markdown", 
-"date"     : "February 28, 2020" 
-}, 
- 
-{ 
-"title"    : "Flake it till you make it", 
-"desc"     : "Flake it till you make it", 
-"category" : "books, test", 
-"url"      : "/2020/02/26/flake-it-till-you-make-it", 
-"date"     : "February 26, 2020" 
-}, 
- 
-{ 
 "title"    : "Bennett Hill Preserve", 
 "desc"     : "Bennett Hill Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2019/10/14/Bennett-Hill-Preserve", 
 "date"     : "October 14, 2019" 
 }, 
@@ -299,7 +283,7 @@
 { 
 "title"    : "Moreau Lake Overlook from Baker Trail", 
 "desc"     : "Moreau Lake Overlook from Baker Trail", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2019/08/24/Moreau-Lake-Overlook-via-Baker-Trail", 
 "date"     : "August 24, 2019" 
 }, 
@@ -307,7 +291,7 @@
 { 
 "title"    : "High Point (Thacher State Park)", 
 "desc"     : "High Point (Thacher State Park)", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2019/07/19/High-Point", 
 "date"     : "July 19, 2019" 
 }, 
@@ -315,7 +299,7 @@
 { 
 "title"    : "Capital Region Bike Trails", 
 "desc"     : "Capital Region Bike Trails", 
-"category" : "", 
+"category" : "Bike Trails", 
 "url"      : "/2019/06/27/Capital-Region-Bike-Trails", 
 "date"     : "June 27, 2019" 
 }, 
@@ -323,7 +307,7 @@
 { 
 "title"    : "Lisha Kill Natural Area", 
 "desc"     : "Lisha Kill Natural Area", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2019/05/25/Lisha-Kill-Natural-Area", 
 "date"     : "May 25, 2019" 
 }, 
@@ -331,7 +315,7 @@
 { 
 "title"    : "6 Facts About the Adirondack Park", 
 "desc"     : "6 Facts About the Adirondack Park", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2019/03/30/6-Facts-About-The-Adirondack-Park", 
 "date"     : "March 30, 2019" 
 }, 
@@ -339,7 +323,7 @@
 { 
 "title"    : "Fox Preserve", 
 "desc"     : "Fox Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2019/03/24/Fox-Preserve", 
 "date"     : "March 24, 2019" 
 }, 
@@ -347,7 +331,7 @@
 { 
 "title"    : "5 Tips to Get Your Kids Hiking", 
 "desc"     : "5 Tips to Get Your Kids Hiking", 
-"category" : "", 
+"category" : "Hiking Tips", 
 "url"      : "/2019/02/23/5-Tips-to-Get-Your-Kids-Hiking", 
 "date"     : "February 23, 2019" 
 }, 
@@ -355,7 +339,7 @@
 { 
 "title"    : "Roaring Brook Falls", 
 "desc"     : "Roaring Brook Falls", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2019/02/09/Roaring-Brook-Falls", 
 "date"     : "February  9, 2019" 
 }, 
@@ -363,7 +347,7 @@
 { 
 "title"    : "Five Rivers Environmental Education Center", 
 "desc"     : "Five Rivers Environmental Education Center", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2019/02/09/Five-Rivers-Environmental-Education-Center", 
 "date"     : "February  9, 2019" 
 }, 
@@ -371,7 +355,7 @@
 { 
 "title"    : "Three Adirondack Winter Hiking Ideas", 
 "desc"     : "Three Adirondack Winter Hiking Ideas", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2019/02/05/Adirondack-Winter-Hiking-Ideas", 
 "date"     : "February  5, 2019" 
 }, 
@@ -379,7 +363,7 @@
 { 
 "title"    : "Mohawk Landing Nature Preserve", 
 "desc"     : "Mohawk Landing Nature Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2019/01/19/Mohawk-Landing", 
 "date"     : "January 19, 2019" 
 }, 
@@ -395,7 +379,7 @@
 { 
 "title"    : "A Few Favorite Local Organizations", 
 "desc"     : "A Few Favorite Local Organizations", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2018/12/30/Our-Favorite-Local-Organizations", 
 "date"     : "December 30, 2018" 
 }, 
@@ -403,7 +387,7 @@
 { 
 "title"    : "Bauer Environmental Park", 
 "desc"     : "Bauer Environmental Park", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2018/12/30/Bauer-Environmental-Park", 
 "date"     : "December 30, 2018" 
 }, 
@@ -411,7 +395,7 @@
 { 
 "title"    : "Ashford Glen Preserve", 
 "desc"     : "Ashford Glen Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2018/11/11/Ashford-Glen-Preserve", 
 "date"     : "November 11, 2018" 
 }, 
@@ -419,7 +403,7 @@
 { 
 "title"    : "Ann Lee Pond &amp; Nature Preserve", 
 "desc"     : "Ann Lee Pond &amp; Nature Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2018/08/28/Ann-Lee-Pond", 
 "date"     : "August 28, 2018" 
 }, 
@@ -427,7 +411,7 @@
 { 
 "title"    : "Overlook Mountain", 
 "desc"     : "Overlook Mountain", 
-"category" : "", 
+"category" : "Catskills", 
 "url"      : "/2018/07/22/Overlook-Mountain", 
 "date"     : "July 22, 2018" 
 }, 
@@ -435,7 +419,7 @@
 { 
 "title"    : "Albany County Rail Trail", 
 "desc"     : "Albany County Rail Trail", 
-"category" : "", 
+"category" : "Bike Trails", 
 "url"      : "/2018/07/22/Albany-County-Rail-Trail", 
 "date"     : "July 22, 2018" 
 }, 
@@ -443,7 +427,7 @@
 { 
 "title"    : "Albany Pine Bush Preserve", 
 "desc"     : "Albany Pine Bush Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2018/05/25/Pine-Bush-Preserve", 
 "date"     : "May 25, 2018" 
 }, 
@@ -451,7 +435,7 @@
 { 
 "title"    : "Spruce Mountain", 
 "desc"     : "Spruce Mountain", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2018/05/20/Spruce-Mountain", 
 "date"     : "May 20, 2018" 
 }, 
@@ -459,7 +443,7 @@
 { 
 "title"    : "100 Acre Woods", 
 "desc"     : "100 Acre Woods", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2017/10/21/100-Acre-Woods", 
 "date"     : "October 21, 2017" 
 }, 
@@ -467,7 +451,7 @@
 { 
 "title"    : "North Woods Nature Preserve", 
 "desc"     : "North Woods Nature Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2017/10/07/North-Woods-Nature-Preserve", 
 "date"     : "October  7, 2017" 
 }, 
@@ -475,7 +459,7 @@
 { 
 "title"    : "Woodcock Preserve", 
 "desc"     : "Woodcock Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2017/08/28/Woodcock-Preserve", 
 "date"     : "August 28, 2017" 
 }, 
@@ -483,7 +467,7 @@
 { 
 "title"    : "Grafton Lakes State Park", 
 "desc"     : "Grafton Lakes State Park", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2017/08/19/Grafton-Lakes-State-Park", 
 "date"     : "August 19, 2017" 
 }, 
@@ -491,7 +475,7 @@
 { 
 "title"    : "Lake Bonita (Moreau Lake State Park)", 
 "desc"     : "Lake Bonita (Moreau Lake State Park)", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2017/04/09/lake-bonita", 
 "date"     : "April  9, 2017" 
 }, 
@@ -499,7 +483,7 @@
 { 
 "title"    : "Winter Hiking Tips", 
 "desc"     : "Winter Hiking Tips", 
-"category" : "", 
+"category" : "Hiking Tips", 
 "url"      : "/2017/01/14/Winter-Hiking-Tips", 
 "date"     : "January 14, 2017" 
 }, 
@@ -507,7 +491,7 @@
 { 
 "title"    : "Great Parks in NY&#39;s Capital Region", 
 "desc"     : "Great Parks in NY&#39;s Capital Region", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2016/11/27/Capital-Region-Parks", 
 "date"     : "November 27, 2016" 
 }, 
@@ -515,7 +499,7 @@
 { 
 "title"    : "Dwaas Kill Nature Preserve", 
 "desc"     : "Dwaas Kill Nature Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2016/11/19/Dwaaskill-Nature-Preserve", 
 "date"     : "November 19, 2016" 
 }, 
@@ -523,7 +507,7 @@
 { 
 "title"    : "Lake George Hiking Trails with the Best Views", 
 "desc"     : "Lake George Hiking Trails with the Best Views", 
-"category" : "", 
+"category" : "Lake George, Adirondacks", 
 "url"      : "/2016/10/30/Lake-George-Hiking-Trails", 
 "date"     : "October 30, 2016" 
 }, 
@@ -531,7 +515,7 @@
 { 
 "title"    : "Four Easy Adirondack Hikes", 
 "desc"     : "Four Easy Adirondack Hikes", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2016/09/23/Four-Easy-Adirondack-Hikes", 
 "date"     : "September 23, 2016" 
 }, 
@@ -539,7 +523,7 @@
 { 
 "title"    : "Saratoga National Historical Park", 
 "desc"     : "Saratoga National Historical Park", 
-"category" : "", 
+"category" : "Nature Preserves & Parks, Bike Trails", 
 "url"      : "/2016/09/19/Saratoga-Battlefield", 
 "date"     : "September 19, 2016" 
 }, 
@@ -547,7 +531,7 @@
 { 
 "title"    : "Trail Hiking Tips - Wear the Proper Clothes", 
 "desc"     : "Trail Hiking Tips - Wear the Proper Clothes", 
-"category" : "", 
+"category" : "Hiking Tips", 
 "url"      : "/2016/08/21/Trail-Hiking-Tips-Wear-the-Proper-Clothes", 
 "date"     : "August 21, 2016" 
 }, 
@@ -555,7 +539,7 @@
 { 
 "title"    : "Cat &amp; Thomas Mountains", 
 "desc"     : "Cat &amp; Thomas Mountains", 
-"category" : "", 
+"category" : "Lake George, Adirondacks", 
 "url"      : "/2016/08/13/Cat-and-Thomas-Mountains", 
 "date"     : "August 13, 2016" 
 }, 
@@ -563,7 +547,7 @@
 { 
 "title"    : "Schumann Preserve at Pilot Knob", 
 "desc"     : "Schumann Preserve at Pilot Knob", 
-"category" : "", 
+"category" : "Lake George, Adirondacks", 
 "url"      : "/2016/08/07/Pilot-Knob", 
 "date"     : "August  7, 2016" 
 }, 
@@ -571,7 +555,7 @@
 { 
 "title"    : "Trail Hiking Tips - Bring the Right Gear", 
 "desc"     : "Trail Hiking Tips - Bring the Right Gear", 
-"category" : "", 
+"category" : "Hiking Tips", 
 "url"      : "/2016/08/06/Trail-Hiking-Tips-Bring-the-Right-Gear", 
 "date"     : "August  6, 2016" 
 }, 
@@ -579,7 +563,7 @@
 { 
 "title"    : "Trail Hiking Tips - Know Your Destination", 
 "desc"     : "Trail Hiking Tips - Know Your Destination", 
-"category" : "", 
+"category" : "Hiking Tips", 
 "url"      : "/2016/07/31/Hiking-Tips-Know-Your-Destination", 
 "date"     : "July 31, 2016" 
 }, 
@@ -587,7 +571,7 @@
 { 
 "title"    : "Black Mountain", 
 "desc"     : "Black Mountain", 
-"category" : "", 
+"category" : "Lake George, Adirondacks", 
 "url"      : "/2016/07/22/Black-Mountain", 
 "date"     : "July 22, 2016" 
 }, 
@@ -595,7 +579,7 @@
 { 
 "title"    : "Poke-O-Moonshine", 
 "desc"     : "Poke-O-Moonshine", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2016/07/18/Poke-O-Moonshine", 
 "date"     : "July 18, 2016" 
 }, 
@@ -603,7 +587,7 @@
 { 
 "title"    : "Vischer Ferry Nature Preserve", 
 "desc"     : "Vischer Ferry Nature Preserve", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2016/07/09/Vischer-Ferry-Preserve", 
 "date"     : "July  9, 2016" 
 }, 
@@ -611,7 +595,7 @@
 { 
 "title"    : "The Pinnacle Overlooking Lake George", 
 "desc"     : "The Pinnacle Overlooking Lake George", 
-"category" : "", 
+"category" : "Lake George, Adirondacks", 
 "url"      : "/2016/07/02/The-Pinnacle", 
 "date"     : "July  2, 2016" 
 }, 
@@ -619,7 +603,7 @@
 { 
 "title"    : "Deer Leap (Tongue Mountain Range)", 
 "desc"     : "Deer Leap (Tongue Mountain Range)", 
-"category" : "", 
+"category" : "Lake George, Adirondacks", 
 "url"      : "/2016/06/25/Deer-Leap", 
 "date"     : "June 25, 2016" 
 }, 
@@ -627,7 +611,7 @@
 { 
 "title"    : "Capital Region Hikes with Small Children", 
 "desc"     : "Capital Region Hikes with Small Children", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2016/06/05/Capital-Region-HIkes-with-Small-Children", 
 "date"     : "June  5, 2016" 
 }, 
@@ -635,7 +619,7 @@
 { 
 "title"    : "Mohawk-Hudson Bike-Hike Trail", 
 "desc"     : "Mohawk-Hudson Bike-Hike Trail", 
-"category" : "", 
+"category" : "Bike Trails", 
 "url"      : "/2016/06/04/Mohawk-Hudson-Bike-Hike-Trail", 
 "date"     : "June  4, 2016" 
 }, 
@@ -643,7 +627,7 @@
 { 
 "title"    : "Palmertown Range", 
 "desc"     : "Palmertown Range", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2016/05/15/Palmertown-Range", 
 "date"     : "May 15, 2016" 
 }, 
@@ -651,7 +635,7 @@
 { 
 "title"    : "Inman Pond", 
 "desc"     : "Inman Pond", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2016/05/15/Inman-Pond", 
 "date"     : "May 15, 2016" 
 }, 
@@ -659,7 +643,7 @@
 { 
 "title"    : "Prospect Mountain", 
 "desc"     : "Prospect Mountain", 
-"category" : "", 
+"category" : "Lake George, Adirondacks", 
 "url"      : "/2016/05/08/Prospect-Mountain", 
 "date"     : "May  8, 2016" 
 }, 
@@ -667,7 +651,7 @@
 { 
 "title"    : "Sleeping Beauty Mountain", 
 "desc"     : "Sleeping Beauty Mountain", 
-"category" : "", 
+"category" : "Adirondacks, Lake George", 
 "url"      : "/2016/04/24/Sleeping-Beauty-Mountain", 
 "date"     : "April 24, 2016" 
 }, 
@@ -675,7 +659,7 @@
 { 
 "title"    : "Shelving Rock Mountain", 
 "desc"     : "Shelving Rock Mountain", 
-"category" : "", 
+"category" : "Adirondacks, Lake George", 
 "url"      : "/2016/04/23/Shelving-Rock-Mountain", 
 "date"     : "April 23, 2016" 
 }, 
@@ -683,7 +667,7 @@
 { 
 "title"    : "Hadley Mountain", 
 "desc"     : "Hadley Mountain", 
-"category" : "", 
+"category" : "Adirondacks", 
 "url"      : "/2016/04/23/Hadley-Mountain", 
 "date"     : "April 23, 2016" 
 }, 
@@ -691,7 +675,7 @@
 { 
 "title"    : "Zim Smith Trail", 
 "desc"     : "Zim Smith Trail", 
-"category" : "", 
+"category" : "Bike Trails", 
 "url"      : "/2016/04/09/Zim-Smith-Trail", 
 "date"     : "April  9, 2016" 
 }, 
@@ -699,7 +683,7 @@
 { 
 "title"    : "Ushers Road State Forest", 
 "desc"     : "Ushers Road State Forest", 
-"category" : "", 
+"category" : "Nature Preserves & Parks", 
 "url"      : "/2016/04/03/Ushers-Road-State-Forest", 
 "date"     : "April  3, 2016" 
 }, 
@@ -707,7 +691,7 @@
 { 
 "title"    : "Buck Mountain", 
 "desc"     : "Buck Mountain", 
-"category" : "", 
+"category" : "Lake George, Adirondacks", 
 "url"      : "/2016/04/02/Buck-Mountain", 
 "date"     : "April  2, 2016" 
 }, 
@@ -746,8 +730,8 @@
 }, 
  
 { 
-"title"    : "Tag Index", 
-"desc"     : "Tag Index", 
+"title"    : "Categories", 
+"desc"     : "Categories", 
 "category" : "page", 
 "url"      : "/tags", 
 "date"     : "January 1, 1970" 

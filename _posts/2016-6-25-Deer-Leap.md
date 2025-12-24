@@ -2,7 +2,7 @@
 layout: post 
 title: Deer Leap (Tongue Mountain Range)
 excerpt: Starting from the top of the Tongue Mountain Range, this brief trail traverses Adirondack forest to reach an outcropping overlooking Lake George.
-categories: [Lake George, Adirondacks]
+tags: [Lake George, Adirondacks]
 
 images:
 

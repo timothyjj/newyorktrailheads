@@ -2,7 +2,7 @@
 layout: post
 title: Fisher Trail
 excerpt: Accessible trail connecting to Five Rivers
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

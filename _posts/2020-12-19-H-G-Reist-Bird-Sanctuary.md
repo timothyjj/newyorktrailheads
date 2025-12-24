@@ -2,7 +2,7 @@
 layout: post
 title: H. G. Reist Bird Sanctuary
 excerpt: Wooded trails and wildlife in Niskayuna
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

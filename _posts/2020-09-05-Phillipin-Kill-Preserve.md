@@ -2,7 +2,7 @@
 layout: post
 title: Phillipin Kill Preserve
 excerpt: Forest, streams, and marsh in a suburban Bethlehem preserve
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

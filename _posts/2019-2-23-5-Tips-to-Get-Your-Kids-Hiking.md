@@ -2,7 +2,7 @@
 layout: post
 title: 5 Tips to Get Your Kids Hiking
 excerpt: Advice for helping children to love the outdoors & learn to hike
-categories: [Hiking Tips]
+tags: [Hiking Tips]
 
 images:
 

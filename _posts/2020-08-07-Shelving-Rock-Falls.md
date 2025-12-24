@@ -2,7 +2,7 @@
 layout: post
 title: Shelving Rock Falls
 excerpt: A short hike to a beautiful waterfall not far from Lake George
-categories: [Adirondacks]
+tags: [Adirondacks]
 
 images:
 

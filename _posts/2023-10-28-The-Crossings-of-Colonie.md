@@ -2,7 +2,7 @@
 layout: post
 title: The Crossings of Colonie
 excerpt: Town park with trails, pond, playgrounds, & more
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

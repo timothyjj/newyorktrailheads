@@ -2,7 +2,7 @@
 layout: post
 title: Touhey Family Preserve
 excerpt: New suburban nature preserve in Delmar
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

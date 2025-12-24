@@ -2,7 +2,7 @@
 layout: post
 title: Prospect Mountain 
 excerpt: A brief but somewhat strenuous hike to the top of a vantage point overlooking southern Lake George.
-categories: [Lake George, Adirondacks]
+tags: [Lake George, Adirondacks]
 
 images:
 

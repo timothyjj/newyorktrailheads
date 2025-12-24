@@ -2,7 +2,7 @@
 layout: post
 title: Baker Mountain
 excerpt: Brief but steep hike to a view of the High Peaks Region
-categories: [Adirondacks]
+tags: [Adirondacks]
 
 images:
 

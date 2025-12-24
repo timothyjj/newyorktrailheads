@@ -2,7 +2,7 @@
 layout: post
 title: Peebles Island State Park
 excerpt: See the confluence of the Hudson & Mohawk Rivers
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

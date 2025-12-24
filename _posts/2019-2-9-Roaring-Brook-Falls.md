@@ -2,7 +2,7 @@
 layout: post
 title: Roaring Brook Falls
 excerpt: Hike to a beautiful waterfall in the midst of the Adirondack High Peaks Region
-categories: [Adirondacks]
+tags: [Adirondacks]
 
 images:
 

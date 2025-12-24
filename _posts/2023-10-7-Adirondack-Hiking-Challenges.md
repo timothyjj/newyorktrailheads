@@ -2,7 +2,7 @@
 layout: post
 title: Adirondack Hiking Challenges
 excerpt: Ways to hike toward a goal in the ADK
-categories: [Adirondacks]
+tags: [Adirondacks]
 
 images:
 

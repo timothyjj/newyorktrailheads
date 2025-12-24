@@ -2,7 +2,7 @@
 layout: post
 title: Schiffendecker Farm Preserve
 excerpt: Suburban jaunt through the woods in Glenmont
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

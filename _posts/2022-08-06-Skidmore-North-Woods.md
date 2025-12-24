@@ -2,7 +2,7 @@
 layout: post
 title: Skidmore North Woods
 excerpt: Wooded hiking area just outside of Saratoga Springs
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

@@ -2,7 +2,7 @@
 layout: post
 title: High Point (Thacher State Park)
 excerpt: Hike to an overlook off the Helderberg Escarpment 
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

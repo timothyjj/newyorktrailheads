@@ -3,7 +3,7 @@ layout: post
 title: How to Navigate with a Compass While Hiking
 excerpt: Know how to use a compass to avoid getting lost
 
-categories: [Hiking Tips]
+tags: [Hiking Tips]
 
 images:
 

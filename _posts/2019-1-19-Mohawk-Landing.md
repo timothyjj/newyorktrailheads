@@ -2,7 +2,7 @@
 layout: post
 title: Mohawk Landing Nature Preserve
 excerpt: Clifton Park trail leading to a peaceful Mohawk River overlook
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

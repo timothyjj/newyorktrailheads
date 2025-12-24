@@ -2,7 +2,7 @@
 layout: post
 title: Tawasentha Park Hiking Trails
 excerpt: Town park in Guilderland with several miles of nature trails 
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

@@ -2,7 +2,7 @@
 layout: post
 title: Trail Hiking Tips - Bring the Right Gear
 excerpt: We discuss deciding what equipment to bring when hiking. Part of a series on outdoor trail hiking tips
-categories: [Hiking Tips]
+tags: [Hiking Tips]
 
 images:
 

@@ -2,7 +2,7 @@
 layout: post
 title: Wolf Creek Falls Preserve
 excerpt: Multiple waterfalls & easy trails for families
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

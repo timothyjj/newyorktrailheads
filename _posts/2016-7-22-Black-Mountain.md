@@ -2,7 +2,7 @@
 layout: post
 title: Black Mountain
 excerpt: Climb the highest mountain in the Lake George region
-categories: [Lake George, Adirondacks]
+tags: [Lake George, Adirondacks]
 
 images:
 

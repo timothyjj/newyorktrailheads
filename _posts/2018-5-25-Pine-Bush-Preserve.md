@@ -2,7 +2,7 @@
 layout: post
 title: Albany Pine Bush Preserve
 excerpt: Close to the busy city and suburbs, find tranquility in these expansive pine barrens
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

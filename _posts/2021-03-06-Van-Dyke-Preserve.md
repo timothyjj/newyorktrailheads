@@ -2,7 +2,7 @@
 layout: post
 title: Van Dyke Preserve
 excerpt: 1-mile loop beside a wooded stream
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

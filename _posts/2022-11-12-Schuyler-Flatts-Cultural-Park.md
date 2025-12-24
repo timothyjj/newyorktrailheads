@@ -2,7 +2,7 @@
 layout: post
 title: Schuyler Flatts Cultural Park
 excerpt: Historically significant community park 
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

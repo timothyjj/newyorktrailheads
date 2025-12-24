@@ -2,7 +2,7 @@
 layout: post
 title: Capital Region Bike Trails 
 excerpt: Our favorite spots for biking in New York's Capital Region
-categories: [Bike Trails]
+tags: [Bike Trails]
 
 images:
 

@@ -2,7 +2,7 @@
 layout: post
 title: Lake George Hiking Trails with the Best Views 
 excerpt: Find places to hike with incredible overlooks of Lake George
-categories: [Lake George, Adirondacks]
+tags: [Lake George, Adirondacks]
 
 images:
 

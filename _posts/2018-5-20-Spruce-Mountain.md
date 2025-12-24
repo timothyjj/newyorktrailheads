@@ -2,7 +2,7 @@
 layout: post
 title: Spruce Mountain 
 excerpt: In the Corinth area, enjoy this brief hike with moderate elevation gain to a wooded summit with a restored firetower.
-categories: [Adirondacks]
+tags: [Adirondacks]
 
 images:
 

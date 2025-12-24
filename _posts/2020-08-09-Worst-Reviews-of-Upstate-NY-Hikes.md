@@ -2,7 +2,7 @@
 layout: post
 title: Worst Reviews of Upstate NY Hikes
 excerpt: Some people just can't be satisfied
-categories: [Humor]
+tags: [Humor]
 
 images:
 

@@ -2,7 +2,7 @@
 layout: post
 title: Albany County Rail Trail
 excerpt: Paved trail meandering through the suburbs south of Albany
-categories: [Bike Trails]
+tags: [Bike Trails]
 
 images:
 

@@ -2,7 +2,7 @@
 layout: post
 title: Ashford Glen Preserve
 excerpt: Suburban nature preserve with steep ravines, towering trees, and a beautiful stream
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

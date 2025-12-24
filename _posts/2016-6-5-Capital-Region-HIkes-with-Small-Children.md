@@ -2,7 +2,7 @@
 layout: post
 title: Capital Region Hikes with Small Children
 excerpt: Several options for finding a place to walk without going beyond your kids' limits
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

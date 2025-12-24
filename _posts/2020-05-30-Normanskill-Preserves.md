@@ -2,7 +2,7 @@
 layout: post
 title: Normanskill Preserves & Normanskill Farm
 excerpt: Water, woods, and a historic bridge
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

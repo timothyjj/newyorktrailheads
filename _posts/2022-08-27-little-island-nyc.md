@@ -2,7 +2,7 @@
 layout: post
 title: Little Island (New York City)
 excerpt: A Slice of Nature in Downtown Manhattan
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

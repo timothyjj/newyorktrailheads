@@ -2,7 +2,7 @@
 layout: post
 title: Capital Region Sledding Hills
 excerpt: Favorite spots for sledding in the Capital Region 
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

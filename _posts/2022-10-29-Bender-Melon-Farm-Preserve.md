@@ -2,7 +2,7 @@
 layout: post
 title: Bender Melon Farm Preserve
 excerpt: New Scotland Nature Preserve
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

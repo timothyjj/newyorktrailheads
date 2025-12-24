@@ -2,7 +2,7 @@
 layout: post
 title: Saratoga National Historical Park
 excerpt: Walk an easy hiking trail or travel a tour road in a park steeped in Revolutionary War history
-categories: [Nature Preserves & Parks, Bike Trails]
+tags: [Nature Preserves & Parks, Bike Trails]
 
 images:
 

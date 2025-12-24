@@ -2,7 +2,7 @@
 layout: post
 title: A Few Favorite Local Organizations
 excerpt: Highlighting a few of our favorite area outdoor organizations
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hiking in Spring Mud Season
-excerpt: Tips for Enjoying the Trails While Protecting the Environment
-categories: [Hiking Tips]
+excerpt: Tips for enjoying the trails while protecting the environment
+tags: [Hiking Tips]
 
 images:
 
@@ -11,11 +11,7 @@ images:
     title: Mud season
 cover-img: img/muddypond.png
 
-cover-img: /img/muddypond.png
-
 ---
-
-<img class="pure-img-responsive" src="/img/muddypond.png" alt="muddy pond">
 
 <h1>Hiking in Spring Mud Season: Tips for Enjoying the Trails While Protecting the Environment</h1>
 <p>Springtime is one of the most beautiful times to hit the trails, but it also presents a unique set of challenges for hikers. As the snow melts and the ground thaws, many trails become boggy, slippery, and muddy—making it more difficult to enjoy the hike and, more importantly, more damaging to the delicate ecosystem. If you're planning a spring hike, it's crucial to be aware of how the mud season can impact both your experience and the environment.</p>

@@ -2,7 +2,7 @@
 layout: post
 title: Swift Wetland Preserve
 excerpt: Marshy nature preserve across from Bethlehem High School
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

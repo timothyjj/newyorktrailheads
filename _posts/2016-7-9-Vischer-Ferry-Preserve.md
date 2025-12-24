@@ -2,7 +2,7 @@
 layout: post
 title: Vischer Ferry Nature Preserve
 excerpt: Easy walking trails, Mohawk River views, and local history
-categories: [Nature Preserves & Parks]
+tags: [Nature Preserves & Parks]
 
 images:
 

@@ -2,7 +2,7 @@
 layout: post
 title: COVID-19 Related Parks & Trails Updates
 excerpt: Closures and other guidelines for NY parks related to COVID-19
-categories: [Hiking Tips]
+tags: [Hiking Tips]
 
 images:
 
