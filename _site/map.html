@@ -250,9 +250,9 @@
         <div class="nyt-header">
             <div class="nyt-filters">
                 <span class="nyt-filter-label">Filter by type:</span>
-                <button class="nyt-filter-button all active" data-category="all">All Trails</button>
-                <button class="nyt-filter-button hiking" data-category="hiking">Hiking Trails</button>
-                <button class="nyt-filter-button biking" data-category="biking">Biking Trails</button>
+                <button class="nyt-filter-button all active" data-category="all">All</button>
+                <button class="nyt-filter-button hiking" data-category="hiking">Hiking</button>
+                <button class="nyt-filter-button biking" data-category="biking">Biking</button>
             </div>
         </div>
         <div class="nyt-map" id="nyt-map"></div>
@@ -421,7 +421,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 18,
             name: "Saratoga National Historical Park",
-            type: "biking",
+            type: ["hiking", "biking"],
             lat: 43.0138,
             lng: -73.6510,
             description: "Historic battlefield bike paths",
@@ -824,7 +824,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     ];
 
-    const map = L.map('nyt-map').setView([42.6526, -73.7562], 12);
+    const map = L.map('nyt-map').setView([42.6526, -73.7562], 8);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '© OpenStreetMap contributors'
@@ -843,22 +843,36 @@ document.addEventListener('DOMContentLoaded', function() {
         iconSize: [32, 32], iconAnchor: [16, 16], popupAnchor: [0, -16]
     });
 
-    trails.forEach(trail => {
-        const popupContent = `
-            <div class="nyt-trail-popup">
-                <h3>${trail.name}</h3>
-                ${trail.links ? trail.links.map(l => 
-                    `<a href="${l.url}" target="_blank">${l.text} →</a>`
-                ).join('') : `<a href="${trail.link}" target="_blank">View Details →</a>`}
-            </div>
-        `;
-        
-        const icon = trail.type === 'hiking' ? hikingIcon : bikingIcon;
-        const marker = L.marker([trail.lat, trail.lng], { icon }).bindPopup(popupContent);
-        
-        if (trail.type === 'hiking') hikingMarkers.addLayer(marker);
-        else bikingMarkers.addLayer(marker);
+// Multi-category support function
+const getIcon = (types) => {
+    const typeArray = Array.isArray(types) ? types : [types];
+    return typeArray.includes('hiking') ? hikingIcon : bikingIcon;
+};
+
+// Add markers with multi-category support
+trails.forEach(trail => {
+    const types = Array.isArray(trail.type) ? trail.type : [trail.type];
+    
+    const popupContent = `
+        <div class="nyt-trail-popup">
+            <h3>${trail.name}</h3>
+            ${types.length > 1 ? `<div>🏞️ ${types.join(', ')}</div>` : ''}
+            ${trail.links ? trail.links.map(l => 
+                `<a href="${l.url}" target="_blank">${l.text} →</a>`
+            ).join('') : `<a href="${trail.link}" target="_blank">View Details →</a>`}
+        </div>
+    `;
+    
+    const icon = getIcon(trail.type);
+    const marker = L.marker([trail.lat, trail.lng], { icon }).bindPopup(popupContent);
+    
+    // Add to ALL matching layers
+    types.forEach(type => {
+        if (type === 'hiking') hikingMarkers.addLayer(marker);
+        else if (type === 'biking') bikingMarkers.addLayer(marker);
     });
+});
+
 
     hikingMarkers.addTo(map);
     bikingMarkers.addTo(map);
@@ -885,6 +899,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const allMarkers = L.featureGroup([hikingMarkers, bikingMarkers]);
     map.fitBounds(allMarkers.getBounds(), { padding: [50, 50] });
+
+
 });
 </script>
 
