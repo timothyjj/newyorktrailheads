@@ -1151,3 +1151,208 @@ pre {
     width: 100% !important;
     height: 100% !important;
 }
+    .nyt-trail-widget {
+        all: initial;
+        display: block;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    .nyt-trail-widget * {
+        box-sizing: border-box;
+    }
+
+    .nyt-trail-widget {
+        --nyt-color-white: rgba(255, 255, 255, 1);
+        --nyt-color-cream-50: rgba(252, 252, 249, 1);
+        --nyt-color-gray-300: rgba(167, 169, 169, 1);
+        --nyt-color-slate-500: rgba(98, 108, 113, 1);
+        --nyt-color-slate-900: rgba(19, 52, 59, 1);
+        --nyt-color-teal-500: rgba(33, 128, 141, 1);
+        --nyt-color-teal-600: rgba(29, 116, 128, 1);
+        --nyt-space-8: 8px;
+        --nyt-space-12: 12px;
+        --nyt-space-16: 16px;
+        --nyt-radius-base: 8px;
+        --nyt-duration-normal: 250ms;
+    }
+
+    .nyt-trail-widget .nyt-container {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: var(--nyt-color-cream-50);
+        color: var(--nyt-color-slate-900);
+        overflow: hidden;
+    }
+
+    .nyt-trail-widget .nyt-header {
+        background: var(--nyt-color-white);
+        padding: var(--nyt-space-16);
+        border-bottom: 1px solid rgba(167, 169, 169, 0.2);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        z-index: 10;
+        margin: 0;
+    }
+
+    .nyt-trail-widget .nyt-header h1 {
+        margin: 0 0 var(--nyt-space-16) 0;
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--nyt-color-slate-900);
+    }
+
+    .nyt-trail-widget .nyt-filters {
+        display: flex;
+        gap: var(--nyt-space-12);
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nyt-trail-widget .nyt-filter-label {
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--nyt-color-slate-500);
+        margin-right: var(--nyt-space-8);
+        margin: 0;
+    }
+
+    .nyt-trail-widget .nyt-filter-button {
+        padding: var(--nyt-space-8) var(--nyt-space-16);
+        border: 2px solid var(--nyt-color-gray-300);
+        background: var(--nyt-color-white);
+        color: var(--nyt-color-slate-900);
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 14px;
+        transition: all var(--nyt-duration-normal);
+        margin: 0;
+        font-family: inherit;
+    }
+
+    .nyt-trail-widget .nyt-filter-button:hover {
+        border-color: var(--nyt-color-teal-500);
+        background: rgba(33, 128, 141, 0.08);
+    }
+
+    .nyt-trail-widget .nyt-filter-button.active {
+        background: var(--nyt-color-teal-500);
+        border-color: var(--nyt-color-teal-500);
+        color: var(--nyt-color-white);
+    }
+
+    .nyt-trail-widget .nyt-map {
+        flex: 1;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        min-height: 400px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nyt-trail-widget .nyt-legend {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background: var(--nyt-color-white);
+        padding: var(--nyt-space-16);
+        border-radius: var(--nyt-radius-base);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 500;
+        max-width: 250px;
+        margin: 0;
+    }
+
+    .nyt-trail-widget .nyt-legend-title {
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: var(--nyt-space-12);
+        color: var(--nyt-color-slate-900);
+        margin: 0 0 var(--nyt-space-12) 0;
+    }
+
+    .nyt-trail-widget .nyt-legend-item {
+        display: flex;
+        align-items: center;
+        gap: var(--nyt-space-8);
+        margin-bottom: var(--nyt-space-8);
+        font-size: 13px;
+        color: var(--nyt-color-slate-500);
+        margin: 0 0 var(--nyt-space-8) 0;
+    }
+
+    .nyt-trail-widget .nyt-legend-icon {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .nyt-trail-widget .nyt-legend-icon.hiking {
+        background: rgba(232, 121, 74, 0.2);
+    }
+
+    .nyt-trail-widget .nyt-legend-icon.biking {
+        background: rgba(50, 184, 198, 0.2);
+    }
+
+    .nyt-trail-widget .nyt-trail-popup {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .nyt-trail-widget .nyt-trail-popup h3 {
+        margin: 0 0 var(--nyt-space-8) 0;
+        font-size: 15px;
+        color: var(--nyt-color-slate-900);
+    }
+
+    .nyt-trail-widget .nyt-trail-popup p {
+        margin: var(--nyt-space-8) 0;
+        color: var(--nyt-color-slate-500);
+        font-size: 12px;
+    }
+
+    .nyt-trail-widget .nyt-trail-popup a {
+        display: block;
+        margin: 4px 0;
+        padding: 6px 10px;
+        background: var(--nyt-color-teal-500);
+        color: var(--nyt-color-white);
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 12px;
+        transition: background var(--nyt-duration-normal);
+    }
+
+    .nyt-trail-widget .nyt-trail-popup a:hover {
+        background: var(--nyt-color-teal-600);
+    }
+
+    .nyt-trail-widget .leaflet-popup-content-wrapper {
+        border-radius: var(--nyt-radius-base) !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    }
+
+    .nyt-trail-widget .leaflet-popup-tip {
+        background: var(--nyt-color-white) !important;
+    }
+
+.nyt-trail-widget {
+    all: initial;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}

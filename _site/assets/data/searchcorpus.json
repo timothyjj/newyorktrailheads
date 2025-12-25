@@ -722,6 +722,14 @@
 }, 
  
 { 
+"title"    : "Map", 
+"desc"     : "Map", 
+"category" : "page", 
+"url"      : "/map", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
 "title"    : "Privacy Policy | New York Trailheads", 
 "desc"     : "Privacy Policy | New York Trailheads", 
 "category" : "page", 
