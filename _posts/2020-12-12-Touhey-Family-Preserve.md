@@ -12,7 +12,7 @@ images:
 cover-img: img/touhey-preserve/touhey3.jpeg
 
 ---
-<p>The newest preserve in the Mohawk Hudson Land Conservancy family as of fall 2020, the Touhey Family Preserve offers boardwalks, woods, ravines, and a pond within suburbia. With land donated to the Conservancy, a well-constructed trail was built winding through the property, which even contains a view to the Helderbergs from the entrance road on a clear day.
+<p>Added to the Mohawk Hudson Land Conservancy family as of fall 2020, the Touhey Family Preserve offers boardwalks, woods, ravines, and a pond within suburbia. With land donated to the Conservancy, a well-constructed trail was built winding through the property, which even contains a view to the Helderbergs from the entrance road on a clear day.
 </p>
 
 <p>Located at 911 Delaware Avenue heading away from Albany, you'll see a sign for the preserve leading up a gravel road. Be aware that there is a private residence further up the road; pull off into the parking area to the left by the trail sign. The trail roughly makes a loop through the property; make sure you stick to the trail markers to avoid going onto other parts of the property.</p>
