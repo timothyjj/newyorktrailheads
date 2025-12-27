@@ -13,11 +13,9 @@ cover-img: img/bender-melon.jpg
 
 ---
 
-<h1>Bender Melon Farm Preserve</h1>
-
 <p>After a lengthy battle to keep this former farm from development, the Mohawk Hudson Land Conservancy purchased this plot of land in 2020. Covering 175 acres, this preserve contains a mix of woods, fields, and wetlands.</p>
 
-<p>David's Trail currently traverses 0.57 miles through the preserve, with plans for additional trails in the future. Additionally, the property connects to the <a href="https://newyorktrailheads.com/2018/07/22/Albany-County-Rail-Trail.html">Albany County Rail Trail</a>, allowing for extending a walk over the 9 miles of paved trail. If staying on David's Trail, you'll walk on a bridge over the Rail Trail.</p>
+<p>Various trail loops traverse close to three miles all together throughout this preserve. Additionally, the property connects to the <a href="https://newyorktrailheads.com/2018/07/22/Albany-County-Rail-Trail.html">Albany County Rail Trail</a>, allowing for extending a walk over the 9 miles of paved trail. If staying on David's Trail, you'll walk on a bridge over the Rail Trail.</p>
 
 <p>The parking area is located on Hilton Road in New Scotland, just off of Rte. 85A. There's a large gravel parking lot next to a large old red barn (the Hilton Barn), which is being restored for event use as of the time of this article.</p>
 

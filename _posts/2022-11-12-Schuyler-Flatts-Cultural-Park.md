@@ -13,8 +13,6 @@ cover-img: img/schuyler-flatts/schuyler-flatts-5.jpeg
 
 ---
 
-<h1>Schuyler Flatts Cultural Park</h1>
-
 <p>Located in the village of Menands, this tranquil 43-acre park contains a 3/4 mile trail loop as well as a connection to the <a href="https://newyorktrailheads.com/2016/06/04/Mohawk-Hudson-Bike-Hike-Trail.html">Mohawk Hudson Bikeway</a>. Originally owned by the renowned Schuyler family during the colonial era, this location was the site of a mansion and farm, also serving as a staging ground for troops. A few historical signs describe significant events that took place at this location.</p>
 
 <p>You'll start in a rough wooden structure meant to capture the spirit of the colonial times, providing a nice shelter for picnicking, resting, and absorbing all the informational signs. As you go around the trail, you'll see large stones marking the former location of the mansion. During the spring and summer, gardens are kept up in some areas of the park, and a large trellis covers a portion of the trail.</p>

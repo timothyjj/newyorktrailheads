@@ -14,8 +14,6 @@ cover-img: img/compass.jpg
 
 ---
 
-<h1>How to Navigate with a Compass While Hiking</h1>
-
 <p>Hiking is a great way to enjoy nature, explore new places, and stay fit. However, hiking also comes with some risks, such as getting lost or injured. That's why it's important to have some basic navigation skills and tools when you hit the trails.
 
 <img class="pure-img-responsive" src="/img/compass.jpg" alt="Compass & Map"><br>

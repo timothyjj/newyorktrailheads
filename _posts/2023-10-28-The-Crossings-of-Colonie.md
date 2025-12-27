@@ -13,8 +13,6 @@ cover-img: img/crossings/crossings2.jpg
 
 ---
 
-<h1>The Crossings of Colonie</h1>
-
 <p>As the second largest park in the town of Colonie, The Crossings offers a peaceful oasis in the midst of a crowded suburban area just outside of Albany. With open fields, wooded sections, and a decently sized pond, you can explore a 3.25 mile trail loop around the park, with more inner connecting trails adding to the distance. The trails are mostly paved, while a wooded section in the southern portion of the park offers gravel and dirt paths. The trails are easy for families and those of all abilities to walk, run, or ride on. There are multiple areas to park throughout the property.</p>
 
 <p>If coming to the park with kids, you'll find two playgrounds, including a larger one closer to the front entrance, as well as a smaller one in the back portion of the park that's usually somewhat quieter. You can also explore a hedge maze as well as enjoy a picnic at one of many picnic tables and pavilions scattered throughout the park.</p>

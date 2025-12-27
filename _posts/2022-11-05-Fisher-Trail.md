@@ -13,7 +13,7 @@ cover-img: img/fisher-trail/fisher-trail-7.jpeg
 
 ---
 
-<p>Just opened in October 2022, the Fisher Trail crosses land owned by the Mohawk Hudson Land Conservancy, ultimately connecting to established trails at the <a href="https://newyorktrailheads.com/2019/02/09/Five-Rivers-Environmental-Education-Center">Five Rivers Environmental Education Center</a>. The first half-mile of the Fisher Trail is designed as an accessible trail, starting with a boardwalk and leading to a wide, easy-to-traverse gravel trail winding gently through woods and fields. Several benches along the way offer spots to relax and enjoy the outdoors.</p>
+<p>Opened in October 2022, the Fisher Trail crosses land owned by the Mohawk Hudson Land Conservancy, ultimately connecting to established trails at the <a href="https://newyorktrailheads.com/2019/02/09/Five-Rivers-Environmental-Education-Center">Five Rivers Environmental Education Center</a>. The first half-mile of the Fisher Trail is designed as an accessible trail, starting with a boardwalk and leading to a wide, easy-to-traverse gravel trail winding gently through woods and fields. Several benches along the way offer spots to relax and enjoy the outdoors.</p>
 
 <p>After reaching a beautifully constructed observation deck, the trail descends steeply into a ravine, crosses the Phillipin Kill via a bridge, and climbs back up a hill to connect with the Wild Turkey Trail. From here, you can hike into Five Rivers and cover more trails in their trail system if desired.</p>
 

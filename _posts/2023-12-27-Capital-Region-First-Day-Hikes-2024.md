@@ -13,8 +13,6 @@ cover-img: img/winterhiking.jpg
 
 ---
 
-<h2>Capital Region First Day Hikes to Welcome 2024</h2>
-
 <p>For outdoor enthusiasts, nothing sets the tone for a new year better than a chance to take a hike! Several local parks and nature organizations have planned First Day Hikes, where you can join others on an outdoor trek. In this article, we'll provide an overview of hikes you can participate in, along with links to further info where applicable.</p>
 
 <h2>Adirondacks</h2>

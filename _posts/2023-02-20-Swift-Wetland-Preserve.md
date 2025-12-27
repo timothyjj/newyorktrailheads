@@ -13,8 +13,6 @@ cover-img: img/swift-preserve/swift-preserve-1.jpeg
 
 ---
 
-<h1>Swift Wetland Preserve</h1>
-
 <p>One of many "pocket preserves" maintained by the Mohawk Hudson Land Conservancy, the Swift Wetland Preserve offers a taste of nature in the midst of suburban Delmar. One entrance is located across from Bethlehem High School on Delaware Avenue, while a second entrance with a small parking area can be found at the end of Evelyn Drive.</p>
 
 <p>The trails meander through a wooded, marshy area that can become quite muddy in wetter seasons. There are boardwalks in sections to allow you to walk on "solid ground" and avoid the mud.</p>

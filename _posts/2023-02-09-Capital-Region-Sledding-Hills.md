@@ -12,9 +12,6 @@ images:
 cover-img: img/capital-hills.jpg
 
 ---
-
-<h1>Capital Region Sledding Hills</h1>
-
 <img class="pure-img-responsive" src="/img/capital-hills.jpg" alt="Capital Hills Golf Course">
 
 <p>For kids of all ages, few activities are more fun after a fresh snowfall than jumping on a sled and riding down a hill at top speed. Thankfully, the Capital Region has no shortage of hills for those looking for some classic winter fun. In this article, we're listing a few of our favorites. Whether a regular plastic sled, a tube, or a toboggan is your vehicle of choice, you're sure to find a place you can enjoy. Feel free to reach out if there are any other spots you think should be included here!</p>
