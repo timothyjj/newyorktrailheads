@@ -722,8 +722,8 @@
 }, 
  
 { 
-"title"    : "Map", 
-"desc"     : "Map", 
+"title"    : "Trail Locator", 
+"desc"     : "Trail Locator", 
 "category" : "page", 
 "url"      : "/map", 
 "date"     : "January 1, 1970" 

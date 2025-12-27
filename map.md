@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Map
+title: Trail Locator
 subtitle: Find Upstate NY Trails
 ---
 
