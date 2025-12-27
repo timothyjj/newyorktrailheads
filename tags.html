@@ -23,12 +23,10 @@ title: 'Categories'
         &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
     </h2>
     <div class="post-list">
-        {%- for post in site.tags[tag] -%}
+        {%- assign sorted_posts = site.tags[tag] | sort: 'title' -%}
+        {%- for post in sorted_posts -%}
             <div class="tag-entry">
                 <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
-                <div class="entry-date">
-                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
-                </div>
             </div>
         {%- endfor -%}
     </div>

@@ -89,4 +89,51 @@ layout: base
       {% include comments.html %}
     </div>
   </div>
+  <!-- Related Posts Section -->
+<div class="related-posts" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd;">
+  <h3>You May Also Enjoy</h3>
+  
+  {% assign maxRelated = 4 %}
+  {% assign minCommonTags = 1 %}
+  {% assign maxRelatedCounter = 0 %}
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+    {% for post in site.posts %}
+      {% if post.related != false %}
+        {% assign sameTagCount = 0 %}
+        
+        {% for tag in post.tags %}
+          {% if post.url != page.url %}
+            {% if page.tags contains tag %}
+              {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        
+        {% if sameTagCount >= minCommonTags %}
+          <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s;">
+            <a href="{{ post.url | relative_url }}" style="text-decoration: none; display: block;">
+              {% if post.cover-img %}
+                <img src="{{ post.cover-img | relative_url }}" alt="{{ post.title }}" style="width: 100%; height: 180px; object-fit: cover;">
+              {% else %}
+                <div style="width: 100%; height: 180px; background-color: #f0f0f0; display: flex; align-items: center; justify-content: center;">
+                  <span style="color: #999;">No image</span>
+                </div>
+              {% endif %}
+            </a>
+            <div style="padding: 15px;">
+              <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #333; font-weight: bold;">{{ post.title }}</a>
+            </div>
+          </div>
+          {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+          {% if maxRelatedCounter >= maxRelated %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+
 </main>
