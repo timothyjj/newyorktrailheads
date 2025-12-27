@@ -249,73 +249,24 @@
 
 
 
+<style>
+.posts-list { 
+  display: flex;
+  flex-direction: column;
+}
+.post-preview { 
+  opacity: 0; 
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  order: 9999;
+}
+.post-preview.shuffled { 
+  opacity: 1; 
+  transform: translateY(0);
+}
+</style>
 
-<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="http://localhost:4000/2023/02/20/Swift-Wetland-Preserve">
-        <h2 class="post-title">Swift Wetland Preserve</h2>
-
-        
-      </a>
-
-      
-      <p class="post-meta">
-<!-- 
-        
-        Posted on February 20, 2023
--->
-      </p>
-
-      
-      <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2023/02/20/Swift-Wetland-Preserve" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/swift-preserve/swift-preserve-1.jpeg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      
-      
-      <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2023/02/20/Swift-Wetland-Preserve" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/swift-preserve/swift-preserve-1.jpeg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      <div class="post-entry">
-        
-        Marshy nature preserve across from Bethlehem High School
-        
-        
-          <a href="http://localhost:4000/2023/02/20/Swift-Wetland-Preserve" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
   
   <li class="post-preview">
     <article>
@@ -330,12 +281,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on March 1, 2025
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -359,7 +305,7 @@
         Tips for enjoying the trails while protecting the environment
         
         
-          <a href="http://localhost:4000/2025/03/01/Hiking-in-Spring-Mud-Season" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2025/03/01/Hiking-in-Spring-Mud-Season" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -367,11 +313,68 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
             <a href="http://localhost:4000/tags#Hiking Tips">Hiking Tips</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </article>
+  </li>
+  
+  <li class="post-preview">
+    <article>
+      
+
+      
+
+      <a href="http://localhost:4000/2025/01/18/Graphite-Range-Community-Forest">
+        <h2 class="post-title">Graphite Range Community Forest</h2>
+
+        
+      </a>
+
+      
+      <p class="post-meta"></p>
+
+      
+      <div class="post-image post-image-small">
+        <a href="http://localhost:4000/2025/01/18/Graphite-Range-Community-Forest" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/graphite-range/graphite-range-7.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      
+      
+      <div class="post-image post-image-short">
+        <a href="http://localhost:4000/2025/01/18/Graphite-Range-Community-Forest" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/graphite-range/graphite-range-7.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      <div class="post-entry">
+        
+        Biking & hiking trails near former graphite mines
+        
+        
+          <a href="http://localhost:4000/2025/01/18/Graphite-Range-Community-Forest" class="post-read-more">[Read More]</a>
+        
+      </div>
+      
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
+        <ul class="d-inline list-inline" role="list">
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
           </li>
           
         </ul>
@@ -394,12 +397,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on February 19, 2024
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -423,7 +421,7 @@
         Walk through the woods & along the Mohawk River
         
         
-          <a href="http://localhost:4000/2024/02/19/Colonie-Town-Park" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2024/02/19/Colonie-Town-Park" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -431,7 +429,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -458,12 +455,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on October 28, 2023
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -487,7 +479,7 @@
         Town park with trails, pond, playgrounds, & more
         
         
-          <a href="http://localhost:4000/2023/10/28/The-Crossings-of-Colonie" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2023/10/28/The-Crossings-of-Colonie" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -495,11 +487,126 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
             <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </article>
+  </li>
+  
+  <li class="post-preview">
+    <article>
+      
+
+      
+
+      <a href="http://localhost:4000/2023/10/21/Bradleys-Lookout">
+        <h2 class="post-title">Bradley's Lookout</h2>
+
+        
+      </a>
+
+      
+      <p class="post-meta"></p>
+
+      
+      <div class="post-image post-image-small">
+        <a href="http://localhost:4000/2023/10/21/Bradleys-Lookout" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/bradleys-lookout/bradleys-lookout2.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      
+      
+      <div class="post-image post-image-short">
+        <a href="http://localhost:4000/2023/10/21/Bradleys-Lookout" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/bradleys-lookout/bradleys-lookout2.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      <div class="post-entry">
+        
+        Easy hike to a view of Lake George
+        
+        
+          <a href="http://localhost:4000/2023/10/21/Bradleys-Lookout" class="post-read-more">[Read More]</a>
+        
+      </div>
+      
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
+        <ul class="d-inline list-inline" role="list">
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </article>
+  </li>
+  
+  <li class="post-preview">
+    <article>
+      
+
+      
+
+      <a href="http://localhost:4000/2023/10/07/Adirondack-Hiking-Challenges">
+        <h2 class="post-title">Adirondack Hiking Challenges</h2>
+
+        
+      </a>
+
+      
+      <p class="post-meta"></p>
+
+      
+      <div class="post-image post-image-small">
+        <a href="http://localhost:4000/2023/10/07/Adirondack-Hiking-Challenges" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/baker-mountain/baker-mountain-8.jpeg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      
+      
+      <div class="post-image post-image-short">
+        <a href="http://localhost:4000/2023/10/07/Adirondack-Hiking-Challenges" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/baker-mountain/baker-mountain-8.jpeg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      <div class="post-entry">
+        
+        Ways to hike toward a goal in the ADK
+        
+        
+          <a href="http://localhost:4000/2023/10/07/Adirondack-Hiking-Challenges" class="post-read-more">[Read More]</a>
+        
+      </div>
+      
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
+        <ul class="d-inline list-inline" role="list">
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
           </li>
           
         </ul>
@@ -522,12 +629,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on September 9, 2023
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -551,7 +653,7 @@
         Short climb to an overlook near Schroon Lake
         
         
-          <a href="http://localhost:4000/2023/09/09/Severance-Hill" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2023/09/09/Severance-Hill" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -559,7 +661,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -586,12 +687,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on March 18, 2023
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -615,7 +711,7 @@
         Know how to use a compass to avoid getting lost
         
         
-          <a href="http://localhost:4000/2023/03/18/How-to-Use-a-Compass-While-Hiking" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2023/03/18/How-to-Use-a-Compass-While-Hiking" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -623,7 +719,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -643,24 +738,19 @@
 
       
 
-      <a href="http://localhost:4000/2023/10/21/Bradleys-Lookout">
-        <h2 class="post-title">Bradley's Lookout</h2>
+      <a href="http://localhost:4000/2023/02/20/Swift-Wetland-Preserve">
+        <h2 class="post-title">Swift Wetland Preserve</h2>
 
         
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on October 21, 2023
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2023/10/21/Bradleys-Lookout" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/bradleys-lookout/bradleys-lookout2.jpg" alt="Post thumbnail">
+        <a href="http://localhost:4000/2023/02/20/Swift-Wetland-Preserve" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/swift-preserve/swift-preserve-1.jpeg" alt="Post thumbnail">
         </a>
       </div>
       
@@ -668,18 +758,18 @@
       
       
       <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2023/10/21/Bradleys-Lookout" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/bradleys-lookout/bradleys-lookout2.jpg" alt="Post thumbnail">
+        <a href="http://localhost:4000/2023/02/20/Swift-Wetland-Preserve" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/swift-preserve/swift-preserve-1.jpeg" alt="Post thumbnail">
         </a>
       </div>
       
 
       <div class="post-entry">
         
-        Easy hike to a view of Lake George
+        Marshy nature preserve across from Bethlehem High School
         
         
-          <a href="http://localhost:4000/2023/10/21/Bradleys-Lookout" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2023/02/20/Swift-Wetland-Preserve" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -687,139 +777,10 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="http://localhost:4000/2025/01/18/Graphite-Range-Community-Forest">
-        <h2 class="post-title">Graphite Range Community Forest</h2>
-
-        
-      </a>
-
-      
-      <p class="post-meta">
-<!-- 
-        
-        Posted on January 18, 2025
--->
-      </p>
-
-      
-      <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2025/01/18/Graphite-Range-Community-Forest" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/graphite-range/graphite-range-7.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      
-      
-      <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2025/01/18/Graphite-Range-Community-Forest" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/graphite-range/graphite-range-7.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      <div class="post-entry">
-        
-        Biking & hiking trails near former graphite mines
-        
-        
-          <a href="http://localhost:4000/2025/01/18/Graphite-Range-Community-Forest" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
             <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="http://localhost:4000/2023/10/07/Adirondack-Hiking-Challenges">
-        <h2 class="post-title">Adirondack Hiking Challenges</h2>
-
-        
-      </a>
-
-      
-      <p class="post-meta">
-<!-- 
-        
-        Posted on October 7, 2023
--->
-      </p>
-
-      
-      <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2023/10/07/Adirondack-Hiking-Challenges" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/baker-mountain/baker-mountain-8.jpeg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      
-      
-      <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2023/10/07/Adirondack-Hiking-Challenges" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/baker-mountain/baker-mountain-8.jpeg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      <div class="post-entry">
-        
-        Ways to hike toward a goal in the ADK
-        
-        
-          <a href="http://localhost:4000/2023/10/07/Adirondack-Hiking-Challenges" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
           </li>
           
         </ul>
@@ -842,12 +803,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on February 9, 2023
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -871,7 +827,7 @@
         Favorite spots for sledding in the Capital Region
         
         
-          <a href="http://localhost:4000/2023/02/09/Capital-Region-Sledding-Hills" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2023/02/09/Capital-Region-Sledding-Hills" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -879,7 +835,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -894,6 +849,17 @@
   </li>
   
 </ul>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const posts = document.querySelectorAll('.posts-list li.post-preview');
+  posts.forEach((post, index) => {
+    const randomOrder = Math.floor(Math.random() * posts.length);
+    post.style.order = randomOrder;
+    setTimeout(() => post.classList.add('shuffled'), 50 * index);
+  });
+});
+</script>
 
 
 <ul class="pagination main-pager">

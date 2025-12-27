@@ -4,28 +4,36 @@ layout: page
 
 {{ content }}
 
-{% assign all_posts = paginator.posts | default: site.posts %}
-{% assign posts = all_posts | sample: all_posts.size %}
+{% assign posts = paginator.posts | default: site.posts %}
 
-<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+<style>
+.posts-list { 
+  display: flex;
+  flex-direction: column;
+}
+.post-preview { 
+  opacity: 0; 
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  order: 9999;
+}
+.post-preview.shuffled { 
+  opacity: 1; 
+  transform: translateY(0);
+}
+</style>
+
 <ul class="posts-list list-unstyled" role="list">
   {% for post in posts %}
   <li class="post-preview">
     <article>
 
       {%- capture thumbnail -%}
-        {% if post.thumbnail-img %}
-          {{ post.thumbnail-img }}
-        {% elsif post.cover-img %}
-          {% if post.cover-img.first %}
-            {{ post.cover-img[0].first.first }}
-          {% else %}
-            {{ post.cover-img }}
-          {% endif %}
-        {% else %}
+        {% if post.cover-img %}
+          {{ post.cover-img }}
         {% endif %}
-      {% endcapture %}
-      {% assign thumbnail=thumbnail | strip %}
+      {%- endcapture %}
+      {% assign thumbnail = thumbnail | strip %}
 
       {% if site.feed_show_excerpt == false %}
       {% if thumbnail != "" %}
@@ -41,21 +49,14 @@ layout: page
         <h2 class="post-title">{{ post.title | strip_html }}</h2>
 
         {% if post.subtitle %}
-          <h3 class="post-subtitle">
-          {{ post.subtitle | strip_html }}
-          </h3>
+          <h3 class="post-subtitle">{{ post.subtitle | strip_html }}</h3>
         {% endif %}
       </a>
 
       {% if post.author %}
         <span>By <strong>{{ post.author | strip_html }}</strong></span>
       {% endif %}
-      <p class="post-meta">
-<!-- 
-        {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-        Posted on {{ post.date | date: date_format }}
--->
-      </p>
+      <p class="post-meta"></p>
 
       {% if thumbnail != "" %}
       <div class="post-image post-image-small">
@@ -79,7 +80,7 @@ layout: page
         {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
         {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
-          <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read More]</a>
         {% endif %}
       </div>
       {% endunless %}
@@ -87,7 +88,6 @@ layout: page
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           {% for tag in post.tags %}
           <li class="list-inline-item">
@@ -102,6 +102,17 @@ layout: page
   </li>
   {% endfor %}
 </ul>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const posts = document.querySelectorAll('.posts-list li.post-preview');
+  posts.forEach((post, index) => {
+    const randomOrder = Math.floor(Math.random() * posts.length);
+    post.style.order = randomOrder;
+    setTimeout(() => post.classList.add('shuffled'), 50 * index);
+  });
+});
+</script>
 
 {% if paginator.total_pages > 1 %}
 <ul class="pagination main-pager">

@@ -249,8 +249,23 @@
 
 
 
+<style>
+.posts-list { 
+  display: flex;
+  flex-direction: column;
+}
+.post-preview { 
+  opacity: 0; 
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  order: 9999;
+}
+.post-preview.shuffled { 
+  opacity: 1; 
+  transform: translateY(0);
+}
+</style>
 
-<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
   
   <li class="post-preview">
@@ -259,24 +274,19 @@
 
       
 
-      <a href="http://localhost:4000/2016/08/13/Cat-and-Thomas-Mountains">
-        <h2 class="post-title">Cat & Thomas Mountains</h2>
+      <a href="http://localhost:4000/2016/09/23/Four-Easy-Adirondack-Hikes">
+        <h2 class="post-title">Four Easy Adirondack Hikes</h2>
 
         
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on August 13, 2016
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2016/08/13/Cat-and-Thomas-Mountains" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/cat-thomas/cat-mountain-view.jpg" alt="Post thumbnail">
+        <a href="http://localhost:4000/2016/09/23/Four-Easy-Adirondack-Hikes" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/four-hikes/shelving-rock-falls.jpg" alt="Post thumbnail">
         </a>
       </div>
       
@@ -284,18 +294,18 @@
       
       
       <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2016/08/13/Cat-and-Thomas-Mountains" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/cat-thomas/cat-mountain-view.jpg" alt="Post thumbnail">
+        <a href="http://localhost:4000/2016/09/23/Four-Easy-Adirondack-Hikes" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/four-hikes/shelving-rock-falls.jpg" alt="Post thumbnail">
         </a>
       </div>
       
 
       <div class="post-entry">
         
-        A loop or in-and-out hike from Bolton Landing, allowing you to hike to one or both peaks overlooking Lake George
+        Looking for a hike in the Adirondacks that doesn't involve intense High Peaks-level elevation gain? See our list
         
         
-          <a href="http://localhost:4000/2016/08/13/Cat-and-Thomas-Mountains" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2016/09/23/Four-Easy-Adirondack-Hikes" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -303,279 +313,10 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Lake George">Lake George</a>
-          </li>
           
           <li class="list-inline-item">
             <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="http://localhost:4000/2016/07/22/Black-Mountain">
-        <h2 class="post-title">Black Mountain</h2>
-
-        
-      </a>
-
-      
-      <p class="post-meta">
-<!-- 
-        
-        Posted on July 22, 2016
--->
-      </p>
-
-      
-      <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2016/07/22/Black-Mountain" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/black-mountain/black-mountain.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      
-      
-      <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2016/07/22/Black-Mountain" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/black-mountain/black-mountain.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      <div class="post-entry">
-        
-        Climb the highest mountain in the Lake George region
-        
-        
-          <a href="http://localhost:4000/2016/07/22/Black-Mountain" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Lake George">Lake George</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="http://localhost:4000/2016/07/09/Vischer-Ferry-Preserve">
-        <h2 class="post-title">Vischer Ferry Nature Preserve</h2>
-
-        
-      </a>
-
-      
-      <p class="post-meta">
-<!-- 
-        
-        Posted on July 9, 2016
--->
-      </p>
-
-      
-      <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2016/07/09/Vischer-Ferry-Preserve" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/vischer-ferry/whipple-bridge.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      
-      
-      <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2016/07/09/Vischer-Ferry-Preserve" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/vischer-ferry/whipple-bridge.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      <div class="post-entry">
-        
-        Easy walking trails, Mohawk River views, and local history
-        
-        
-          <a href="http://localhost:4000/2016/07/09/Vischer-Ferry-Preserve" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="http://localhost:4000/2016/08/07/Pilot-Knob">
-        <h2 class="post-title">Schumann Preserve at Pilot Knob</h2>
-
-        
-      </a>
-
-      
-      <p class="post-meta">
-<!-- 
-        
-        Posted on August 7, 2016
--->
-      </p>
-
-      
-      <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2016/08/07/Pilot-Knob" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/pilot-knob/lake-george-north.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      
-      
-      <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2016/08/07/Pilot-Knob" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/pilot-knob/lake-george-north.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      <div class="post-entry">
-        
-        A moderately easy hike with some elevation gain, Pilot Knob Preserve offers a gazebo, panoramic view of Lake George, and waterfall
-        
-        
-          <a href="http://localhost:4000/2016/08/07/Pilot-Knob" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Lake George">Lake George</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="http://localhost:4000/2016/08/21/Trail-Hiking-Tips-Wear-the-Proper-Clothes">
-        <h2 class="post-title">Trail Hiking Tips - Wear the Proper Clothes</h2>
-
-        
-      </a>
-
-      
-      <p class="post-meta">
-<!-- 
-        
-        Posted on August 21, 2016
--->
-      </p>
-
-      
-      <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2016/08/21/Trail-Hiking-Tips-Wear-the-Proper-Clothes" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/mountain-trail.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      
-      
-      <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2016/08/21/Trail-Hiking-Tips-Wear-the-Proper-Clothes" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/mountain-trail.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      <div class="post-entry">
-        
-        The right clothes are crucial for comfort and safety on a hike. Part of a series on outdoor trail hiking tips
-        
-        
-          <a href="http://localhost:4000/2016/08/21/Trail-Hiking-Tips-Wear-the-Proper-Clothes" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Hiking Tips">Hiking Tips</a>
           </li>
           
         </ul>
@@ -598,12 +339,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on September 19, 2016
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -627,7 +363,7 @@
         Walk an easy hiking trail or travel a tour road in a park steeped in Revolutionary War history
         
         
-          <a href="http://localhost:4000/2016/09/19/Saratoga-Battlefield" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2016/09/19/Saratoga-Battlefield" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -635,7 +371,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -659,6 +394,188 @@
 
       
 
+      <a href="http://localhost:4000/2016/08/21/Trail-Hiking-Tips-Wear-the-Proper-Clothes">
+        <h2 class="post-title">Trail Hiking Tips - Wear the Proper Clothes</h2>
+
+        
+      </a>
+
+      
+      <p class="post-meta"></p>
+
+      
+      <div class="post-image post-image-small">
+        <a href="http://localhost:4000/2016/08/21/Trail-Hiking-Tips-Wear-the-Proper-Clothes" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/mountain-trail.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      
+      
+      <div class="post-image post-image-short">
+        <a href="http://localhost:4000/2016/08/21/Trail-Hiking-Tips-Wear-the-Proper-Clothes" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/mountain-trail.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      <div class="post-entry">
+        
+        The right clothes are crucial for comfort and safety on a hike. Part of a series on outdoor trail hiking tips
+        
+        
+          <a href="http://localhost:4000/2016/08/21/Trail-Hiking-Tips-Wear-the-Proper-Clothes" class="post-read-more">[Read More]</a>
+        
+      </div>
+      
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
+        <ul class="d-inline list-inline" role="list">
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Hiking Tips">Hiking Tips</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </article>
+  </li>
+  
+  <li class="post-preview">
+    <article>
+      
+
+      
+
+      <a href="http://localhost:4000/2016/08/13/Cat-and-Thomas-Mountains">
+        <h2 class="post-title">Cat & Thomas Mountains</h2>
+
+        
+      </a>
+
+      
+      <p class="post-meta"></p>
+
+      
+      <div class="post-image post-image-small">
+        <a href="http://localhost:4000/2016/08/13/Cat-and-Thomas-Mountains" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/cat-thomas/cat-mountain-view.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      
+      
+      <div class="post-image post-image-short">
+        <a href="http://localhost:4000/2016/08/13/Cat-and-Thomas-Mountains" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/cat-thomas/cat-mountain-view.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      <div class="post-entry">
+        
+        A loop or in-and-out hike from Bolton Landing, allowing you to hike to one or both peaks overlooking Lake George
+        
+        
+          <a href="http://localhost:4000/2016/08/13/Cat-and-Thomas-Mountains" class="post-read-more">[Read More]</a>
+        
+      </div>
+      
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
+        <ul class="d-inline list-inline" role="list">
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Lake George">Lake George</a>
+          </li>
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </article>
+  </li>
+  
+  <li class="post-preview">
+    <article>
+      
+
+      
+
+      <a href="http://localhost:4000/2016/08/07/Pilot-Knob">
+        <h2 class="post-title">Schumann Preserve at Pilot Knob</h2>
+
+        
+      </a>
+
+      
+      <p class="post-meta"></p>
+
+      
+      <div class="post-image post-image-small">
+        <a href="http://localhost:4000/2016/08/07/Pilot-Knob" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/pilot-knob/lake-george-north.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      
+      
+      <div class="post-image post-image-short">
+        <a href="http://localhost:4000/2016/08/07/Pilot-Knob" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/pilot-knob/lake-george-north.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      <div class="post-entry">
+        
+        A moderately easy hike with some elevation gain, Pilot Knob Preserve offers a gazebo, panoramic view of Lake George, and waterfall
+        
+        
+          <a href="http://localhost:4000/2016/08/07/Pilot-Knob" class="post-read-more">[Read More]</a>
+        
+      </div>
+      
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
+        <ul class="d-inline list-inline" role="list">
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Lake George">Lake George</a>
+          </li>
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </article>
+  </li>
+  
+  <li class="post-preview">
+    <article>
+      
+
+      
+
       <a href="http://localhost:4000/2016/08/06/Trail-Hiking-Tips-Bring-the-Right-Gear">
         <h2 class="post-title">Trail Hiking Tips - Bring the Right Gear</h2>
 
@@ -666,12 +583,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on August 6, 2016
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -695,7 +607,7 @@
         We discuss deciding what equipment to bring when hiking. Part of a series on outdoor trail hiking tips
         
         
-          <a href="http://localhost:4000/2016/08/06/Trail-Hiking-Tips-Bring-the-Right-Gear" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2016/08/06/Trail-Hiking-Tips-Bring-the-Right-Gear" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -703,7 +615,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -730,12 +641,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on July 31, 2016
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -759,7 +665,7 @@
         First in a series of hiking tips, we discuss knowing where you're going before you hike!
         
         
-          <a href="http://localhost:4000/2016/07/31/Hiking-Tips-Know-Your-Destination" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2016/07/31/Hiking-Tips-Know-Your-Destination" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -767,11 +673,72 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
             <a href="http://localhost:4000/tags#Hiking Tips">Hiking Tips</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </article>
+  </li>
+  
+  <li class="post-preview">
+    <article>
+      
+
+      
+
+      <a href="http://localhost:4000/2016/07/22/Black-Mountain">
+        <h2 class="post-title">Black Mountain</h2>
+
+        
+      </a>
+
+      
+      <p class="post-meta"></p>
+
+      
+      <div class="post-image post-image-small">
+        <a href="http://localhost:4000/2016/07/22/Black-Mountain" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/black-mountain/black-mountain.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      
+      
+      <div class="post-image post-image-short">
+        <a href="http://localhost:4000/2016/07/22/Black-Mountain" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/black-mountain/black-mountain.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      <div class="post-entry">
+        
+        Climb the highest mountain in the Lake George region
+        
+        
+          <a href="http://localhost:4000/2016/07/22/Black-Mountain" class="post-read-more">[Read More]</a>
+        
+      </div>
+      
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
+        <ul class="d-inline list-inline" role="list">
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Lake George">Lake George</a>
+          </li>
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
           </li>
           
         </ul>
@@ -794,12 +761,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on July 18, 2016
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -823,7 +785,7 @@
         Hike to a summit with a fire tower and expansive views of Lake Champlain
         
         
-          <a href="http://localhost:4000/2016/07/18/Poke-O-Moonshine" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2016/07/18/Poke-O-Moonshine" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -831,7 +793,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -851,24 +812,19 @@
 
       
 
-      <a href="http://localhost:4000/2016/09/23/Four-Easy-Adirondack-Hikes">
-        <h2 class="post-title">Four Easy Adirondack Hikes</h2>
+      <a href="http://localhost:4000/2016/07/09/Vischer-Ferry-Preserve">
+        <h2 class="post-title">Vischer Ferry Nature Preserve</h2>
 
         
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on September 23, 2016
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2016/09/23/Four-Easy-Adirondack-Hikes" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/four-hikes/shelving-rock-falls.jpg" alt="Post thumbnail">
+        <a href="http://localhost:4000/2016/07/09/Vischer-Ferry-Preserve" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/vischer-ferry/whipple-bridge.jpg" alt="Post thumbnail">
         </a>
       </div>
       
@@ -876,18 +832,18 @@
       
       
       <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2016/09/23/Four-Easy-Adirondack-Hikes" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/four-hikes/shelving-rock-falls.jpg" alt="Post thumbnail">
+        <a href="http://localhost:4000/2016/07/09/Vischer-Ferry-Preserve" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/vischer-ferry/whipple-bridge.jpg" alt="Post thumbnail">
         </a>
       </div>
       
 
       <div class="post-entry">
         
-        Looking for a hike in the Adirondacks that doesn't involve intense High Peaks-level elevation gain? See our list
+        Easy walking trails, Mohawk River views, and local history
         
         
-          <a href="http://localhost:4000/2016/09/23/Four-Easy-Adirondack-Hikes" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2016/07/09/Vischer-Ferry-Preserve" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -895,11 +851,10 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
+            <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
           </li>
           
         </ul>
@@ -910,6 +865,17 @@
   </li>
   
 </ul>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const posts = document.querySelectorAll('.posts-list li.post-preview');
+  posts.forEach((post, index) => {
+    const randomOrder = Math.floor(Math.random() * posts.length);
+    post.style.order = randomOrder;
+    setTimeout(() => post.classList.add('shuffled'), 50 * index);
+  });
+});
+</script>
 
 
 <ul class="pagination main-pager">

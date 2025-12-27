@@ -249,77 +249,24 @@
 
 
 
+<style>
+.posts-list { 
+  display: flex;
+  flex-direction: column;
+}
+.post-preview { 
+  opacity: 0; 
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  order: 9999;
+}
+.post-preview.shuffled { 
+  opacity: 1; 
+  transform: translateY(0);
+}
+</style>
 
-<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="http://localhost:4000/2016/04/02/Buck-Mountain">
-        <h2 class="post-title">Buck Mountain</h2>
-
-        
-      </a>
-
-      
-      <p class="post-meta">
-<!-- 
-        
-        Posted on April 2, 2016
--->
-      </p>
-
-      
-      <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2016/04/02/Buck-Mountain" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/buck-mountain/buckmountain3.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      
-      
-      <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2016/04/02/Buck-Mountain" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/buck-mountain/buckmountain3.jpg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      <div class="post-entry">
-        
-        Buck Mountain offers one of the most beautiful views available of Lake George.
-        
-        
-          <a href="http://localhost:4000/2016/04/02/Buck-Mountain" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Lake George">Lake George</a>
-          </li>
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
   
   <li class="post-preview">
     <article>
@@ -334,12 +281,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on April 9, 2016
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -363,7 +305,7 @@
         A 9 mile multi-use trail extending from Halfmoon to Ballston Spa
         
         
-          <a href="http://localhost:4000/2016/04/09/Zim-Smith-Trail" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2016/04/09/Zim-Smith-Trail" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -371,7 +313,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -398,12 +339,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on April 3, 2016
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -427,7 +363,7 @@
         Located just off Northway Exit 10, this old growth forest contains a short loop trail, along with a connection to the Zim Smith Trail.
         
         
-          <a href="http://localhost:4000/2016/04/03/Ushers-Road-State-Forest" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2016/04/03/Ushers-Road-State-Forest" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -435,7 +371,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -449,7 +384,80 @@
     </article>
   </li>
   
+  <li class="post-preview">
+    <article>
+      
+
+      
+
+      <a href="http://localhost:4000/2016/04/02/Buck-Mountain">
+        <h2 class="post-title">Buck Mountain</h2>
+
+        
+      </a>
+
+      
+      <p class="post-meta"></p>
+
+      
+      <div class="post-image post-image-small">
+        <a href="http://localhost:4000/2016/04/02/Buck-Mountain" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/buck-mountain/buckmountain3.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      
+      
+      <div class="post-image post-image-short">
+        <a href="http://localhost:4000/2016/04/02/Buck-Mountain" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/buck-mountain/buckmountain3.jpg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      <div class="post-entry">
+        
+        Buck Mountain offers one of the most beautiful views available of Lake George.
+        
+        
+          <a href="http://localhost:4000/2016/04/02/Buck-Mountain" class="post-read-more">[Read More]</a>
+        
+      </div>
+      
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
+        <ul class="d-inline list-inline" role="list">
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Lake George">Lake George</a>
+          </li>
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </article>
+  </li>
+  
 </ul>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const posts = document.querySelectorAll('.posts-list li.post-preview');
+  posts.forEach((post, index) => {
+    const randomOrder = Math.floor(Math.random() * posts.length);
+    post.style.order = randomOrder;
+    setTimeout(() => post.classList.add('shuffled'), 50 * index);
+  });
+});
+</script>
 
 
 <ul class="pagination main-pager">

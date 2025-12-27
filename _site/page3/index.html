@@ -249,8 +249,23 @@
 
 
 
+<style>
+.posts-list { 
+  display: flex;
+  flex-direction: column;
+}
+.post-preview { 
+  opacity: 0; 
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  order: 9999;
+}
+.post-preview.shuffled { 
+  opacity: 1; 
+  transform: translateY(0);
+}
+</style>
 
-<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
   
   <li class="post-preview">
@@ -266,12 +281,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on September 5, 2020
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -295,7 +305,7 @@
         Forest, streams, and marsh in a suburban Bethlehem preserve
         
         
-          <a href="http://localhost:4000/2020/09/05/Phillipin-Kill-Preserve" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2020/09/05/Phillipin-Kill-Preserve" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -303,7 +313,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -330,12 +339,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on August 9, 2020
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -359,7 +363,7 @@
         Some people just can't be satisfied
         
         
-          <a href="http://localhost:4000/2020/08/09/Worst-Reviews-of-Upstate-NY-Hikes" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2020/08/09/Worst-Reviews-of-Upstate-NY-Hikes" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -367,7 +371,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -394,12 +397,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on August 7, 2020
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -423,7 +421,7 @@
         A short hike to a beautiful waterfall not far from Lake George
         
         
-          <a href="http://localhost:4000/2020/08/07/Shelving-Rock-Falls" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2020/08/07/Shelving-Rock-Falls" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -431,139 +429,10 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
             <a href="http://localhost:4000/tags#Adirondacks">Adirondacks</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="http://localhost:4000/2020/05/02/Tawasentha-Park">
-        <h2 class="post-title">Tawasentha Park Hiking Trails</h2>
-
-        
-      </a>
-
-      
-      <p class="post-meta">
-<!-- 
-        
-        Posted on May 2, 2020
--->
-      </p>
-
-      
-      <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2020/05/02/Tawasentha-Park" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/tawasentha/tawasentha6.jpeg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      
-      
-      <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2020/05/02/Tawasentha-Park" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/tawasentha/tawasentha6.jpeg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      <div class="post-entry">
-        
-        Town park in Guilderland with several miles of nature trails
-        
-        
-          <a href="http://localhost:4000/2020/05/02/Tawasentha-Park" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="http://localhost:4000/2020/05/30/Normanskill-Preserves">
-        <h2 class="post-title">Normanskill Preserves & Normanskill Farm</h2>
-
-        
-      </a>
-
-      
-      <p class="post-meta">
-<!-- 
-        
-        Posted on May 30, 2020
--->
-      </p>
-
-      
-      <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2020/05/30/Normanskill-Preserves" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/normanskill/normanskill-5.jpeg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      
-      
-      <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2020/05/30/Normanskill-Preserves" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/normanskill/normanskill-5.jpeg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      <div class="post-entry">
-        
-        Water, woods, and a historic bridge
-        
-        
-          <a href="http://localhost:4000/2020/05/30/Normanskill-Preserves" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
           </li>
           
         </ul>
@@ -586,12 +455,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on June 27, 2020
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -615,7 +479,7 @@
         See the confluence of the Hudson & Mohawk Rivers
         
         
-          <a href="http://localhost:4000/2020/06/27/Peebles-Island-State-Park" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2020/06/27/Peebles-Island-State-Park" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -623,71 +487,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-      
-
-      
-
-      <a href="http://localhost:4000/2020/04/25/Bozen-Kill-Preserve">
-        <h2 class="post-title">Bozen Kill Preserve</h2>
-
-        
-      </a>
-
-      
-      <p class="post-meta">
-<!-- 
-        
-        Posted on April 25, 2020
--->
-      </p>
-
-      
-      <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2020/04/25/Bozen-Kill-Preserve" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/bozen-kill/bozen-kill-5.jpeg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      
-      
-      <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2020/04/25/Bozen-Kill-Preserve" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/bozen-kill/bozen-kill-5.jpeg" alt="Post thumbnail">
-        </a>
-      </div>
-      
-
-      <div class="post-entry">
-        
-        Easy nature trail hike in Altamont with waterfalls
-        
-        
-          <a href="http://localhost:4000/2020/04/25/Bozen-Kill-Preserve" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -714,12 +513,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on June 21, 2020
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -743,7 +537,7 @@
         Multiple waterfalls & easy trails for families
         
         
-          <a href="http://localhost:4000/2020/06/21/Wolf-Creek-Falls" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2020/06/21/Wolf-Creek-Falls" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -751,7 +545,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -771,24 +564,19 @@
 
       
 
-      <a href="http://localhost:4000/2020/05/03/Pine-Hollow-Arboretum">
-        <h2 class="post-title">Pine Hollow Arboretum</h2>
+      <a href="http://localhost:4000/2020/05/30/Normanskill-Preserves">
+        <h2 class="post-title">Normanskill Preserves & Normanskill Farm</h2>
 
         
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on May 3, 2020
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
-        <a href="http://localhost:4000/2020/05/03/Pine-Hollow-Arboretum" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/pine-hollow-arboretum/pinehollow-5.jpeg" alt="Post thumbnail">
+        <a href="http://localhost:4000/2020/05/30/Normanskill-Preserves" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/normanskill/normanskill-5.jpeg" alt="Post thumbnail">
         </a>
       </div>
       
@@ -796,18 +584,18 @@
       
       
       <div class="post-image post-image-short">
-        <a href="http://localhost:4000/2020/05/03/Pine-Hollow-Arboretum" aria-label="Thumbnail">
-          <img src="http://localhost:4000/img/pine-hollow-arboretum/pinehollow-5.jpeg" alt="Post thumbnail">
+        <a href="http://localhost:4000/2020/05/30/Normanskill-Preserves" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/normanskill/normanskill-5.jpeg" alt="Post thumbnail">
         </a>
       </div>
       
 
       <div class="post-entry">
         
-        22-acre public space with trees from all over the world
+        Water, woods, and a historic bridge
         
         
-          <a href="http://localhost:4000/2020/05/03/Pine-Hollow-Arboretum" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2020/05/30/Normanskill-Preserves" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -815,7 +603,6 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -842,12 +629,7 @@
       </a>
 
       
-      <p class="post-meta">
-<!-- 
-        
-        Posted on May 10, 2020
--->
-      </p>
+      <p class="post-meta"></p>
 
       
       <div class="post-image post-image-small">
@@ -871,7 +653,7 @@
         Wooded trail with several waterfall views
         
         
-          <a href="http://localhost:4000/2020/05/10/Thacher-Park-Paint-Mine-Trail" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="http://localhost:4000/2020/05/10/Thacher-Park-Paint-Mine-Trail" class="post-read-more">[Read More]</a>
         
       </div>
       
@@ -879,7 +661,180 @@
       
       <div class="blog-tags">
         <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+        <ul class="d-inline list-inline" role="list">
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </article>
+  </li>
+  
+  <li class="post-preview">
+    <article>
+      
+
+      
+
+      <a href="http://localhost:4000/2020/05/03/Pine-Hollow-Arboretum">
+        <h2 class="post-title">Pine Hollow Arboretum</h2>
+
+        
+      </a>
+
+      
+      <p class="post-meta"></p>
+
+      
+      <div class="post-image post-image-small">
+        <a href="http://localhost:4000/2020/05/03/Pine-Hollow-Arboretum" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/pine-hollow-arboretum/pinehollow-5.jpeg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      
+      
+      <div class="post-image post-image-short">
+        <a href="http://localhost:4000/2020/05/03/Pine-Hollow-Arboretum" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/pine-hollow-arboretum/pinehollow-5.jpeg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      <div class="post-entry">
+        
+        22-acre public space with trees from all over the world
+        
+        
+          <a href="http://localhost:4000/2020/05/03/Pine-Hollow-Arboretum" class="post-read-more">[Read More]</a>
+        
+      </div>
+      
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
+        <ul class="d-inline list-inline" role="list">
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </article>
+  </li>
+  
+  <li class="post-preview">
+    <article>
+      
+
+      
+
+      <a href="http://localhost:4000/2020/05/02/Tawasentha-Park">
+        <h2 class="post-title">Tawasentha Park Hiking Trails</h2>
+
+        
+      </a>
+
+      
+      <p class="post-meta"></p>
+
+      
+      <div class="post-image post-image-small">
+        <a href="http://localhost:4000/2020/05/02/Tawasentha-Park" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/tawasentha/tawasentha6.jpeg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      
+      
+      <div class="post-image post-image-short">
+        <a href="http://localhost:4000/2020/05/02/Tawasentha-Park" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/tawasentha/tawasentha6.jpeg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      <div class="post-entry">
+        
+        Town park in Guilderland with several miles of nature trails
+        
+        
+          <a href="http://localhost:4000/2020/05/02/Tawasentha-Park" class="post-read-more">[Read More]</a>
+        
+      </div>
+      
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
+        <ul class="d-inline list-inline" role="list">
+          
+          <li class="list-inline-item">
+            <a href="http://localhost:4000/tags#Nature Preserves & Parks">Nature Preserves & Parks</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </article>
+  </li>
+  
+  <li class="post-preview">
+    <article>
+      
+
+      
+
+      <a href="http://localhost:4000/2020/04/25/Bozen-Kill-Preserve">
+        <h2 class="post-title">Bozen Kill Preserve</h2>
+
+        
+      </a>
+
+      
+      <p class="post-meta"></p>
+
+      
+      <div class="post-image post-image-small">
+        <a href="http://localhost:4000/2020/04/25/Bozen-Kill-Preserve" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/bozen-kill/bozen-kill-5.jpeg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      
+      
+      <div class="post-image post-image-short">
+        <a href="http://localhost:4000/2020/04/25/Bozen-Kill-Preserve" aria-label="Thumbnail">
+          <img src="http://localhost:4000/img/bozen-kill/bozen-kill-5.jpeg" alt="Post thumbnail">
+        </a>
+      </div>
+      
+
+      <div class="post-entry">
+        
+        Easy nature trail hike in Altamont with waterfalls
+        
+        
+          <a href="http://localhost:4000/2020/04/25/Bozen-Kill-Preserve" class="post-read-more">[Read More]</a>
+        
+      </div>
+      
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
         <ul class="d-inline list-inline" role="list">
           
           <li class="list-inline-item">
@@ -894,6 +849,17 @@
   </li>
   
 </ul>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const posts = document.querySelectorAll('.posts-list li.post-preview');
+  posts.forEach((post, index) => {
+    const randomOrder = Math.floor(Math.random() * posts.length);
+    post.style.order = randomOrder;
+    setTimeout(() => post.classList.add('shuffled'), 50 * index);
+  });
+});
+</script>
 
 
 <ul class="pagination main-pager">
