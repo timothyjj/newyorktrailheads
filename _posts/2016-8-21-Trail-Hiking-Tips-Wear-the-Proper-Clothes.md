@@ -13,8 +13,7 @@ images:
 cover-img: img/mountain-trail.jpg
 
 ---
- 
-<h1>Trail Hiking Tips: Wear the Proper Clothes</h1>
+
 
 <h2>Cotton Kills!</h2>
 

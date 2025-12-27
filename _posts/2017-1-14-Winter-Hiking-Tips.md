@@ -13,8 +13,7 @@ images:
 cover-img: img/100-acre-woods/100acrewoods-4.jpg
 
 ---
- 
-<h1>Winter Hiking Tips</h1>
+
 
 <p>As you venture onto the trail, you see your breath condensing into a foggy mist. Soft, wet snowflakes fall, coating the ground in a brilliant white. Winter presents a time of great beauty, less foot traffic on popular trails, and a unique experience to get outside.</p> 
 

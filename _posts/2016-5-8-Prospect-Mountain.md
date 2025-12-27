@@ -14,7 +14,6 @@ cover-img: img/prospectmountain.jpg
 
 ---
 
-<h1>Prospect Mountain</h1>
 
 <p>Prospect Mountain offers both a road to drive to the top (with a $10 entrance fee) and a hiking trail that climbs to the summit (free!). The trail starts at a walking bridge from Smith Street in the village of Lake George, crossing the Adirondack Northway (Interstate I-87) before ascending up the mountain.</p>
 

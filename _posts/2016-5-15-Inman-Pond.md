@@ -14,7 +14,6 @@ cover-img: img/inmanpond.jpg
 
 ---
 
-<h1>Inman Pond</h1>
 
 <p>Located in the Lake George Wild Forest, Inman Pond is a secluded body of water at 1500 feet above sea level, accessible only by foot. You can hike in either from Sly Pond Road or Pilot Knob via the area's extensive trail system. Sly Pond Road offers a shorter route, at approximately one mile to get to the pond.</p>
 

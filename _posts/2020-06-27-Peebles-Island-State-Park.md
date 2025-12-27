@@ -13,8 +13,6 @@ cover-img: img/peebles-island/peebles800x600.png
 
 ---
 
-<h1>Peebles Island State Park</h1>
-
 <p>Peebles Island State Park is located right by the confluence of the Hudson and Mohawk Rivers, where the rivers meet together as the Hudson heads north and the Mohawk runs west. You'll encounter shorelines, steep cliffs, and views of waterfalls. The park is located on an island situated between the towns of Waterford and Cohoes on the mainland.</p>
 
 <p>Free to enter, the park offers ample parking, along with picnic and observation areas. For hiking, you can take the 1.84 mile perimeter trail to cover a complete circuit of the island. You can also explore several connector trails that traverse the interior of the island. Several vantage points allow you to overlook the rivers in various sections.</p>

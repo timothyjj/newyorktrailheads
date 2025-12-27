@@ -14,8 +14,6 @@ cover-img: img/bauer-park/Bauer-Environmental-Park.jpg
 
 ---
 
-<h1>Bauer Environmental Park</h1>
-
 <p>Bauer Environmental Park, located right off Sand Creek Road in the Village of Colonie, offers a brief but peaceful stroll through the woods. With a boardwalk built over the entire trail, the path is accessible for people of all levels.</p>
 
 <p>You can park either in the small lot off of Sand Creek Road (just west of Wolf Road across from the intersection with Delafield Drive) or in a second lot at the end of Sunset Blvd. Signs mark the entrances to the park on either end.</p>

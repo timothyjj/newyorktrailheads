@@ -14,8 +14,6 @@ cover-img: img/grafton-lakes/graftonlakes-3.jpg
 
 ---
 
-<h1>Grafton Lakes State Park </h1>
-
 <p>This beautiful state park lies in the hills of the eastern Capital Region, halfway between Troy and the Vermont border. A trail system throughout the park takes you through the woods and around a system of ponds, with many trail options for all seasons. Fall brings beautiful colors, while winter brings a quieter park with snow-covered terrain and opportunities for snowshoeing and cross-country skiing.</p>
 
 <p>Multiple parking areas allow you to start from various points. While the trails themselves don't lead you by any overly outstanding views, you can climb a firetower for a wider perspective on the surrounding terrain.</p>

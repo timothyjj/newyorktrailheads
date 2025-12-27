@@ -14,8 +14,6 @@ cover-img: img/normanskill/normanskill-5.jpeg
 
 ---
 
-<h1>Normanskill Preserves & Normanskill Farm</h1>
-
 <p>The Normanskill creek becomes particularly scenic as it flows through steep ravines just south of Albany. The Normanskill Preserve consists of two parcels on the southern bank of the river, maintained by the Mohawk Hudson Land Conservancy. The City of Albany also maintains the Normanskill Farm Preserve on the north side of the river, where you can also find a historic trussle bridge.</p>
 
 <p>Trails cover a mix of paved road and dirt on the north side depending on the portion you're walking in, while the preserves to the south meander through fields, woods, and along steep ravines with great views of the water. There are a few spots where you can go down next to the water as well.</p>

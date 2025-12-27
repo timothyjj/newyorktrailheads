@@ -14,8 +14,6 @@ cover-img: img/pine-hollow-arboretum/pinehollow-5.jpeg
 
 ---
 
-<h1>Pine Hollow Arboretum</h1>
-
 <p>Located in Slingerlands, just south of Albany, this arboretum was transformed from a private home to the beautiful space it is today by a former owner of the property. The public are free to wander around the property on the extensive trail system, walking past countless trees from all over the world, many of which are labeled by species.</p>
 
 <p>While tucked into the woods a bit, the arboretum is not hard to find, off a side road as you head south on Rte. 85 below Albany, just past the Price Chopper plaza. You'll drive up a narrow road that's more like a driveway and can park in the circle by the house at the end. You'll find maps and a sign-in sheet available right by the entrance to the house.</p>

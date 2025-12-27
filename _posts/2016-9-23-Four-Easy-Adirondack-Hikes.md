@@ -14,7 +14,6 @@ cover-img: img/four-hikes/shelving-rock-falls.jpg
 
 ---
 
-<h1>Four Easy Adirondack Hikes</h1>
 
 <p>If you're not ready to tackle a rigorous High Peaks trail, or you're simply looking for a relaxing walk in the woods, we've put together a list of five hikes you can try in the Adirondack Mountains of upstate New York. Getting outside doesn't have to involve an all-day trek deep into the woods; you can spend a couple of hours enjoying hikes that still provide views and a break from crowded suburbia (if that's where you live).</p>
 

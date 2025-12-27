@@ -14,8 +14,6 @@ cover-img: img/tawasentha/tawasentha6.jpeg
 
 ---
 
-<h1>Tawasentha Park Hiking Trails</h1>
-
 <p>The crown jewel of Guilderland's town parks, Tawasentha Park offers several miles of hiking trails going through woods and by water. Located on Rte. 146, not far off Rte. 20 heading west from Albany, the park is conveniently accessible from the general area.</p>
 
 <p>Note that to access the main portion of the park in-season (late spring through fall), non-Guilderland residents will have to pay a fee. However, if you're just planning to hike, you can park in the Winter Recreation Area, not far past the main entrance to the park, on the left when headed south from Rte. 20. You can also park in the Community Gardens lot on the right side of the road, with additional trails accessible in that section.</p>

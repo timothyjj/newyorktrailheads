@@ -14,8 +14,6 @@ cover-img: img/five-rivers/five-rivers-pond.png
 
 ---
 
-<h1>Five Rivers Environmental Education Center</h1>
-
 <p>This state-run nature preserve, located in Delmar (just south of Albany), offers miles of trails. A brand-new interpretive center includes displays and even some actual animals for those of all ages to enjoy. The grounds are open daily from sunrise to center, while the visitor's center is open Monday-Saturday 9 AM-4:30 PM (except for state holidays).</p>
 
 <p>Throughout the preserve, you'll find 10 miles of trails meandering through fields, into woods, and beside streams. While none of the trails cover very strenuous terrain (you do encounter some slight inclines in places), there are paths of all distances for various age and skill levels. Some trails are fully accessible to wheelchairs. You can also snowshoe or cross-country ski in the winter.</p>

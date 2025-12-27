@@ -13,8 +13,6 @@ cover-img: img/schiffendecker/schiffendecker3.jpg
 
 ---
 
-<h1>Schiffendecker Farm Preserve</h1>
-
 <p>Located in Glenmont, just south of Albany, this preserve offers just over a mile of trails through a wooded ravine preserved from development, while surrounded by suburban shopping centers. You won't necessarily feel far from civilization, but you'll venture far enough into the woods to be able to enjoy the outdoors. A couple of beautifully built bridges and boardwalks add to the experience of this Mohawk Hudson Land Conservancy trail.</p>
 
 <p>The trailhead starts with a small parking area off Bender Lane between Rte. 32 and Rte. 9W. Note that you're blocked from accessing Bender Lane when attempting to travel west from 9W, so you'll need to come at the preserve going east from Rte. 32.</p>

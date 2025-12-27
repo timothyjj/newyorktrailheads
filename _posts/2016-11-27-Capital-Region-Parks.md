@@ -14,7 +14,6 @@ cover-img: img/capital-region-hikes/thacher-park.jpg
 
 ---
 
-<h1>Great Parks in New York's Capital Region</h1>
 
 <p>The Capital Region is home to many parks large and small that offer incredible outdoor experiences. You don't have to drive north to the Adirondacks or south to the Catskills if you're simply looking for an opportunity to get outside. While there are countless parks we could mention, in this article, we'll highlight a few of our favorites.</p>
 

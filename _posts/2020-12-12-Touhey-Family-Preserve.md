@@ -12,9 +12,6 @@ images:
 cover-img: img/touhey-preserve/touhey3.jpeg
 
 ---
-
-<h1>Touhey Family Preserve</h1>
-
 <p>The newest preserve in the Mohawk Hudson Land Conservancy family as of fall 2020, the Touhey Family Preserve offers boardwalks, woods, ravines, and a pond within suburbia. With land donated to the Conservancy, a well-constructed trail was built winding through the property, which even contains a view to the Helderbergs from the entrance road on a clear day.
 </p>
 

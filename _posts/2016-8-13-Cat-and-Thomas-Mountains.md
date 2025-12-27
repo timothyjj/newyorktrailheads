@@ -14,8 +14,6 @@ cover-img: img/cat-thomas/cat-mountain-view.jpg
 
 ---
 
-<h1>Cat &amp; Thomas Mountains</h1>
-
 <p>These two peaks can be accessed via one trail network starting in Bolton Landing. Thomas Mountain is a shorter, easier hike over an old jeep trail, with a 1.4-mile walk to the 716-foot summit. Once on top of Thomas, you can choose to continue on a 2.3-mile ridge trail to Cat Mountain, with many views of nearby mountain ranges and the valleys below along the way. Note that this ridge trail is fairly strenuous. Once on top of Cat Mountain, you can hike back on another old road, fairly straight and level after descending the mountain itself. Of course, you can also choose to hike in and out to Cat Mountain on this road. All told, a loop will cover around 6.5 miles to see both mountains.</p>
 
 <p>While located a further distance out from Lake George than other peaks like <a href="/2016/04/02/Buck-Mountain.html">Buck Mountain</a>, Cat Mountain offers an expansive panoramic view of the lake at 1,956 feet elevation. While Thomas Mountain only offers a glimpse of the lake, it still has a beautiful overlook with a cabin on top for resting midway through your hike.</p>

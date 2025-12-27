@@ -13,8 +13,7 @@ images:
 cover-img: img/mountain-trail.jpg
 
 ---
- 
-<h1>Trail Hiking Tips: Bring the Right Gear</h1>
+
 
 <p>This is the second post in our series on tips for hiking preparation, following our first post on <a href="http://newyorktrailheads.com/2016/07/31/Hiking-Tips-Know-Your-Destination.html">knowing your destination</a>. Especially when you're going out on a remote mountain trail for hours of hiking, you want to make sure you've brought all the proper gear with you. You want to be comfortable carrying everything yet not overpack, either.</p>
 

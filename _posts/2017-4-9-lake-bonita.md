@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lake Bonita (Moreau Lake State Park) 
+title: Lake Bonita
 excerpt: New trail system including a circuit around a woodland lake and connector trails to the existing Palmertown Range network
 tags: [Nature Preserves & Parks]
 
@@ -13,8 +13,6 @@ images:
 cover-img: img/lake-bonita/lake-bonita.jpg
 
 ---
-
-<h1>Lake Bonita (Moreau Lake State Park)</h1>
 
 <p>This beautiful lake, recently acquired by the park after the closure of Mt. McGregor Correctional Facility, offers pristine Adirondack beauty surprisingly close to Saratoga Springs. From the parking area off Wilton Mountain Road, a short connector trail takes you to another trail that goes 1.7 miles around the lake. One side contains a picnic table and bench, while the dam on the opposite side offers another welcome place to stop with photo opportunities.</p>
 

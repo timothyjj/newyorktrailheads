@@ -14,8 +14,6 @@ cover-img: img/cairn.jpg
 
 ---
 
-<h1>5 Tips to Get Your Kids Hiking</h1>
-
 <p>Whether you're a parent to a newborn or a teenager, it's never too early or too late to start thinking about giving your child a love for the outdoors. Experiences hiking through the woods, seeing the view from a mountain top, and encountering flora and fauna will build memories that stick with children for a lifetime. An appreciation for the outside provides an outlet beyond electronic devices to enjoy nature firsthand, get exercise, and appreciate the environment around us.</p>
 
 <p>So, how can you get your kids outside?</p>

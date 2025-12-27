@@ -14,7 +14,6 @@ cover-img: img/shelvingrock.jpg
 
 ---
 
-<h1>Shelving Rock Mountain</h1>
 
 <p>One of the easiest mountaintop hikes in the Adirondacks, this trail offers a gentle climb along an old carriage road. At the top, you'll find a view overlooking the southern portion of Lake George. As part of the larger network of trails in the Lake George Wild Forest, this hike can be combined with hikes to other nearby mountains, such as Buck Mountain or Sleeping Beauty, for a more lengthy hike. You can also hike a short path to Shelving Rock Falls just down the road before the trailhead.</p>
 

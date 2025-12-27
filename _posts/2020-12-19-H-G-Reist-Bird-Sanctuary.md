@@ -13,8 +13,6 @@ cover-img: img/hgreist/hgreist-9.jpeg
 
 ---
 
-<h1>H. G. Reist Bird Sanctuary</h1>
-
 <p>You might never know this preserve existed in Niskayuna apart from finding a trailhead and venturing into the woods! 111 acres of land, owned by the Hudson-Mohawk Bird Club, include approximately 2 miles' worth of trails, streams, forest, and opportunity to see birds and other wildlife in the middle of suburbia.</p>
 
 <p>You can access this sanctuary from several different small parking areas off of side roads that are adjacent to the preserve. The best spot to park, and the easiest to find, if you're not directly local, is the Kelly Adirondack Center on St. David's Lane (not far off Rte. 7 heading toward Schenectady from Niskayuna). There's a large parking area and a marked trail that heads into the preserve.</p>

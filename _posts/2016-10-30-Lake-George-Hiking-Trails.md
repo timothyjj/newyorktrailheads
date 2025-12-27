@@ -14,7 +14,6 @@ cover-img: img/lake-george-hikes/buck-mountain-view.jpg
 
 ---
 
-<h1>Lake George Hiking Trails with the Best Views</h1>
 
 <p>Let's face it - Lake George in the Adirondack Mountains of New York is an incredibly scenic area, all around. No matter what section of the lake you're on, you're bound to find incredible scenery, including water, trees, mountains, and quaint beachfront towns. However, the best views of Lake George are to be found high above the touristy bustle of Lake George Village and the crowded waters of summer.</p> 
 

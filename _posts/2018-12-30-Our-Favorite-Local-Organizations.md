@@ -14,8 +14,6 @@ cover-img: img/lake-george-hikes/buck-mountain-view.jpg
 
 ---
 
-<h1>A Few Favorite Local Organizations</h1>
-
 <p>Sometimes, it's easy to take for granted the work that goes into keeping up trails. Yet so much effort goes into the tree cutting, trail clearing, boardwalk and bridge building, and trash pickup. Not to mention the advocacy and organization going into preserving land to stay wild for outdoor enjoyment.</p> 
 
 <p>In this article, we'll highlight a few favorite organizations helping to keep trails and preserves active in the Capital Region and other areas of upstate New York. Visit the links for each to learn more about each organization's mission, see trail listings, and find out how to volunteer.</p>

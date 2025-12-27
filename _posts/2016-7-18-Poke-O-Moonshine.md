@@ -14,8 +14,6 @@ cover-img: img/poke-o-moonshine.jpg
 
 ---
 
-<h1>Poke-O-Moonshine</h1>
-
 <p>Located at the northern edge of the Adirondack Mountains, south of Plattsburgh, New York, Poke-O-Moonshine overlooks a beautiful view of the Champlain Valley. A steep rock face on one side makes this a popular mountain for rock climbers, but everyday hikers can also reach the summit via the trail system. You can hike this mountain starting from two different points: a steeper trail that ascends 1,280 feet over 1.2 miles, or a more moderate trail that mostly follows an old logging road for a total of 2.4 miles. 
 
 <p>The first trail, the original trail, has been heavily eroded and is quite strenuous. The second, more recently developed, offers a better option for those not wanting to climb so intensely. However, be aware of the longer distance.</p>

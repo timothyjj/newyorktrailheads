@@ -13,8 +13,6 @@ images:
 cover-img: img/zim-smith-trail/zim-smith-trail-halfmoon.jpg
 
 ---
- 
-<h1>Zim Smith Trail</h1>
 
 <ul>
 	<li><a href="#photos">Photos</a></li>

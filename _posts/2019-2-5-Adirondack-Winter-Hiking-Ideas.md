@@ -14,8 +14,6 @@ cover-img: img/adirondack-winter.jpg
 
 ---
 
-<h1>Three Adirondack Winter Hiking Ideas</h1>
-
 <p>In the North Country, the arrival of snow and freezing temperatures doesn't have to mean that you're stuck inside for 4 months. With <a href="http://newyorktrailheads.com/2017/01/14/Winter-Hiking-Tips.html">the right gear and preparation</a>, you can enjoy a day outside in winter just as much as during the rest of the year. Here are a few options for hiking (or snowshoeing) in the Adirondacks when snow covers the ground.</p>
 
 <h2>Camp Santanoni</h2>

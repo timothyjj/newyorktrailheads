@@ -14,7 +14,6 @@ cover-img: img/dwasskill/dwasskill-sign.jpg
 
 ---
 
-<h1>Dwaas Kill Nature Preserve</h1>
 
 <p>A relatively new natural area in Clifton Park, the Dwaas Kill Nature Preserve meanders through wooded terrain, by streams, and over a sandy hill. Trails start from two different parking areas off of Pierce Road, not far from Exit 10, with the main entrance directly across from Mazzone Hospitality. A large portion of the park consists of marshy, wetland terrain, so be prepared to walk through some muddy trail sections in wetter times of the year.</p>
 

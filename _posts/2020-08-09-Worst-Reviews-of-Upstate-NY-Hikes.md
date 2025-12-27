@@ -13,8 +13,6 @@ cover-img: img/bad-reviews/bad-review.png
 
 ---
 
-<h1>Worst Reviews of Upstate NY Hikes</h1>
-
 <img class="pure-img-responsive" src="/img/bad-reviews/bad-review.png" alt="One star">
 
 <p>In our online world where every experience gets reviewed, I found a few of the most cringe-worthy reviews for upstate New York hiking spots.</p>

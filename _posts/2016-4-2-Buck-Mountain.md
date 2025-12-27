@@ -14,7 +14,6 @@ cover-img: img/buck-mountain/buckmountain3.jpg
 
 ---
 
-<h1>Buck Mountain</h1>
 
 <p>Buck Mountain offers one of the most beautiful views available of Lake George. You can look north toward the Tongue Mountain Range, west across the lake toward The Sagamore, and south toward Lake George Village. A moderately difficult hike, this mountain offers multiple approaches to the summit, as part of the Lake George Wild Forest trail system.</p>
 

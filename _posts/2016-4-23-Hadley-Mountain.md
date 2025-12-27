@@ -14,7 +14,6 @@ cover-img: img/hadleymountain.jpg
 
 ---
 
-<h1>Hadley Mountain</h1>
 
 <p>Located in the southern portion of the Adirondack Mountains, Hadley Mountain offers views toward the Central Adirondacks and the Great Sacandaga Lake. The trail covers close to 4 miles round trip, ascending from the base and gaining 1600 feet in elevation. The summit, burned out from fires in the past, provides a wide rocky vista. You'll also encounter an overlook as you near the top.</p>
 

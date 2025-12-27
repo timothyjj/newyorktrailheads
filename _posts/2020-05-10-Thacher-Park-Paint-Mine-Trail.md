@@ -14,8 +14,6 @@ cover-img: img/thacher-park-paint-mine/thacher-1.jpeg
 
 ---
 
-<h1>Thacher Park: Paint Mine Trail</h1>
-
 <p>John Boyd Thacher State Park is a popular destinations for residents of the Capital Region. Located 1000 feet above sea level, the abrupt drop-offs from the Helderberg cliffs to the valleys below provide awe-inspiring scenery. While the lookout, the Indian Ladder Trail, and the Escarpment Trail are all popular destinations due to the views, the park contains much more than the cliffside trails.</p>
 
 <p>Venture out on the Paint Mine Trail for a walk into the woods that follows a stream with cascading waterfalls. During seasons when water is plentiful, this trail provides multiple picturesque spots for views. The trail starts from the Paint Mine lot (map below); you'll find this location available in Google Maps for easy reference. You will see a sign marking the lot to the left approximately one and a half miles past the park entrance when going west on Thacher Park Road.</p>

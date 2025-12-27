@@ -14,14 +14,6 @@ cover-img: img/sleeping-beauty/lake-george-from-sleeping-beauty.jpg
 
 ---
 
-<h1>Sleeping Beauty Mountain</h1>
-
-<ul>
-	<li><a href="#photos">Photos</a></li>
-	<li><a href="#video">Video from Summit</a></li>
-	<li><a href="#trailmap">Trail Map</a></li>
-</ul>
-
 <p>Sleeping Beauty is a relatively easy hike accessible for families or anyone who wants to get out in the woods. For the most part, the trail follows an old road, branching into a trail that gently ascends the mountain. You won't encounter any overly steep portions, although you will gain 1,259 feet in elevation to reach a height of 2,347 above sea level.</p>
 
 <p>Starting from Dacy Clearing Road in the Lake George Wild Forest, this trail leads to the open rocky top of Sleeping Beauty, providing a wide vantage point over the southern portion of Lake George. While set back from the lake, you'll see a vista of islands, other mountains, and the opposite side of the lake.</p>

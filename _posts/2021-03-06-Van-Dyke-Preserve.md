@@ -13,8 +13,6 @@ cover-img: img/van-dyke/van-dyke-1.jpeg
 
 ---
 
-<h1>Van Dyke Preserve</h1>
-
 <p>One of many Mohawk Hudson Land Conservancy "pocket preserves" in Albany's suburbs, the Van Dyke Preserve offers a 1-mile loop through the woods, with much of the trail going alongside the Philippin Kill. The trailhead is found just south of the Bethlehem Central High School off Van Dyke Road. A large gravel lot provides ample parking for several cars.</p>
 
 <p>Note that the trail officially starts close to the entrance to the parking area (a short distance closer to the road than where the large sign showcases trail details). Signage and frequent markers makee the trail easy to follow. You'll walk into the woods on the initial trail for a short distance, until you see arrows marking the start of the loop. You can then go either way around the loop to cover about a mile total once you're back to your car. A lack of additional intersections and a well-worn track make this trail easy to follow.</p>

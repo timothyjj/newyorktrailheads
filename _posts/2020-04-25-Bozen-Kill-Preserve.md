@@ -13,9 +13,6 @@ images:
 cover-img: img/bozen-kill/bozen-kill-5.jpeg
 
 ---
-
-<h1>Bozen Kill Preserve</h1>
-
 <p>This preserve in Altamont, maintained by the Mohawk Hudson Land Conservancy, contains trails following the Bozen Kill, with views of waterfalls along the way. The trail starts off Westfall Road, with a small parking area and additional room for street parking available. A kiosks marks the beginning of the trail, with a map and sign-in book.</p>
 
 <p>You can follow the blue trail for a short loop that goes alongside the water, including a great waterfall view when enough water is running through the creek, or choose the white trail for a gradual climb along the top of a ravine. You'll start off walking through a field, but quickly find yourself going through the woods.</p> 

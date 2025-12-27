@@ -14,8 +14,6 @@ cover-img: img/pine-bush/helderberg-view.jpg
     
 ---
 
-<h1>Albany Pine Bush Preserve</h1>
-
 <p>The Albany Pine Bush Preserve covers 3,200 acres, including several sections between Schenectady and Albany. As the remnants of pine barrens that once spread over a wider portion of the region, the land has been preserved, along with an extensive system of trails for visitors to enjoy. All trails are easy, with minimal climbs to high points in places but no major elevation gain. </p>
 
 <p>If you've never been to the preserve, starting at the Visitor's Center on New Karner Road will provide a good introduction. You'll learn about the surrounding ecosystem, as well as the history of the preserve. You'll also read about the Karner Blue butterfly, an endangered species that thrives in the preserve.</p>

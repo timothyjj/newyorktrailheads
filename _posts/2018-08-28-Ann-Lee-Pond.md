@@ -14,8 +14,6 @@ cover-img: img/ann-lee-pond/ann-lee-pond.jpeg
 
 ---
 
-<h1>Ann Lee Pond & Nature Preserve</h1>
-
 <p>Located a short distance from the Albany airport, with parking on Heritage Lane, Ann Lee Pond offers wooded seclusion in the heart of the suburbs. This property was once part of the Shaker settlement in the area and currently borders the Shaker Historic Site.</p>
 
 <p>The red trail circles this small pond, crossing a brand new bridge over the water and passing the remnants of the old bridge. You'll find some beautiful views over the pond while out on the bridge. A blue trail allows you to head deeper into the woods to extend your hike. </p>

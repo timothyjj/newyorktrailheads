@@ -14,8 +14,6 @@ cover-img: img/overlook-mountain/overlook-mountain-view.jpg
 
 ---
 
-<h1>Overlook Mountain</h1>
-
 <p>A hike up Overlook Mountain offers an incredible experience, including a stop by some old hotel ruins, a restored firetower, a ranger cabin, and an expansive view toward the Hudson River. While the hike follows an old road and is easy to follow, note that it entails a steady, steep incline the entire way. It's not a difficult hike compared to many longer and more strenuous climbs in the Catskills and Adirondacks, but come prepared for a workout if you haven't been hiking steep elevations recently.</p>
 
 <p>The trail starts on Meads Mountain road. Be aware that there's limited parking at the trailhead, but if you continue north briefly, you'll find a larger lot to park in. You'll immediately find yourself beginning to climb, walking on a wide gravel road that leads straight up the mountain, with approximately 2.4 miles to the top.</p>

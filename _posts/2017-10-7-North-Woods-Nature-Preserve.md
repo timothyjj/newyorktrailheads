@@ -14,8 +14,6 @@ cover-img: img/north-woods/northwoods-5.jpg
     
 ---
 
-<h1>North Woods Nature Preserve</h1>
-
 <p>
 	Situated in the midst of a residential neighborhood within Country Knolls (Clifton Park), this preserve's trails take you to the old Round Lake reservoir and through some secluded forested areas. The trailhead starts on Shadow Wood Way, with an unassuming entrance between two homes (38 and 40). While no parking area exists, you'll have no problem finding street parking on this quiet side street.
 </p>

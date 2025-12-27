@@ -14,8 +14,6 @@ cover-img: img/lisha-kill/lisha-kill-bridge.jpg
 
 ---
 
-<h1>Lisha Kill Natural Area</h1>
-
 <p>This beautiful preserve, located in Niskayuna and managed by the Nature Conservance, contains a rare example of an old-growth forest in the midst of the Capital Region. Just over 2 miles of trails amble through the woods and along the Lisha Kill.</p>
 
 <p>Note that the trail is somewhat steep in sections, but can be easily walked by an adult in decent shape or kids who are confident walkers. You'll start from a trailhead off Rosendale Road, in a parking lot behind an old Grange hall. The entrance from the road is easy to miss, so look carefully for the small sign visible near the driveway to the lot.</p>

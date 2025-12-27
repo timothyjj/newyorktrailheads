@@ -14,8 +14,6 @@ cover-img: img/mohawk-landing/mohawk-river-overlook.jpeg
 
 ---
 
-<h1>Mohawk Landing Nature Preserve</h1>
-
 <p>Located in the western portion of the town of Clifton Park, this small nature preserve offers a boardwalk, a brief loop through the woods, and a beautiful overlook along the Mohawk River. You can also enjoy a picnic at one of the tables near the river, appreciating the splendid view on a clear day.</p>
 
 <p>The entrance to the trail is located on Riverview Road, just past Riverview Orchards (combine a trip to this preserve with a stop at the orchard to enjoy a delicious cider donut or pick apples when in season!). A gravel parking area offers room for several cars, while signage clearly marks the entrance to the trail.</p>

@@ -14,8 +14,6 @@ cover-img: img/black-mountain/black-mountain.jpg
 
 ---
 
-<h1>Black Mountain</h1>
-
 <p>Towering high above the Northeast section of Lake George, Black Mountain ranks as the highest mountain for this region, at 2,665' elevation. A moderate hike climbs to the summit, with the opportunity to loop up one way and down another. You'll cover around 6.6 miles total on this hike.</p>
 
 <p>Note that an alternative trail starts directly off of the shore of Lake George (you'll need a boat!), but the main approach to Black Mountain starts from Pike Brook Road. You'll start out along an old jeep road, staying relatively flat until you reach a point where the trail splits, where you'll begin climbing. Follow red markers to the top of the mountain. You will encounter some more strenuous climbing as you get closer to the top.</p>

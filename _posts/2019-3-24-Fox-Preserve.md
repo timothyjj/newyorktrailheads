@@ -14,8 +14,6 @@ cover-img: img/fox-preserve/fox-preserve-8.jpg
 
 ---
 
-<h1>Fox Preserve</h1>
-
 <p>Opened in 2015, this preserve is one of the Mohawk Hudson Land Conservancy's newer properties. Located in Latham on River Road, this trail is easily accessed a brief drive off of the Northway and Rte. 7. The entrance is also just across the road from a stretch of the <a href="http://newyorktrailheads.com/2016/06/04/Mohawk-Hudson-Bike-Hike-Trail.html">Mohawk Hudson Bikeway</a>, making this preserve a great stopoff from a longer trek on the bike trail. An off-road lot provides plenty of parking spaces.</p>
 
 <p>At the entrance, a detailed sign provides a map of the trail and additional information, along with a trail register and maps you can carry on your hike. The main trail, covering just under one mile in distance, takes you up a small hill to a flat space at the top, where you can view the Mohawk River through a clearing and enjoy lunch at a picnic table. Orange markers define the main trail, while a white trail covers an additional 0.3 miles of terrain. </p>

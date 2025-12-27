@@ -14,8 +14,6 @@ cover-img: img/vischer-ferry/whipple-bridge.jpg
 
 ---
 
-<h1>Vischer Ferry Nature Preserve</h1>
-
 <p>Located along the shores of the Mohawk River in Clifton Park, Vischer Ferry Nature Preserve offers an oasis of tranquility in the suburbs. You can walk gravel and dirt paths throughout the preserve, following the old Erie Canal and trekking out to various points along the river.</p>
 
 <p>This preserve also contains remnants of the local area's history, with multiple interpretive signs throughout the park. For instance, you'll come across the remnants of Clute's Dry Dock, where boats traversing the Erie Canal could stop for repairs. Right beside the main entrance's parking area, you'll find the restored Whipple Truss Bridge, originally built in the 19th century.</p>

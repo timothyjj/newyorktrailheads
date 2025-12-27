@@ -13,8 +13,6 @@ cover-img: img/skidmore-woods/skidmore1.jpg
 
 ---
 
-<h1>Skidmore North Woods</h1>
-
 <p>Skidmore College, in Saratoga Springs, generously allows the public to walk the trails of its North Woods area. The trail system here covers around 150 acres with approximately 3.5 miles of walking trails throughout. Trail surfaces vary from gravel to dirt, with some minor elevation change.</p>
 
 <p>There are a few potential parking areas. In addition to the official parking area (Falstaff Lot on the Skidmore campus), a couple of good starting points are at the end of North Broadway in Saratoga Springs and the end of Brower Road off of Rte. 9.</p>

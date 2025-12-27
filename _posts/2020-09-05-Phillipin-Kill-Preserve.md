@@ -13,8 +13,6 @@ cover-img: img/phillipin-kill/PhillipinKill-3.jpeg
 
 ---
 
-<h1>Phillipin Kill Preserve</h1>
-
 <p>This preserve is located in Bethlehem and maintained by the Mohawk Hudson Land Conservancy. While positioned between housing developments and apartment complexes, you can find surprising solitude in this trail, with a short half-mile loop near the Phillipin Kill. You'll see marshland, walk over a small bridge, and climb man-made stairs along this trail. While not difficult, you will need to watch for roots and some minor elevation changes.</p>
 
 <p>Note that the entrance to the preserve is just south of the Mansions at Delmar condo complex. You'll find a small parking area with signs for the preserve near the south entrance to the development (if coming up Fisher Blvd. from Delaware Ave., turn left on Mansion Blvd and immediately turn left again to go past the row of apartments).</p>

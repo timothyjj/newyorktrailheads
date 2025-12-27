@@ -13,10 +13,7 @@ images:
 cover-img: img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
 
 ---
- 
-<h1>Mohawk-Hudson Bike-Hike Trail</h1>
 
-<a href="#trailmap">View Trail Map</a>
 
 <p>The Mohawk-Hudson Bike-Hike Trail extends from Albany to Rotterdam, connecting to the Erie Canalway bike trail system to extend further west along the Mohawk River. Most of the trail consists of paved bike paths; however, you will ride on roads for brief portions of the route, with clear signs directing you back to the dedicated bike path. For instance, you'll bike under the Twin Bridges of the Adirondack Northway (I-87) shortly after heading west from the Colonie Town Park.</p>
 

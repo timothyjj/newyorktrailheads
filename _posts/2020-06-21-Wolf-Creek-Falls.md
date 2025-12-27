@@ -13,8 +13,6 @@ cover-img: img/wolf-creek-falls/wolf-creek-falls-5.jpeg
 
 ---
 
-<h1>Wolf Creek Falls Preserve</h1>
-
 <p>Located in the town of Knox, this preserve features multiple cascading waterfalls as you walk along Wolf Creek. Approximately 3 miles of trails wind through the woods, with minimal elevation change and easy walking for families. Be prepared for some mud in wetter seasons.</p>
 
 <p>Trail parking can be found on Bozenkill Road around 3 miles up from the Rte. 146 intersection in Altamont. A small parking area is off to the left coming from Altamont.</p>

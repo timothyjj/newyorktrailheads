@@ -14,7 +14,6 @@ cover-img: img/woodcock-preserve/woodcock-preserve-4.jpg
     
 ---
 
-<h1>Woodcock Preserve</h1>
 
 <p>
 	Run by Saratoga Plan, this preserve offers well-kept trails meandering through a mix of woodland and swamp terrain. Find a parking spot in the small lot off of Tanner Road in Clifton Park, in between Rte. 146 and Rte. 146a. Open the box at the trailhead to grab a handy laminated map showing the trail network (don't forget to put it back when you're done!). 

@@ -16,8 +16,6 @@ cover-img: img/overlook-mountain/overlook-mountain-view.jpg
 
 ---
 
-<h1>COVID-19 Related Parks & Trails Updates</h1>
-
 <p><i>Note: We're no longer updating this page as restrictions are being relaxed. We would encourage you to continue to be safe outside and observe best practices!</i></p>
 
 <p>As the current unfortunate circumstances in the world have resulted in countless New Yorkers staying at home, naturally people turn to the outdoors for a break. In turn, overcrowding in some popular areas has led to closures in order to take the necessary precautions.</p>

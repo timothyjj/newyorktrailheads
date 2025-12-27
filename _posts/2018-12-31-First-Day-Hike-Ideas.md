@@ -15,8 +15,6 @@ cover-img: img/winterhiking.jpg
 
 ---
 
-<h1>Upstate New York First Day Hike Ideas</h1>
-
 <p>What better way to celebrate the first day of 2019 than to take a hike? The New York State DEC, as well as some private organization, host hikes at parks and preserves around the state. Here are a few upstate New York hikes we found for all levels, in the Catskills, Adirondacks, and Capital Region.</p>
 
 <h2>Hudson Valley/Catskills</h2>

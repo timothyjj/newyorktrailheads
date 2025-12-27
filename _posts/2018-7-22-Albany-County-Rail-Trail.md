@@ -14,8 +14,6 @@ cover-img: img/albany-county-rail-trail/bridge.jpg
 
 ---
 
-<h1>Albany County Rail Trail</h1>
-
 <p>The Albany County Rail Trail follows the path of the former Delaware & Hudson Railroad, with paved trails perfect for biking, running, and walking. The section from Delmar to Voorheesville was freshly paved in the summer of 2018, allowing for a smooth ride across the trail, apart from a small remaining gravel section near the Delmar parking area.</p>
 
 <p>The three main parking lots for the trail are found in Voorheesville, Delmar, and S. Pearl St. in Albany. The Albany parking lot even has <a href="https://www.cdphpcycle.com/" target="_blank">CDPHP Cycle</a> bikes available for rental via CDTA's bike share system, for those who may not own a bike but want to try a ride.</p>

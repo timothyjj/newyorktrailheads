@@ -14,8 +14,6 @@ cover-img: img/pilot-knob/lake-george-north.jpg
 
 ---
 
-<h1>Schumann Preserve at Pilot Knob</h1>
-
 <ul>
 	<li><a href="#photos">Photos</a></li>
 	<li><a href="#trailmap">Trailhead Map</a></li>

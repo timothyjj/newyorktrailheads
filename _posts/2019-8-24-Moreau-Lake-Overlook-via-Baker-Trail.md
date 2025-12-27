@@ -14,8 +14,6 @@ cover-img: img/moreau-overlook/moreau-lake-overlook.jpeg
 
 ---
 
-<h1>Moreau Lake Overlook from Baker Trail</h1>
-
 <p>High above the popular swimming and boating areas on Moreau Lake, the <a href="http://newyorktrailheads.com/2016/05/15/Palmertown-Range.html">Palmertown Range</a> offers miles of trails to various viewpoints. The most popular viewpoint in the park looks out over Moreau Lake itself, with views of distant mountains on a clear day.</p>
 
 <p>While the most used trail to this overlook starts conveniently within the park, ascending from the main parking lot by the lake area, we'll cover a back route up that's much less known. Despite having less use, the Baker Trail is well marked and covers less elevation change than going up from the other trail.</p>

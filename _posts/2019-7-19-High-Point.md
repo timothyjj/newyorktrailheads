@@ -14,8 +14,6 @@ cover-img: img/high-point/helderbergs.jpg
 
 ---
 
-<h1>High Point (Thacher State Park)</h1>
-
 <p>This hike through the woods, starting from high on the Helderberg Escarpment south of Albany, leads to an incredible overlook off the cliff to the surrounding valley. Part of the Thacher Park trail system, this section offers a much quieter experience than the tourist-crowded main section of the park near the overlook, visitor's center, and picnic areas.</p>
 
 <p>While a few potential access points exist, a parking lot off Old Stage Road provides the easiest entrance for getting to this overlook. You'll start off following the green Long Path signs. You can either break to the left when the High Point trail breaks off, or continue following the Long Path signs, which will also lead you to the High Point overlook.</p>

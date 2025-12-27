@@ -14,8 +14,6 @@ cover-img: img/spruce-mountain/climbing-tower.jpg
 
 ---
 
-<h1>Spruce Mountain</h1>
-
 <p>
 	Located in Porters Corners (outside of Corinth), this newly rerouted trail takes you on a moderately steep climb to a restored firetower. Saratoga Plan has done excellent work both in developing the trail and in keeping up the firetower. While the wooded summit doesn't afford much of a view, climbing the steps to the tower will allow you to see far into the distant peaks of the Adirondacks. 
 </p>

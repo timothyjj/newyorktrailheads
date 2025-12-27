@@ -13,8 +13,6 @@ images:
 cover-img: img/mohawk-hudson-trail/Niskayuna-bike-trail-hill.jpeg
 
 ---
- 
-<h1>Capital Region Bike Trails</h1>
 
 <p>New York's Capital Region is home to many miles of multiuse trails that are perfect for biking, as well as running or walking. A mix of terrain features riverside views, forested paths, straight and level areas for leisurely cycling or strolling, and steep hills for those wanting a challenge. </p>
 

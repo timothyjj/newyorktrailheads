@@ -14,8 +14,6 @@ cover-img: img/bennett-hill/bennett-hill-overlook.jpg
 
 ---
 
-<h1>Bennett Hill Preserve</h1>
-
 <p>Approximately a 20 minute drive from Albany, the Bennett Hill Preserve offers a climb to the top of a plateau 1135 feet above sea level, with a nice view of the surrounding hilltown area and beyond. This trail is maintained by the <a href="https://mohawkhudson.org/" target="_blank">Mohawk Hudson Land Conservancy</a>. With around 400 feet in elevation gain, the hike does require some uphill climbing, although not at an overly intense level. </p> 
 
 <p>Going to the top and looping back down covers approximately 3 miles, although the distance can vary based on which trails you take. From the parking lot, located not far from Route 443, you'll sign in at the initial trail sign and begin walking on the green trail. This trail goes alongside a farm, where you may see cows out grazing in the field.</p>

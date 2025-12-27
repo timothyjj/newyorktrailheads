@@ -14,8 +14,6 @@ cover-img: img/eastern-ridge-view.jpg
 
 ---
 
-<h1>Palmertown Range (Moreau Lake State Park)</h1>
-
 <p>While locals may be familiar with Moreau Lake State Park as a popular beach and camping area, this park also boasts an extensive trail system. The Palmertown Range stretches several miles in the back section of the park, rising over 1,000 feet in elevation. You can access this range of Adirondack foothills either from inside the main section of the park, going up the Overlook trail by the beach parking area, or start from one of several parking areas off of Spier Falls Road.</p>
 
 <img class="pure-img-responsive" src="/img/eastern-ridge-view.jpg">

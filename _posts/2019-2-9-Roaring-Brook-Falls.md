@@ -14,8 +14,6 @@ cover-img: img/roaring-brook-falls/roaringbrookfalls-view.jpg
 
 ---
 
-<h1>Roaring Brook Falls</h1>
-
 <p>The highest Adirondack waterfall visible from the roadside, Roaring Brook Falls cascades in splendor around 300 feet down a steep cliffside. At this popular stop in the High Peaks area, you'll find trails leading both to the base and the top of the falls, both sections offering their own unique perspective.</p>
 
 <p>The trailhead for Roaring Brook Falls is off of Rte. 73 driving toward Lake Placid, just past the Chapel Pond trailhead that leads to Giant Mountain. There is a parking area off of the road; however, note that if this is full, New York State <a href="https://dailygazette.com/article/2018/09/17/on-road-parking-banned-near-roaring-brook-falls-in-adirondacks" target="_blank">now bans parking along the road</a> in the nearby area for traffic safety reasons. Plan to visit early in the day if possible when coming on a summer or fall weekend.</p>

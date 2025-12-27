@@ -14,8 +14,6 @@ cover-img: img/ashford-glen/ashford-glen-1.jpg
 
 ---
 
-<h1>Ashford Glen Preserve</h1>
-
 <p>Located in the northwestern edge of Colonie, this beautiful preserve offers a 1-mile in-and-out trek into dense woods. While the trailhead is located in the midst of suburban homes, this trail still provides an experience of being "out in the woods" close to populated areas.</p> 
 
 <p>The trail starts on Ashford Lane, not far off of Rte. 7 between Schenectady and Latham. Note that there is no designated parking area, so you'll need to park along the street; be mindful of homes surrounding the preserve when doing so.</p>
