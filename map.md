@@ -432,8 +432,8 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 47,
             name: "High Point (Thacher State Park)",
             type: "hiking",
-            lat: 42.611968006644325,
-            lng: -74.05362028836244,
+            lat: 42.681552935292885, 
+            lng: -74.05454484584577,
             description: "Scenic overlook with panoramic Hudson Valley views",
             link: "/2019/07/19/High-Point"
         },
