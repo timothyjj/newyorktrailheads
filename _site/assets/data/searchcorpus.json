@@ -1,6 +1,14 @@
 [ 
  
 { 
+"title"    : "Capital Region First Day Hikes 2026", 
+"desc"     : "Capital Region First Day Hikes 2026", 
+"category" : "Hiking Tips", 
+"url"      : "/2025/12/30/First-Day-Hikes-2026", 
+"date"     : "December 30, 2025" 
+}, 
+ 
+{ 
 "title"    : "Hiking in Spring Mud Season", 
 "desc"     : "Hiking in Spring Mud Season", 
 "category" : "Hiking Tips", 
@@ -790,22 +798,6 @@
 "desc"     : "Find local trails. Go outside.", 
 "category" : "page", 
 "url"      : "/page7/", 
-"date"     : "January 1, 1970" 
-}, 
- 
-{ 
-"title"    : "Find local trails. Go outside.", 
-"desc"     : "Find local trails. Go outside.", 
-"category" : "page", 
-"url"      : "/page8/", 
-"date"     : "January 1, 1970" 
-}, 
- 
-{ 
-"title"    : "Find local trails. Go outside.", 
-"desc"     : "Find local trails. Go outside.", 
-"category" : "page", 
-"url"      : "/page9/", 
 "date"     : "January 1, 1970" 
 } 
  
