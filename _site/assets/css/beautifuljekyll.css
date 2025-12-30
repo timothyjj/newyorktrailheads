@@ -1469,3 +1469,78 @@ pre {
     height: 300px;
   }
 }
+
+@media (min-width: 1024px) {
+  .blog-image {
+    max-width: 600px;      /* Center-constrained */
+    max-height: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1.5rem;
+  }
+}
+
+.trail-guide-promo {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.promo-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: #51614c;
+  color: white !important;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(81, 97, 76, 0.4);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.promo-button:hover {
+  background: #5a6a54;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(81, 97, 76, 0.5);
+  color: #d4af37 !important;
+  text-decoration: none !important;  /* No underline */
+}
+
+.promo-button i {
+  font-size: 1.3rem;
+  transition: transform 0.3s ease;
+}
+
+.promo-button:hover i {
+  animation: bounce 0.6s ease-out;
+}
+
+.arrow {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.promo-button:hover .arrow {
+  transform: translateX(4px);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-8px); }
+  60% { transform: translateY(-4px); }
+}
+
+@media (max-width: 768px) {
+  .promo-button {
+    font-size: 1rem;
+    padding: 0.875rem 1.5rem;
+    width: 90%;
+    justify-content: center;
+  }
+}

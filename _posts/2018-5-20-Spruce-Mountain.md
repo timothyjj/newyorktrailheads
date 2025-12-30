@@ -14,6 +14,8 @@ cover-img: img/spruce-mountain/climbing-tower.jpg
 
 ---
 
+<p><strong>Note that as of 2025, the fire tower was closed to the public due to structural unsoundness. We will update this listing if we hear about it reopening. In the meantime, you can still hike the trail, but note that views are limited without being able to climb the tower.</strong></p>
+
 <p>
 	Located in Porters Corners (outside of Corinth), this newly rerouted trail takes you on a moderately steep climb to a restored firetower. Saratoga Plan has done excellent work both in developing the trail and in keeping up the firetower. While the wooded summit doesn't afford much of a view, climbing the steps to the tower will allow you to see far into the distant peaks of the Adirondacks. 
 </p>

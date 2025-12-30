@@ -2,7 +2,6 @@
 layout: post
 title: Capital Region First Day Hikes 2026
 excerpt: Kick off the New Year with an outdoor adventure!
-tags: [Hiking Tips]
 
 cover-img: img/winterhiking.jpg
 

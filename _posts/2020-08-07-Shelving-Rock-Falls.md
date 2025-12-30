@@ -29,6 +29,8 @@ cover-img: img/shelvingrockfalls.jpg
 
 <h2 id="trailmap">Shelving Rock Falls Map</h2>
 
+<p>Consider carrying a <a href="https://www.amazon.com/Lake-George-Great-Sacandaga-Illustrated/dp/1566953634?crid=3LCZNGQ2N1GY0&dib=eyJ2IjoiMSJ9.GlEvBs3zs_zuhSzMAcm3OIlMuNorBgHAXqB87uZYKUQ.4bzIre-T3E_17jc-t4DtYwokGr5nNkotwvEvkGWUN-w&dib_tag=se&keywords=national+geographic+lake+george+map&qid=1767127888&sprefix=national+geographic+lake+george+map%2Caps%2C115&sr=8-1&linkCode=ll1&tag=newyorktrai05-20&linkId=412f321c58ba9f3c53792126fa86213e&language=en_US&ref_=as_li_ss_tl">sturdy paper map from National Geographic</a> that shows this trail and others throughout the Southern Adirondacks.</p>
+
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11565.849601995342!2d-73.60066424760743!3d43.555247111367045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa3c52ef6a809769!2sShelving%20Rock%20Falls!5e0!3m2!1sen!2sus!4v1596810595159!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
 

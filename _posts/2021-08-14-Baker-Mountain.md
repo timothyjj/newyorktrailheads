@@ -44,5 +44,7 @@ cover-img: img/baker-mountain/baker-mountain-8.jpeg
 
 <h2 id="trailmap">Baker Mountain Trailhead Map</h2>
 
+<p>You can also <a href="https://www.amazon.com/Lake-Placid-High-Peaks-Illustrated/dp/156695357X?crid=3VWOK42RHL8H9&dib=eyJ2IjoiMSJ9.ndTgfFhjLtwxmJC0_oMPoCYjKucDvM_d4AxPurlDrqCBn6XzFZRNwxq7uIwv3JNqf87o5ZJcHlVvQglUbmkdrxAJfnntIVCYKgvkoZfQ5mXh0sjKglJ6Mr4BDRu1-PxUjUStQtak_T6tmGG3szIgkjLz8vktsV-dOahtfgfFnDql-IRjNWaQXcJLTyMLCK62GAkF4eXInaaNtSZYhG8cRGZoSwJZ0a81KR57f0U_lyU.Pp0xzNGHbkXjJpqVsvjMjyuhpbhSCo59uAgymgAlw9A&dib_tag=se&keywords=national+geographic+high+peaks+map&qid=1767127547&sprefix=national+geographic+high+peaks+map%2Caps%2C174&sr=8-1&linkCode=ll1&tag=newyorktrai05-20&linkId=db075c056caa4adbe7c8760c82fe5d8e&language=en_US&ref_=as_li_ss_tl" target="_blank">get a high-quality paper map from National Geographic</a> that contains this trail and others in the area.</p>
+
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2853.9362047466493!2d-74.11832088478673!3d44.33181561630187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccb1b2db12f5ead%3A0x1538edecdf8c9b47!2sBaker%20Mountain%20Trail%20Head!5e0!3m2!1sen!2sus!4v1628966802959!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

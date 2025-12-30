@@ -2,15 +2,8 @@
 layout: post
 title: COVID-19 Related Parks & Trails Updates
 excerpt: Closures and other guidelines for NY parks related to COVID-19
-tags: [Hiking Tips]
 hidden: true
 related: false
-
-images:
-
-  - url: /img/overlook-mountain/overlook-mountain-view.jpg
-    alt: COVID-19 Related Parks & Trails Updates
-    title: COVID-19 Related Parks & Trails Updates
 
 cover-img: img/overlook-mountain/overlook-mountain-view.jpg
 

@@ -33,4 +33,6 @@ cover-img: img/cat-thomas/cat-mountain-view.jpg
 </div>
 <h2>Map of Cat &amp; Thomas Mountain Trailhead</h2>
 
+<p>Consider carrying a <a href="https://www.amazon.com/Lake-George-Great-Sacandaga-Illustrated/dp/1566953634?crid=3LCZNGQ2N1GY0&dib=eyJ2IjoiMSJ9.GlEvBs3zs_zuhSzMAcm3OIlMuNorBgHAXqB87uZYKUQ.4bzIre-T3E_17jc-t4DtYwokGr5nNkotwvEvkGWUN-w&dib_tag=se&keywords=national+geographic+lake+george+map&qid=1767127888&sprefix=national+geographic+lake+george+map%2Caps%2C115&sr=8-1&linkCode=ll1&tag=newyorktrai05-20&linkId=412f321c58ba9f3c53792126fa86213e&language=en_US&ref_=as_li_ss_tl" target="_blank">sturdy paper map from National Geographic</a> that shows this trail and others throughout the Southern Adirondacks.</p>
+
 <div class="google-maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1060.690813803706!2d-73.6932015776823!3d43.603957197633434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDM2JzE0LjIiTiA3M8KwNDEnMzMuMSJX!5e1!3m2!1sen!2sus!4v1471109591725" frameborder="0" style="border:0" allowfullscreen></iframe></div>

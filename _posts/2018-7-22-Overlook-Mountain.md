@@ -51,5 +51,7 @@ cover-img: img/overlook-mountain/overlook-mountain-view.jpg
 	Note that a limited amount of parking is available at the trailhead itself, and strict "No Parking" rules are enforced along the road. You'll find a large, new parking area just north of the trailhead with plenty of spaces and a short connector path to access the main trail.
 </p>
 
+<p>You can also <a href="https://www.amazon.com/Catskill-National-Geographic-Trails-Illustrated/dp/1566955882?crid=2QCSZPI1G2GS9&dib=eyJ2IjoiMSJ9.lNWb3cno7TkwDRqraBCUWedntDC7kHcsOjfF1xuqkiG_5A0JMvnSOuxHk5pA8s6dkcoTL9S06Xzis6ZIf6U0hVi3RCOI1Wro0MFlcKPuorO6Q-GKlcs2cUE1TPLwpi6RY08_NXctkfECWRx4DSJNbpyIXqY4TYu0nRw_JW8yvnrpwPeKa2ir3iKgm_KH-RFd_mzx0ZUnimLKITCC6zu2FlSekvV5_LfMW5UCFifnJuo.x0xj4JvRTAPRpEMWy2acI5fh1rPiswA-fmdZbp8tm6M&dib_tag=se&keywords=national+geographic+catskills+map&qid=1767127660&sprefix=national+geographic+catskills+map%2Caps%2C109&sr=8-1&linkCode=ll1&tag=newyorktrai05-20&linkId=8f3ab18288a87979a61cdaba137a17b5&language=en_US&ref_=as_li_ss_tl">obtain a sturdy paper map from National Geographic</a> that contains this trail and others in the Catskills.</p>
+
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2961.6952303664966!2d-74.12477728465065!3d42.07115157920738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dda9f88cdafad9%3A0x942366b31d5a6993!2sOverlook+Mountain+Trailhead!5e0!3m2!1sen!2sus!4v1532287115410" ></iframe></div>

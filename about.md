@@ -6,7 +6,7 @@ subtitle: Spreading the news about upstate NY trails
 
 The goal of New York Trailheads is to encourage upstate New York residents and visitors to enjoy the great outdoors. Go for a hike or a bike ride on one of the countless trails available in this great state!
 
-<img src="/assets/img/nyt_logo.png">
+<img class="blog-image" src="/assets/img/nyt_logo.png">
 
 While many sites exist cataloging lists of hikes, we've found it difficult at times to pinpoint parking areas for trailheads. Finding some trails can result in confusion, searching through information on multiple sites to determine where to park and start out on the trail. We want to provide up-to-date maps pinpointing the exact spots where trails start.
 

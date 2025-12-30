@@ -43,3 +43,5 @@ cover-img: img/lake-george-hikes/buck-mountain-view.jpg
 
 <p>Also located in Bolton Landing, The Pinnacle is a trail recently acquired by the Lake George Land Conservancy. A brief hike leads to an overlook with an amazing view over the lake. This hike provides one of the best views you'll find of Lake George without requiring the mileage or elevation gain of the previous ones in this list.</p> 
 
+<p>Consider carrying a <a href="https://www.amazon.com/Lake-George-Great-Sacandaga-Illustrated/dp/1566953634?crid=3LCZNGQ2N1GY0&dib=eyJ2IjoiMSJ9.GlEvBs3zs_zuhSzMAcm3OIlMuNorBgHAXqB87uZYKUQ.4bzIre-T3E_17jc-t4DtYwokGr5nNkotwvEvkGWUN-w&dib_tag=se&keywords=national+geographic+lake+george+map&qid=1767127888&sprefix=national+geographic+lake+george+map%2Caps%2C115&sr=8-1&linkCode=ll1&tag=newyorktrai05-20&linkId=412f321c58ba9f3c53792126fa86213e&language=en_US&ref_=as_li_ss_tl" target="_blank">sturdy paper map from National Geographic</a> that shows these trails and others throughout the Southern Adirondacks.</p>
+
