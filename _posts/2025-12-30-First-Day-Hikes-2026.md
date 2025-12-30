@@ -18,8 +18,8 @@ New York State's 15th annual First Day Hikes program features over 125 guided ev
 
 ## <a href="https://parks.ny.gov/parks/saratoga" target="_blank">Saratoga Spa State Park</a>
 **Location:** 1089 Route 9P, Saratoga Springs, NY.  
-**Details:** Guided hike through forested paths and past historic mineral springs. Exact time TBD—contact park for updates.  
-**Registration:** Call 518-584-2000 to confirm and register.
+**Details:** Guided hike starts at 10 AM from the Creekside Classroom, going through a variety of wooded areas and meadows.   
+**Registration:** Email Allison.Schweizer@parks.ny.gov. Visit the <a href="https://friendsofsaratogaspastatepark.org/event/first-day-hike/" target="_blank">event page</a> for more info.
 
 ## <a href="https://parks.ny.gov/parks/moreau" target="_blank">Moreau Lake State Park</a>
 **Location:** 605 Old Saratoga Road, Gansevoort, NY.  
