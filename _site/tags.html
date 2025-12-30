@@ -18,7 +18,7 @@
   <meta name="author" content="New York Trailheads">
   
 
-  <meta name="description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:&apos;,&apos; | sort -%} {%- for tag...">
+  <meta name="description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
 
   
 
@@ -95,7 +95,7 @@
   
   <meta property="og:site_name" content="New York Trailheads">
   <meta property="og:title" content="Categories | New York Trailheads">
-  <meta property="og:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:&apos;,&apos; | sort -%} {%- for tag...">
+  <meta property="og:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
 
   
   <meta property="og:image" content="http://localhost:4000/assets/img/nyt_logo.png">
@@ -114,7 +114,7 @@
   <meta name="twitter:creator" content="@nytrailheads">
 
   <meta property="twitter:title" content="Categories | New York Trailheads">
-  <meta property="twitter:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:&apos;,&apos; | sort -%} {%- for tag...">
+  <meta property="twitter:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
 
   
   <meta name="twitter:image" content="http://localhost:4000/assets/img/nyt_logo.png">
@@ -240,7 +240,7 @@
     <div class=" col-xl-12 col-lg-12 col-md-12 ">
       
 
-      <a href="#Adirondacks" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Adirondacks&nbsp;(23)</a><a href="#Bike Trails" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Bike Trails&nbsp;(5)</a><a href="#Catskills" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Catskills&nbsp;(1)</a><a href="#Hiking Tips" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Hiking Tips&nbsp;(9)</a><a href="#Humor" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Humor&nbsp;(1)</a><a href="#Lake George" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Lake George&nbsp;(10)</a><a href="#Nature Preserves & Parks" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Nature Preserves & Parks&nbsp;(47)</a><div id="full-tags-list"><h2 id="Adirondacks" class="linked-section">
+      <a href="#Adirondacks" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Adirondacks&nbsp;(23)</a><a href="#Bike Trails" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Bike Trails&nbsp;(5)</a><a href="#Catskills" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Catskills&nbsp;(1)</a><a href="#Hiking Tips" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Hiking Tips&nbsp;(8)</a><a href="#Humor" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Humor&nbsp;(1)</a><a href="#Lake George" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Lake George&nbsp;(10)</a><a href="#Nature Preserves & Parks" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Nature Preserves & Parks&nbsp;(47)</a><div id="full-tags-list"><h2 id="Adirondacks" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
         &nbsp;Adirondacks&nbsp;(23)
     </h2>
@@ -312,14 +312,12 @@
                 <a href="/2018/07/22/Overlook-Mountain">Overlook Mountain</a>
             </div></div><h2 id="Hiking Tips" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;Hiking Tips&nbsp;(9)
+        &nbsp;Hiking Tips&nbsp;(8)
     </h2>
     <div class="post-list"><div class="tag-entry">
                 <a href="/2019/02/23/5-Tips-to-Get-Your-Kids-Hiking">5 Tips to Get Your Kids Hiking</a>
             </div><div class="tag-entry">
                 <a href="/2020/04/18/COVID-19-Related-Parks-and-Trails-Updates">COVID-19 Related Parks & Trails Updates</a>
-            </div><div class="tag-entry">
-                <a href="/2025/12/30/First-Day-Hikes-2026">Capital Region First Day Hikes 2026</a>
             </div><div class="tag-entry">
                 <a href="/2025/03/01/Hiking-in-Spring-Mud-Season">Hiking in Spring Mud Season</a>
             </div><div class="tag-entry">
