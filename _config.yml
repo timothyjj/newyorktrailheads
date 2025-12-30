@@ -258,13 +258,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-# timezone: "America/New_York"
-exclude:
-  - vendor/bundle
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
+timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title
