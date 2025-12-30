@@ -1475,8 +1475,8 @@ pre {
     height: 200px;
   }
   .post-content .post-card {
-  min-height: 175px;
-}
+  min-height: 11rem;
+} 
 }
 
 @media (min-width: 1024px) {
@@ -1484,5 +1484,3 @@ pre {
     height: 300px;
   }
 }
-
-
