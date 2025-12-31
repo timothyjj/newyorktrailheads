@@ -13,7 +13,7 @@ New York State's 15th annual First Day Hikes program features over 125 guided ev
 ## <a href="https://parks.ny.gov/parks/thacher" target="_blank">Thacher State Park</a>
 **Location:** 830 Thacher Park Road, Voorheesville, NY.  
 **Details:** Guided winter hikes at 10:00 a.m. and 1:00 p.m. from the main entrance. Family-friendly options on scenic trails along the escarpment with views of the Helderbergs.  
-**Registration:** Required; sign up <a href="https://bit.ly/2026FirstDayHike" target="_blank">via this online form</a> or call 518-872-0800.
+**Registration:** Required; sign up <a href="https://forms.office.com/pages/responsepage.aspx?id=6rhs9AB5EE2M64Dowcge5z67q4vsuQtGoGdITorCKI1UNE5ISEsxRTBIRExQOVozSU4yUDMyWUMyTS4u" target="_blank">via this online form</a> or call 518-872-0800.
 
 ## <a href="https://parks.ny.gov/parks/saratoga" target="_blank">Saratoga Spa State Park</a>
 **Location:** 1089 Route 9P, Saratoga Springs, NY.  
