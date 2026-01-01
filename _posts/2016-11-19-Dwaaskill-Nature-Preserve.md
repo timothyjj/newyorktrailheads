@@ -19,7 +19,7 @@ cover-img: img/dwasskill/dwasskill-sign.jpg
 
 <p>An orange trail climbs up along a ravine up to a point near railroad tracks, looping back down through the sandy section back to the starting point. A red trail veers off in another direction, following the small stream that winds through the woods. In addition, a couple of green connector trails lead to points along the Dwass Kill, for which the preserve was named.</p>
 
-<p>The trail starts out relatively flat over gravel. As you branch off onto other trails, you'll walk over more natural terrain; be prepared for very slight elevation gain on the orange trail. This park is ideal for small children and for those just looking to take a quick excursion outdoors. For more details, you can <a href="http://cliftonparkopenspaces.org/wp-content/uploads/2015/09/dwaaskill-trail-map-2015.pdf" target="_new">access a trail map here</a>.</p>
+<p>The trail starts out relatively flat over gravel. As you branch off onto other trails, you'll walk over more natural terrain; be prepared for very slight elevation gain on the orange trail. This park is ideal for small children and for those just looking to take a quick excursion outdoors. For more details, you can <a href="https://cliftonparkny.gov/document-center/maps/3400-dwaas-kill-nature-preserve-2021-trails-map-small-scale-1/file" target="_new">access a trail map here</a>.</p>
 
 <h2>Dwass Kill Nature Preserve Photos</h2>
 
@@ -36,6 +36,4 @@ cover-img: img/dwasskill/dwasskill-sign.jpg
 
 <h2 id="trailmap">Main Trailhead Map</h2>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3478.687354355585!2d-73.78820494862771!3d42.89371667905243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de14530ff8b89b%3A0xd2ed2bf281718c7!2s331+Pierce+Rd%2C+Clifton+Park%2C+NY+12065!5e1!3m2!1sen!2sus!4v1479586209947" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+{% include hike-map.html id=60 %}

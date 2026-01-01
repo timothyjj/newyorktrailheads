@@ -4,12 +4,6 @@ title: Poke-O-Moonshine
 excerpt: Hike to a summit with a fire tower and expansive views of Lake Champlain
 tags: Adirondacks
 
-images:
-
-  - url: /img/poke-o-moonshine.jpg
-    alt: Poke-O-Moonshine
-    title: Poke-O-Moonshine
-
 cover-img: img/poke-o-moonshine.jpg
 
 ---
@@ -22,6 +16,6 @@ cover-img: img/poke-o-moonshine.jpg
 
 <img class="pure-img-responsive" src="/img/poke-o-moonshine.jpg" alt="Poke-O-Moonshine Summit">
 
-<h3>Map of Poke-O-Moonshine Trailheads</h3>
+<h3>Map of Poke-O-Moonshine Trailhead</h3>
 
-<div class="google-maps"><iframe src="https://www.google.com/maps/d/embed?mid=1_jMZfeefNafC4-91P78Rj0fN3o8" ></iframe></div>
+{% include hike-map.html id=9 %}

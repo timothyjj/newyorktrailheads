@@ -52,10 +52,9 @@ cover-img: img/woodcock-preserve/woodcock-preserve-4.jpg
 <h2 id="trailmap">Woodcock Preserve Trailhead Map</h2>
 
 <p>
-	<a href="https://www.saratogaplan.org/explore/public-preserves-trails/woodcock-preserve/" target="_blank">
+	<a href="https://saratogaplan.org/explore-parks-and-trails/woodcock-preserve/" target="_blank">
 		Find a detailed trail map on the Saratoga Plan website.
 	</a>
 </p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5660.684522155214!2d-73.83798369858899!3d42.887081094400585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de14b73f553747%3A0xbd3ad0f2735ea500!2sWoodcock+Preserve!5e0!3m2!1sen!2sus!4v1503950570689" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+{% include hike-map.html id=57 %}

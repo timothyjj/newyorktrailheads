@@ -270,7 +270,7 @@
 
 <p>An orange trail climbs up along a ravine up to a point near railroad tracks, looping back down through the sandy section back to the starting point. A red trail veers off in another direction, following the small stream that winds through the woods. In addition, a couple of green connector trails lead to points along the Dwass Kill, for which the preserve was named.</p>
 
-<p>The trail starts out relatively flat over gravel. As you branch off onto other trails, you'll walk over more natural terrain; be prepared for very slight elevation gain on the orange trail. This park is ideal for small children and for those just looking to take a quick excursion outdoors. For more details, you can <a href="http://cliftonparkopenspaces.org/wp-content/uploads/2015/09/dwaaskill-trail-map-2015.pdf" target="_new">access a trail map here</a>.</p>
+<p>The trail starts out relatively flat over gravel. As you branch off onto other trails, you'll walk over more natural terrain; be prepared for very slight elevation gain on the orange trail. This park is ideal for small children and for those just looking to take a quick excursion outdoors. For more details, you can <a href="https://cliftonparkny.gov/document-center/maps/3400-dwaas-kill-nature-preserve-2021-trails-map-small-scale-1/file" target="_new">access a trail map here</a>.</p>
 
 <h2>Dwass Kill Nature Preserve Photos</h2>
 
@@ -282,9 +282,244 @@
 
 <h2 id="trailmap">Main Trailhead Map</h2>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3478.687354355585!2d-73.78820494862771!3d42.89371667905243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de14530ff8b89b%3A0xd2ed2bf281718c7!2s331+Pierce+Rd%2C+Clifton+Park%2C+NY+12065!5e1!3m2!1sen!2sus!4v1479586209947" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+
+<style>
+    .hike-map-container {
+        max-width: 100%;
+        margin: 2rem 0;
+        background: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border: 1px solid rgba(167, 169, 169, 0.2);
+    }
+
+    .hike-map {
+        width: 100%;
+        height: 350px;
+        position: relative;
+    }
+
+    @media (max-width: 768px) {
+        .hike-map {
+            height: 300px;
+        }
+    }
+
+    .leaflet-popup-content-wrapper {
+        border-radius: 8px !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    }
+
+    .leaflet-popup-tip {
+    width: 17px;
+    height: 17px;
+    padding: 1px;
+    margin: 0px auto 0;
+    pointer-events: auto;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    }
+
+    .hike-map-popup {
+        font-size: 13px;
+    }
+
+    .hike-map-popup h3 {
+        margin: 0 0 8px 0;
+        font-size: 15px;
+        font-weight: 600;
+        color: rgba(19, 52, 59, 1);
+    }
+
+    .hike-map-popup .coordinates-label {
+    margin: 8px 0 4px 0;
+    font-size: 11px;
+    font-weight: 500;
+    color: rgba(98, 108, 113, 1);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+    .hike-map-popup .coordinates {
+        margin: 8px 0;
+        padding: 6px 8px;
+        background: rgba(245, 245, 245, 1);
+        border-left: 2px solid rgba(33, 128, 141, 1);
+        font-family: monospace;
+        font-size: 11px;
+        color: rgba(98, 108, 113, 1);
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .hike-map-popup .coordinates:hover {
+        background: rgba(235, 235, 235, 1);
+    }
+
+    .hike-map-popup a {
+        display: block;
+        margin: 8px 0 0 0;
+        padding: 6px 10px;
+        background: rgba(33, 128, 141, 1);
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 12px;
+        transition: background 250ms;
+    }
+
+    .hike-map-popup a:hover {
+        background: rgba(29, 116, 128, 1);
+    }
+</style>
+
+<div class="hike-map-container" data-trail-id="60">
+    <div class="hike-map" id="hikeMapContainer"></div>
 </div>
+
+<script>
+(function() {
+    // Trail database
+    const trailDatabase = {
+        1: { id: 1, name: "Bradley's Lookout & The Pinnacle", type: "hiking", lat: 43.557024, lng: -73.681616, description: "Easy family hike with two Lake George overlook options", links: [{text: "Bradley's Lookout", url: "/2023/10/21/Bradleys-Lookout"}, {text: "The Pinnacle", url: "/2016/07/02/The-Pinnacle"}]},
+        2: { id: 2, name: "Baker Mountain", type: "hiking", lat: 44.331405, lng: -74.115836, description: "Short but steep hike with High Peaks views", link: "/2021/08/14/Baker-Mountain"},
+        3: { id: 3, name: "Shelving Rock Falls", type: "hiking", lat: 43.5530, lng: -73.5965, description: "Short hike to beautiful waterfall in Lake George Wild Forest", link: "/2020/08/07/Shelving-Rock-Falls"},
+        4: { id: 4, name: "Roaring Brook Falls", type: "hiking", lat: 44.150387, lng: -73.767696, description: "Easy access waterfall in Adirondack wilderness", link: "/2019/02/09/Roaring-Brook-Falls"},
+        5: { id: 5, name: "Spruce Mountain", type: "hiking", lat: 43.216373, lng: -73.906211, description: "Fire tower with views (3 miles round trip)", link: "/2018/05/20/Spruce-Mountain"},
+        6: { id: 6, name: "Cat & Thomas Mountains", type: "hiking", lat: 43.603889, lng: -73.692500, description: "Lake George double summit hike", link: "/2016/08/13/Cat-and-Thomas-Mountains"},
+        7: { id: 7, name: "Schumann Preserve at Pilot Knob", type: "hiking", lat: 43.471634, lng: -73.625985, description: "Easy Lake George preserve trails", link: "/2016/08/07/Pilot-Knob"},
+        8: { id: 8, name: "Black Mountain", type: "hiking", lat: 43.603889, lng: -73.692500, description: "Fire tower with 360° Lake George views (6 miles)", link: "/2016/07/22/Black-Mountain"},
+        9: { id: 9, name: "Poke-O-Moonshine", type: "hiking", lat: 44.389246, lng: -73.507423, description: "Classic Adirondack cliff hike (multiple routes)", link: "/2016/07/18/Poke-O-Moonshine"},
+        10: { id: 10, name: "Deer Leap (Tongue Mountain)", type: "hiking", lat: 43.661326, lng: -73.544811, description: "Steep overlook on Tongue Mountain Range", link: "/2016/06/25/Deer-Leap"},
+        11: { id: 11, name: "Inman Pond", type: "hiking", lat: 43.489081, lng: -73.570163, description: "Easy pond loop in Lake George area", link: "/2016/05/15/Inman-Pond"},
+        12: { id: 12, name: "Prospect Mountain", type: "hiking", lat: 43.42553938947501, lng: -73.72009037302082, description: "Historic trail with incline railway ruins", link: "/2016/05/08/Prospect-Mountain"},
+        13: { id: 13, name: "Sleeping Beauty Mountain", type: "hiking", lat: 43.5495, lng: -73.5559, description: "Popular Lake George hike with dramatic cliffs", link: "/2016/04/24/Sleeping-Beauty-Mountain"},
+        14: { id: 14, name: "Shelving Rock Mountain", type: "hiking", lat: 43.5500, lng: -73.5833, description: "Lake George Wild Forest summit", link: "/2016/04/23/Shelving-Rock-Mountain"},
+        15: { id: 15, name: "Hadley Mountain", type: "hiking", lat: 43.37386, lng: -73.95063, description: "Fire tower with Hudson Valley views (1.5 miles)", link: "/2016/04/23/Hadley-Mountain"},
+        16: { id: 16, name: "Buck Mountain", type: "hiking", lat: 43.509238, lng: -73.631144, description: "Challenging Lake George summit", link: "/2016/04/02/Buck-Mountain"},
+        17: { id: 17, name: "Helderberg Hudson Rail Trail", type: "biking", lat: 42.6052, lng: -73.8267, description: "9.8-mile flat paved rail trail (Delmar parking)", link: "/2018/07/22/Albany-County-Rail-Trail"},
+        18: { id: 18, name: "Saratoga National Historical Park", type: ["hiking", "biking"], lat: 43.0138, lng: -73.6510, description: "Historic battlefield bike paths", link: "/2016/09/19/Saratoga-Battlefield"},
+        19: { id: 19, name: "Mohawk-Hudson Bike-Hike Trail", type: "biking", lat: 42.776838013968, lng: -73.82468856770342, description: "Multi-use rail trail along Mohawk River", link: "/2016/06/04/Mohawk-Hudson-Bike-Hike-Trail"},
+        20: { id: 20, name: "Zim Smith Trail", type: "biking", lat: 42.919306, lng: -73.746602, description: "10+ mile rail trail network", link: "/2016/04/09/Zim-Smith-Trail"},
+        21: { id: 21, name: "Overlook Mountain", type: "hiking", lat: 42.071094, lng: -74.122661, description: "Fire tower with ruins (3 miles RT)", link: "/2018/07/22/Overlook-Mountain"},
+        22: { id: 22, name: "Graphite Range Community Forest", type: "hiking", lat: 43.139455, lng: -73.768393, description: "New community forest trails", link: "/2025/01/18/Graphite-Range-Community-Forest"},
+        23: { id: 23, name: "Colonie Town Park", type: "hiking", lat: 42.7952541954362, lng: -73.74486179735592, description: "Extensive suburban trail network", link: "/2024/02/19/Colonie-Town-Park"},
+        24: { id: 24, name: "Swift Wetland Preserve", type: "hiking", lat: 42.61605, lng: -73.8560833333, description: "Boardwalk wetland trails", link: "/2023/02/20/Swift-Wetland-Preserve"},
+        25: { id: 25, name: "Five Rivers Environmental Center", type: "hiking", lat: 42.6097338461417, lng: -73.89008407498632, description: "Interpretive trails (easy)", link: "/2019/02/09/Five-Rivers-Environmental-Education-Center"},
+        26: { id: 26, name: "Peebles Island State Park", type: "hiking", lat: 42.7843, lng: -73.68015, description: "Riverside trails at Hudson confluence", link: "/2020/06/27/Peebles-Island-State-Park"},
+        27: { id: 27, name: "Severance Hill", type: "hiking", lat: 43.8627, lng: -73.7548, description: "Short Adirondack hike to Schroon Lake views (1.2 miles, 740 ft gain)", link: "/2023/09/09/Severance-Hill"},
+        28: { id: 28, name: "The Crossings of Colonie", type: "hiking", lat: 42.71920362932012, lng: -73.78767830118417, description: "Local town park with nice paved trails", link: "/2023/10/28/The-Crossings-of-Colonie"},
+        29: { id: 29, name: "Schuyler Flatts Cultural Park", type: "hiking", lat: 42.70699762083893, lng: -73.71075403359481, description: "Local town park with nice paved trails", link: "/2022/11/12/Schuyler-Flatts-Cultural-Park"},
+        30: { id: 30, name: "Fisher Trail", type: "hiking", lat: 42.62405673185724, lng: -73.88110472123549, link: "/2022/11/05/Fisher-Trail"},
+        31: { id: 31, name: "Skidmore North Woods", type: "hiking", lat: 43.10082361190161, lng: -73.77746082791766, description: "150-acre woodland preserve with trails for hiking, running, and walking", link: "/2022/08/06/Skidmore-North-Woods"},
+        32: { id: 32, name: "Van Dyke Preserve", type: "hiking", lat: 42.59566059553335, lng: -73.85548766373333, description: "1-mile loop trail along Phillipin Kill with woodland scenery", link: "/2021/03/06/Van-Dyke-Preserve"},
+        33: { id: 33, name: "Schiffendecker Farm Preserve", type: "hiking", lat: 42.60909170440016, lng: -73.79661982072098, description: "1+ mile trail through wooded ravine in Glenmont", link: "/2021/01/18/Schiffendecker-Farm-Preserve"},
+        34: { id: 34, name: "H. G. Reist Bird Sanctuary", type: "hiking", lat: 42.785030345253645, lng: -73.87886868599017, description: "111-acre preserve with 2 miles of trails in Niskayuna", link: "/2020/12/19/H-G-Reist-Bird-Sanctuary"},
+        35: { id: 35, name: "Touhey Family Preserve", type: "hiking", lat: 42.607796699438744, lng: -73.87256304918789, description: "49-acre preserve with boardwalks, ravines and pond access", link: "/2020/12/12/Touhey-Family-Preserve"},
+        36: { id: 36, name: "Phillipin Kill Preserve", type: "hiking", lat: 42.61085824612977, lng: -73.86873129157698, description: "Half-mile loop along Phillipin Kill in Bethlehem", link: "/2020/09/05/Phillipin-Kill-Preserve"},
+        38: { id: 38, name: "Wolf Creek Falls Preserve", type: "hiking", lat: 42.72164187354379, lng: -74.08529654213602, description: "3 miles of trails with cascading waterfalls in Knox", link: "/2020/06/21/Wolf-Creek-Falls"},
+        39: { id: 39, name: "Normanskill Preserves", type: "hiking", lat: 42.633285637472554, lng: -73.80153777388102, description: "Two parcels along Normanskill creek in steep ravines", link: "/2020/05/30/Normanskill-Preserves"},
+        40: { id: 40, name: "Paint Mine Trail (Thacher State Park)", type: "hiking", lat: 42.65246066560167, lng: -74.01537671981946, description: "Trail featuring historic paint mine and scenic escarpment views", link: "/2020/05/10/Thacher-Park-Paint-Mine-Trail"},
+        41: { id: 41, name: "Pine Hollow Arboretum", type: "hiking", lat: 42.634437097699646, lng: -73.85712335490929, description: "22-acre arboretum with labeled trees from around the world", link: "/2020/05/03/Pine-Hollow-Arboretum"},
+        42: { id: 42, name: "Tawasentha Park", type: "hiking", lat: 42.70359763708431, lng: -73.9350253749885, description: "Town park with scenic trails and multiple amenities", link: "/2020/05/02/Tawasentha-Park"},
+        43: { id: 43, name: "Bozen Kill Preserve", type: "hiking", lat: 42.71482653732635, lng: -74.04612422280962, description: "Scenic preserve with waterfalls and ravine views", link: "/2020/04/25/Bozen-Kill-Preserve"},
+        44: { id: 44, name: "Capital Hills Golf Course Walking Trail", type: "hiking", lat: 42.651849346285694, lng: -73.82152663050248, description: "2.7-mile paved trail through rolling hills", link: "/2020/03/29/Capital-Hills-Golf-Course-Walking-Trail"},
+        45: { id: 45, name: "Bennett Hill Preserve", type: "hiking", lat: 42.571923039614184, lng: -73.9658216124356, description: "Climb to 1135-foot plateau with panoramic views", link: "/2019/10/14/Bennett-Hill-Preserve"},
+        46: { id: 46, name: "Moreau Lake Overlook (Baker Trail)", type: "hiking", lat: 43.24757993866199, lng: -73.7255108976534, description: "2.4-mile hike to scenic overlook of Moreau Lake", link: "/2019/08/24/Moreau-Lake-Overlook-via-Baker-Trail"},
+        47: { id: 47, name: "High Point (Thacher State Park)", type: "hiking", lat: 42.681552935292885, lng: -74.05454484584577, description: "Scenic overlook with panoramic Hudson Valley views", link: "/2019/07/19/High-Point"},
+        48: { id: 48, name: "Lisha Kill Natural Area", type: "hiking", lat: 42.796780320893824, lng: -73.85945289002032, description: "140-acre preserve with old-growth forest and streams", link: "/2019/05/25/Lisha-Kill-Natural-Area"},
+        49: { id: 49, name: "Fox Preserve", type: "hiking", lat: 42.77553810053436, lng: -73.79404230351282, description: "70-acre preserve with river overlook near Latham", link: "/2019/03/24/Fox-Preserve"},
+        50: { id: 50, name: "Mohawk Landing Nature Preserve", type: "hiking", lat: 42.825126062106484, lng: -73.85989819980252, description: "Scenic overlook of Mohawk River with accessible trails", link: "/2019/01/19/Mohawk-Landing"},
+        51: { id: 51, name: "Bauer Environmental Park", type: "hiking", lat: 42.72452144858861, lng: -73.82155379517772, description: "Fully accessible boardwalk trail through wetlands", link: "/2018/12/30/Bauer-Environmental-Park"},
+        52: { id: 52, name: "Ashford Glen Preserve", type: "hiking", lat: 42.76975621234441, lng: -73.83235480351316, description: "1-mile trail through beautiful glen with Vly Creek", link: "/2018/11/11/Ashford-Glen-Preserve"},
+        53: { id: 53, name: "Ann Lee Pond Nature Preserve", type: "hiking", lat: 42.73916040690136, lng: -73.81239654821148, description: "2.3-mile loop with wildflowers and historic significance", link: "/2018/08/28/Ann-Lee-Pond"},
+        54: { id: 54, name: "Albany Pine Bush Preserve", type: "hiking", lat: 42.719109000753775, lng: -73.86364275748106, description: "3400-acre preserve with 20 miles of trails and rare plants", link: "/2018/05/25/Pine-Bush-Preserve"},
+        55: { id: 55, name: "100 Acre Woods", type: "hiking", lat: 42.956688265522814, lng: -73.7629872169936, description: "2 miles of flat to moderate trails in Malta", link: "/2017/10/21/100-Acre-Woods"},
+        56: { id: 56, name: "North Woods Nature Preserve", type: "hiking", lat: 42.92211009737895, lng: -73.81030409001308, description: "80-acre forest with streams and pond in Ballston Lake", link: "/2017/10/07/North-Woods-Nature-Preserve"},
+        57: { id: 57, name: "Woodcock Preserve", type: "hiking", lat: 42.886572247979544, lng: -73.8310175476876, description: "Multiple trails through woodlands and swamp in Clifton Park", link: "/2017/08/28/Woodcock-Preserve"},
+        58: { id: 58, name: "Grafton Lakes State Park", type: "hiking", lat: 42.776605, lng: -73.447502, description: "2357-acre park with 5 ponds and 25 miles of trails", link: "/2017/08/19/Grafton-Lakes-State-Park"},
+        59: { id: 59, name: "Lake Bonita (Moreau Lake State Park)", type: "hiking", lat: 43.20380814526685, lng: -73.76769649499049, description: "Lake trail with scenic views in Moreau Lake State Park", link: "/2017/04/09/lake-bonita"},
+        60: { id: 60, name: "Dwaas Kill Nature Preserve", type: "hiking", lat: 42.8909761147041, lng: -73.78441777538964, description: "Preserve with waterfall and stream views", link: "/2016/11/19/Dwaaskill-Nature-Preserve"},
+        61: { id: 61, name: "Vischer Ferry Nature Preserve", type: "hiking", lat: 42.792985489456356, lng: -73.79609317241598, description: "700+ acres of wetlands and historic Erie Canal towpath", link: "/2016/07/09/Vischer-Ferry-Preserve"},
+        62: { id: 62, name: "Palmertown Range", type: "hiking", lat: 43.221516076378194, lng: -73.76531712466344, description: "Mountain range with panoramic views", link: "/2016/05/15/Palmertown-Range"},
+        63: { id: 63, name: "Ushers Road State Forest", type: "hiking", lat: 42.91255588329069, lng: -73.77208820843038, description: "130+ acres of state forest with multiple trails", link: "/2016/04/03/Ushers-Road-State-Forest"},
+        64: { id: 64, name: "Little Island", type: "hiking", lat: 40.742132460158345, lng: -74.01028827116376, description: "Oasis in the middle of an urban landscape", link: "/2022/08/27/little-island-nyc"},
+        65: { id: 65, name: "Bender Melon Farm Preserve", type: "hiking", lat: 42.63750676165629, lng: -73.90112232883624, description: "Oasis in the middle of an urban landscape", link: "/2022/08/27/little-island-nyc"},
+    };
+
+    // Get trail ID from data attribute
+    const container = document.querySelector('[data-trail-id]');
+    const trailId = parseInt(container.getAttribute('data-trail-id'), 10);
+    const trail = trailDatabase[trailId];
+
+    if (!trail) {
+        document.getElementById('hikeMapContainer').innerHTML = '<p style="padding: 20px; color: red;">Error: Trail ID ' + trailId + ' not found</p>';
+        return;
+    }
+
+    setTimeout(function() {
+        const map = L.map('hikeMapContainer').setView([trail.lat, trail.lng], 12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        const trailType = Array.isArray(trail.type) ? trail.type[0] : trail.type;
+
+        const iconColor = trailType === 'hiking' ? 'rgba(232, 121, 74, 0.9)' : 'rgba(50, 184, 198, 0.9)';
+        const iconEmoji = trailType === 'hiking' ? '🥾' : '🚴';
+        const icon = L.divIcon({
+            html: '<div style="background: ' + iconColor + '; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; border: 3px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.3);">' + iconEmoji + '</div>',
+            iconSize: [40, 40],
+            iconAnchor: [20, 20],
+            popupAnchor: [0, -20]
+        });
+
+        let popupHTML = '<div class="hike-map-popup"><h3>' + trail.name + '</h3>';
+        
+        popupHTML += '<div class="coordinates" title="Click to copy">' + trail.lat + ', ' + trail.lng + '</div>';
+        
+        if (trail.links && trail.links.length > 0) {
+            trail.links.forEach(function(link) {
+                popupHTML += '<a href="' + link.url + '" target="_blank">' + link.text + ' →</a>';
+            });
+        }
+        
+        popupHTML += '</div>';
+
+        const marker = L.marker([trail.lat, trail.lng], { icon: icon })
+            .bindPopup(popupHTML)
+            .addTo(map)
+            .openPopup();
+
+        // Add click-to-copy functionality for coordinates
+        map.on('popupopen', function() {
+            const coordElement = document.querySelector('.coordinates');
+            if (coordElement) {
+                coordElement.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const text = coordElement.textContent;
+                    navigator.clipboard.writeText(text).then(function() {
+                        const original = coordElement.textContent;
+                        coordElement.textContent = 'Copied!';
+                        setTimeout(function() {
+                            coordElement.textContent = original;
+                        }, 2000);
+                    });
+                });
+            }
+        });
+    }, 100);
+})();
+</script>
+
 
       </div>
 

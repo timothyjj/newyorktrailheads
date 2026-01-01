@@ -42,10 +42,8 @@ cover-img: img/ann-lee-pond/ann-lee-pond.jpeg
 <h2 id="trailmap">Ann Lee Pond Trailhead Map</h2>
 
 <p>
-	<a href="http://www.albanycounty.com/Government/Departments/RecreationDept/AnnLeePond.aspx" target="_blank">
-		Find a detailed trail map on the Albany County website.
+	<a href="https://albcountygis.maps.arcgis.com/apps/instant/sidebar/index.html?appid=cccc60a0a5fb4174878ee1b1c0aac5fb" target="_blank">See a detailed trail map here.
 	</a>
 </p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.33428582685!2d-73.81508948453171!3d42.73897917916332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de0ce8a99e660b%3A0x6a581df2ce9065be!2sAnn+Lee+Pond+Nature+and+Historic+Preserve!5e0!3m2!1sen!2sus!4v1535504550294" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+{% include hike-map.html id=53 %}

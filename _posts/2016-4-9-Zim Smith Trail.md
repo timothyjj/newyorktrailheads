@@ -58,5 +58,3 @@ cover-img: img/zim-smith-trail/zim-smith-trail-halfmoon.jpg
 <div class="google-maps">
 	<iframe src="https://www.google.com/maps/d/embed?mid=19awwdDUCA1VK660KJb5z6cf7ISc" ></iframe>
 </div>
-
-<p>For more local trail information for upstate New York, check out our <a href="http://newyorktrailheads.com/hiking-map.html">hiking map</a> and <a href="http://newyorktrailheads.com/biking-map.html">biking map</a>.</p>
