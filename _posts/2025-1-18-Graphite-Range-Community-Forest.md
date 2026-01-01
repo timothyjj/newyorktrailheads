@@ -45,6 +45,6 @@ cover-img: img/graphite-range/graphite-range-7.jpg
 <h2 id="trailmap">Graphite Range Community Forest Map</h2>
 
 <p>
-<a href="https://saratogaplan.org/wp-content/uploads/2023/12/GRCFTrailMap12.6.23.pdf">See a detailed trail map courtesy of Saratoga Plan</a></p>
+<a href="https://saratogaplan.org/wp-content/uploads/2023/12/GRCFTrailMap12.6.23.pdf" target="_blank">See a detailed trail map courtesy of Saratoga Plan</a></p>
 
 {% include hike-map.html id=22 %}
