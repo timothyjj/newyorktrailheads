@@ -3,8 +3,6 @@ layout: post
 title: Bradley's Lookout
 excerpt: Easy hike to a view of Lake George
 tags: [Adirondacks]
-map_id: 1
-custom_head: '<meta property="map_id" content="1">'
 
 images:
 
