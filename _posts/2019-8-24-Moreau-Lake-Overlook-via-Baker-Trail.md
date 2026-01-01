@@ -46,6 +46,5 @@ cover-img: img/moreau-overlook/moreau-lake-overlook.jpeg
 
 <p><a href="https://parks.ny.gov/parks/attachments/MoreauLakeTrailMap.pdf" target="_blank">See a detailed map of Moreau Lake State Park trails</a>. The Baker Trail is labeled "BK" and colored green on this map.</p> Look for the <em>Spier Falls/ Moreau "Saddle" Trailhead</em> on Google Maps to find the precise parking location.
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11625.239217384!2d-73.72566160648195!3d43.24492851214653!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dfccc280432bc1%3A0xa67c47789bdbf75c!2sSpier%20Falls%2F%20Moreau%20%22Saddle%22%20Trailhead!5e0!3m2!1sen!2sus!4v1566670393711!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+{% include hike-map.html id=46 %}
 
