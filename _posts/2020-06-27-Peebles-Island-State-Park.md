@@ -37,7 +37,6 @@ cover-img: img/peebles-island/peebles800x600.png
 
 <p><a href="https://parks.ny.gov/parks/111/details.aspx" target="_blank">View more information and a detailed trail map on the official NYS Parks site</a></p>.
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2928.209958672648!2d-73.6829608845303!3d42.78391107916061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de103b956b55d5%3A0x833a40993e6f9bec!2sFriends%20of%20Peebles%20Island%20State%20Park!5e0!3m2!1sen!2sus!4v1593271553985!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+{% include hike-map.html id=26 %}
 
 

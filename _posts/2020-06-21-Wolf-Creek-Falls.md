@@ -44,9 +44,8 @@ cover-img: img/wolf-creek-falls/wolf-creek-falls-5.jpeg
 
 <h2 id="trailmap">Wolf Creek Falls Trailhead Map</h2>
 
-<p><a href="https://mohawkhudson.org/wp-content/uploads/2020/04/2019-Wolf-Creek-Falls-map-768x593.jpg" target="_blank">Access a more detailed trail map courtesy of the Mohawk Hudson Land Conservancy</a></p>.
+<p><a href="https://www.mohawkhudson.org/preserves/wolf-creek-falls-preserve" target="_blank">Access a more detailed trail map courtesy of the Mohawk Hudson Land Conservancy</a></p>.
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11724.643440348307!2d-74.0842662!3d42.7214859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x35bf07316d5f562!2sWolf%20Creek%20Falls%20Preserve!5e0!3m2!1sen!2sus!4v1592763073973!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+{% include hike-map.html id=38 %}
 
 

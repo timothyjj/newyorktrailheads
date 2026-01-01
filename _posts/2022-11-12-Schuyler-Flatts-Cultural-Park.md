@@ -41,5 +41,4 @@ cover-img: img/schuyler-flatts/schuyler-flatts-5.jpeg
 
 <p>Find an official trail map on the <a href="https://www.colonie.org/departments/parksandrec/parks/" target="_blank">Town of Colonie Parks Department site</a>.</p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11727.672949145684!2d-73.711191!3d42.705452!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f19d1873435aeeb!2sTown%20of%20Colonie%20Schuyler%20Flatts%20Cultural%20Park!5e0!3m2!1sen!2sus!4v1668262273089!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{% include hike-map.html id=29 %}

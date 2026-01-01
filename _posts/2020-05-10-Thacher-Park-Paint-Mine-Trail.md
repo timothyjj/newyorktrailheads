@@ -41,10 +41,8 @@ cover-img: img/thacher-park-paint-mine/thacher-1.jpeg
 
 <h2 id="trailmap">Trailhead Map</h2>
 
-<p><a href="https://parks.ny.gov/parks/128/details.aspx" target="_blank">Access detailed trail maps on the official site for the park</a></p>.
+<p><a href="https://parks.ny.gov/visit/state-parks/thacher-state-park#info" target="_blank">Access detailed trail maps on the official site for the park</a></p>.
 
-
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11737.743345221474!2d-74.0153241!3d42.6521187!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab5717f146e25fd5!2sPaint%20Mine%20Trailhead%20Parking%20Lot!5e0!3m2!1sen!2sus!4v1589131234221!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+{% include hike-map.html id=40 %}
 
 

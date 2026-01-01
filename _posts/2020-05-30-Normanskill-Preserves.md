@@ -41,7 +41,6 @@ cover-img: img/normanskill/normanskill-5.jpeg
 <p><a href="https://mohawkhudson.org/our-preserves/normans-kill-preserves/" target="_blank">Access a more detailed trail map courtesy of the Mohawk Hudson Land Conservancy</a></p>.
 
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1u-iwMMQWmq_KZamqA6B-r__mv9PZMRM6" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+{% include hike-map.html id=39 %}
 
 

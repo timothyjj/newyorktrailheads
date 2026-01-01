@@ -587,14 +587,21 @@ document.addEventListener('DOMContentLoaded', function() {
             type: "hiking",
             lat: 40.742132460158345,
             lng: -74.01028827116376,
-            description: "130+ acres of state forest with multiple trails",
-            link: "/2016/04/03/Ushers-Road-State-Forest"
+            link: "/2022/08/27/little-island-nyc"
+        },
+        {
+            id: 65,
+            name: "Bender Melon Farm Preserve",
+            type: "hiking",
+            lat: 42.63750676165629, 
+            lng: -73.90112232883624,
+            link: "/2022/10/29/Bender-Melon-Farm-Preserve"
         }
     ];
 
     const map = L.map('nyt-map').setView([42.6526, -73.7562], 8);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
+        maxZoom: 18,
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 

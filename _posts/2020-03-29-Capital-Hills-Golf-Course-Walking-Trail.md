@@ -33,8 +33,7 @@ cover-img: img/capital-hills/capital-hills-landscape.png
 <img src="/img/capital-hills/capital-hills-trail.jpeg" alt="Walking trail"><br />
 </div>
 
-<h2 id="trailmap">Trailhead Map</h2>
+<h2 id="trailmap">Parking Area Map</h2>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11737.929690271465!2d-73.821591!3d42.6511313!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb46c85d3e330959d!2sCapital%20Hills%20at%20Albany!5e0!3m2!1sen!2sus!4v1585501756450!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+{% include hike-map.html id=44 %}
 

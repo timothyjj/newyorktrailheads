@@ -4,11 +4,6 @@ title: H. G. Reist Bird Sanctuary
 excerpt: Wooded trails and wildlife in Niskayuna
 tags: [Nature Preserves & Parks]
 
-images:
-
-  - url: /img/hgreist/hgreist-9.jpeg
-    alt: H. G. Reist Bird Sanctuary
-    title: H. G. Reist Bird Sanctuary
 cover-img: img/hgreist/hgreist-9.jpeg
 
 ---
@@ -54,7 +49,6 @@ Once you go into the preserve, it's helpful to reference the <a href="https://hm
 
 <p><a href="https://hmbc.net/Reist-Sanctuary">See detailed directions and a trail map on the Hudson-Mohawk Bird Club site.</a></p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2927.9632812415593!2d-73.88423054875682!3d42.78912611578658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de7327579d10a1%3A0xfeffd16dc298ba9!2sKelly%20Adirondack%20Center!5e0!3m2!1sen!2sus!4v1608401541903!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+{% include hike-map.html id=34 %}
 
 

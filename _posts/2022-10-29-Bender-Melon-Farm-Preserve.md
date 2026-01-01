@@ -37,5 +37,4 @@ cover-img: img/bender-melon.jpg
 
 <p>View a trail map and additional details on the <a href="https://www.mohawkhudson.org/preserves/bender-melon-farm" target="_blank">MHLC site</a></p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11740.561550182792!2d-73.9017758!3d42.6371837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa1de471bd76206b!2sBender%20Melon%20Farm!5e0!3m2!1sen!2sus!4v1667052045783!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{% include hike-map.html id=65 %}

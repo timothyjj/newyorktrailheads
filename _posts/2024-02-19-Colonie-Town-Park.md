@@ -38,7 +38,6 @@ cover-img: img/colonie-town-park/colonie-town-park-5.jpg
 <h2 id="trailmap">Colonie Town Park Map</h2>
 
 <p>
-<a href="https://www.colonie.org/departments/parksandrec/thecrossings/">See a full map of the park on the official Town of Colonie website</a></p>
+<a href="https://www.townofcolonie.gov/departments/parksandrec/parks/">See a full map of the park on the official Town of Colonie website</a></p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d887.1513310744566!2d-73.7447815997588!3d42.79538019192142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de11f4d2ceeba1%3A0xf971c4ecef371bd7!2sColonie%20Mohawk%20River%20Park%20and%20Pool%20Complex!5e0!3m2!1sen!2sus!4v1708352159593!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{% include hike-map.html id=23 %}
