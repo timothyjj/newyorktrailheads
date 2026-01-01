@@ -6,11 +6,11 @@ tags: [Bike Trails]
 
 images:
 
-  - url: /img/zim-smith-trail/zim-smith-trail-halfmoon.jpg
+  - url: /img/zim-smith-trail/zim-smith-trail-fall.jpg
     alt: Zim Smith Trail Entrance
     title: Zim Smith Trail Entrance
     
-cover-img: img/zim-smith-trail/zim-smith-trail-halfmoon.jpg
+cover-img: img/zim-smith-trail/zim-smith-trail-fall.jpg
 
 ---
 
@@ -20,7 +20,7 @@ cover-img: img/zim-smith-trail/zim-smith-trail-halfmoon.jpg
 	<li><a href="#trailmap">Trail Map</a></li>
 </ul>
 
-<p>This multi-use trail extends 11.5 miles from Mechanicville to Ballston Spa. Paved trail follows a variety of terrain including swampland, fields, woods, and communities. The entire length of the trail is well kept and is perfect for casual walking, biking, or running. You'll run into periodic road crossings, but most are quiet, with the exception of Eastline Road in Ballston Spa.</p>
+<p>This multi-use trail extends 11.5 miles from Mechanicville to Ballston Spa. Paved trail follows a variety of terrain including swampland, fields, woods, and communities, even going by a golf course under protective "cages" keeping you safe from any errant balls. The entire length of the trail is well-kept, perfect for casual walking, biking, or running. You'll run into periodic road crossings, but most are quiet, with the exception of Eastline Road in Ballston Spa. If you follow trail signs beyond where the "official" paved trail ends in Mechanicville, you'll ride briefly on streets to reach the Hudson River.</p>
 
 <p>There are several points along the way where you can park to walk or ride the trail. In Mechanicville, you can find a parking area off of Elizabeth Street. Coons Crossing Road in Halfmoon offers spots for several cars on both sides of the road. Popular points midway include large parking areas in Round Lake and within <a href="http://malta-town.org/facilities/facility/details/Shenantaha-Creek-Park-3" target="_blank">Shenantaha Park</a> in Malta.</p>
 
@@ -43,6 +43,8 @@ cover-img: img/zim-smith-trail/zim-smith-trail-halfmoon.jpg
 <img src="/img/zim-smith-trail/totem-pole.jpg" alt="Totem pole tree"><br />
 <img src="/img/zim-smith-trail/round-lake-bypass.jpg" alt="Round Lake Bypass"><br />
 <img src="/img/zim-smith-trail/zim-smith-trail-ballston.jpg" alt="Zim Smith Trail Ballston Spa trailhead"><br />
+<img src="/img/zim-smith-trail/zim-smith-golf.jpg" alt="Golf course"><br />
+<img src="/img/zim-smith-trail/mechanicville.jpg" alt="Mechanicville terminus"><br />
 </div>
 
 <h2 id="video">Timelapse Video of Zim Smith Trail</h2>
