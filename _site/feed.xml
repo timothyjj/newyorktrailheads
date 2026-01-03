@@ -5,7 +5,7 @@
     <title>New York Trailheads</title>
     
     
-    <description>This website is a virtual proof that I'm awesome</description>
+    <description>This website is a virtual proof that I&apos;m awesome</description>
     
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
@@ -60,7 +60,7 @@
         
         <description>
           
-          Nestled along the Mohawk River on the very northern edge of the town of Colonie, this park offers trails meandering through the woods, a historic covered bridge, playgrounds, picnic areas, boat launch, and a pool that's open during the summer season. The entrance is located off Schermerhorn Road, not far...
+          Nestled along the Mohawk River on the very northern edge of the town of Colonie, this park offers trails meandering through the woods, a historic covered bridge, playgrounds, picnic areas, boat launch, and a pool that&apos;s open during the summer season. The entrance is located off Schermerhorn Road, not far...
         </description>
         <pubDate>Mon, 19 Feb 2024 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2024/02/19/Colonie-Town-Park</link>
@@ -74,7 +74,7 @@
         
         <description>
           
-          For outdoor enthusiasts, nothing sets the tone for a new year better than a chance to take a hike! Several local parks and nature organizations have planned First Day Hikes, where you can join others on an outdoor trek. In this article, we'll provide an overview of hikes you can...
+          For outdoor enthusiasts, nothing sets the tone for a new year better than a chance to take a hike! Several local parks and nature organizations have planned First Day Hikes, where you can join others on an outdoor trek. In this article, we&apos;ll provide an overview of hikes you can...
         </description>
         <pubDate>Wed, 27 Dec 2023 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2023/12/27/Capital-Region-First-Day-Hikes-2024</link>
@@ -96,13 +96,13 @@
       </item>
     
       <item>
-        <title>Bradley's Lookout</title>
+        <title>Bradley&apos;s Lookout</title>
         
         <dc:creator><![CDATA[ New York Trailheads ]]></dc:creator>
         
         <description>
           
-          Bradley's Lookout Officially opened by the Lake George Land Conservancy in 2020, the trail to Bradley's Lookout leads to a beautiful overlook of Lake George with less than a mile's hike one way. This trail starts from the same trailhead as The Pinnacle in Bolton Landing, and it can easily...
+          Bradley&apos;s Lookout Officially opened by the Lake George Land Conservancy in 2020, the trail to Bradley&apos;s Lookout leads to a beautiful overlook of Lake George with less than a mile&apos;s hike one way. This trail starts from the same trailhead as The Pinnacle in Bolton Landing, and it can easily...
         </description>
         <pubDate>Sat, 21 Oct 2023 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2023/10/21/Bradleys-Lookout</link>
@@ -116,7 +116,7 @@
         
         <description>
           
-          While any excursion into the woods can be fun, and you don't need to have a specific goal to enjoy a day outdoors, working through a hiking challenge can be a great way to inspire a family to get outside or fulfill that &quot;completionist&quot; desire deep down. There are options...
+          While any excursion into the woods can be fun, and you don&apos;t need to have a specific goal to enjoy a day outdoors, working through a hiking challenge can be a great way to inspire a family to get outside or fulfill that &quot;completionist&quot; desire deep down. There are options...
         </description>
         <pubDate>Sat, 07 Oct 2023 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2023/10/07/Adirondack-Hiking-Challenges</link>
@@ -130,7 +130,7 @@
         
         <description>
           
-          While trail guides seem to vary in opinion as to whether this is a &quot;hill&quot; or a &quot;mountain,&quot; there's no denying that this is hike provides an enjoyable short jaunt through classic Adirondack woods to a beautiful view over Schroon Lake. While it was a foggy morning on the day...
+          While trail guides seem to vary in opinion as to whether this is a &quot;hill&quot; or a &quot;mountain,&quot; there&apos;s no denying that this is hike provides an enjoyable short jaunt through classic Adirondack woods to a beautiful view over Schroon Lake. While it was a foggy morning on the day...
         </description>
         <pubDate>Sat, 09 Sep 2023 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2023/09/09/Severance-Hill</link>
@@ -144,7 +144,7 @@
         
         <description>
           
-          Going to a fireworks show is a classic Independence Day activity, and upstate New York has plenty of options to offer. Here's a rundown of places you can go in the greater Capital Region and Adirondacks to see fireworks around July 4, 2023. Tri-City ValleyCats Game: June 29 The ValleyCats...
+          Going to a fireworks show is a classic Independence Day activity, and upstate New York has plenty of options to offer. Here&apos;s a rundown of places you can go in the greater Capital Region and Adirondacks to see fireworks around July 4, 2023. Tri-City ValleyCats Game: June 29 The ValleyCats...
         </description>
         <pubDate>Sat, 24 Jun 2023 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2023/06/24/July-4-Fireworks</link>
@@ -158,7 +158,7 @@
         
         <description>
           
-          Hiking is a great way to enjoy nature, explore new places, and stay fit. However, hiking also comes with some risks, such as getting lost or injured. That's why it's important to have some basic navigation skills and tools when you hit the trails. Pictured: SUUNTO A-10 Compass, a great...
+          Hiking is a great way to enjoy nature, explore new places, and stay fit. However, hiking also comes with some risks, such as getting lost or injured. That&apos;s why it&apos;s important to have some basic navigation skills and tools when you hit the trails. Pictured: SUUNTO A-10 Compass, a great...
         </description>
         <pubDate>Sat, 18 Mar 2023 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2023/03/18/How-to-Use-a-Compass-While-Hiking</link>
@@ -186,7 +186,7 @@
         
         <description>
           
-          For kids of all ages, few activities are more fun after a fresh snowfall than jumping on a sled and riding down a hill at top speed. Thankfully, the Capital Region has no shortage of hills for those looking for some classic winter fun. In this article, we're listing a...
+          For kids of all ages, few activities are more fun after a fresh snowfall than jumping on a sled and riding down a hill at top speed. Thankfully, the Capital Region has no shortage of hills for those looking for some classic winter fun. In this article, we&apos;re listing a...
         </description>
         <pubDate>Thu, 09 Feb 2023 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2023/02/09/Capital-Region-Sledding-Hills</link>
@@ -242,7 +242,7 @@
         
         <description>
           
-          Little Island is a beautifully constructed slice of green in the midst of the concrete and metal of downtown Manhattan. If you're visiting New York City and have some time to spare, take a moment to stroll around this free-to-visit park, located near Chelsea Market and across from the High...
+          Little Island is a beautifully constructed slice of green in the midst of the concrete and metal of downtown Manhattan. If you&apos;re visiting New York City and have some time to spare, take a moment to stroll around this free-to-visit park, located near Chelsea Market and across from the High...
         </description>
         <pubDate>Sat, 27 Aug 2022 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2022/08/27/little-island-nyc</link>
@@ -284,7 +284,7 @@
         
         <description>
           
-          One of many Mohawk Hudson Land Conservancy &quot;pocket preserves&quot; in Albany's suburbs, the Van Dyke Preserve offers a 1-mile loop through the woods, with much of the trail going alongside the Philippin Kill. The trailhead is found just south of the Bethlehem Central High School off Van Dyke Road. A...
+          One of many Mohawk Hudson Land Conservancy &quot;pocket preserves&quot; in Albany&apos;s suburbs, the Van Dyke Preserve offers a 1-mile loop through the woods, with much of the trail going alongside the Philippin Kill. The trailhead is found just south of the Bethlehem Central High School off Van Dyke Road. A...
         </description>
         <pubDate>Sat, 06 Mar 2021 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2021/03/06/Van-Dyke-Preserve</link>
