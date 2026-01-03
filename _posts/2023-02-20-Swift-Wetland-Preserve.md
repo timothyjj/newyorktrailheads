@@ -41,5 +41,4 @@ cover-img: img/swift-preserve/swift-preserve-1.jpeg
 
 <p>Find an official trail map on the <a href="https://www.mohawkhudson.org/preserves/swift-wetland" target="_blank">Mohawk Hudson Land Conservancy official site</a>.</p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2936.1944667241555!2d-73.85638710990044!3d42.614831546608485!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbeb980be857ee3e!2sSwift%20Wetland!5e0!3m2!1sen!2sus!4v1676921886791!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{% include hike-map.html id=24 %}

@@ -40,7 +40,6 @@ cover-img: img/phillipin-kill/PhillipinKill-3.jpeg
 
 <p><a href="https://mohawkhudson.org/our-preserves/phillipin-kill-preserve/">See a detailed trail map on the Mohawk Hudson Land Conservancy site.</a></p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.598260692368!2d-73.87152564562487!3d42.611587154424946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dddfb6fb16aa33%3A0xabb56180889a825c!2sPhillipinkill%20Preserve!5e0!3m2!1sen!2sus!4v1599331199350!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+{% include hike-map.html id=36 %}
 
 

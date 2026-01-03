@@ -37,7 +37,7 @@ cover-img: img/vischer-ferry/whipple-bridge.jpg
 
 </div>
 
-<h2 id="map">Map of key parking areas for Vischer Ferry Preserve</h2>
+<h2 id="map">Map to main parking area for Vischer Ferry Preserve</h2>
 
-<div class="google-maps"><iframe src="https://www.google.com/maps/d/embed?mid=1T2fMXsRaQ2paDLZYrJjmpt6FmGo" ></iframe></div>
+{% include hike-map.html id=61 %}
 

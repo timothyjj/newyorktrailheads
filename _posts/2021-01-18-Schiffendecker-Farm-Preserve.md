@@ -42,9 +42,8 @@ cover-img: img/schiffendecker/schiffendecker3.jpg
 
 <p><a href="https://mohawkhudson.org/wp-content/uploads/2020/07/Preserve-Map-2020-Schiffendecker-Farm-Preserve.jpg" target="_blank">Access a trail map courtesy of the Mohawk-Hudson Land Conservancy site</a></p>
 
-<p>If you're using Google Maps, input 309 Bender Lane, Glenmont, NY to bring you as close as possible to the trailhead as opposed to selecting the Google Maps location for the preserve.</p>
+<p>Navigate to 309 Bender Lane, Glenmont, NY in your mapping app or GPS to bring you as close as possible to the trailhead.</p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.090829044216!2d-73.79740543940015!3d42.61052490143213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dde04b4a8343ab%3A0xdeaae65fb08686e9!2sSchiffendecker%20Farm%20Preserve!5e1!3m2!1sen!2sus!4v1610996209687!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+{% include hike-map.html id=33 %}
 
 

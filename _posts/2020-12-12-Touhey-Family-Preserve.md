@@ -39,7 +39,6 @@ cover-img: img/touhey-preserve/touhey3.jpeg
 
 <p><a href="https://mohawkhudson.org/our-preserves/touhey-family-preserve/">See a detailed trail map on the Mohawk Hudson Land Conservancy site.</a></p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11746.061289071133!2d-73.8727025!3d42.6080258!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1229436ddef1286!2sTouhey%20Family%20Preserve!5e0!3m2!1sen!2sus!4v1607782719243!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+{% include hike-map.html id=35 %}
 
 

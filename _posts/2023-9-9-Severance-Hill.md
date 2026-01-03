@@ -39,5 +39,4 @@ cover-img: img/severance-hill/severance-hill3.jpg
 
 <h2 id="trailmap">Severance Hill Trailhead Map</h2>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11505.842947395946!2d-73.7670753!3d43.86700475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccab51d7c2f115b%3A0x4b14eba2794e1089!2sSeverance%20Mt.%20Trailhead!5e0!3m2!1sen!2sus!4v1694261532692!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{% include hike-map.html id=27 %}

@@ -52,5 +52,4 @@ cover-img: img/pine-bush/helderberg-view.jpg
 	</a>
 </p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/d/u/2/embed?mid=1dO92_Q--P_A24ZwMW3v2gutb7g4ltaRf" ></iframe></div>
+{% include hike-map.html id=54 %}

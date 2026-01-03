@@ -36,7 +36,6 @@ cover-img: img/skidmore-woods/skidmore1.jpg
 
 <h2 id="trailmap">Skidmore North Woods Trailhead Map</h2>
 
-<p><a href="https://www.skidmore.edu/sustainability/northwoods/index.php" target="_blank">Access a complete map of the trail system</a> (Skidmore official site).</p>
+<p><a href="https://www.skidmore.edu/sustainability/programs/northwoods/index.php" target="_blank">Access a complete map of the trail system</a> (Skidmore official site).</p>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.124847794096!2d-73.77989548255616!3d43.10189109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de3745b089295d%3A0x92d4bd5d8f2a8a3c!2sSkidmore%20North%20Woods!5e0!3m2!1sen!2sus!4v1659805633149!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{% include hike-map.html id=31 %}

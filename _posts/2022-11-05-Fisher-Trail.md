@@ -43,5 +43,4 @@ cover-img: img/fisher-trail/fisher-trail-7.jpeg
 
 <h2 id="trailmap">Fisher Trail Trailhead Map</h2>
 
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5871.533173744331!2d-73.88484606294939!3d42.62390604545427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dddfd6208d25c3%3A0x5362fdcb31342ffe!2sFisher%20Trail%20trailhead!5e0!3m2!1sen!2sus!4v1667669737915!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{% include hike-map.html id=30 %}
