@@ -259,11 +259,8 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-<<<<<<< Updated upstream
 # timezone: "America/New_York"
-=======
 timezone: "America/New_York"
->>>>>>> Stashed changes
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title

@@ -13,6 +13,15 @@ subtitle: Find Upstate NY Trails
                 <button class="nyt-filter-button hiking" data-category="hiking">Hiking</button>
                 <button class="nyt-filter-button biking" data-category="biking">Biking</button>
             </div>
+
+            <!-- NEW: Difficulty filters -->
+            <div class="nyt-filters nyt-difficulty-filters" style="margin-top: 10px;">
+                <span class="nyt-filter-label">Difficulty:</span>
+                <button class="nyt-filter-button diff active" data-difficulty="all">All</button>
+                <button class="nyt-filter-button diff" data-difficulty="easy">Easy</button>
+                <button class="nyt-filter-button diff" data-difficulty="moderate">Moderate</button>
+                <button class="nyt-filter-button diff" data-difficulty="difficult">Difficult</button>
+            </div>
         </div>
         <div class="nyt-map" id="nyt-map"></div>
     </div>
@@ -25,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             name: "Bradley's Lookout & The Pinnacle",
             type: "hiking",
+            difficulty: "easy",
             lat: 43.557024,
             lng: -73.681616,
             description: "Easy family hike with two Lake George overlook options",
@@ -37,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 2,
             name: "Baker Mountain",
             type: "hiking",
+            difficulty: "moderate",
             lat: 44.331405,
             lng: -74.115836,
             description: "Short but steep hike with High Peaks views",
@@ -46,6 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 3,
             name: "Shelving Rock Falls",
             type: "hiking",
+            difficulty: "easy",
             lat: 43.5530,
             lng: -73.5965,
             description: "Short hike to beautiful waterfall in Lake George Wild Forest",
@@ -55,6 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 4,
             name: "Roaring Brook Falls",
             type: "hiking",
+            difficulty: "easy",
             lat: 44.150387,
             lng: -73.767696,
             description: "Easy access waterfall in Adirondack wilderness",
@@ -64,6 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 5,
             name: "Spruce Mountain",
             type: "hiking",
+            difficulty: "moderate",
             lat: 43.216373,
             lng: -73.906211,
             description: "Fire tower with views (3 miles round trip)",
@@ -73,6 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 6,
             name: "Cat & Thomas Mountains",
             type: "hiking",
+            difficulty: "difficult",
             lat: 43.603889,
             lng: -73.692500,
             description: "Lake George double summit hike",
@@ -82,6 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 7,
             name: "Schumann Preserve at Pilot Knob",
             type: "hiking",
+            difficulty: "easy",
             lat: 43.471634,
             lng: -73.625985,
             description: "Easy Lake George preserve trails",
@@ -91,6 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 8,
             name: "Black Mountain",
             type: "hiking",
+            difficulty: "difficult",
             lat: 43.603889,
             lng: -73.692500,
             description: "Fire tower with 360° Lake George views (6 miles)",
@@ -100,6 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 9,
             name: "Poke-O-Moonshine",
             type: "hiking",
+            difficulty: "difficult",
             lat: 44.389246,
             lng: -73.507423,
             description: "Classic Adirondack cliff hike (multiple routes)",
@@ -109,6 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 10,
             name: "Deer Leap (Tongue Mountain)",
             type: "hiking",
+            difficulty: "moderate",
             lat: 43.661326,
             lng: -73.544811,
             description: "Steep overlook on Tongue Mountain Range",
@@ -118,6 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 11,
             name: "Inman Pond",
             type: "hiking",
+            difficulty: "easy",
             lat: 43.489081,
             lng: -73.570163,
             description: "Easy pond loop in Lake George area",
@@ -127,6 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 12,
             name: "Prospect Mountain",
             type: "hiking",
+            difficulty: "difficult",
             lat: 43.42553938947501,
             lng: -73.72009037302082,
             description: "Historic trail with incline railway ruins",
@@ -136,6 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 13,
             name: "Sleeping Beauty Mountain",
             type: "hiking",
+            difficulty: "moderate",
             lat: 43.5495,
             lng: -73.5559,
             description: "Popular Lake George hike with dramatic cliffs",
@@ -145,6 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 14,
             name: "Shelving Rock Mountain",
             type: "hiking",
+            difficulty: "moderate",
             lat: 43.5500,
             lng: -73.5833,
             description: "Lake George Wild Forest summit",
@@ -154,6 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 15,
             name: "Hadley Mountain",
             type: "hiking",
+            difficulty: "moderate",
             lat: 43.37386,
             lng: -73.95063,
             description: "Fire tower with Hudson Valley views (1.5 miles)",
@@ -163,6 +187,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 16,
             name: "Buck Mountain",
             type: "hiking",
+            difficulty: "difficult",
             lat: 43.509238,
             lng: -73.631144,
             description: "Challenging Lake George summit",
@@ -172,6 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 17,
             name: "Helderberg Hudson Rail Trail",
             type: "biking",
+            difficulty: "easy",
             lat: 42.6052,
             lng: -73.8267,
             description: "9.8-mile flat paved rail trail (Delmar parking)",
@@ -181,6 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 18,
             name: "Saratoga National Historical Park",
             type: ["hiking", "biking"],
+            difficulty: "easy",
             lat: 43.0138,
             lng: -73.6510,
             description: "Historic battlefield bike paths",
@@ -190,6 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 19,
             name: "Mohawk-Hudson Bike-Hike Trail",
             type: "biking",
+            difficulty: "easy",
             lat: 42.776838013968,
             lng: -73.82468856770342,
             description: "Multi-use rail trail along Mohawk River",
@@ -199,6 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 20,
             name: "Zim Smith Trail",
             type: "biking",
+            difficulty: "easy",
             lat: 42.919306,
             lng: -73.746602,
             description: "10+ mile rail trail network",
@@ -208,6 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 21,
             name: "Overlook Mountain",
             type: "hiking",
+            difficulty: "moderate",
             lat: 42.071094,
             lng: -74.122661,
             description: "Fire tower with ruins (3 miles RT)",
@@ -217,6 +247,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 22,
             name: "Graphite Range Community Forest",
             type: "hiking",
+            difficulty: "moderate",
             lat: 43.139455,
             lng: -73.768393,
             description: "New community forest trails",
@@ -226,6 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 23,
             name: "Colonie Town Park",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.7952541954362,
             lng: -73.74486179735592,
             description: "Extensive suburban trail network",
@@ -235,6 +267,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 24,
             name: "Swift Wetland Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.61605,
             lng: -73.8560833333,
             description: "Boardwalk wetland trails",
@@ -244,6 +277,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 25,
             name: "Five Rivers Environmental Center",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.6097338461417,
             lng: -73.89008407498632,
             description: "Interpretive trails (easy)",
@@ -253,6 +287,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 26,
             name: "Peebles Island State Park",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.7843,
             lng: -73.68015,
             description: "Riverside trails at Hudson confluence",
@@ -262,6 +297,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 27,
             name: "Severance Hill",
             type: "hiking",
+            difficulty: "moderate",
             lat: 43.8627,
             lng: -73.7548,
             description: "Short Adirondack hike to Schroon Lake views (1.2 miles, 740 ft gain)",
@@ -271,6 +307,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 28,
             name: "The Crossings of Colonie",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.71920362932012,
             lng: -73.78767830118417,
             description: "Local town park with nice paved trails)",
@@ -280,6 +317,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 29,
             name: "Schuyler Flatts Cultural Park",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.70699762083893,
             lng: -73.71075403359481,
             description: "Local town park with nice paved trails)",
@@ -289,6 +327,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 30,
             name: "Fisher Trail",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.62405673185724,
             lng: -73.88110472123549,
             link: "/2022/11/05/Fisher-Trail"
@@ -297,6 +336,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 31,
             name: "Skidmore North Woods",
             type: "hiking",
+            difficulty: "easy",
             lat: 43.10082361190161,
             lng: -73.77746082791766,
             description: "150-acre woodland preserve with trails for hiking, running, and walking",
@@ -306,6 +346,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 32,
             name: "Van Dyke Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.59566059553335,
             lng: -73.85548766373333,
             description: "1-mile loop trail along Phillipin Kill with woodland scenery",
@@ -315,6 +356,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 33,
             name: "Schiffendecker Farm Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.60909170440016,
             lng: -73.79661982072098,
             description: "1+ mile trail through wooded ravine in Glenmont",
@@ -324,6 +366,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 34,
             name: "H. G. Reist Bird Sanctuary",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.785030345253645,
             lng: -73.87886868599017,
             description: "111-acre preserve with 2 miles of trails in Niskayuna",
@@ -333,6 +376,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 35,
             name: "Touhey Family Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.607796699438744,
             lng: -73.87256304918789,
             description: "49-acre preserve with boardwalks, ravines and pond access",
@@ -342,6 +386,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 36,
             name: "Phillipin Kill Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.61085824612977,
             lng: -73.86873129157698,
             description: "Half-mile loop along Phillipin Kill in Bethlehem",
@@ -351,6 +396,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 38,
             name: "Wolf Creek Falls Preserve",
             type: "hiking",
+            difficulty: "moderate",
             lat: 42.72164187354379,
             lng: -74.08529654213602,
             description: "3 miles of trails with cascading waterfalls in Knox",
@@ -360,6 +406,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 39,
             name: "Normanskill Preserves",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.633285637472554,
             lng: -73.80153777388102,
             description: "Two parcels along Normanskill creek in steep ravines",
@@ -369,6 +416,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 40,
             name: "Paint Mine Trail (Thacher State Park)",
             type: "hiking",
+            difficulty: "easy",
             lat:42.65246066560167,
             lng: -74.01537671981946,
             description: "Trail featuring historic paint mine and scenic escarpment views",
@@ -378,6 +426,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 41,
             name: "Pine Hollow Arboretum",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.634437097699646,
             lng: -73.85712335490929,
             description: "22-acre arboretum with labeled trees from around the world",
@@ -387,6 +436,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 42,
             name: "Tawasentha Park",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.70359763708431,
             lng: -73.9350253749885,
             description: "Town park with scenic trails and multiple amenities",
@@ -396,6 +446,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 43,
             name: "Bozen Kill Preserve",
             type: "hiking",
+            difficulty: "moderate",
             lat: 42.71482653732635,
             lng: -74.04612422280962,
             description: "Scenic preserve with waterfalls and ravine views",
@@ -405,6 +456,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 44,
             name: "Capital Hills Golf Course Walking Trail",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.651849346285694,
             lng: -73.82152663050248,
             description: "2.7-mile paved trail through rolling hills",
@@ -414,6 +466,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 45,
             name: "Bennett Hill Preserve",
             type: "hiking",
+            difficulty: "moderate",
             lat: 42.571923039614184,
             lng: -73.9658216124356,
             description: "Climb to 1135-foot plateau with panoramic views",
@@ -423,6 +476,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 46,
             name: "Moreau Lake Overlook (Baker Trail)",
             type: "hiking",
+            difficulty: "moderate",
             lat: 43.24757993866199,
             lng: -73.7255108976534,
             description: "2.4-mile hike to scenic overlook of Moreau Lake",
@@ -432,6 +486,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 47,
             name: "High Point (Thacher State Park)",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.681552935292885, 
             lng: -74.05454484584577,
             description: "Scenic overlook with panoramic Hudson Valley views",
@@ -441,6 +496,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 48,
             name: "Lisha Kill Natural Area",
             type: "hiking",
+            difficulty: "moderate",
             lat: 42.796780320893824,
             lng: -73.85945289002032,
             description: "140-acre preserve with old-growth forest and streams",
@@ -450,6 +506,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 49,
             name: "Fox Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.77553810053436,
             lng: -73.79404230351282,
             description: "70-acre preserve with river overlook near Latham",
@@ -459,6 +516,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 50,
             name: "Mohawk Landing Nature Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.825126062106484,
             lng: -73.85989819980252,
             description: "Scenic overlook of Mohawk River with accessible trails",
@@ -468,6 +526,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 51,
             name: "Bauer Environmental Park",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.72452144858861,
             lng: -73.82155379517772,
             description: "Fully accessible boardwalk trail through wetlands",
@@ -477,6 +536,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 52,
             name: "Ashford Glen Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.76975621234441,
             lng: -73.83235480351316,
             description: "1-mile trail through beautiful glen with Vly Creek",
@@ -486,6 +546,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 53,
             name: "Ann Lee Pond Nature Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.73916040690136,
             lng: -73.81239654821148,
             description: "2.3-mile loop with wildflowers and historic significance",
@@ -495,6 +556,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 54,
             name: "Albany Pine Bush Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.719109000753775,
             lng: -73.86364275748106,
             description: "3400-acre preserve with 20 miles of trails and rare plants",
@@ -504,6 +566,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 55,
             name: "100 Acre Woods",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.956688265522814,
             lng: -73.7629872169936,
             description: "2 miles of flat to moderate trails in Malta",
@@ -513,6 +576,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 56,
             name: "North Woods Nature Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.92211009737895,
             lng: -73.81030409001308,
             description: "80-acre forest with streams and pond in Ballston Lake",
@@ -522,6 +586,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 57,
             name: "Woodcock Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.886572247979544,
             lng: -73.8310175476876,
             description: "Multiple trails through woodlands and swamp in Clifton Park",
@@ -531,6 +596,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 58,
             name: "Grafton Lakes State Park",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.776605,
             lng: -73.447502,
             description: "2357-acre park with 5 ponds and 25 miles of trails",
@@ -540,6 +606,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 59,
             name: "Lake Bonita (Moreau Lake State Park)",
             type: "hiking",
+            difficulty: "easy",
             lat: 43.20380814526685,
             lng: -73.76769649499049,
             description: "Lake trail with scenic views in Moreau Lake State Park",
@@ -549,6 +616,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 60,
             name: "Dwaas Kill Nature Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.8909761147041,
             lng: -73.78441777538964,
             description: "Preserve with waterfall and stream views",
@@ -558,6 +626,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 61,
             name: "Vischer Ferry Nature Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.792985489456356,
             lng: -73.79609317241598,
             description: "700+ acres of wetlands and historic Erie Canal towpath",
@@ -567,6 +636,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 62,
             name: "Palmertown Range",
             type: "hiking",
+            difficulty: "difficult",
             lat: 43.221516076378194,
             lng: -73.76531712466344,
             description: "Mountain range with panoramic views",
@@ -576,6 +646,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 63,
             name: "Ushers Road State Forest",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.91255588329069,
             lng: -73.77208820843038,
             description: "130+ acres of state forest with multiple trails",
@@ -585,6 +656,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 64,
             name: "Little Island",
             type: "hiking",
+            difficulty: "easy",
             lat: 40.742132460158345,
             lng: -74.01028827116376,
             link: "/2022/08/27/little-island-nyc"
@@ -593,6 +665,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 65,
             name: "Bender Melon Farm Preserve",
             type: "hiking",
+            difficulty: "easy",
             lat: 42.63750676165629, 
             lng: -73.90112232883624,
             link: "/2022/10/29/Bender-Melon-Farm-Preserve"
@@ -618,63 +691,128 @@ document.addEventListener('DOMContentLoaded', function() {
         iconSize: [32, 32], iconAnchor: [16, 16], popupAnchor: [0, -16]
     });
 
-// Multi-category support function
-const getIcon = (types) => {
-    const typeArray = Array.isArray(types) ? types : [types];
-    return typeArray.includes('hiking') ? hikingIcon : bikingIcon;
-};
+    // Store trail data with markers for filtering and icon switching
+    const trailMarkers = [];
+    let currentTypeFilter = 'all';
+    let currentDifficultyFilter = 'all';
 
-// Add markers with multi-category support
-trails.forEach(trail => {
-    const types = Array.isArray(trail.type) ? trail.type : [trail.type];
-    
-    const popupContent = `
-        <div class="nyt-trail-popup">
-            <h3>${trail.name}</h3>
-            ${types.length > 1 ? `<div>🏞️ ${types.join(', ')}</div>` : ''}
-            ${trail.links ? trail.links.map(l => 
-                `<a href="${l.url}" target="_blank">${l.text} →</a>`
-            ).join('') : `<a href="${trail.link}" target="_blank">View Details →</a>`}
-        </div>
-    `;
-    
-    const icon = getIcon(trail.type);
-    const marker = L.marker([trail.lat, trail.lng], { icon }).bindPopup(popupContent);
-    
-    // Add to ALL matching layers
-    types.forEach(type => {
-        if (type === 'hiking') hikingMarkers.addLayer(marker);
-        else if (type === 'biking') bikingMarkers.addLayer(marker);
+    // Create markers for each trail
+    trails.forEach(trail => {
+        const types = Array.isArray(trail.type) ? trail.type : [trail.type];
+        const isBoth = types.length > 1;
+        
+        const popupContent = `
+            <div class="nyt-trail-popup">
+                <h3>${trail.name}</h3>
+                ${trail.description ? `<p>${trail.description}</p>` : ''}
+                ${trail.difficulty ? `<div><strong>Difficulty:</strong> ${trail.difficulty.charAt(0).toUpperCase() + trail.difficulty.slice(1)}</div>` : ''}
+                ${isBoth ? `<div>🏞️ ${types.join(', ')}</div>` : ''}
+                ${trail.links ? trail.links.map(l => 
+                    `<a href="${l.url}" target="_blank">${l.text} →</a>`
+                ).join('') : `<a href="${trail.link}" target="_blank">View Details →</a>`}
+            </div>
+        `;
+        
+        const initialIcon = types.includes('hiking') ? hikingIcon : bikingIcon;
+        const marker = L.marker([trail.lat, trail.lng], { icon: initialIcon }).bindPopup(popupContent);
+        
+        trailMarkers.push({
+            marker,
+            trail,
+            types,
+            isBoth
+        });
+        
+        types.forEach(type => {
+            if (type === 'hiking') hikingMarkers.addLayer(marker);
+            else if (type === 'biking') bikingMarkers.addLayer(marker);
+        });
     });
-});
-
 
     hikingMarkers.addTo(map);
     bikingMarkers.addTo(map);
 
-    document.querySelectorAll('.nyt-filter-button').forEach(button => {
-        button.addEventListener('click', e => {
-            document.querySelectorAll('.nyt-filter-button').forEach(btn => btn.classList.remove('active'));
-            e.target.classList.add('active');
-            
-            map.removeLayer(hikingMarkers);
-            map.removeLayer(bikingMarkers);
-            
-            const category = e.target.dataset.category;
-            if (category === 'all') {
-                hikingMarkers.addTo(map);
-                bikingMarkers.addTo(map);
-            } else if (category === 'hiking') {
-                hikingMarkers.addTo(map);
-            } else if (category === 'biking') {
-                bikingMarkers.addTo(map);
+    function matchesFilters(item) {
+        const { trail, types, isBoth } = item;
+
+        // difficulty filter
+        if (currentDifficultyFilter !== 'all') {
+            if (!trail.difficulty || trail.difficulty !== currentDifficultyFilter) {
+                return false;
             }
+        }
+
+        // type filter (original behavior)
+        if (currentTypeFilter === 'all') return true;
+
+        if (currentTypeFilter === 'hiking') {
+            return types.includes('hiking');
+        } else if (currentTypeFilter === 'biking') {
+            return types.includes('biking');
+        }
+
+        return true;
+    }
+
+    function applyFiltersAndIcons() {
+        // remove layer groups
+        map.removeLayer(hikingMarkers);
+        map.removeLayer(bikingMarkers);
+
+        hikingMarkers.clearLayers();
+        bikingMarkers.clearLayers();
+
+        trailMarkers.forEach(item => {
+            const { marker, types, isBoth } = item;
+
+            // dynamic icon for dual-type trail
+            if (isBoth) {
+                if (currentTypeFilter === 'hiking') {
+                    marker.setIcon(hikingIcon);
+                } else if (currentTypeFilter === 'biking') {
+                    marker.setIcon(bikingIcon);
+                } else {
+                    marker.setIcon(hikingIcon);
+                }
+            }
+
+            if (matchesFilters(item)) {
+                if (types.includes('hiking')) hikingMarkers.addLayer(marker);
+                if (types.includes('biking')) bikingMarkers.addLayer(marker);
+            }
+        });
+
+        if (currentTypeFilter === 'all') {
+            hikingMarkers.addTo(map);
+            bikingMarkers.addTo(map);
+        } else if (currentTypeFilter === 'hiking') {
+            hikingMarkers.addTo(map);
+        } else if (currentTypeFilter === 'biking') {
+            bikingMarkers.addTo(map);
+        }
+    }
+
+    // Type buttons
+    document.querySelectorAll('.nyt-filter-button:not(.diff)').forEach(button => {
+        button.addEventListener('click', e => {
+            document.querySelectorAll('.nyt-filter-button:not(.diff)').forEach(btn => btn.classList.remove('active'));
+            e.target.classList.add('active');
+            currentTypeFilter = e.target.dataset.category;
+            applyFiltersAndIcons();
+        });
+    });
+
+    // Difficulty buttons
+    document.querySelectorAll('.nyt-filter-button.diff').forEach(button => {
+        button.addEventListener('click', e => {
+            document.querySelectorAll('.nyt-filter-button.diff').forEach(btn => btn.classList.remove('active'));
+            e.target.classList.add('active');
+            currentDifficultyFilter = e.target.dataset.difficulty;
+            applyFiltersAndIcons();
         });
     });
 
     const allMarkers = L.featureGroup([hikingMarkers, bikingMarkers]);
     map.fitBounds(allMarkers.getBounds(), { padding: [50, 50] });
-
-
 });
 </script>
