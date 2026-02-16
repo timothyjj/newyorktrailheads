@@ -13,7 +13,7 @@ cover-img: img/bender-melon.jpg
 
 ---
 
-<p>After a lengthy battle to keep this former farm from development, the Mohawk Hudson Land Conservancy purchased this plot of land in 2020. Covering 175 acres, this preserve contains a mix of woods, fields, and wetlands.</p>
+<p>After a lengthy battle to keep this former farm from development, the Mohawk Hudson Land Conservancy purchased the land in 2020. Covering 175 acres, this preserve contains a mix of woods, fields, and wetlands.</p>
 
 <p>Various trail loops traverse close to three miles all together throughout this preserve. Additionally, the property connects to the <a href="https://newyorktrailheads.com/2018/07/22/Albany-County-Rail-Trail.html">Albany County Rail Trail</a>, allowing for extending a walk over the 9 miles of paved trail. If staying on David's Trail, you'll walk on a bridge over the Rail Trail.</p>
 
