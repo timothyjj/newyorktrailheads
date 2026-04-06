@@ -139,6 +139,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-gpx@1.7.0/gpx.min.js"></script>
 
 </head>
 
@@ -247,7 +252,110 @@
     <div class=" col-xl-12 col-lg-12 col-md-12 ">
       
 
-      <div class="nyt-trail-widget">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+
+<style>
+    .nyt-trail-widget {
+        margin: 2rem 0;
+    }
+
+    .nyt-container {
+        background: #fff;
+        border: 1px solid rgba(167, 169, 169, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .nyt-header {
+        padding: 1rem;
+        border-bottom: 1px solid rgba(167, 169, 169, 0.2);
+        background: #fafafa;
+    }
+
+    .nyt-filters {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .nyt-filter-label {
+        font-weight: 600;
+        color: #13343b;
+    }
+
+    .nyt-filter-button {
+        border: 1px solid rgba(167, 169, 169, 0.35);
+        background: white;
+        color: #13343b;
+        padding: 0.45rem 0.8rem;
+        border-radius: 999px;
+        font-size: 0.92rem;
+        cursor: pointer;
+        transition: all 200ms ease;
+    }
+
+    .nyt-filter-button:hover {
+        background: #f0f5f6;
+    }
+
+    .nyt-filter-button.active {
+        background: rgba(33, 128, 141, 1);
+        color: white;
+        border-color: rgba(33, 128, 141, 1);
+    }
+
+    .nyt-map {
+        width: 100%;
+        height: 620px;
+    }
+
+    @media (max-width: 768px) {
+        .nyt-map {
+            height: 460px;
+        }
+    }
+
+    .nyt-trail-popup h3 {
+        margin: 0 0 8px 0;
+        font-size: 15px;
+        font-weight: 600;
+        color: #13343b;
+    }
+
+    .nyt-trail-popup p {
+        margin: 0 0 8px 0;
+        font-size: 13px;
+        line-height: 1.45;
+    }
+
+    .nyt-trail-popup div {
+        font-size: 12px;
+        margin: 0 0 6px 0;
+    }
+
+    .nyt-trail-popup a {
+        display: block;
+        margin-top: 8px;
+        padding: 6px 10px;
+        background: rgba(33, 128, 141, 1);
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .nyt-trail-popup a:hover {
+        background: rgba(29, 116, 128, 1);
+    }
+</style>
+
+<div class="nyt-trail-widget">
     <div class="nyt-container">
         <div class="nyt-header">
             <div class="nyt-filters">
@@ -257,7 +365,6 @@
                 <button class="nyt-filter-button biking" data-category="biking">Biking</button>
             </div>
 
-            <!-- NEW: Difficulty filters -->
             <div class="nyt-filters nyt-difficulty-filters" style="margin-top: 10px;">
                 <span class="nyt-filter-label">Difficulty:</span>
                 <button class="nyt-filter-button diff active" data-difficulty="all">All</button>
@@ -270,8 +377,13 @@
     </div>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
+<script type="module">
+document.addEventListener('DOMContentLoaded', async function() {
+    console.log('Leaflet loaded:', typeof L !== 'undefined');
+
+    await import('https://cdn.jsdelivr.net/npm/leaflet-gpx@2.2.0/gpx.js');
+    console.log('Leaflet GPX loaded:', typeof L !== 'undefined' ? L.GPX : 'L missing');
+
     const trails = [
         {
             id: 1,
@@ -285,7 +397,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { text: "Bradley's Lookout", url: "/2023/10/21/Bradleys-Lookout" },
                 { text: "The Pinnacle", url: "/2016/07/02/The-Pinnacle" }
             ]
-        },    
+        },
         {
             id: 2,
             name: "Baker Mountain",
@@ -463,8 +575,9 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: "easy",
             lat: 42.776838013968,
             lng: -73.82468856770342,
-            description: "Multi-use rail trail along Mohawk River",
-            link: "/2016/06/04/Mohawk-Hudson-Bike-Hike-Trail"
+            description: "Multi-use trail from Rotterdam to Albany",
+            link: "/2016/06/04/Mohawk-Hudson-Bike-Hike-Trail",
+            gpx: "/assets/gpx/mohawkhudson.gpx"
         },
         {
             id: 20,
@@ -553,7 +666,7 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: "easy",
             lat: 42.71920362932012,
             lng: -73.78767830118417,
-            description: "Local town park with nice paved trails)",
+            description: "Local town park with nice paved trails",
             link: "/2023/10/28/The-Crossings-of-Colonie"
         },
         {
@@ -563,7 +676,7 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: "easy",
             lat: 42.70699762083893,
             lng: -73.71075403359481,
-            description: "Local town park with nice paved trails)",
+            description: "Local town park with nice paved trails",
             link: "/2022/11/12/Schuyler-Flatts-Cultural-Park"
         },
         {
@@ -660,7 +773,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: "Paint Mine Trail (Thacher State Park)",
             type: "hiking",
             difficulty: "easy",
-            lat:42.65246066560167,
+            lat: 42.65246066560167,
             lng: -74.01537671981946,
             description: "Trail featuring historic paint mine and scenic escarpment views",
             link: "/2020/05/10/Thacher-Park-Paint-Mine-Trail"
@@ -730,7 +843,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: "High Point (Thacher State Park)",
             type: "hiking",
             difficulty: "easy",
-            lat: 42.681552935292885, 
+            lat: 42.681552935292885,
             lng: -74.05454484584577,
             description: "Scenic overlook with panoramic Hudson Valley views",
             link: "/2019/07/19/High-Point"
@@ -909,7 +1022,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: "Bender Melon Farm Preserve",
             type: "hiking",
             difficulty: "easy",
-            lat: 42.63750676165629, 
+            lat: 42.63750676165629,
             lng: -73.90112232883624,
             link: "/2022/10/29/Bender-Melon-Farm-Preserve"
         },
@@ -920,7 +1033,7 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: "easy",
             lat: 41.7465,
             lng: -74.0859,
-            description: "22‑mile crushed‑stone rail trail between Gardiner and Kingston with farms, woods, and trestle bridge views",
+            description: "22-mile crushed-stone rail trail between Gardiner and Kingston with farms, woods, and trestle bridge views",
             link: "https://wallkillvalleylt.org/wvrt/"
         },
         {
@@ -938,14 +1051,15 @@ document.addEventListener('DOMContentLoaded', function() {
             name: "Adirondack Rail Trail",
             type: "biking",
             difficulty: "moderate",
-            lat: 44.27598464050971, 
+            lat: 44.27598464050971,
             lng: -73.98975296091001,
             description: "34-mile multipurpose trail running from Lake Placid to Tupper Lake",
             link: "https://www.adirondackrailtrail.org/"
-        },
+        }
     ];
 
     const map = L.map('nyt-map').setView([42.6526, -73.7562], 8);
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 18,
         attribution: '© OpenStreetMap contributors'
@@ -955,50 +1069,92 @@ document.addEventListener('DOMContentLoaded', function() {
     const bikingMarkers = L.featureGroup();
 
     const hikingIcon = L.divIcon({
-        html: `<div style="background: rgba(232, 121, 74, 0.9); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">🥾</div>`,
-        iconSize: [32, 32], iconAnchor: [16, 16], popupAnchor: [0, -16]
+        html: '<div style="background: rgba(232, 121, 74, 0.9); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">🥾</div>',
+        iconSize: [32, 32],
+        iconAnchor: [16, 16],
+        popupAnchor: [0, -16],
+        className: ''
     });
 
     const bikingIcon = L.divIcon({
-        html: `<div style="background: rgba(50, 184, 198, 0.9); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">🚴</div>`,
-        iconSize: [32, 32], iconAnchor: [16, 16], popupAnchor: [0, -16]
+        html: '<div style="background: rgba(50, 184, 198, 0.9); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">🚴</div>',
+        iconSize: [32, 32],
+        iconAnchor: [16, 16],
+        popupAnchor: [0, -16],
+        className: ''
     });
 
-    // Store trail data with markers for filtering and icon switching
     const trailMarkers = [];
     let currentTypeFilter = 'all';
     let currentDifficultyFilter = 'all';
+    let activeGpxLayer = null;
+    let activeGpxTrailId = null;
 
-    // Create markers for each trail
+    function removeActiveGpx() {
+        if (activeGpxLayer) {
+            map.removeLayer(activeGpxLayer);
+            activeGpxLayer = null;
+            activeGpxTrailId = null;
+        }
+    }
+
     trails.forEach(trail => {
         const types = Array.isArray(trail.type) ? trail.type : [trail.type];
         const isBoth = types.length > 1;
-        
+
         const popupContent = `
             <div class="nyt-trail-popup">
                 <h3>${trail.name}</h3>
                 ${trail.description ? `<p>${trail.description}</p>` : ''}
                 ${trail.difficulty ? `<div><strong>Difficulty:</strong> ${trail.difficulty.charAt(0).toUpperCase() + trail.difficulty.slice(1)}</div>` : ''}
-                ${isBoth ? `<div>🏞️ ${types.join(', ')}</div>` : ''}
-                ${trail.links ? trail.links.map(l => 
-                    `<a href="${l.url}" target="_blank">${l.text} →</a>`
-                ).join('') : `<a href="${trail.link}" target="_blank">View Details →</a>`}
+                ${isBoth ? `<div>Types: ${types.join(', ')}</div>` : ''}
+                ${trail.links ? trail.links.map(l =>
+                    `<a href="${l.url}" target="_blank" rel="noopener noreferrer">${l.text} →</a>`
+                ).join('') : `<a href="${trail.link}" target="_blank" rel="noopener noreferrer">View Details →</a>`}
             </div>
         `;
-        
+
         const initialIcon = types.includes('hiking') ? hikingIcon : bikingIcon;
         const marker = L.marker([trail.lat, trail.lng], { icon: initialIcon }).bindPopup(popupContent);
-        
-        trailMarkers.push({
-            marker,
-            trail,
-            types,
-            isBoth
+
+        marker.on('click', function() {
+            if (!trail.gpx) return;
+
+            if (activeGpxTrailId === trail.id) return;
+
+            removeActiveGpx();
+            activeGpxTrailId = trail.id;
+
+            activeGpxLayer = new L.GPX(trail.gpx, {
+                async: true,
+                polyline_options: {
+                    color: '#21808d',
+                    weight: 5,
+                    opacity: 1,
+                    lineCap: 'round'
+                },
+                markers: {
+                    startIcon: null,
+                    endIcon: null
+                }
+            })
+            .on('loaded', function(event) {
+                console.log('GPX loaded:', trail.gpx);
+                map.fitBounds(event.target.getBounds(), { padding: [30, 30] });
+            })
+            .on('error', function(e) {
+                console.error('Error loading file:', e.err || e);
+                activeGpxLayer = null;
+                activeGpxTrailId = null;
+            })
+            .addTo(map);
         });
-        
+
+        trailMarkers.push({ marker, trail, types, isBoth });
+
         types.forEach(type => {
             if (type === 'hiking') hikingMarkers.addLayer(marker);
-            else if (type === 'biking') bikingMarkers.addLayer(marker);
+            if (type === 'biking') bikingMarkers.addLayer(marker);
         });
     });
 
@@ -1006,29 +1162,21 @@ document.addEventListener('DOMContentLoaded', function() {
     bikingMarkers.addTo(map);
 
     function matchesFilters(item) {
-        const { trail, types, isBoth } = item;
+        const { trail, types } = item;
 
-        // difficulty filter
         if (currentDifficultyFilter !== 'all') {
             if (!trail.difficulty || trail.difficulty !== currentDifficultyFilter) {
                 return false;
             }
         }
 
-        // type filter (original behavior)
         if (currentTypeFilter === 'all') return true;
-
-        if (currentTypeFilter === 'hiking') {
-            return types.includes('hiking');
-        } else if (currentTypeFilter === 'biking') {
-            return types.includes('biking');
-        }
-
+        if (currentTypeFilter === 'hiking') return types.includes('hiking');
+        if (currentTypeFilter === 'biking') return types.includes('biking');
         return true;
     }
 
     function applyFiltersAndIcons() {
-        // remove layer groups
         map.removeLayer(hikingMarkers);
         map.removeLayer(bikingMarkers);
 
@@ -1038,11 +1186,8 @@ document.addEventListener('DOMContentLoaded', function() {
         trailMarkers.forEach(item => {
             const { marker, types, isBoth } = item;
 
-            // dynamic icon for dual-type trail
             if (isBoth) {
-                if (currentTypeFilter === 'hiking') {
-                    marker.setIcon(hikingIcon);
-                } else if (currentTypeFilter === 'biking') {
+                if (currentTypeFilter === 'biking') {
                     marker.setIcon(bikingIcon);
                 } else {
                     marker.setIcon(hikingIcon);
@@ -1063,9 +1208,18 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (currentTypeFilter === 'biking') {
             bikingMarkers.addTo(map);
         }
+
+        if (activeGpxTrailId) {
+            const activeTrailStillVisible = trailMarkers.some(item =>
+                item.trail.id === activeGpxTrailId && matchesFilters(item)
+            );
+
+            if (!activeTrailStillVisible) {
+                removeActiveGpx();
+            }
+        }
     }
 
-    // Type buttons
     document.querySelectorAll('.nyt-filter-button:not(.diff)').forEach(button => {
         button.addEventListener('click', e => {
             document.querySelectorAll('.nyt-filter-button:not(.diff)').forEach(btn => btn.classList.remove('active'));
@@ -1075,7 +1229,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Difficulty buttons
     document.querySelectorAll('.nyt-filter-button.diff').forEach(button => {
         button.addEventListener('click', e => {
             document.querySelectorAll('.nyt-filter-button.diff').forEach(btn => btn.classList.remove('active'));

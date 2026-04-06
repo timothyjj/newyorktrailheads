@@ -1142,17 +1142,14 @@ pre {
     width: 100% !important;
     height: 100% !important;
 }
-    .nyt-trail-widget {
-        all: initial;
-        display: block;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    }
 
     .nyt-trail-widget * {
         box-sizing: border-box;
     }
 
     .nyt-trail-widget {
+        all: initial;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         --nyt-color-white: rgba(255, 255, 255, 1);
         --nyt-color-cream-50: rgba(252, 252, 249, 1);
         --nyt-color-gray-300: rgba(167, 169, 169, 1);
@@ -1165,6 +1162,8 @@ pre {
         --nyt-space-16: 16px;
         --nyt-radius-base: 8px;
         --nyt-duration-normal: 250ms;
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
     }
 
     .nyt-trail-widget .nyt-container {
@@ -1340,13 +1339,6 @@ pre {
         background: var(--nyt-color-white) !important;
     }
 
-.nyt-trail-widget {
-    all: initial;
-    display: block;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-}
 
 .posts-grid {
   display: grid;
@@ -1544,3 +1536,5 @@ pre {
     justify-content: center;
   }
 }
+
+
