@@ -117,6 +117,29 @@
             .addTo(map)
             .openPopup();
 
+        if (trail.gpx && typeof L.GPX === 'function') {
+            new L.GPX(trail.gpx, {
+                async: true,
+                polyline_options: {
+                    color: '#21808d',
+                    weight: 5,
+                    opacity: 1,
+                    lineCap: 'round'
+                },
+                markers: {
+                    startIcon: null,
+                    endIcon: null
+                }
+            })
+            .on('loaded', function(event) {
+                const bounds = event.target.getBounds();
+                if (bounds && bounds.isValid()) {
+                    map.fitBounds(bounds, { padding: [30, 30] });
+                }
+            })
+            .addTo(map);
+        }
+
         // Add click-to-copy functionality for coordinates
         map.on('popupopen', function() {
             const coordElement = document.querySelector('.coordinates');
