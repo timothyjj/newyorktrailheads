@@ -81,10 +81,6 @@
   
 
   
-    
-      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-    
-  
 
   
   
@@ -143,8 +139,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js"></script>
 
 </head>
@@ -400,29 +396,34 @@
             .addTo(map)
             .openPopup();
 
-        if (trail.gpx && typeof L.GPX === 'function') {
-            new L.GPX(trail.gpx, {
-                async: true,
-                polyline_options: {
-                    color: '#21808d',
-                    weight: 5,
-                    opacity: 1,
-                    lineCap: 'round'
-                },
-                markers: {
-                    startIcon: null,
-                    endIcon: null
-                }
-            })
-            .on('loaded', function(event) {
-                const bounds = event.target.getBounds();
-                if (bounds && bounds.isValid()) {
-                    map.fitBounds(bounds, { padding: [30, 30] });
-                }
-            })
-            .addTo(map);
+if (trail.gpx && typeof L.GPX === 'function') {
+    new L.GPX(trail.gpx, {
+        async: true,
+        polyline_options: {
+            color: '#21808d',
+            weight: 5,
+            opacity: 1,
+            lineCap: 'round'
+        },
+        markers: {
+            startIcon: null,
+            endIcon: null,
+            wptIcons: {}
         }
-
+    })
+    .on('loaded', function(event) {
+        const bounds = event.target.getBounds();
+        if (bounds && bounds.isValid()) {
+            map.fitBounds(bounds, { padding: [30, 30] });
+        }
+    })
+    .on('error', function(e) {
+        console.error('GPX load error:', trail.gpx, e);
+    })
+    .addTo(map);
+} else {
+    console.error('L.GPX is unavailable or no GPX path exists for trail', trailId);
+}
         // Add click-to-copy functionality for coordinates
         map.on('popupopen', function() {
             const coordElement = document.querySelector('.coordinates');
@@ -836,10 +837,6 @@
   
 
 
-
-  
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  
 
 
 
