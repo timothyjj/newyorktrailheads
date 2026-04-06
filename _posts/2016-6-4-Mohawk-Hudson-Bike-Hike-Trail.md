@@ -37,8 +37,4 @@ Road"><br />
 <img src="/img/mohawk-hudson-trail/trail.jpeg" alt="On the trail"><br />
 </div>
 <h2 id="trailmap">Mohawk-Hudson Bike Trail Map</h2>
-Cohoes-Rotterdam Section
-
-<div class="google-maps">
-	<iframe src="https://www.google.com/maps/d/embed?mid=19OR-1L0Y3vnDBy0FiP8hbPnh2cA" ></iframe>
-</div>
+{% include hike-map.html id=19 %}

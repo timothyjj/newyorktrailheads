@@ -4,107 +4,6 @@ title: Trail Locator
 subtitle: Find Upstate NY Trails
 ---
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-
-<style>
-    .nyt-trail-widget {
-        margin: 2rem 0;
-    }
-
-    .nyt-container {
-        background: #fff;
-        border: 1px solid rgba(167, 169, 169, 0.2);
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-
-    .nyt-header {
-        padding: 1rem;
-        border-bottom: 1px solid rgba(167, 169, 169, 0.2);
-        background: #fafafa;
-    }
-
-    .nyt-filters {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-    .nyt-filter-label {
-        font-weight: 600;
-        color: #13343b;
-    }
-
-    .nyt-filter-button {
-        border: 1px solid rgba(167, 169, 169, 0.35);
-        background: white;
-        color: #13343b;
-        padding: 0.45rem 0.8rem;
-        border-radius: 999px;
-        font-size: 0.92rem;
-        cursor: pointer;
-        transition: all 200ms ease;
-    }
-
-    .nyt-filter-button:hover {
-        background: #f0f5f6;
-    }
-
-    .nyt-filter-button.active {
-        background: rgba(33, 128, 141, 1);
-        color: white;
-        border-color: rgba(33, 128, 141, 1);
-    }
-
-    .nyt-map {
-        width: 100%;
-        height: 620px;
-    }
-
-    @media (max-width: 768px) {
-        .nyt-map {
-            height: 460px;
-        }
-    }
-
-    .nyt-trail-popup h3 {
-        margin: 0 0 8px 0;
-        font-size: 15px;
-        font-weight: 600;
-        color: #13343b;
-    }
-
-    .nyt-trail-popup p {
-        margin: 0 0 8px 0;
-        font-size: 13px;
-        line-height: 1.45;
-    }
-
-    .nyt-trail-popup div {
-        font-size: 12px;
-        margin: 0 0 6px 0;
-    }
-
-    .nyt-trail-popup a {
-        display: block;
-        margin-top: 8px;
-        padding: 6px 10px;
-        background: rgba(33, 128, 141, 1);
-        color: white;
-        text-decoration: none;
-        border-radius: 4px;
-        font-weight: 500;
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .nyt-trail-popup a:hover {
-        background: rgba(29, 116, 128, 1);
-    }
-</style>
 
 <div class="nyt-trail-widget">
     <div class="nyt-container">
@@ -868,15 +767,18 @@ document.addEventListener('DOMContentLoaded', async function() {
         const initialIcon = types.includes('hiking') ? hikingIcon : bikingIcon;
         const marker = L.marker([trail.lat, trail.lng], { icon: initialIcon }).bindPopup(popupContent);
 
-        marker.on('click', function() {
-            if (!trail.gpx) return;
+marker.on('click', function() {
+    if (activeGpxTrailId !== trail.id) {
+        removeActiveGpx();
+    }
 
-            if (activeGpxTrailId === trail.id) return;
+    if (!trail.gpx) return;
 
-            removeActiveGpx();
-            activeGpxTrailId = trail.id;
+    if (activeGpxTrailId === trail.id) return;
 
-            activeGpxLayer = new L.GPX(trail.gpx, {
+    activeGpxTrailId = trail.id;
+
+    activeGpxLayer = new L.GPX(trail.gpx, {
                 async: true,
                 polyline_options: {
                     color: '#21808d',
