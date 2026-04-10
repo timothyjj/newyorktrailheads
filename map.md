@@ -14,7 +14,7 @@ subtitle: Find Upstate NY Trails
         <button class="nyt-filter-button biking" data-category="biking">Biking</button>
       </div>
 
-      <div class="nyt-filters nyt-difficulty-filters" style="margin-top: 10px;">
+      <div class="nyt-filters nyt-difficulty-filters">
         <span class="nyt-filter-label">Difficulty</span>
         <button class="nyt-filter-button diff active" data-difficulty="all">All</button>
         <button class="nyt-filter-button diff" data-difficulty="easy">Easy</button>

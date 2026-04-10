@@ -1808,3 +1808,54 @@ pre {
 .trail-popup .leaflet-popup-content a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .nyt-trail-widget .nyt-filters {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+    margin-top: 0;
+  }
+
+  .nyt-trail-widget .nyt-filter-label {
+    display: block;
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .nyt-trail-widget .nyt-filters .nyt-filter-button {
+    min-width: 0;
+    white-space: nowrap;
+    padding: 0.45rem 0.6rem;
+    font-size: 0.6rem;
+  }
+
+  .nyt-trail-widget .nyt-filters:not(.nyt-difficulty-filters) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .nyt-trail-widget .nyt-filters:not(.nyt-difficulty-filters) .nyt-filter-label {
+    grid-column: 1 / -1;
+  }
+
+  .nyt-trail-widget .nyt-difficulty-filters {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 0.5rem !important;
+  }
+
+  .nyt-trail-widget .nyt-difficulty-filters .nyt-filter-label {
+    grid-column: 1 / -1;
+  }
+
+  .nyt-trail-widget .nyt-filter-button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .nyt-trail-widget .nyt-filter-button {
+    font-size: 0.6rem;
+    padding: 0.4rem 0.45rem;
+  }
+}
