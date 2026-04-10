@@ -62,6 +62,16 @@ document.addEventListener('DOMContentLoaded', async function () {
     className: ''
   });
 
+  const parkingLayer = L.layerGroup().addTo(map);
+
+  const parkingIcon = L.divIcon({
+    html: `<div style="background:#374151;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-size:16px;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.25);">P</div>`,
+    iconSize: [34, 34],
+    iconAnchor: [17, 34],
+    popupAnchor: [0, -28],
+    className: ''
+  });
+
   const trailMarkers = [];
   let currentTypeFilter = 'all';
   let currentDifficultyFilter = 'all';
@@ -73,6 +83,44 @@ document.addEventListener('DOMContentLoaded', async function () {
       map.removeLayer(activeGpxLayer);
       activeGpxLayer = null;
       activeGpxTrailId = null;
+    }
+  }
+
+    function showParkingAreas(trail, options = {}) {
+    const { fit = false } = options;
+
+    parkingLayer.clearLayers();
+
+    if (!trail.parking || !trail.parking.length) return;
+
+    const bounds = L.latLngBounds([]);
+
+    if (trail.lat && trail.lng) {
+      bounds.extend([trail.lat, trail.lng]);
+    }
+
+    trail.parking.forEach(parking => {
+      if (typeof parking.lat !== 'number' || typeof parking.lng !== 'number') return;
+
+      let parkingPopup = `<div class="nyt-trail-popup"><h3>${parking.name || 'Parking Area'}</h3>`;
+
+      if (parking.address) {
+        parkingPopup += `<p>${parking.address}</p>`;
+      }
+
+      parkingPopup += `<div><strong>Coordinates:</strong> ${parking.lat}, ${parking.lng}</div></div>`;
+
+      const parkingMarker = L.marker([parking.lat, parking.lng], { icon: parkingIcon })
+        .bindPopup(parkingPopup, {
+          className: 'trail-popup'
+        });
+
+      parkingLayer.addLayer(parkingMarker);
+      bounds.extend([parking.lat, parking.lng]);
+    });
+
+    if (fit && bounds.isValid()) {
+      map.fitBounds(bounds, { padding: [40, 40] });
     }
   }
 
@@ -101,6 +149,8 @@ document.addEventListener('DOMContentLoaded', async function () {
       .bindPopup(popupContent);
 
     marker.on('click', function() {
+      showParkingAreas(trail);
+
       if (activeGpxTrailId !== trail.id) removeActiveGpx();
       if (!trail.gpx) return;
       if (activeGpxTrailId === trail.id) return;
@@ -186,8 +236,14 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     if (activeGpxTrailId) {
-      const activeTrailStillVisible = trailMarkers.some(item => item.trail.id === activeGpxTrailId && matchesFilters(item));
-      if (!activeTrailStillVisible) removeActiveGpx();
+      const activeTrailStillVisible = trailMarkers.some(
+        item => item.trail.id === activeGpxTrailId && matchesFilters(item)
+      );
+
+      if (!activeTrailStillVisible) {
+        removeActiveGpx();
+        parkingLayer.clearLayers();
+      }
     }
   }
 

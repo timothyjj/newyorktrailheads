@@ -158,11 +158,11 @@
   gpx: "/assets/gpx/mohawkhudson.gpx"
   parking:
     - name: "Kiwanis Park"
-      lat: 42.847031
-      lng: -74.014043
+      lat: 42.84703
+      lng: -74.01404
     - name: "SUNY Schenectady"
-      lat: 42.815374
-      lng: -73.946623
+      lat: 42.81537
+      lng: -73.94662
     - name: "Blatnick Park"
       lat: 42.81600
       lng: -73.86341
@@ -170,11 +170,11 @@
       lat: 42.77751
       lng: -73.82289
     - name: "Colonie Town Park"
-      lat: 42.7948825
-      lng: -73.7446976
+      lat: 42.79488
+      lng: -73.74470
     - name: "Corning Preserve"
-      lat: 42.64207570031775
-      lng: -73.75069502611034
+      lat: 42.64208
+      lng: -73.75070
 
 - id: 20
   name: "Zim Smith Trail"
