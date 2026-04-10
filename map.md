@@ -4,894 +4,214 @@ title: Trail Locator
 subtitle: Find Upstate NY Trails
 ---
 
-
 <div class="nyt-trail-widget">
-    <div class="nyt-container">
-        <div class="nyt-header">
-            <div class="nyt-filters">
-                <span class="nyt-filter-label">Filter by type:</span>
-                <button class="nyt-filter-button all active" data-category="all">All</button>
-                <button class="nyt-filter-button hiking" data-category="hiking">Hiking</button>
-                <button class="nyt-filter-button biking" data-category="biking">Biking</button>
-            </div>
+  <div class="nyt-container">
+    <div class="nyt-header">
+      <div class="nyt-filters">
+        <span class="nyt-filter-label">Filter by type</span>
+        <button class="nyt-filter-button all active" data-category="all">All</button>
+        <button class="nyt-filter-button hiking" data-category="hiking">Hiking</button>
+        <button class="nyt-filter-button biking" data-category="biking">Biking</button>
+      </div>
 
-            <div class="nyt-filters nyt-difficulty-filters" style="margin-top: 10px;">
-                <span class="nyt-filter-label">Difficulty:</span>
-                <button class="nyt-filter-button diff active" data-difficulty="all">All</button>
-                <button class="nyt-filter-button diff" data-difficulty="easy">Easy</button>
-                <button class="nyt-filter-button diff" data-difficulty="moderate">Moderate</button>
-                <button class="nyt-filter-button diff" data-difficulty="difficult">Difficult</button>
-            </div>
-        </div>
-        <div class="nyt-map" id="nyt-map"></div>
+      <div class="nyt-filters nyt-difficulty-filters" style="margin-top: 10px;">
+        <span class="nyt-filter-label">Difficulty</span>
+        <button class="nyt-filter-button diff active" data-difficulty="all">All</button>
+        <button class="nyt-filter-button diff" data-difficulty="easy">Easy</button>
+        <button class="nyt-filter-button diff" data-difficulty="moderate">Moderate</button>
+        <button class="nyt-filter-button diff" data-difficulty="difficult">Difficult</button>
+      </div>
     </div>
+
+    <div class="nyt-map" id="nyt-map"></div>
+  </div>
 </div>
 
+<script type="application/json" id="trails-data">
+{{ site.data.trails | jsonify }}
+</script>
+
 <script type="module">
-document.addEventListener('DOMContentLoaded', async function() {
-    console.log('Leaflet loaded:', typeof L !== 'undefined');
+document.addEventListener('DOMContentLoaded', async function () {
+  await import('https://cdn.jsdelivr.net/npm/leaflet-gpx@2.2.0/gpx.js');
 
-    await import('https://cdn.jsdelivr.net/npm/leaflet-gpx@2.2.0/gpx.js');
-    console.log('Leaflet GPX loaded:', typeof L !== 'undefined' ? L.GPX : 'L missing');
+  const trails = JSON.parse(document.getElementById('trails-data').textContent);
+  const map = L.map('nyt-map').setView([42.6526, -73.7562], 8);
 
-    const trails = [
-        {
-            id: 1,
-            name: "Bradley's Lookout & The Pinnacle",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 43.557024,
-            lng: -73.681616,
-            description: "Easy family hike with two Lake George overlook options",
-            links: [
-                { text: "Bradley's Lookout", url: "/2023/10/21/Bradleys-Lookout" },
-                { text: "The Pinnacle", url: "/2016/07/02/The-Pinnacle" }
-            ]
-        },
-        {
-            id: 2,
-            name: "Baker Mountain",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 44.331405,
-            lng: -74.115836,
-            description: "Short but steep hike with High Peaks views",
-            link: "/2021/08/14/Baker-Mountain"
-        },
-        {
-            id: 3,
-            name: "Shelving Rock Falls",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 43.5530,
-            lng: -73.5965,
-            description: "Short hike to beautiful waterfall in Lake George Wild Forest",
-            link: "/2020/08/07/Shelving-Rock-Falls"
-        },
-        {
-            id: 4,
-            name: "Roaring Brook Falls",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 44.150387,
-            lng: -73.767696,
-            description: "Easy access waterfall in Adirondack wilderness",
-            link: "/2019/02/09/Roaring-Brook-Falls"
-        },
-        {
-            id: 5,
-            name: "Spruce Mountain",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 43.216373,
-            lng: -73.906211,
-            description: "Fire tower with views (3 miles round trip)",
-            link: "/2018/05/20/Spruce-Mountain"
-        },
-        {
-            id: 6,
-            name: "Cat & Thomas Mountains",
-            type: "hiking",
-            difficulty: "difficult",
-            lat: 43.603889,
-            lng: -73.692500,
-            description: "Lake George double summit hike",
-            link: "/2016/08/13/Cat-and-Thomas-Mountains"
-        },
-        {
-            id: 7,
-            name: "Schumann Preserve at Pilot Knob",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 43.471634,
-            lng: -73.625985,
-            description: "Easy Lake George preserve trails",
-            link: "/2016/08/07/Pilot-Knob"
-        },
-        {
-            id: 8,
-            name: "Black Mountain",
-            type: "hiking",
-            difficulty: "difficult",
-            lat: 43.603889,
-            lng: -73.692500,
-            description: "Fire tower with 360° Lake George views (6 miles)",
-            link: "/2016/07/22/Black-Mountain"
-        },
-        {
-            id: 9,
-            name: "Poke-O-Moonshine",
-            type: "hiking",
-            difficulty: "difficult",
-            lat: 44.389246,
-            lng: -73.507423,
-            description: "Classic Adirondack cliff hike (multiple routes)",
-            link: "/2016/07/18/Poke-O-Moonshine"
-        },
-        {
-            id: 10,
-            name: "Deer Leap (Tongue Mountain)",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 43.661326,
-            lng: -73.544811,
-            description: "Steep overlook on Tongue Mountain Range",
-            link: "/2016/06/25/Deer-Leap"
-        },
-        {
-            id: 11,
-            name: "Inman Pond",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 43.489081,
-            lng: -73.570163,
-            description: "Easy pond loop in Lake George area",
-            link: "/2016/05/15/Inman-Pond"
-        },
-        {
-            id: 12,
-            name: "Prospect Mountain",
-            type: "hiking",
-            difficulty: "difficult",
-            lat: 43.42553938947501,
-            lng: -73.72009037302082,
-            description: "Historic trail with incline railway ruins",
-            link: "/2016/05/08/Prospect-Mountain"
-        },
-        {
-            id: 13,
-            name: "Sleeping Beauty Mountain",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 43.5495,
-            lng: -73.5559,
-            description: "Popular Lake George hike with dramatic cliffs",
-            link: "/2016/04/24/Sleeping-Beauty-Mountain"
-        },
-        {
-            id: 14,
-            name: "Shelving Rock Mountain",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 43.5500,
-            lng: -73.5833,
-            description: "Lake George Wild Forest summit",
-            link: "/2016/04/23/Shelving-Rock-Mountain"
-        },
-        {
-            id: 15,
-            name: "Hadley Mountain",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 43.37386,
-            lng: -73.95063,
-            description: "Fire tower with Hudson Valley views (1.5 miles)",
-            link: "/2016/04/23/Hadley-Mountain"
-        },
-        {
-            id: 16,
-            name: "Buck Mountain",
-            type: "hiking",
-            difficulty: "difficult",
-            lat: 43.509238,
-            lng: -73.631144,
-            description: "Challenging Lake George summit",
-            link: "/2016/04/02/Buck-Mountain"
-        },
-        {
-            id: 17,
-            name: "Helderberg Hudson Rail Trail",
-            type: "biking",
-            difficulty: "easy",
-            lat: 42.6052,
-            lng: -73.8267,
-            description: "9.8-mile flat paved rail trail (Delmar parking)",
-            link: "/2018/07/22/Albany-County-Rail-Trail"
-        },
-        {
-            id: 18,
-            name: "Saratoga National Historical Park",
-            type: ["hiking", "biking"],
-            difficulty: "easy",
-            lat: 43.0138,
-            lng: -73.6510,
-            description: "Historic battlefield bike paths",
-            link: "/2016/09/19/Saratoga-Battlefield"
-        },
-        {
-            id: 19,
-            name: "Mohawk-Hudson Bike-Hike Trail",
-            type: "biking",
-            difficulty: "easy",
-            lat: 42.776838013968,
-            lng: -73.82468856770342,
-            description: "Multi-use trail from Rotterdam to Albany",
-            link: "/2016/06/04/Mohawk-Hudson-Bike-Hike-Trail",
-            gpx: "{{ '/assets/gpx/mohawkhudson.gpx' | relative_url }}"
-        },
-        {
-            id: 20,
-            name: "Zim Smith Trail",
-            type: "biking",
-            difficulty: "easy",
-            lat: 42.919306,
-            lng: -73.746602,
-            description: "10+ mile rail trail network",
-            link: "/2016/04/09/Zim-Smith-Trail"
-        },
-        {
-            id: 21,
-            name: "Overlook Mountain",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 42.071094,
-            lng: -74.122661,
-            description: "Fire tower with ruins (3 miles RT)",
-            link: "/2018/07/22/Overlook-Mountain"
-        },
-        {
-            id: 22,
-            name: "Graphite Range Community Forest",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 43.139455,
-            lng: -73.768393,
-            description: "New community forest trails",
-            link: "/2025/01/18/Graphite-Range-Community-Forest"
-        },
-        {
-            id: 23,
-            name: "Colonie Town Park",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.7952541954362,
-            lng: -73.74486179735592,
-            description: "Extensive suburban trail network",
-            link: "/2024/02/19/Colonie-Town-Park"
-        },
-        {
-            id: 24,
-            name: "Swift Wetland Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.61605,
-            lng: -73.8560833333,
-            description: "Boardwalk wetland trails",
-            link: "/2023/02/20/Swift-Wetland-Preserve"
-        },
-        {
-            id: 25,
-            name: "Five Rivers Environmental Center",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.6097338461417,
-            lng: -73.89008407498632,
-            description: "Interpretive trails (easy)",
-            link: "/2019/02/09/Five-Rivers-Environmental-Education-Center"
-        },
-        {
-            id: 26,
-            name: "Peebles Island State Park",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.7843,
-            lng: -73.68015,
-            description: "Riverside trails at Hudson confluence",
-            link: "/2020/06/27/Peebles-Island-State-Park"
-        },
-        {
-            id: 27,
-            name: "Severance Hill",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 43.8627,
-            lng: -73.7548,
-            description: "Short Adirondack hike to Schroon Lake views (1.2 miles, 740 ft gain)",
-            link: "/2023/09/09/Severance-Hill"
-        },
-        {
-            id: 28,
-            name: "The Crossings of Colonie",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.71920362932012,
-            lng: -73.78767830118417,
-            description: "Local town park with nice paved trails",
-            link: "/2023/10/28/The-Crossings-of-Colonie"
-        },
-        {
-            id: 29,
-            name: "Schuyler Flatts Cultural Park",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.70699762083893,
-            lng: -73.71075403359481,
-            description: "Local town park with nice paved trails",
-            link: "/2022/11/12/Schuyler-Flatts-Cultural-Park"
-        },
-        {
-            id: 30,
-            name: "Fisher Trail",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.62405673185724,
-            lng: -73.88110472123549,
-            link: "/2022/11/05/Fisher-Trail"
-        },
-        {
-            id: 31,
-            name: "Skidmore North Woods",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 43.10082361190161,
-            lng: -73.77746082791766,
-            description: "150-acre woodland preserve with trails for hiking, running, and walking",
-            link: "/2022/08/06/Skidmore-North-Woods"
-        },
-        {
-            id: 32,
-            name: "Van Dyke Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.59566059553335,
-            lng: -73.85548766373333,
-            description: "1-mile loop trail along Phillipin Kill with woodland scenery",
-            link: "/2021/03/06/Van-Dyke-Preserve"
-        },
-        {
-            id: 33,
-            name: "Schiffendecker Farm Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.60909170440016,
-            lng: -73.79661982072098,
-            description: "1+ mile trail through wooded ravine in Glenmont",
-            link: "/2021/01/18/Schiffendecker-Farm-Preserve"
-        },
-        {
-            id: 34,
-            name: "H. G. Reist Bird Sanctuary",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.785030345253645,
-            lng: -73.87886868599017,
-            description: "111-acre preserve with 2 miles of trails in Niskayuna",
-            link: "/2020/12/19/H-G-Reist-Bird-Sanctuary"
-        },
-        {
-            id: 35,
-            name: "Touhey Family Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.607796699438744,
-            lng: -73.87256304918789,
-            description: "49-acre preserve with boardwalks, ravines and pond access",
-            link: "/2020/12/12/Touhey-Family-Preserve"
-        },
-        {
-            id: 36,
-            name: "Phillipin Kill Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.61085824612977,
-            lng: -73.86873129157698,
-            description: "Half-mile loop along Phillipin Kill in Bethlehem",
-            link: "/2020/09/05/Phillipin-Kill-Preserve"
-        },
-        {
-            id: 38,
-            name: "Wolf Creek Falls Preserve",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 42.72164187354379,
-            lng: -74.08529654213602,
-            description: "3 miles of trails with cascading waterfalls in Knox",
-            link: "/2020/06/21/Wolf-Creek-Falls"
-        },
-        {
-            id: 39,
-            name: "Normanskill Preserves",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.633285637472554,
-            lng: -73.80153777388102,
-            description: "Two parcels along Normanskill creek in steep ravines",
-            link: "/2020/05/30/Normanskill-Preserves"
-        },
-        {
-            id: 40,
-            name: "Paint Mine Trail (Thacher State Park)",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.65246066560167,
-            lng: -74.01537671981946,
-            description: "Trail featuring historic paint mine and scenic escarpment views",
-            link: "/2020/05/10/Thacher-Park-Paint-Mine-Trail"
-        },
-        {
-            id: 41,
-            name: "Pine Hollow Arboretum",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.634437097699646,
-            lng: -73.85712335490929,
-            description: "22-acre arboretum with labeled trees from around the world",
-            link: "/2020/05/03/Pine-Hollow-Arboretum"
-        },
-        {
-            id: 42,
-            name: "Tawasentha Park",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.70359763708431,
-            lng: -73.9350253749885,
-            description: "Town park with scenic trails and multiple amenities",
-            link: "/2020/05/02/Tawasentha-Park"
-        },
-        {
-            id: 43,
-            name: "Bozen Kill Preserve",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 42.71482653732635,
-            lng: -74.04612422280962,
-            description: "Scenic preserve with waterfalls and ravine views",
-            link: "/2020/04/25/Bozen-Kill-Preserve"
-        },
-        {
-            id: 44,
-            name: "Capital Hills Golf Course Walking Trail",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.651849346285694,
-            lng: -73.82152663050248,
-            description: "2.7-mile paved trail through rolling hills",
-            link: "/2020/03/29/Capital-Hills-Golf-Course-Walking-Trail"
-        },
-        {
-            id: 45,
-            name: "Bennett Hill Preserve",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 42.571923039614184,
-            lng: -73.9658216124356,
-            description: "Climb to 1135-foot plateau with panoramic views",
-            link: "/2019/10/14/Bennett-Hill-Preserve"
-        },
-        {
-            id: 46,
-            name: "Moreau Lake Overlook (Baker Trail)",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 43.24757993866199,
-            lng: -73.7255108976534,
-            description: "2.4-mile hike to scenic overlook of Moreau Lake",
-            link: "/2019/08/24/Moreau-Lake-Overlook-via-Baker-Trail"
-        },
-        {
-            id: 47,
-            name: "High Point (Thacher State Park)",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.681552935292885,
-            lng: -74.05454484584577,
-            description: "Scenic overlook with panoramic Hudson Valley views",
-            link: "/2019/07/19/High-Point"
-        },
-        {
-            id: 48,
-            name: "Lisha Kill Natural Area",
-            type: "hiking",
-            difficulty: "moderate",
-            lat: 42.796780320893824,
-            lng: -73.85945289002032,
-            description: "140-acre preserve with old-growth forest and streams",
-            link: "/2019/05/25/Lisha-Kill-Natural-Area"
-        },
-        {
-            id: 49,
-            name: "Fox Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.77553810053436,
-            lng: -73.79404230351282,
-            description: "70-acre preserve with river overlook near Latham",
-            link: "/2019/03/24/Fox-Preserve"
-        },
-        {
-            id: 50,
-            name: "Mohawk Landing Nature Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.825126062106484,
-            lng: -73.85989819980252,
-            description: "Scenic overlook of Mohawk River with accessible trails",
-            link: "/2019/01/19/Mohawk-Landing"
-        },
-        {
-            id: 51,
-            name: "Bauer Environmental Park",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.72452144858861,
-            lng: -73.82155379517772,
-            description: "Fully accessible boardwalk trail through wetlands",
-            link: "/2018/12/30/Bauer-Environmental-Park"
-        },
-        {
-            id: 52,
-            name: "Ashford Glen Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.76975621234441,
-            lng: -73.83235480351316,
-            description: "1-mile trail through beautiful glen with Vly Creek",
-            link: "/2018/11/11/Ashford-Glen-Preserve"
-        },
-        {
-            id: 53,
-            name: "Ann Lee Pond Nature Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.73916040690136,
-            lng: -73.81239654821148,
-            description: "2.3-mile loop with wildflowers and historic significance",
-            link: "/2018/08/28/Ann-Lee-Pond"
-        },
-        {
-            id: 54,
-            name: "Albany Pine Bush Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.719109000753775,
-            lng: -73.86364275748106,
-            description: "3400-acre preserve with 20 miles of trails and rare plants",
-            link: "/2018/05/25/Pine-Bush-Preserve"
-        },
-        {
-            id: 55,
-            name: "100 Acre Woods",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.956688265522814,
-            lng: -73.7629872169936,
-            description: "2 miles of flat to moderate trails in Malta",
-            link: "/2017/10/21/100-Acre-Woods"
-        },
-        {
-            id: 56,
-            name: "North Woods Nature Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.92211009737895,
-            lng: -73.81030409001308,
-            description: "80-acre forest with streams and pond in Ballston Lake",
-            link: "/2017/10/07/North-Woods-Nature-Preserve"
-        },
-        {
-            id: 57,
-            name: "Woodcock Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.886572247979544,
-            lng: -73.8310175476876,
-            description: "Multiple trails through woodlands and swamp in Clifton Park",
-            link: "/2017/08/28/Woodcock-Preserve"
-        },
-        {
-            id: 58,
-            name: "Grafton Lakes State Park",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.776605,
-            lng: -73.447502,
-            description: "2357-acre park with 5 ponds and 25 miles of trails",
-            link: "/2017/08/19/Grafton-Lakes-State-Park"
-        },
-        {
-            id: 59,
-            name: "Lake Bonita (Moreau Lake State Park)",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 43.20380814526685,
-            lng: -73.76769649499049,
-            description: "Lake trail with scenic views in Moreau Lake State Park",
-            link: "/2017/04/09/lake-bonita"
-        },
-        {
-            id: 60,
-            name: "Dwaas Kill Nature Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.8909761147041,
-            lng: -73.78441777538964,
-            description: "Preserve with waterfall and stream views",
-            link: "/2016/11/19/Dwaaskill-Nature-Preserve"
-        },
-        {
-            id: 61,
-            name: "Vischer Ferry Nature Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.792985489456356,
-            lng: -73.79609317241598,
-            description: "700+ acres of wetlands and historic Erie Canal towpath",
-            link: "/2016/07/09/Vischer-Ferry-Preserve"
-        },
-        {
-            id: 62,
-            name: "Palmertown Range",
-            type: "hiking",
-            difficulty: "difficult",
-            lat: 43.221516076378194,
-            lng: -73.76531712466344,
-            description: "Mountain range with panoramic views",
-            link: "/2016/05/15/Palmertown-Range"
-        },
-        {
-            id: 63,
-            name: "Ushers Road State Forest",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.91255588329069,
-            lng: -73.77208820843038,
-            description: "130+ acres of state forest with multiple trails",
-            link: "/2016/04/03/Ushers-Road-State-Forest"
-        },
-        {
-            id: 64,
-            name: "Little Island",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 40.742132460158345,
-            lng: -74.01028827116376,
-            link: "/2022/08/27/little-island-nyc"
-        },
-        {
-            id: 65,
-            name: "Bender Melon Farm Preserve",
-            type: "hiking",
-            difficulty: "easy",
-            lat: 42.63750676165629,
-            lng: -73.90112232883624,
-            link: "/2022/10/29/Bender-Melon-Farm-Preserve"
-        },
-        {
-            id: 66,
-            name: "Wallkill Valley Rail Trail",
-            type: "biking",
-            difficulty: "easy",
-            lat: 41.7465,
-            lng: -74.0859,
-            description: "22-mile crushed-stone rail trail between Gardiner and Kingston with farms, woods, and trestle bridge views",
-            link: "https://wallkillvalleylt.org/wvrt/"
-        },
-        {
-            id: 67,
-            name: "Warren County Bikeway",
-            type: "biking",
-            difficulty: "easy",
-            lat: 43.4020,
-            lng: -73.7080,
-            description: "Paved 9.4-mile multi-use path connecting Glens Falls and Lake George with rolling hills and forested scenery",
-            link: "https://www.warrencountyny.gov/dpw/bikeway"
-        },
-        {
-            id: 68,
-            name: "Adirondack Rail Trail",
-            type: "biking",
-            difficulty: "moderate",
-            lat: 44.27598464050971,
-            lng: -73.98975296091001,
-            description: "34-mile multipurpose trail running from Lake Placid to Tupper Lake",
-            link: "https://www.adirondackrailtrail.org/"
-        }
-    ];
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: 'OpenStreetMap contributors'
+  }).addTo(map);
 
-    const map = L.map('nyt-map').setView([42.6526, -73.7562], 8);
+  const hikingMarkers = L.featureGroup();
+  const bikingMarkers = L.featureGroup();
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 18,
-        attribution: '© OpenStreetMap contributors'
-    }).addTo(map);
+  const hikingIcon = L.divIcon({
+    html: `<div style="background:rgba(232,121,74,0.9);width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-size:16px;border:2px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.2);">🥾</div>`,
+    iconSize: [32, 32],
+    iconAnchor: [16, 16],
+    popupAnchor: [0, -16],
+    className: ''
+  });
 
-    const hikingMarkers = L.featureGroup();
-    const bikingMarkers = L.featureGroup();
+  const bikingIcon = L.divIcon({
+    html: `<div style="background:rgba(50,184,198,0.9);width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-size:16px;border:2px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.2);">🚴</div>`,
+    iconSize: [32, 32],
+    iconAnchor: [16, 16],
+    popupAnchor: [0, -16],
+    className: ''
+  });
 
-    const hikingIcon = L.divIcon({
-        html: '<div style="background: rgba(232, 121, 74, 0.9); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">🥾</div>',
-        iconSize: [32, 32],
-        iconAnchor: [16, 16],
-        popupAnchor: [0, -16],
-        className: ''
-    });
+  const trailMarkers = [];
+  let currentTypeFilter = 'all';
+  let currentDifficultyFilter = 'all';
+  let activeGpxLayer = null;
+  let activeGpxTrailId = null;
 
-    const bikingIcon = L.divIcon({
-        html: '<div style="background: rgba(50, 184, 198, 0.9); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 16px; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">🚴</div>',
-        iconSize: [32, 32],
-        iconAnchor: [16, 16],
-        popupAnchor: [0, -16],
-        className: ''
-    });
+  function removeActiveGpx() {
+    if (activeGpxLayer) {
+      map.removeLayer(activeGpxLayer);
+      activeGpxLayer = null;
+      activeGpxTrailId = null;
+    }
+  }
 
-    const trailMarkers = [];
-    let currentTypeFilter = 'all';
-    let currentDifficultyFilter = 'all';
-    let activeGpxLayer = null;
-    let activeGpxTrailId = null;
+  trails.forEach(trail => {
+    const types = Array.isArray(trail.type) ? trail.type : [trail.type];
+    const isBoth = types.length > 1;
 
-    function removeActiveGpx() {
-        if (activeGpxLayer) {
-            map.removeLayer(activeGpxLayer);
-            activeGpxLayer = null;
-            activeGpxTrailId = null;
-        }
+    let popupContent = `<div class="nyt-trail-popup"><h3>${trail.name}</h3>`;
+    if (trail.description) popupContent += `<p>${trail.description}</p>`;
+    if (trail.difficulty) {
+      popupContent += `<div><strong>Difficulty:</strong> ${trail.difficulty.charAt(0).toUpperCase() + trail.difficulty.slice(1)}</div>`;
+    }
+    if (isBoth) popupContent += `<div><strong>Types:</strong> ${types.join(', ')}</div>`;
+
+    if (trail.links && trail.links.length) {
+      popupContent += trail.links.map(l => `<a href="${l.url}" target="_blank" rel="noopener noreferrer">${l.text}</a>`).join('');
+    } else if (trail.link) {
+      popupContent += `<a href="${trail.link}" target="_blank" rel="noopener noreferrer">View Details</a>`;
     }
 
-    trails.forEach(trail => {
-        const types = Array.isArray(trail.type) ? trail.type : [trail.type];
-        const isBoth = types.length > 1;
+    popupContent += `</div>`;
 
-        const popupContent = `
-            <div class="nyt-trail-popup">
-                <h3>${trail.name}</h3>
-                ${trail.description ? `<p>${trail.description}</p>` : ''}
-                ${trail.difficulty ? `<div><strong>Difficulty:</strong> ${trail.difficulty.charAt(0).toUpperCase() + trail.difficulty.slice(1)}</div>` : ''}
-                ${isBoth ? `<div>Types: ${types.join(', ')}</div>` : ''}
-                ${trail.links ? trail.links.map(l =>
-                    `<a href="${l.url}" target="_blank" rel="noopener noreferrer">${l.text} →</a>`
-                ).join('') : `<a href="${trail.link}" target="_blank" rel="noopener noreferrer">View Details →</a>`}
-            </div>
-        `;
+    const initialIcon = types.includes('hiking') ? hikingIcon : bikingIcon;
 
-        const initialIcon = types.includes('hiking') ? hikingIcon : bikingIcon;
-        const marker = L.marker([trail.lat, trail.lng], { icon: initialIcon }).bindPopup(popupContent);
+    const marker = L.marker([trail.lat, trail.lng], { icon: initialIcon })
+      .bindPopup(popupContent);
 
-marker.on('click', function() {
-    if (activeGpxTrailId !== trail.id) {
-        removeActiveGpx();
-    }
+    marker.on('click', function() {
+      if (activeGpxTrailId !== trail.id) removeActiveGpx();
+      if (!trail.gpx) return;
+      if (activeGpxTrailId === trail.id) return;
 
-    if (!trail.gpx) return;
-
-    if (activeGpxTrailId === trail.id) return;
-
-    activeGpxTrailId = trail.id;
-
-    activeGpxLayer = new L.GPX(trail.gpx, {
-                async: true,
-                polyline_options: {
-                    color: '#21808d',
-                    weight: 5,
-                    opacity: 1,
-                    lineCap: 'round'
-                },
-                markers: {
-                    startIcon: null,
-                    endIcon: null
-                }
-            })
-            .on('loaded', function(event) {
-                console.log('GPX loaded:', trail.gpx);
-                map.fitBounds(event.target.getBounds(), { padding: [30, 30] });
-            })
-            .on('error', function(e) {
-                console.error('Error loading file:', e.err || e);
-                activeGpxLayer = null;
-                activeGpxTrailId = null;
-            })
-            .addTo(map);
-        });
-
-        trailMarkers.push({ marker, trail, types, isBoth });
-
-        types.forEach(type => {
-            if (type === 'hiking') hikingMarkers.addLayer(marker);
-            if (type === 'biking') bikingMarkers.addLayer(marker);
-        });
+      activeGpxTrailId = trail.id;
+      activeGpxLayer = new L.GPX(trail.gpx, {
+        async: true,
+        polyline_options: {
+          color: '#21808d',
+          weight: 5,
+          opacity: 1,
+          lineCap: 'round'
+        },
+        markers: {
+          startIcon: null,
+          endIcon: null
+        }
+      })
+      .on('loaded', function(event) {
+        map.fitBounds(event.target.getBounds(), { padding: [30, 30] });
+      })
+      .on('error', function() {
+        activeGpxLayer = null;
+        activeGpxTrailId = null;
+      })
+      .addTo(map);
     });
 
-    hikingMarkers.addTo(map);
-    bikingMarkers.addTo(map);
+    trailMarkers.push({ marker, trail, types, isBoth });
 
-    function matchesFilters(item) {
-        const { trail, types } = item;
+    types.forEach(type => {
+      if (type === 'hiking') hikingMarkers.addLayer(marker);
+      if (type === 'biking') bikingMarkers.addLayer(marker);
+    });
+  });
 
-        if (currentDifficultyFilter !== 'all') {
-            if (!trail.difficulty || trail.difficulty !== currentDifficultyFilter) {
-                return false;
-            }
-        }
+  hikingMarkers.addTo(map);
+  bikingMarkers.addTo(map);
 
-        if (currentTypeFilter === 'all') return true;
-        if (currentTypeFilter === 'hiking') return types.includes('hiking');
-        if (currentTypeFilter === 'biking') return types.includes('biking');
-        return true;
+  function matchesFilters(item) {
+    const { trail, types } = item;
+
+    if (currentDifficultyFilter !== 'all') {
+      if (!trail.difficulty || trail.difficulty !== currentDifficultyFilter) return false;
     }
 
-    function applyFiltersAndIcons() {
-        map.removeLayer(hikingMarkers);
-        map.removeLayer(bikingMarkers);
+    if (currentTypeFilter === 'all') return true;
+    if (currentTypeFilter === 'hiking') return types.includes('hiking');
+    if (currentTypeFilter === 'biking') return types.includes('biking');
+    return true;
+  }
 
-        hikingMarkers.clearLayers();
-        bikingMarkers.clearLayers();
+  function applyFiltersAndIcons() {
+    map.removeLayer(hikingMarkers);
+    map.removeLayer(bikingMarkers);
+    hikingMarkers.clearLayers();
+    bikingMarkers.clearLayers();
 
-        trailMarkers.forEach(item => {
-            const { marker, types, isBoth } = item;
+    trailMarkers.forEach(item => {
+      const { marker, types, isBoth } = item;
 
-            if (isBoth) {
-                if (currentTypeFilter === 'biking') {
-                    marker.setIcon(bikingIcon);
-                } else {
-                    marker.setIcon(hikingIcon);
-                }
-            }
-
-            if (matchesFilters(item)) {
-                if (types.includes('hiking')) hikingMarkers.addLayer(marker);
-                if (types.includes('biking')) bikingMarkers.addLayer(marker);
-            }
-        });
-
-        if (currentTypeFilter === 'all') {
-            hikingMarkers.addTo(map);
-            bikingMarkers.addTo(map);
-        } else if (currentTypeFilter === 'hiking') {
-            hikingMarkers.addTo(map);
-        } else if (currentTypeFilter === 'biking') {
-            bikingMarkers.addTo(map);
+      if (isBoth) {
+        if (currentTypeFilter === 'biking') {
+          marker.setIcon(bikingIcon);
+        } else {
+          marker.setIcon(hikingIcon);
         }
+      }
 
-        if (activeGpxTrailId) {
-            const activeTrailStillVisible = trailMarkers.some(item =>
-                item.trail.id === activeGpxTrailId && matchesFilters(item)
-            );
+      if (matchesFilters(item)) {
+        if (types.includes('hiking')) hikingMarkers.addLayer(marker);
+        if (types.includes('biking')) bikingMarkers.addLayer(marker);
+      }
+    });
 
-            if (!activeTrailStillVisible) {
-                removeActiveGpx();
-            }
-        }
+    if (currentTypeFilter === 'all') {
+      hikingMarkers.addTo(map);
+      bikingMarkers.addTo(map);
+    } else if (currentTypeFilter === 'hiking') {
+      hikingMarkers.addTo(map);
+    } else if (currentTypeFilter === 'biking') {
+      bikingMarkers.addTo(map);
     }
 
-    document.querySelectorAll('.nyt-filter-button:not(.diff)').forEach(button => {
-        button.addEventListener('click', e => {
-            document.querySelectorAll('.nyt-filter-button:not(.diff)').forEach(btn => btn.classList.remove('active'));
-            e.target.classList.add('active');
-            currentTypeFilter = e.target.dataset.category;
-            applyFiltersAndIcons();
-        });
-    });
+    if (activeGpxTrailId) {
+      const activeTrailStillVisible = trailMarkers.some(item => item.trail.id === activeGpxTrailId && matchesFilters(item));
+      if (!activeTrailStillVisible) removeActiveGpx();
+    }
+  }
 
-    document.querySelectorAll('.nyt-filter-button.diff').forEach(button => {
-        button.addEventListener('click', e => {
-            document.querySelectorAll('.nyt-filter-button.diff').forEach(btn => btn.classList.remove('active'));
-            e.target.classList.add('active');
-            currentDifficultyFilter = e.target.dataset.difficulty;
-            applyFiltersAndIcons();
-        });
+  document.querySelectorAll('.nyt-filter-button:not(.diff)').forEach(button => {
+    button.addEventListener('click', e => {
+      document.querySelectorAll('.nyt-filter-button:not(.diff)').forEach(btn => btn.classList.remove('active'));
+      e.target.classList.add('active');
+      currentTypeFilter = e.target.dataset.category;
+      applyFiltersAndIcons();
     });
+  });
 
-    const allMarkers = L.featureGroup([hikingMarkers, bikingMarkers]);
+  document.querySelectorAll('.nyt-filter-button.diff').forEach(button => {
+    button.addEventListener('click', e => {
+      document.querySelectorAll('.nyt-filter-button.diff').forEach(btn => btn.classList.remove('active'));
+      e.target.classList.add('active');
+      currentDifficultyFilter = e.target.dataset.difficulty;
+      applyFiltersAndIcons();
+    });
+  });
+
+  const allMarkers = L.featureGroup([hikingMarkers, bikingMarkers]);
+  if (allMarkers.getBounds().isValid()) {
     map.fitBounds(allMarkers.getBounds(), { padding: [50, 50] });
+  }
 });
 </script>
