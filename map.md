@@ -13,9 +13,7 @@ subtitle: Find Upstate NY Trails
         <button class="nyt-filter-button hiking" data-category="hiking">Hiking</button>
         <button class="nyt-filter-button biking" data-category="biking">Biking</button>
       </div>
-
-
-
+    </div>
     <div class="nyt-map" id="nyt-map"></div>
   </div>
 </div>
