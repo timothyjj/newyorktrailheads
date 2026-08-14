@@ -57,6 +57,4 @@ cover-img: img/zim-smith-trail/zim-smith-trail-fall.jpg
 
 <p><a href="https://saratogaplan.org/explore-parks-and-trails/zim-smith-trail/" target="_blank">View an official map at the Saratoga Plan website</a></p>
 
-<div class="google-maps">
-	<iframe src="https://www.google.com/maps/d/embed?mid=19awwdDUCA1VK660KJb5z6cf7ISc" ></iframe>
-</div>
+{% include hike-map.html id=20 %}

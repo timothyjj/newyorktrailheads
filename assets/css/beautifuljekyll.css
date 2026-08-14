@@ -1859,3 +1859,48 @@ pre {
     padding: 0.4rem 0.45rem;
   }
 }
+
+/* Keep Leaflet popup tips clean and centered above their markers */
+.leaflet-popup-tip-container {
+  width: 40px;
+  height: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.leaflet-popup-tip {
+  width: 20px;
+  height: 20px;
+  margin: -10px auto 0;
+  background: #fff;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.18);
+  transform: rotate(45deg);
+}
+
+/* Match the popup card border and prevent the tip from appearing detached */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #fff;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 14px;
+}
+
+/* Clean Leaflet popup arrow */
+.parking-popup .leaflet-popup-tip-container {
+  width: 40px;
+  height: 20px;
+  margin-top: -1px;
+  overflow: hidden;
+}
+
+.parking-popup .leaflet-popup-tip {
+  width: 20px;
+  height: 20px;
+  margin: -10px auto 0;
+  background: #ffffff;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.16);
+  transform: rotate(45deg);
+}

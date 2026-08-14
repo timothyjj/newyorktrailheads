@@ -303,9 +303,174 @@
 
 <p><a href="https://saratogaplan.org/explore-parks-and-trails/zim-smith-trail/" target="_blank">View an official map at the Saratoga Plan website</a></p>
 
-<div class="google-maps">
-	<iframe src="https://www.google.com/maps/d/embed?mid=19awwdDUCA1VK660KJb5z6cf7ISc"></iframe>
+<div class="hike-map-container" data-trail-id="20">
+  <div class="hike-map" id="hikeMapContainer-20"></div>
 </div>
+
+<script type="application/json" id="trail-data-20">
+{"id":20,"name":"Zim Smith Trail","type":"biking","lat":42.919306,"lng":-73.746602,"description":"11.5-mile paved multi-use rail trail from Ballston Spa to Mechanicville","link":"/2016/04/09/Zim-Smith-Trail","gpx":"/assets/gpx/zim-smith-trail.gpx","parking":[{"name":"Shenentaha Creek Park","lat":42.964241,"lng":-73.824565},{"name":"Round Lake/Curry Road Parking","lat":42.9374,"lng":-73.797023},{"name":"Coons Crossing Road Parking","lat":42.919328,"lng":-73.746574},{"name":"Elizabeth Street Parking","lat":42.908995,"lng":-73.702668}]}
+</script>
+
+<script>
+(function() {
+  const mapId = "hikeMapContainer-20";
+  const dataId = "trail-data-20";
+
+  const mapEl = document.getElementById(mapId);
+  const dataEl = document.getElementById(dataId);
+  if (!mapEl || !dataEl) return;
+  if (mapEl.classList.contains('leaflet-container')) return;
+
+  const trail = JSON.parse(dataEl.textContent);
+  const map = L.map(mapEl).setView([trail.lat, trail.lng], 12);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  const combinedBounds = L.featureGroup().addTo(map);
+  const hasParking = Array.isArray(trail.parking) && trail.parking.length > 0;
+
+  const trailTypes = Array.isArray(trail.type) ? trail.type : [trail.type];
+  const isHiking = trailTypes.includes('hiking');
+  const iconColor = isHiking ? 'rgba(232, 121, 74, 0.9)' : 'rgba(50, 184, 198, 0.9)';
+  const iconEmoji = isHiking ? '🥾' : '🚴';
+
+  const mainIcon = L.divIcon({
+    html: `
+      <div style="
+        background:${iconColor};
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        font-size:20px;
+        border:3px solid white;
+        box-shadow:0 2px 8px rgba(0,0,0,0.3);
+      ">${iconEmoji}</div>
+    `,
+    iconSize: [40, 40],
+    iconAnchor: [20, 20],
+    popupAnchor: [0, -20],
+    className: ''
+  });
+
+  const parkingIcon = L.divIcon({
+    html: `
+      <div style="
+        background:#374151;
+        width:34px;
+        height:34px;
+        border-radius:50%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        font-size:16px;
+        font-weight:bold;
+        border:3px solid white;
+        box-shadow:0 2px 8px rgba(0,0,0,0.25);
+      ">P</div>
+    `,
+    iconSize: [34, 34],
+    iconAnchor: [17, 17],
+    popupAnchor: [0, -18],
+    className: ''
+  });
+
+  let firstPopupMarker = null;
+
+  if (hasParking) {
+    trail.parking.forEach(function(area, index) {
+      const popup = `
+        <div class="hike-map-popup">
+          <h3>${area.name}</h3>
+          <div class="coordinates" title="Click to copy">${area.lat}, ${area.lng}</div>
+        </div>
+      `;
+
+      const marker = L.marker([area.lat, area.lng], { icon: parkingIcon })
+        .bindPopup(popup, { className: 'parking-popup' })
+        .addTo(map);
+
+      combinedBounds.addLayer(marker);
+      if (index === 0) firstPopupMarker = marker;
+    });
+  } else {
+    let popup = `<div class="hike-map-popup"><h3>${trail.name}</h3>`;
+    popup += `<div class="coordinates" title="Click to copy">${trail.lat}, ${trail.lng}</div>`;
+
+    if (trail.links && trail.links.length) {
+      trail.links.forEach(function(link) {
+        popup += `<a href="${link.url}" target="_blank" rel="noopener noreferrer">${link.text}</a>`;
+      });
+    } else if (trail.link) {
+      popup += `<a href="${trail.link}" target="_blank" rel="noopener noreferrer">View listing</a>`;
+    }
+
+    popup += `</div>`;
+
+    const marker = L.marker([trail.lat, trail.lng], { icon: mainIcon })
+      .bindPopup(popup, { className: 'parking-popup' })
+      .addTo(map);
+
+    combinedBounds.addLayer(marker);
+    firstPopupMarker = marker;
+  }
+
+  function finishMapView() {
+    if (combinedBounds.getBounds().isValid()) {
+      map.fitBounds(combinedBounds.getBounds(), { padding: [30, 30] });
+    } else {
+      map.setView([trail.lat, trail.lng], 12);
+    }
+
+    setTimeout(function() {
+      map.invalidateSize();
+      if (firstPopupMarker) firstPopupMarker.openPopup();
+    }, 300);
+  }
+
+  if (trail.gpx && typeof L.GPX === 'function') {
+    new L.GPX(trail.gpx, {
+      async: true,
+      polyline_options: {
+        color: '#21808d',
+        weight: 5,
+        opacity: 1,
+        lineCap: 'round'
+      },
+      markers: {
+        startIcon: null,
+        endIcon: null,
+        wptIcons: {}
+      }
+    })
+    .on('loaded', function(event) {
+      const gpxBounds = event.target.getBounds();
+      if (gpxBounds && gpxBounds.isValid()) {
+        combinedBounds.addLayer(L.rectangle(gpxBounds, {
+          opacity: 0,
+          fillOpacity: 0,
+          stroke: false
+        }));
+      }
+      finishMapView();
+    })
+    .on('error', function() {
+      finishMapView();
+    })
+    .addTo(map);
+  } else {
+    finishMapView();
+  }
+})();
+</script>
+
 
       </div>
 
