@@ -1659,18 +1659,6 @@ pre {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
     }
 
-    .leaflet-popup-tip {
-    width: 17px;
-    height: 17px;
-    padding: 1px;
-    margin: 0px auto 0;
-    pointer-events: auto;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    }
-
     .hike-map-popup {
         font-size: 13px;
     }
@@ -1723,76 +1711,6 @@ pre {
     .hike-map-popup a:hover {
         background: rgba(29, 116, 128, 1);
     }
-.trail-popup .leaflet-popup-content-wrapper {
-  background: #ffffff;
-  color: #1f2937;
-  border-radius: 18px;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
-  padding: 0;
-}
-
-.trail-popup .leaflet-popup-content {
-  margin: 0;
-  padding: 16px 18px;
-  min-width: 220px;
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.trail-popup .leaflet-popup-tip-container {
-  width: 30px;
-  height: 14px;
-  margin-top: -1px;
-}
-
-.trail-popup .leaflet-popup-tip {
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  width: 0;
-  height: 0;
-  margin: 0 auto;
-  transform: none;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: 15px solid #ffffff;
-}
-
-.trail-popup .leaflet-popup-close-button {
-  color: #6b7280;
-  font-size: 24px;
-  top: 10px;
-  right: 10px;
-}
-
-.trail-popup .leaflet-popup-close-button:hover {
-  color: #111827;
-}
-
-.trail-popup .leaflet-popup-content h3 {
-  margin: 0 0 8px;
-  font-size: 16px;
-  line-height: 1.25;
-  color: #111827;
-}
-
-.trail-popup .leaflet-popup-content p {
-  margin: 0 0 10px;
-  color: #4b5563;
-}
-
-.trail-popup .leaflet-popup-content a {
-  display: inline-block;
-  margin-right: 10px;
-  margin-top: 6px;
-  color: #0f766e;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.trail-popup .leaflet-popup-content a:hover {
-  text-decoration: underline;
-}
 
 @media (max-width: 768px) {
   .nyt-trail-widget .nyt-filters {
@@ -1845,47 +1763,71 @@ pre {
   }
 }
 
-/* Keep Leaflet popup tips clean and centered above their markers */
-.leaflet-popup-tip-container {
-  width: 40px;
-  height: 20px;
-  overflow: hidden;
-  margin: 0 auto;
-  position: relative;
-}
-
-.leaflet-popup-tip {
-  width: 20px;
-  height: 20px;
-  margin: -10px auto 0;
-  background: #fff;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.18);
-  transform: rotate(45deg);
-}
-
-/* Match the popup card border and prevent the tip from appearing detached */
-.leaflet-popup-content-wrapper,
-.leaflet-popup-tip {
-  background: #fff;
-}
-
-.leaflet-popup-content-wrapper {
-  border-radius: 14px;
-}
-
-/* Clean Leaflet popup arrow */
-.parking-popup .leaflet-popup-tip-container {
-  width: 40px;
-  height: 20px;
-  margin-top: -1px;
-  overflow: hidden;
-}
-
-.parking-popup .leaflet-popup-tip {
-  width: 20px;
-  height: 20px;
-  margin: -10px auto 0;
+/* Finder widget popup: clean card with a true centered triangle */
+.trail-popup .leaflet-popup-content-wrapper {
   background: #ffffff;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.16);
-  transform: rotate(45deg);
+  color: #1f2937;
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+  padding: 0;
+}
+
+.trail-popup .leaflet-popup-content {
+  margin: 0;
+  padding: 16px 18px;
+  min-width: 220px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.trail-popup .leaflet-popup-close-button {
+  color: #6b7280;
+  font-size: 24px;
+  top: 10px;
+  right: 10px;
+}
+
+.trail-popup .leaflet-popup-close-button:hover {
+  color: #111827;
+}
+
+.trail-popup .leaflet-popup-content h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #111827;
+}
+
+.trail-popup .leaflet-popup-content p {
+  margin: 0 0 10px;
+  color: #4b5563;
+}
+
+.trail-popup .leaflet-popup-content a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 6px;
+  color: #0f766e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.trail-popup .leaflet-popup-content a:hover {
+  text-decoration: underline;
+}
+
+/* Finder map: popup card and visible centered pointer */
+.trail-popup .leaflet-popup-content-wrapper {
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+  overflow: visible;
+}
+
+/* Popup card styling only — Leaflet renders its own standard arrow */
+.trail-popup .leaflet-popup-content-wrapper,
+.parking-popup .leaflet-popup-content-wrapper {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
