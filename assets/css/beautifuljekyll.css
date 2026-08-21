@@ -1715,7 +1715,7 @@ pre {
         margin: 8px 0 0 0;
         padding: 6px 10px;
         background: rgba(33, 128, 141, 1);
-        color: white;
+        color: white !important;
         text-decoration: none;
         border-radius: 4px;
         font-weight: 500;
@@ -1845,9 +1845,4 @@ pre {
   background: #ffffff;
   border-radius: 14px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-leaflet-popup-content hike-map-popup a
-{
-  color:whitesmoke;
 }
