@@ -41,7 +41,7 @@ cover-img: img/keleher-preserve/keleher-preserve-4.jpg
 <img src="/img/keleher-preserve/keleher-preserve-7.jpg" alt="Trail">
 <img src="/img/keleher-preserve/keleher-preserve-8.jpg" alt="Wooden bridge">
 <img src="/img/keleher-preserve/keleher-preserve-9.jpg" alt="Uphill trail">
-<img src="/img/keleher-preserve/keleher-preserve-8.jpg" alt="Patriotic trail intersection">
+<img src="/img/keleher-preserve/keleher-preserve-10.jpg" alt="Patriotic trail intersection">
 </div>
 
 <h2 id="trailmap">Keleher Preserve Map</h2>
