@@ -548,3 +548,11 @@
   lng: -73.90112232883624
   description: "Trail system on the site of an old farm"
   link: "/2022/10/29/Bender-Melon-Farm-Preserve"
+
+- id: 66
+  name: "Keleher Preserve"
+  type: hiking
+  lat: 42.588200
+  lng: -74.007183
+  description: "Forest hike high in the Helderbergs"
+  link: "/2026/08/21/Keleher-Preserve"
