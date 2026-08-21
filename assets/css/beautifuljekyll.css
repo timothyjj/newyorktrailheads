@@ -1676,7 +1676,6 @@ pre {
 
     .hike-map-popup {
         font-size: 13px;
-        color: whitesmoke
     }
 
     .hike-map-popup h3 {
@@ -1846,4 +1845,9 @@ pre {
   background: #ffffff;
   border-radius: 14px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+leaflet-popup-content hike-map-popup a
+{
+  color:whitesmoke;
 }
