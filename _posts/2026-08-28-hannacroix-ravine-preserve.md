@@ -6,10 +6,10 @@ tags: [Nature Preserves & Parks]
 
 images:
 
-  - url: /img/hannacroix-ravine/hannacroix-ravine-0.jpg
+  - url: /img/hannacroix-ravine/hannacroix-ravine-5.jpg
     alt: Hannacroix Ravine Preserve
     title: Hannacroix Ravine Preserve
-cover-img: img/hannacroix-ravine/hannacroix-ravine-0.jpg
+cover-img: img/hannacroix-ravine/hannacroix-ravine-5.jpg
 
 ---
 
@@ -36,7 +36,7 @@ cover-img: img/hannacroix-ravine/hannacroix-ravine-0.jpg
 <img src="/img/hannacroix-ravine/hannacroix-ravine-2.jpg" alt="Dry creek crossing">
 <img src="/img/hannacroix-ravine/hannacroix-ravine-3.jpg" alt="Trail">
 <img src="/img/hannacroix-ravine/hannacroix-ravine-4.jpg" alt="Old stone wall">
-<img src="/img/hannacroix-ravine/hannacroix-ravine-0.jpg" alt="View down to creek">
+<img src="/img/hannacroix-ravine/hannacroix-ravine-5.jpg" alt="View down to creek">
 </div>
 
 <h2 id="trailmap">Hannacroix Ravine Preserve Map</h2>
