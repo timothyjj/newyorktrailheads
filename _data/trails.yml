@@ -556,3 +556,11 @@
   lng: -74.007183
   description: "Forest hike high in the Helderbergs"
   link: "/2026/08/21/Keleher-Preserve"
+
+- id: 67
+  name: "Hannacroix Ravine Preserve"
+  type: hiking
+  lat: 42.57608991267958
+  lng: -74.00002462698622
+  description: "Woods, creek, and seasonal waterfall"
+  link: "/2026/08/28/Hannacroix-Ravine-Preserve"
