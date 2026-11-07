@@ -19,6 +19,8 @@ cover-img: img/albany-hudson/albany-hudson6.jpg
 
 <p>Several dedicated parking areas exist throughout the trail, from larger lots to some smaller pulloffs. Popular parking spots include a lot just off the Columbia Turnpike in Rensselaer, Nassau Lake, Kinderhook Village Park, Stuyvesant Falls Park, and the end point off Dock Street in Hudson.</p>
 
+<p>This trail also connects to the Mohawk-Hudson Bike-Hike trail via road if you'd like to make a longer route. You can also continue south of Hudson on-road before connecting to further dedicated trail.</p>
+
 <h2>Albany-Hudson Electric Trail  Photos</h2>
 <div class="fotorama" data-nav="thumbs" data-width="100%"
                      data-ratio="800/600"
