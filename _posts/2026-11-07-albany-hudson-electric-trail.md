@@ -30,8 +30,7 @@ cover-img: img/albany-hudson/albany-hudson6.jpg
 <img src="img/albany-hudson/albany-hudson1.jpg" alt="Clinton Street Sign"><br />
 <img src="img/albany-hudson/albany-hudson2.jpg" alt="Trail Crossing"><br />
 <img src="img/albany-hudson/albany-hudson3.jpg" alt="Albany-Hudson Rail Line Sign"><br />
-<img src="img/albany-hudson/albany-hudson4.jpg" alt="Trail entrance near the bridge over Balltown 
-Road"><br />
+<img src="img/albany-hudson/albany-hudson4.jpg" alt="Albany-Hudson Electric Trail"><br />
 <img src="img/albany-hudson/albany-hudson5.jpg" alt="View from Bike Trail"><br />
 <img src="img/albany-hudson/albany-hudson6.jpg" alt="Nassau Lake"><br />
 </div>

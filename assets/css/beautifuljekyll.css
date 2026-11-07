@@ -683,6 +683,7 @@ footer .footer-custom-content {
   position: relative;
 }
 .intro-header.big-img {
+  background-position: center center !important;
   background: no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
