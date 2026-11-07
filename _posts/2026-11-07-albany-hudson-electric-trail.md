@@ -9,7 +9,7 @@ images:
   - url: img/albany-hudson/albany-hudson4.jpg
     title: Albany-Hudson Electric Trail 
 
-cover-img: img/albany-hudson/albany-hudson4.jpg
+cover-img: img/albany-hudson/albany-hudson6.jpg
 
 ---
 
@@ -25,7 +25,8 @@ cover-img: img/albany-hudson/albany-hudson4.jpg
                      data-min-width="100%"
                      data-max-width="1000"
                      data-min-height="300"
-                     data-max-height="100%" >
+                     data-max-height="100%"
+                     data-arrows="true">
 <img src="img/albany-hudson/albany-hudson1.jpg" alt="Clinton Street Sign"><br />
 <img src="img/albany-hudson/albany-hudson2.jpg" alt="Trail Crossing"><br />
 <img src="img/albany-hudson/albany-hudson3.jpg" alt="Albany-Hudson Rail Line Sign"><br />
